@@ -107,18 +107,18 @@
       <PlantTreeCecropia>0.6</PlantTreeCecropia>
     </wildPlants>
     <wildAnimals>
-      <!-- Very Rare: Cassowary, White Tiger -->
+      <!-- Not Changed yet - Very Rare: Cassowary, White Tiger -->
       <Elephant>0.05</Elephant>
       <Panther>0.085</Panther>
-      <!-- Rare: Cobra, Komodo Dragon, Panther -->
+      <!-- Not Changed yet - Rare: Cobra, Komodo Dragon, Panther -->
       <Turkey>0.1</Turkey>
       <Emu>0.1</Emu>
       <Tiger>0.12</Tiger>
-      <!-- Uncommon: Gorilla, Jaguar, Orangutan, Panda Bear, Tiger -->
+      <!-- Not Changed yet - Uncommon: Gorilla, Jaguar, Orangutan, Panda Bear, Tiger -->
       <Alpaca>0.25</Alpaca>
       <Tortoise>0.3</Tortoise>
       <Chinchilla>0.3</Chinchilla>
-      <!-- Common: Anteater, Capybara, Chinchilla, Elephant, Monkey, Sloth, Tapir -->
+      <!-- Not Changed yet - Common: Anteater, Capybara, Chinchilla, Elephant, Monkey, Sloth, Tapir -->
       <Boomalope>0.35</Boomalope>
       <Capybara>0.35</Capybara>
       <Cassowary>0.35</Cassowary>
