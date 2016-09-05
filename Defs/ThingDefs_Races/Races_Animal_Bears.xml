@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseBear">
+    <statBases>
+      <MoveSpeed>4.3</MoveSpeed>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <MarketValue>700</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>120</defaultCooldownTicks>
+        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>21</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>120</defaultCooldownTicks>
+        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>21</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>21</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </verbs>
+    <race>
+      <herdAnimal>false</herdAnimal>
+      <predator>true</predator>
+      <body>QuadrupedAnimalWithPaws</body>
+      <baseHungerRate>0.35</baseHungerRate>
+      <baseBodySize>2.15</baseBodySize>
+      <baseHealthScale>2.5</baseHealthScale>
+      <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <wildness>0.80</wildness>
+      <lifeExpectancy>22</lifeExpectancy>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.4</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.9</minAge>
+          <soundWounded>Pawn_Bear_Injured</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>StandardAnimal</li>
+      <li>BadassAnimal</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef Abstract="True" ParentName="AnimalKindBase" Name="BearBase">
+    <combatPower>240</combatPower>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
+  </PawnKindDef>
+
+
+
+
+  <ThingDef ParentName="BaseBear">
+    <defName>Panda</defName>
+    <label>panda</label>
+    <description>The giant panda, is a bear native to old Earth south central China. It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. Though it belongs to the order Carnivora, the giant panda's diet is over 99% bamboo. Giant pandas in the wild will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents or carrion. In captivity, they may receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food.</description>
+    <race>
+      <wildness>0.80</wildness>
+      <leatherColor>(245,245,220)</leatherColor>
+      <leatherInsulation>1.0</leatherInsulation>
+      <leatherLabel>pandaskin</leatherLabel>
+      <meatLabel>panda meat</meatLabel>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>Panda</defName>
+    <label>panda</label>
+    <race>Panda</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Panda</texPath>
+          <drawSize>1.4</drawSize>          
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Panda</texPath>
+          <drawSize>2</drawSize>          
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Panda</texPath>
+          <drawSize>2.7</drawSize>          
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+</Defs>
