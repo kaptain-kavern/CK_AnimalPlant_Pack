@@ -8,7 +8,7 @@
     <workerClass>BiomeWorker_TropicalRainforest</workerClass>
     <!-- Animal Density decreased from 8.0 to 6.0 -->
     <animalDensity>6.0</animalDensity>
-    <plantDensity>1.0</plantDensity>
+    <plantDensity>3.0</plantDensity>
     <baseColor>(0, 0.372, 0.035)</baseColor>
     <soundsAmbient>
       <li>AmbientNightInsects_Jungle</li>
@@ -90,13 +90,13 @@
     </terrainPatchMakers>
     <baseWeatherCommonalities>
       <Clear>18</Clear>
-      <Fog>1</Fog>
-      <Rain>2</Rain>
-      <DryThunderstorm>0.3</DryThunderstorm>
-      <RainyThunderstorm>1.7</RainyThunderstorm>
-      <FoggyRain>1</FoggyRain>
-      <SnowGentle>4</SnowGentle>
-      <SnowHard>4</SnowHard>
+      <Fog>2</Fog>
+      <Rain>18</Rain>
+      <DryThunderstorm>0</DryThunderstorm>
+      <RainyThunderstorm>6</RainyThunderstorm>
+      <FoggyRain>4</FoggyRain>
+      <SnowGentle>0</SnowGentle>
+      <SnowHard>0</SnowHard>
     </baseWeatherCommonalities>
     <wildPlants>
       <PlantRaspberry>0.1</PlantRaspberry>
