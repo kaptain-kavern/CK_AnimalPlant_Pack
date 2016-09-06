@@ -125,8 +125,7 @@
       <Monkey>0.5</Monkey>
       <WildBoar>0.5</WildBoar>      
     </wildAnimals>
-    <allowedPackAnimals>
-      <li>Muffalo</li>
+    <allowedPackAnimals>      
       <li>Elephant</li>
     </allowedPackAnimals>
   </BiomeDef>
