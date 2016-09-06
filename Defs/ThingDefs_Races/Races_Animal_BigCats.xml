@@ -272,4 +272,64 @@
         </li>
       </lifeStages>
   </PawnKindDef>
-</Defs>
+
+  <!--============== Snow Leopard =================-->
+  <ThingDef ParentName="BigCatThingBase">
+      <defName>Jaguar</defName>
+      <label>jaguar</label>
+      <description></description>
+      <race>
+        <leatherLabel>jaguar skin</leatherLabel>
+        <leatherColor>(230,150,60)</leatherColor>
+      </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BigCatKindBase">
+    <defName>Jaguar</defName>
+    <label>jaguar</label>
+      <race>Jaguar</race>
+      <lifeStages>
+        <li>
+          <bodyGraphicData>
+            <texPath>Things/Pawn/Animal/SnowLeopard</texPath>
+            <color>(230,150,60)</color>
+            <drawSize>1.1</drawSize>            
+          </bodyGraphicData>
+          <dessicatedBodyGraphicData>
+            <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+            <drawSize>1.1</drawSize>
+          </dessicatedBodyGraphicData>
+        </li>
+        <li>
+          <bodyGraphicData>
+            <texPath>Things/Pawn/Animal/SnowLeopard</texPath>
+            <color>(230,150,60)</color>
+            <drawSize>1.4</drawSize>            
+            <shadowData>
+              <volume>(0.3, 0.3, 0.3)</volume>
+              <offset>(0,0,-0.3)</offset>
+            </shadowData>
+          </bodyGraphicData>
+          <dessicatedBodyGraphicData>
+            <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+            <drawSize>1.4</drawSize>
+          </dessicatedBodyGraphicData>
+        </li>
+        <li>
+          <bodyGraphicData>
+            <texPath>Things/Pawn/Animal/SnowLeopard</texPath>
+            <color>(230,150,60)</color>
+            <drawSize>2.18</drawSize>           
+            <shadowData>
+              <volume>(0.4, 0.4, 0.4)</volume>
+              <offset>(0,0,-0.1)</offset>
+            </shadowData>
+          </bodyGraphicData>
+          <dessicatedBodyGraphicData>
+            <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+            <drawSize>2.18</drawSize>
+          </dessicatedBodyGraphicData>
+        </li>
+      </lifeStages>
+    </PawnKindDef>
+  </Defs>
