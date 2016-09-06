@@ -127,6 +127,7 @@
     </wildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>
+      <li>Elephant</li>
     </allowedPackAnimals>
   </BiomeDef>
 
