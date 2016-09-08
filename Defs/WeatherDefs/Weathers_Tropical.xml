@@ -6,6 +6,10 @@
     <defName>Tropical_Clear</defName>
     <label>clear</label>
     <description>A clear day. No penalties or modifiers.</description>
+    <temperatureRange>
+      <min>25</min>
+      <max>100</max>
+    </temperatureRange>
     <repeatable>true</repeatable>
     <favorability>Good</favorability>
     <ambientSounds>
@@ -42,6 +46,10 @@
     <defName>Tropical_Fog</defName>
     <label>fog</label>
     <description>Fog reduces the accuracy of ranged weapons.</description>
+    <temperatureRange>
+      <min>25</min>
+      <max>100</max>
+    </temperatureRange>
     <windSpeedFactor>0.5</windSpeedFactor>
     <accuracyMultiplier>0.5</accuracyMultiplier>
     <favorability>Neutral</favorability>
@@ -53,7 +61,7 @@
     </overlayClasses>
     <commonalityRainfallFactor>
       <points>
-        <li>(0, 0)</li>
+        <li>(1, 1)</li>
         <li>(1300, 1)</li>
       </points>
     </commonalityRainfallFactor>    
@@ -89,7 +97,7 @@
     <label>rain</label>
     <description>Rain reduces the accuracy of ranged weapons, extinguishes fire, and slows people down.</description>
     <temperatureRange>
-      <min>0</min>
+      <min>20</min>
       <max>100</max>
     </temperatureRange>
     <windSpeedFactor>1.5</windSpeedFactor>
@@ -142,7 +150,7 @@
     <label>dry thunderstorm</label>
     <description>Dry thunderstorms are dangerous because the lightning can start fires and there is no rain to put them out.</description>
     <temperatureRange>
-      <min>0</min>
+      <min>30</min>
       <max>999</max>
     </temperatureRange>
     <windSpeedFactor>1.5</windSpeedFactor>
@@ -196,7 +204,7 @@
     <label>rainy thunderstorm</label>
     <description>The lightning will start fires, but the rain will put it out. The rain also reduces movement speed and shooting accuracy.</description>
     <temperatureRange>
-      <min>0</min>
+      <min>20</min>
       <max>999</max>
     </temperatureRange>
     <windSpeedFactor>1.5</windSpeedFactor>
@@ -264,14 +272,14 @@
     <label>foggy rain</label>
     <description>Reduces accuracy and movement speed.</description>
     <temperatureRange>
-      <min>0</min>
+      <min>20</min>
       <max>999</max>
     </temperatureRange>
-    <windSpeedFactor>1.5</windSpeedFactor>
+    <windSpeedFactor>1.3</windSpeedFactor>
     <favorability>Neutral</favorability>
     <accuracyMultiplier>0.5</accuracyMultiplier>
     <rainRate>1</rainRate>
-    <moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+    <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
     <ambientSounds>
       <li>AmbientWind_Fog</li>
       <li>AmbientRain</li>
@@ -284,6 +292,7 @@
       <points>
         <li>(0, 0)</li>
         <li>(1300, 1)</li>
+        <li>(2500, 2)</li>
       </points>
     </commonalityRainfallFactor>   
     <!-- Colors are Overcast -->
@@ -314,12 +323,12 @@
   </WeatherDef>
 
   <!-- ============= fully custom ============= -->
-  <WeatherDef>
+<!--   <WeatherDef>
     <defName>Tropical_Monsoon</defName>
     <label>monsoon</label>
     <description>Reduces accuracy and movement speed.</description>
     <temperatureRange>
-      <min>0</min>
+      <min>25</min>
       <max>999</max>
     </temperatureRange>
     <windSpeedFactor>1.5</windSpeedFactor>
@@ -342,7 +351,7 @@
       </points>
     </commonalityRainfallFactor>   
     <!-- Colors are Overcast -->
-    <skyColorsDay>
+<!--     <skyColorsDay>
       <sky>(0.8,0.8,0.8)</sky>
       <shadow>(0.92,0.92,0.92)</shadow>
       <overlay>(0.7,0.7,0.7)</overlay>
@@ -366,7 +375,8 @@
       <overlay>(0.5,0.5,0.5)</overlay>
       <saturation>0.9</saturation>
     </skyColorsNightMid>
-  </WeatherDef>
+  </WeatherDef> 
+-->
 
 
 </WeatherDefs>

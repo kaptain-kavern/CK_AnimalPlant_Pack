@@ -89,14 +89,12 @@
       </li>
     </terrainPatchMakers>
     <baseWeatherCommonalities>
-      <Clear>18</Clear>
-      <Fog>2</Fog>
-      <Rain>18</Rain>
-      <DryThunderstorm>0</DryThunderstorm>
-      <RainyThunderstorm>6</RainyThunderstorm>
-      <FoggyRain>4</FoggyRain>
-      <SnowGentle>0</SnowGentle>
-      <SnowHard>0</SnowHard>
+      <Tropical_Clear>15</Tropical_Clear>
+      <Tropical_Fog>2</Tropical_Fog>
+      <Tropical_Rain>18</Tropical_Rain>
+      <Tropical_DryThunderstorm>1</Tropical_DryThunderstorm>
+      <Tropical_RainyThunderstorm>8</Tropical_RainyThunderstorm>
+      <Tropical_FoggyRain>4</Tropical_FoggyRain>
     </baseWeatherCommonalities>
     <wildPlants>
       <PlantRaspberry>0.1</PlantRaspberry>
@@ -108,20 +106,20 @@
     </wildPlants>
     <wildAnimals>
       <!-- Not Changed yet - Very Rare: Cassowary, White Tiger -->
-      <Elephant>0.05</Elephant>
-      <Panther>0.085</Panther>
+      <WhiteTiger>0.05</WhiteTiger>      
+      <Jaguar>0.085</Jaguar>      
       <!-- Not Changed yet - Rare: Cobra, Komodo Dragon, Panther -->
-      <Turkey>0.1</Turkey>
+      <Cassowary>0.1</Cassowary>
       <Emu>0.1</Emu>
       <Tiger>0.12</Tiger>
       <!-- Not Changed yet - Uncommon: Gorilla, Jaguar, Orangutan, Panda Bear, Tiger -->
-      <Alpaca>0.25</Alpaca>
+      <Panda>0.25</Panda>
       <Tortoise>0.3</Tortoise>
       <Chinchilla>0.3</Chinchilla>
       <!-- Not Changed yet - Common: Anteater, Capybara, Chinchilla, Elephant, Monkey, Sloth, Tapir -->
       <Boomalope>0.35</Boomalope>
       <Capybara>0.35</Capybara>
-      <Cassowary>0.35</Cassowary>
+      <Elephant>0.35</Elephant>
       <Monkey>0.5</Monkey>
       <WildBoar>0.5</WildBoar>      
     </wildAnimals>
