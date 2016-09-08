@@ -154,7 +154,7 @@
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTicks>120</defaultCooldownTicks>
         <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <meleeDamageDef>ToxicBite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
     </verbs>
@@ -180,6 +180,7 @@
       <leatherColor>(100,115,60)</leatherColor>
       <leatherLabel>Komodo dragon skin</leatherLabel>
       <leatherInsulation>0.50</leatherInsulation>
+      <trainableIntelligence>Intermediate</trainableIntelligence>
       <wildness>0.8</wildness>
       <gestationPeriodDays>20</gestationPeriodDays>
       <litterSizeCurve>
@@ -222,35 +223,39 @@
     <defName>KomodoDragon</defName>
     <label>Komodo dragon</label>
     <race>KomodoDragon</race>
-    <combatPower>60</combatPower>
-    <wildSpawn_EcoSystemWeight>0.33</wildSpawn_EcoSystemWeight>
+    <combatPower>75</combatPower>
+    <wildSpawn_EcoSystemWeight>0.73</wildSpawn_EcoSystemWeight>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_GroupSizeRange>
+      <min>2</min>
+      <max>5</max>
+    </wildSpawn_GroupSizeRange>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Iguana/Iguana</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>1.3</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Iguana/Iguana</texPath>
-          <drawSize>1.9</drawSize>
+          <drawSize>1.7</drawSize>
           <color>(25,52,0)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.9</drawSize>
+          <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Iguana/Iguana</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.1</drawSize>
           <color>(40,82,25)</color>
           <shadowData>
             <volume>(0.25, 0.3, 0.25)</volume>
@@ -259,7 +264,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.7</drawSize>
+          <drawSize>2.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
