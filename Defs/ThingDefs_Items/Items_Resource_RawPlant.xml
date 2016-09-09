@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Abstract="True" Name="OrganicProductBase" ParentName="ResourceBase">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>10</DeteriorationRate>
+    </statBases>
+    <tickerType>Rare</tickerType>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="PlantFoodRawBase" ParentName="OrganicProductBase">
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tastesRaw>true</tastesRaw>
+      <nutrition>0.05</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_FoodPoisoningChance" />
+    </comps>
+  </ThingDef>
+
+  <!-- <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawPotatoes</defName>
+    <label>potatoes</label>
+    <description>Raw potatoes.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Potatoes</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+      </li>
+    </comps>
+  </ThingDef> -->
+
+  <!-- <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawRice</defName>
+    <label>rice</label>
+    <description>Raw rice.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Rice</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>Seeds</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>40</daysToRotStart>
+      </li>
+    </comps>
+  </ThingDef> -->
+
+
+  
+</Defs>

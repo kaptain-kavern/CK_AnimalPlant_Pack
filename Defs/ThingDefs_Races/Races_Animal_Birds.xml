@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- <ThingDef ParentName="AnimalThingBase" Name="BigBirdThingBase" Abstract="True">
+		<race>
+			<body>Bird</body>
+			<leatherInsulation>0.5</leatherInsulation>      
+		    <gestationPeriodDays>20</gestationPeriodDays>
+		    <lifeStageAges>
+		    	<li>
+		          <def>AnimalBaby</def>
+		          <minAge>0</minAge>
+		        </li>
+		        <li>
+		          <def>AnimalJuvenile</def>
+		          <minAge>0.6</minAge>
+		        </li>
+		        <li>
+		          <def>AnimalAdult</def>
+		          <minAge>2.0</minAge>
+		        </li>
+		    </lifeStageAges>
+		    <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		    <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		    <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>StandardAnimal</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase" Name="BigBirdKindBase" Abstract="True">
+		<combatPower>155</combatPower>
+		<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+		<wildSpawn_EcoSystemWeight>0.42</wildSpawn_EcoSystemWeight>
+	</PawnKindDef> -->
+
+<!--===============================================-->
+
+	<ThingDef ParentName="AnimalThingBase" Name="SmallBirdThingBase" Abstract="True">
+		<statBases>
+			<MoveSpeed>3.5</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>			
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+		        <defaultCooldownTicks>100</defaultCooldownTicks>
+		        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+		        <meleeDamageDef>Bite</meleeDamageDef>
+		        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+		    </li>
+		</verbs>
+		<race>
+			<body>Bird</body>
+		    <baseHungerRate>0.5</baseHungerRate>
+		    <baseBodySize>0.5</baseBodySize>
+		    <baseHealthScale>0.7</baseHealthScale>
+		    <foodType>VegetarianRoughAnimal</foodType>      
+		    <wildness>30</wildness>
+		    <lifeExpectancy>10</lifeExpectancy>
+		    <lifeStageAges>
+		    	<li>
+		    		<def>AnimalBaby</def>
+		    		<minAge>0</minAge>
+		    	</li>
+		    	<li>
+		    		<def>AnimalJuvenile</def>
+		    		<minAge>0.3</minAge>
+		    	</li>
+		        <li>
+		          <def>AnimalAdult</def>
+		          <minAge>0.8</minAge>
+		          <soundWounded>Pawn_Chicken_Wounded</soundWounded>
+		          <soundDeath>Pawn_Chicken_Death</soundDeath>
+		          <soundCall>Pawn_Chicken_Call</soundCall>
+		          <soundAngry>Pawn_Chicken_Angry</soundAngry>
+		        </li>
+		    </lifeStageAges>
+		    <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		    <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		    <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>StandardAnimal</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase" Name="SmallBirdKindBase" Abstract="True">
+		<combatPower>35</combatPower>
+		<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+		<wildSpawn_EcoSystemWeight>0.30</wildSpawn_EcoSystemWeight>
+	</PawnKindDef>
+
+<!--===============================================-->
+	<ThingDef ParentName="SmallBirdThingBase">
+		<defName>Toucan</defName>
+		<label>toucan</label>
+		<description></description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>EggToucanFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>11</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>1</min>
+					<max>3</max>
+				</eggCountRange>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SmallBirdKindBase">
+		<defName>Toucan</defName>
+		<label>toucan</label>
+		<race>Toucan</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ToucanPH</texPath>
+          <drawSize>0.7</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ToucanPH</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ToucanPH</texPath>
+          <drawSize>1.1</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>
