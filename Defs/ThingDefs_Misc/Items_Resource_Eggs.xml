@@ -136,5 +136,26 @@
       </li>
     </comps>
   </ThingDef>
+
+  <!-- Peafowl -->
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggPeafowlFertilized</defName>
+    <label>peafowl egg (fert.)</label>
+    <description>Fertilized peafowl egg. If all goes well, it should hatch into a baby peafowl. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(220,225,190)</color>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>14.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaysToHatch>5</hatcherDaysToHatch>
+        <hatcherPawn>Peafowl</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
   
 </Defs>
