@@ -89,11 +89,11 @@
       </li>
     </terrainPatchMakers>
     <baseWeatherCommonalities>
-      <Tropical_Clear>15</Tropical_Clear>
+      <Tropical_Clear>2</Tropical_Clear>
       <Tropical_Fog>2</Tropical_Fog>
       <Tropical_Rain>18</Tropical_Rain>
       <Tropical_DryThunderstorm>1</Tropical_DryThunderstorm>
-      <Tropical_RainyThunderstorm>8</Tropical_RainyThunderstorm>
+      <Tropical_RainyThunderstorm>6</Tropical_RainyThunderstorm>
       <Tropical_FoggyRain>4</Tropical_FoggyRain>
     </baseWeatherCommonalities>
     <wildPlants>
@@ -105,26 +105,25 @@
       <PlantTreeCecropia>0.6</PlantTreeCecropia>
     </wildPlants>
     <wildAnimals>
-      <!-- Not Changed yet - Very Rare: Cassowary, White Tiger -->
-      <WhiteTiger>0.05</WhiteTiger>      
-      <Jaguar>0.085</Jaguar>      
-      <!-- Not Changed yet - Rare: Cobra, Komodo Dragon, Panther -->
-      <Cassowary>0.1</Cassowary>
-      <Emu>0.1</Emu>
+      <!-- Very Rare -->
+      <WhiteTiger>0.05</WhiteTiger>
+      <Cassowary>0.008</Cassowary>
+      <!-- Rare -->      
       <KomodoDragon>0.12</KomodoDragon>
-      <Tiger>0.12</Tiger>
       <Cobra>0.1</Cobra>
-      <!-- Not Changed yet - Uncommon: Gorilla, Jaguar, Orangutan, Panda Bear, Tiger -->
+      <Iguana>0.1</Iguana>
+      <!-- <Ocelot>0.1</Ocelot> -->
+      <Panther>0.1</Panther>
+      <!-- Uncommon: Gorilla, Orangutan, Macaw, Toucan, Parrot, Peacock -->
       <Panda>0.25</Panda>
+      <Tiger>0.2</Tiger>
+      <Elephant>0.2</Elephant>
+      <Jaguar>0.2</Jaguar>      
       <Python>0.25</Python>
-      <Tortoise>0.3</Tortoise>
-      <Chinchilla>0.3</Chinchilla>
-      <!-- Not Changed yet - Common: Anteater, Capybara, Chinchilla, Elephant, Monkey, Sloth, Tapir -->
-      <Boomalope>0.35</Boomalope>
-      <Capybara>0.35</Capybara>
-      <Elephant>0.35</Elephant>
-      <Monkey>0.5</Monkey>
-      <WildBoar>0.5</WildBoar>      
+      <!-- Common: Anteater, Sloth, Tapir, Capuchin Monkey, Spider Monkey -->
+      <Chinchilla>0.4</Chinchilla>
+      <Capybara>0.4</Capybara>
+      <SquirrelMonkey>0.5</SquirrelMonkey>
     </wildAnimals>
     <allowedPackAnimals>      
       <li>Elephant</li>
