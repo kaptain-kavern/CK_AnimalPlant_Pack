@@ -5,8 +5,7 @@
 		<defName>PackElephant</defName>
 		<label>pack elephant</label>
 		<carrier>true</carrier>
-		<race>Elephant</race>
-	    <combatPower>250</combatPower>
+		<race>Elephant</race>	    
 	    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>	    
 	    <lifeStages>
 	    	<li>
