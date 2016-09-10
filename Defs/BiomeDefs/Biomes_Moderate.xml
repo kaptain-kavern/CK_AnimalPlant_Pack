@@ -111,19 +111,23 @@
          <WhiteTiger>0.05</WhiteTiger>
          <Cassowary>0.008</Cassowary>
       <!-- Rare -->      
-         <!-- <KomodoDragon>0.12</KomodoDragon> -->
          <Cobra>0.1</Cobra>
          <Iguana>0.1</Iguana>
-         <!-- <Ocelot>0.1</Ocelot> -->
          <Panther>0.1</Panther>
-      <!-- Uncommon: Gorilla, Orangutan, Macaw, Parrot -->
+         <!-- <KomodoDragon>0.12</KomodoDragon> -->
+         <!-- <Ocelot>0.1</Ocelot> -->
+      <!-- Uncommon -->
          <Panda>0.25</Panda>
          <Tiger>0.2</Tiger>
-         <!-- <Toucan>0.2</Toucan> -->
-         <!-- <Peafowl>0.2</Peafowl> -->
          <Elephant>0.2</Elephant>
          <Jaguar>0.2</Jaguar>      
-         <Python>0.25</Python>
+         <Python>0.25</Python> 
+         <!-- <Toucan>0.2</Toucan> -->
+         <!-- <Peafowl>0.2</Peafowl> -->
+         <!-- <Gorilla>0.25</Gorilla> -->
+         <!-- <Orangutan>0.25</Orangutan> -->
+         <!-- <Macaw>0.25</Macaw> -->
+         <!-- <Parrot>0.25</Parrot> -->
       <!-- Common -->
          <Chinchilla>0.4</Chinchilla>
          <Capybara>0.4</Capybara>
