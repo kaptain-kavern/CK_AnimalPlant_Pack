@@ -92,7 +92,7 @@
       <Tropical_Clear>2</Tropical_Clear>
       <Tropical_Fog>2</Tropical_Fog>
       <Tropical_Rain>18</Tropical_Rain>
-      <Tropical_DryThunderstorm>1</Tropical_DryThunderstorm>
+      <!-- <Tropical_DryThunderstorm>1</Tropical_DryThunderstorm> -->
       <Tropical_RainyThunderstorm>6</Tropical_RainyThunderstorm>
       <Tropical_FoggyRain>4</Tropical_FoggyRain>
     </baseWeatherCommonalities>
