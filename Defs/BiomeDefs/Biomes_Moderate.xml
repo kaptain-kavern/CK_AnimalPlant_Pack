@@ -97,14 +97,17 @@
       <Tropical_FoggyRain>4</Tropical_FoggyRain>
     </baseWeatherCommonalities>
     <wildPlants>
-      <PlantRaspberry>0.2</PlantRaspberry>
-      <PlantBushPalm>0.8</PlantBushPalm>
-      <PlantFern>6</PlantFern>
-      <PlantTallGrass>1</PlantTallGrass>
-      <PlantDandelion>0.2</PlantDandelion>
-      <PlantTreeMahogany>0.4</PlantTreeMahogany>
-      <PlantTreePalm>1.5</PlantTreePalm>
-      <PlantTreeCecropia>0.8</PlantTreeCecropia>
+      <!-- Rare -->
+      <!-- Uncommon -->
+      <!-- Common -->
+         <PlantRaspberry>0.2</PlantRaspberry>
+         <PlantBushPalm>0.8</PlantBushPalm>
+         <PlantFern>6</PlantFern>
+         <PlantTallGrass>1</PlantTallGrass>
+         <PlantDandelion>0.2</PlantDandelion>
+         <PlantTreeMahogany>0.4</PlantTreeMahogany>
+         <PlantTreePalm>1.5</PlantTreePalm>
+         <PlantTreeCecropia>0.8</PlantTreeCecropia>
     </wildPlants>
     <wildAnimals>
       <!-- Very Rare -->
