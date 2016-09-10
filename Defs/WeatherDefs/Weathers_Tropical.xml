@@ -173,9 +173,10 @@
         <averageInterval>1200</averageInterval>
         <eventClass>WeatherEvent_LightningStrike</eventClass>
       </li>
-    </eventMakers>
-    -- Colors are Overcast --
-    <skyColorsDay>
+    </eventMakers> -->
+
+    <!-- Colors are Overcast -->
+  <!--<skyColorsDay>
       <sky>(0.8,0.8,0.8)</sky>
       <shadow>(0.92,0.92,0.92)</shadow>
       <overlay>(0.7,0.7,0.7)</overlay>
