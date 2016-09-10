@@ -145,6 +145,8 @@
     </skyColorsNightMid>
   </WeatherDef>
 
+<!--
+
   <WeatherDef>
     <defName>Tropical_DryThunderstorm</defName>
     <label>dry thunderstorm (tropical)</label>
@@ -198,6 +200,8 @@
       <saturation>0.9</saturation>
     </skyColorsNightMid>
   </WeatherDef>
+
+-->
 
   <WeatherDef>
     <defName>Tropical_RainyThunderstorm</defName>
