@@ -23,7 +23,12 @@
       <nutrition>0.17</nutrition>
     </ingestible>
     <plant>
-      <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath>
+      <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
+      <harvestYield>18</harvestYield>
+      <harvestWork>800</harvestWork>
+      <harvestTag>Wood</harvestTag>      
+      <harvestFailable>false</harvestFailable>
+      <harvestedThingDef>WoodLog</harvestedThingDef>
       <fertilityMin>0.4</fertilityMin>
       <wildClusterSizeRange>
         <min>2</min>
@@ -34,7 +39,7 @@
         <min>0.5</min>
         <max>0.9</max>
       </visualSizeRange>
-      <growDays>3</growDays>
+      <growDays>12</growDays>
       <topWindExposure>0.3</topWindExposure>
       <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
     </plant>
@@ -86,7 +91,7 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <Beauty>5</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
     <plant>
       <!-- <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath> -->
@@ -98,6 +103,25 @@
         <max>2.4</max>
       </visualSizeRange>
     </plant>
-  </ThingDef>  
+  </ThingDef>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>PlantTreeMahogany</defName>
+    <label>mahogany tree</label>
+    <description>A strong hardwood tree. Slow-going, but its wood is very strong.</description>
+    <graphicData>
+      <texPath>Things/Plant/TreeMahogany</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>5</Beauty>
+    </statBases>
+    <plant>
+      <!-- <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath> -->
+      <growDays>34</growDays>
+      <harvestWork>1000</harvestWork>
+      <harvestYield>50</harvestYield>
+    </plant>
+  </ThingDef>
 
 </Defs>
