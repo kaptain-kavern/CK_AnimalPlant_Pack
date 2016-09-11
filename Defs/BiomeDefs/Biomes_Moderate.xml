@@ -90,25 +90,36 @@
       </li>
     </terrainPatchMakers>
     <baseWeatherCommonalities>
-      <Tropical_Clear>2</Tropical_Clear>
-      <Tropical_Fog>2</Tropical_Fog>
       <Tropical_Rain>18</Tropical_Rain>
-      <!-- <Tropical_DryThunderstorm>1</Tropical_DryThunderstorm> -->
-      <Tropical_RainyThunderstorm>6</Tropical_RainyThunderstorm>
-      <Tropical_FoggyRain>4</Tropical_FoggyRain>
+      <Tropical_RainyThunderstorm>8</Tropical_RainyThunderstorm>
+      <Tropical_FoggyRain>.6</Tropical_FoggyRain>
+      <Tropical_Fog>.2</Tropical_Fog>
+      <Tropical_Clear>.2</Tropical_Clear>
+      <!-- <Tropical_DryThunderstorm>0</Tropical_DryThunderstorm> -->
     </baseWeatherCommonalities>
     <wildPlants>
-      <!-- Rare -->
-      <!-- Uncommon -->
-      <!-- Common -->
-         <PlantRaspberry>0.2</PlantRaspberry>
-         <PlantBushPalm>0.8</PlantBushPalm>
+         <!-- <PlantRaspberry>0.2</PlantRaspberry> -->
+         <!-- <PlantTallGrass>1</PlantTallGrass> -->
+         <!-- <PlantDandelion>0.2</PlantDandelion> -->
+         <!-- <PlantTreeCecropia>0.8</PlantTreeCecropia> -->
+      <!-- Very Common -->
          <PlantFern>6</PlantFern>
-         <PlantTallGrass>1</PlantTallGrass>
-         <PlantDandelion>0.2</PlantDandelion>
-         <PlantTreeMahogany>0.4</PlantTreeMahogany>
+      <!-- Common -->
+         <PlantBushPalm>0.8</PlantBushPalm>
          <PlantTreePalm>1.5</PlantTreePalm>
-         <PlantTreeCecropia>0.8</PlantTreeCecropia>
+      <!-- Uncommon -->
+         <!-- <PlantTreeMahogany>0.4</PlantTreeMahogany> -->
+         <!-- <PlantTreeStranglerFig>0.4</PlantTreeStranglerFig> -->
+         <!-- <PlantBromeliad>0.4</PlantBromeliad> -->
+         <!-- <PlantHeliconia>0.4</PlantHeliconia> -->
+         <!-- <PlantBamboo>0.4</PlantBamboo> -->
+         <!-- <PlantTaro>0.4</PlantTreeTaro> -->
+      <!-- Rare -->
+        <!-- <PlantRafflesia>0.4</PlantRafflesia> -->
+        <!-- <PlantCoffea>0.4</PlantCoffea> -->
+        <!-- <PlantLemongrass>0.4</PlantLemongrass> -->
+        <!-- <PlantTreeCoconut>0.4</PlantTreeCoconut> -->
+        <!-- <PlantTreeBanana>0.4</PlantTreeBanana> -->
     </wildPlants>
     <wildAnimals>
       <!-- Very Rare -->
