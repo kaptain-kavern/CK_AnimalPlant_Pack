@@ -98,15 +98,15 @@
       <!-- <Tropical_DryThunderstorm>0</Tropical_DryThunderstorm> -->
     </baseWeatherCommonalities>
     <wildPlants>
-         <!-- <PlantRaspberry>0.2</PlantRaspberry> -->
-         <!-- <PlantTallGrass>1</PlantTallGrass> -->
-         <!-- <PlantDandelion>0.2</PlantDandelion> -->
-         <!-- <PlantTreeCecropia>0.8</PlantTreeCecropia> -->
+      <!-- <PlantRaspberry>0.2</PlantRaspberry> -->
+      <!-- <PlantTallGrass>1</PlantTallGrass> -->
+      <!-- <PlantDandelion>0.2</PlantDandelion> -->
+      <!-- <PlantTreeCecropia>0.8</PlantTreeCecropia> -->
       <!-- Very Common -->
          <PlantFern>6</PlantFern>
       <!-- Common -->
-         <PlantBushPalm>0.8</PlantBushPalm>
          <PlantTreePalm>1.5</PlantTreePalm>
+         <PlantBushPalm>0.8</PlantBushPalm>
       <!-- Uncommon -->
          <!-- <PlantTreeMahogany>0.4</PlantTreeMahogany> -->
          <!-- <PlantTreeStranglerFig>0.4</PlantTreeStranglerFig> -->
@@ -122,36 +122,36 @@
         <!-- <PlantTreeBanana>0.4</PlantTreeBanana> -->
     </wildPlants>
     <wildAnimals>
-      <!-- Very Rare -->
-         <WhiteTiger>0.05</WhiteTiger>
-         <Cassowary>0.008</Cassowary>
-      <!-- Rare -->      
-         <Cobra>0.1</Cobra>
-         <Iguana>0.1</Iguana>
-         <Panther>0.1</Panther>
-         <!-- <KomodoDragon>0.12</KomodoDragon> -->
-         <!-- <Ocelot>0.1</Ocelot> -->
+      <!-- Common -->
+         <Chinchilla>2</Chinchilla>
+         <Capybara>1.2</Capybara>
+         <!-- <Anteater>1</Anteater> -->
+         <!-- <Sloth>0.8</Sloth> -->
+         <!-- <Tapir>1.5</Tapir> -->
+         <!-- <CapuchinMonkey>1.6</CapuchinMonkey> -->
+         <!-- <SpiderMonkey>1.6</SpiderMonkey> -->         
+         <!-- <SquirrelMonkey>1.6</SquirrelMonkey> --> 
       <!-- Uncommon -->
-         <Panda>0.25</Panda>
+         <Elephant>0.6</Elephant>
+         <Panda>0.4</Panda>
          <Tiger>0.2</Tiger>
-         <Elephant>0.2</Elephant>
          <Jaguar>0.2</Jaguar>      
-         <Python>0.25</Python> 
+         <Python>0.16</Python> 
          <!-- <Toucan>0.2</Toucan> -->
          <!-- <Peafowl>0.2</Peafowl> -->
-         <!-- <Gorilla>0.25</Gorilla> -->
-         <!-- <Orangutan>0.25</Orangutan> -->
-         <!-- <Macaw>0.25</Macaw> -->
-         <!-- <Parrot>0.25</Parrot> -->
-      <!-- Common -->
-         <Chinchilla>0.4</Chinchilla>
-         <Capybara>0.4</Capybara>
-         <!-- <Anteater>0.5</Anteater> -->
-         <!-- <Sloth>0.5</Sloth> -->
-         <!-- <Tapir>0.5</Tapir> -->
-         <!-- <CapuchinMonkey>0.5</CapuchinMonkey> -->
-         <!-- <SpiderMonkey>0.5</SpiderMonkey> -->         
-         <!-- <SquirrelMonkey>0.5</SquirrelMonkey> --> 
+         <!-- <Gorilla>0.2</Gorilla> -->
+         <!-- <Orangutan>0.2</Orangutan> -->
+         <!-- <Macaw>0.2</Macaw> -->
+         <!-- <Parrot>0.2</Parrot> -->
+      <!-- Rare -->
+         <Panther>0.12</Panther>
+         <Cobra>0.1</Cobra>
+         <Iguana>0.1</Iguana>
+         <!-- <KomodoDragon>0.12</KomodoDragon> -->
+         <!-- <Ocelot>0.12</Ocelot> -->
+      <!-- Very Rare -->
+         <Cassowary>0.05</Cassowary>
+         <WhiteTiger>0.008</WhiteTiger>
     </wildAnimals>
     <allowedPackAnimals>      
       <li>Elephant</li>
