@@ -115,13 +115,14 @@
       <leatherInsulation>1.0</leatherInsulation>
       <leatherLabel>pandaskin</leatherLabel>
       <meatLabel>panda meat</meatLabel>
+      <predator>false</predator>
     </race>
   </ThingDef>
 
   <PawnKindDef ParentName="BearBase">
     <defName>Panda</defName>
     <label>panda</label>
-    <race>Panda</race>
+    <race>Panda</race>    
     <lifeStages>
       <li>
         <bodyGraphicData>
