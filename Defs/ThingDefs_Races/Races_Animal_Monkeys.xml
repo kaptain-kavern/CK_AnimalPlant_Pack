@@ -248,8 +248,7 @@
         <shadowData>
           <volume>(0.4, 0.3, 0.3)</volume>
           <offset>(0,0,-0.2)</offset>
-        </shadowData>
-        <color>(128,128,128)</color>
+        </shadowData>        
       </bodyGraphicData>
       <dessicatedBodyGraphicData>
         <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -264,7 +263,6 @@
           <volume>(0.6, 0.45, 0.45)</volume>
             <offset>(0,0,-0.25)</offset>
         </shadowData>
-        <color>(128,128,128)</color>
       </bodyGraphicData>
       <dessicatedBodyGraphicData>
         <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -279,7 +277,6 @@
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
           </shadowData>
-        <color>(128,128,128)</color>
       </bodyGraphicData>
       <dessicatedBodyGraphicData>
         <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -304,7 +301,8 @@
   <PawnKindDef ParentName="SmallMonkeyKindBase">
     <defName>SpiderMonkey</defName>
     <label>spider monkey</label>
-    <race>SpiderMonkey</race>    
+    <race>SpiderMonkey</race>
+    <combatPower>45</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
