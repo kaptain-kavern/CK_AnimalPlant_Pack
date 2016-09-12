@@ -136,7 +136,7 @@
          <Panda>0.4</Panda>
          <Tiger>0.2</Tiger>
          <Jaguar>0.2</Jaguar>      
-         <Python>0.16</Python> 
+         <!-- <Python>0.16</Python> -->
          <!-- <Toucan>0.2</Toucan> -->
          <!-- <Peafowl>0.2</Peafowl> -->
          <!-- <Gorilla>0.2</Gorilla> -->
