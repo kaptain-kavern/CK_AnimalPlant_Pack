@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+  <!-- ============== Base Definition ======================= -->
   <!-- ============== Small MonkeyBase ======================= -->
   <ThingDef Name="SmallMonkeyThingBase" ParentName="AnimalThingBase" Abstract="True">
   	<statBases>
@@ -77,7 +77,7 @@
       <max>7</max>
     </wildSpawn_GroupSizeRange>    
   </PawnKindDef>
-
+  <!-- ============== Base Definition ======================= -->
   <!-- ============== Ape Monkey Base ======================= -->
 
   <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="ApeMonkeyThingBase">
@@ -175,7 +175,6 @@
   </PawnKindDef>
 
   <!-- ============== Squirrel Monkey ======================= -->
-
   <ThingDef ParentName="SmallMonkeyThingBase">
     <defName>SquirrelMonkey</defName>
     <label>squirrel monkey</label>
@@ -239,57 +238,58 @@
   <PawnKindDef ParentName="ApeMonkeyKindBase">
     <defName>Gorilla</defName>
     <label>gorilla</label>
-    <race>Gorilla</race> 
-  <lifeStages>
-    <li>
-      <bodyGraphicData>
-        <texPath>Things/Pawn/Animal/Gorilla</texPath>
-        <drawSize>1.4</drawSize>
-        <shadowData>
-          <volume>(0.4, 0.3, 0.3)</volume>
-          <offset>(0,0,-0.2)</offset>
-        </shadowData>        
-      </bodyGraphicData>
-      <dessicatedBodyGraphicData>
-        <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-        <drawSize>1.4</drawSize>
-      </dessicatedBodyGraphicData>
-    </li>
-    <li>
-      <bodyGraphicData>
-        <texPath>Things/Pawn/Animal/Gorilla</texPath>
-        <drawSize>2</drawSize>
-        <shadowData>
-          <volume>(0.6, 0.45, 0.45)</volume>
-            <offset>(0,0,-0.25)</offset>
-        </shadowData>
-      </bodyGraphicData>
-      <dessicatedBodyGraphicData>
-        <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-        <drawSize>2</drawSize>
-      </dessicatedBodyGraphicData>
-    </li>
-    <li>
-      <bodyGraphicData>
-        <texPath>Things/Pawn/Animal/Gorilla</texPath>
-        <drawSize>2.5</drawSize>
-        <shadowData>
-            <volume>(0.8, 0.6, 0.6)</volume>
-            <offset>(0,0,-0.3)</offset>
+    <race>Gorilla</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Gorilla</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>        
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Gorilla</texPath>
+          <drawSize>2</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+              <offset>(0,0,-0.25)</offset>
           </shadowData>
-      </bodyGraphicData>
-      <dessicatedBodyGraphicData>
-        <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-        <drawSize>2.5</drawSize>
-      </dessicatedBodyGraphicData>
-    </li>
-  </lifeStages>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Gorilla</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+              <volume>(0.8, 0.6, 0.6)</volume>
+              <offset>(0,0,-0.3)</offset>
+            </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
 </PawnKindDef>
 
+<!-- =============== Spider Monkey ======================= -->
  <ThingDef ParentName="SmallMonkeyThingBase">
     <defName>SpiderMonkey</defName>
     <label>spider monkey</label>
-    <description></description>
+    <description>Disproportionately long limbs and long prehensile tails make them one of the largest (Ol' Earth) New World monkeys and give rise to their common name. Spider monkeys live in the upper layers of the rainforest, and forage in the high canopy, from 25 to 30 m (82 to 98 ft).They primarily eat fruits, but will also occasionally consume leaves, flowers, and insects. Due to their large size, spider monkeys require large tracts of moist evergreen forests, and prefer undisturbed primary rainforest. They are social animals and live in bands of up to 35 individuals but will split up to forage during the day.</description>
     <race>
       <baseBodySize>0.5</baseBodySize>
       <baseHungerRate>0.30</baseHungerRate>
@@ -303,6 +303,10 @@
     <label>spider monkey</label>
     <race>SpiderMonkey</race>
     <combatPower>45</combatPower>
+    <wildSpawn_GroupSizeRange>
+      <min>10</min>
+      <max>20</max>
+    </wildSpawn_GroupSizeRange>  
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -328,6 +332,64 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySpider</texPath>
           <drawSize>1</drawSize>          
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- ============== Squirrel Monkey ======================= -->
+  <ThingDef ParentName="SmallMonkeyThingBase">
+    <defName>CapuchinMonkey</defName>
+    <label>capuchin monkey</label>
+    <description>Capuchins are diurnal and arboreal. With the exception of a midday nap, they spend their entire day searching for food. At night, they sleep in the trees, wedged between branches. They are undemanding regarding their habitat and can thus be found in many differing areas. They are omnivores, and consume a variety of plant parts such as leaves, flower and fruit, seeds, pith, woody tissue, sugarcane, bulb, and exudates, as well as arthropods, molluscs, a variety of vertebrates, and even primates. They are characterized as innovative and extreme foragers because of their ability to acquire sustenance from a wide collection of unlikely food, which may assure them survival in habitats with extreme food limitation. Capuchin monkeys often live in large groups of 10 to 35 individuals within the forest, although they can easily adapt to places colonized by humans. Usually, a single male will dominate the group.</description>
+    <race>
+      <baseBodySize>0.40</baseBodySize>
+      <baseHungerRate>0.20</baseHungerRate>
+      <baseHealthScale>0.20</baseHealthScale>
+      <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="SmallMonkeyKindBase">
+    <defName>CapuchinMonkey</defName>
+    <label>capuchin monkey</label>
+    <race>CapuchinMonkey</race>
+    <wildSpawn_GroupSizeRange>
+      <min>10</min>
+      <max>20</max>
+    </wildSpawn_GroupSizeRange>  
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
+          <drawSize>0.5</drawSize>
+          <color>(161,95,38)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
+          <drawSize>0.8</drawSize>
+          <color>(161,95,38)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
+          <drawSize>1</drawSize>
+          <color>(161,95,38)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
