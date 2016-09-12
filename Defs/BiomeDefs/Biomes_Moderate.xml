@@ -94,7 +94,7 @@
       <Tropical_RainyThunderstorm>10</Tropical_RainyThunderstorm>
       <Tropical_FoggyRain>8</Tropical_FoggyRain>
       <Tropical_Fog>2</Tropical_Fog>
-      <!-- <Tropical_Clear>0</Tropical_Clear> -->
+      <Tropical_Clear>1</Tropical_Clear>
       <!-- <Tropical_DryThunderstorm>0</Tropical_DryThunderstorm> -->
     </baseWeatherCommonalities>
     <wildPlants>
