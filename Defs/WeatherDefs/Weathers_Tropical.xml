@@ -2,7 +2,8 @@
 <WeatherDefs>
 
   <!-- CopyPasted from vanilla in order to been able to change temperature -->
-  <WeatherDef>
+  
+  <!-- <WeatherDef>
     <defName>Tropical_Clear</defName>
     <label>clear (tropical)</label>
     <description>A clear day. No penalties or modifiers.</description>    
@@ -10,9 +11,9 @@
     <favorability>Good</favorability>
     <ambientSounds>
       <li>AmbientWind_Clear</li>
-    </ambientSounds>   
+    </ambientSounds>   -->
     <!-- Colors are Clear -->
-    <skyColorsDay>
+    <!-- <skyColorsDay>
       <sky>(1,1,1)</sky>
       <shadow>(0.718,0.745,0.757)</shadow>
       <overlay>(1,1,1)</overlay>
@@ -36,7 +37,7 @@
       <overlay>(0.6,0.6,0.6)</overlay>
       <saturation>1.25</saturation>
     </skyColorsNightMid>
-  </WeatherDef>
+  </WeatherDef> -->
 
   <WeatherDef>
     <defName>Tropical_Fog</defName>
