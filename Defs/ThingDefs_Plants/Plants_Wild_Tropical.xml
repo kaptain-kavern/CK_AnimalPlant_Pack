@@ -45,6 +45,55 @@
     </plant>
   </ThingDef>
 
+   <ThingDef ParentName="PlantBase">
+    <defName>PlantTaro</defName>
+    <label>taro</label>
+    <description></description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Taro</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.6, 0.2, 0.6)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>20</pathCost>
+    <ingestible>
+      <nutrition>0.25</nutrition>
+    </ingestible>
+    <plant>
+      <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
+      <harvestYield>10</harvestYield>      
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>true</harvestDestroys>
+      <harvestedThingDef>TaroRoot</harvestedThingDef>
+      <fertilityMin>0.2</fertilityMin>
+      <wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <wildClusterSizeRange>
+        <min>2</min>
+        <max>5</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>4</wildClusterRadius>
+      <visualSizeRange>
+        <min>0.7</min>
+        <max>1.1</max>
+      </visualSizeRange>
+      <growDays>3</growDays>
+      <topWindExposure>0.3</topWindExposure>
+      <seedEmitMTBDays>2.5</seedEmitMTBDays>
+      <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
+      <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
+    </plant>
+  </ThingDef> 
+
   <!--======================= Wild plants - carpets ========================-->
 
   <ThingDef ParentName="PlantBase">
@@ -67,7 +116,7 @@
     <plant>
       <harvestWork>60</harvestWork>
       <fertilityMin>0.05</fertilityMin>
-      <maxMeshCount>9</maxMeshCount>
+      <maxMeshCount>16</maxMeshCount>
       <visualSizeRange>
         <min>0.7</min>
         <max>0.85</max>
@@ -79,6 +128,76 @@
       <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
     </plant>
   </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+  	<defName>PlantRafflesia</defName>
+  	<label>rafflesias</label>
+    <selectable>True</selectable>
+  	<description></description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Rafflesia</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible>
+      <nutrition>0.14</nutrition>
+    </ingestible>
+    <plant>      
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <fertilityMin>0.4</fertilityMin>      
+      <visualSizeRange>
+        <min>0.7</min>
+        <max>1.3</max>
+      </visualSizeRange>
+      <growDays>3</growDays>
+      <topWindExposure>0.3</topWindExposure>
+      <seedEmitMTBDays>3</seedEmitMTBDays>
+      <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
+      <fertilityFactorPlantChance>1.0</fertilityFactorPlantChance>
+      <wildClusterSizeRange>
+        <min>1</min>
+        <max>1</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>10</wildClusterRadius>
+    </plant>
+  </ThingDef>
+
+    <ThingDef ParentName="PlantBase">
+    <defName>PlantBromeliad</defName>
+    <label>bromeliad</label>
+    <description></description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>3</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Bromeliad</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible>
+      <nutrition>0.15</nutrition>
+    </ingestible>
+    <plant>      
+      <harvestWork>40</harvestWork>
+      <fertilityMin>0.1</fertilityMin>
+      <maxMeshCount>9</maxMeshCount>
+      <visualSizeRange>
+        <min>0.4</min>
+        <max>0.6</max>
+      </visualSizeRange>
+      <growDays>2.5</growDays>
+      <topWindExposure>0.4</topWindExposure>
+      <seedEmitMTBDays>3.5</seedEmitMTBDays>
+      <fertilityFactorGrowthRate>0.90</fertilityFactorGrowthRate>
+      <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
+    </plant>
+  </ThingDef>
+
 
   <!--============================ Wild - Trees ============================-->
 
@@ -93,10 +212,9 @@
     <statBases>
       <Beauty>1</Beauty>
     </statBases>
-    <plant>
-      <!-- <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath> -->
+    <plant>      
       <growDays>18</growDays>
-      <harvestWork>1000</harvestWork>
+      <harvestWork>600</harvestWork>
       <harvestYield>32</harvestYield>
       <visualSizeRange>
         <min>1.3</min>
@@ -114,14 +232,88 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
-      <Beauty>5</Beauty>
+      <Beauty>2</Beauty>
     </statBases>
-    <plant>
-      <!-- <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath> -->
+    <plant>      
       <growDays>34</growDays>
       <harvestWork>1000</harvestWork>
       <harvestYield>50</harvestYield>
     </plant>
   </ThingDef>
+
+    <ThingDef ParentName="TreeBase">
+    <defName>PlantTreeStranglerFig</defName>
+    <label>strangler fig tree</label>
+    <description></description>
+    <graphicData>
+      <texPath>Things/Plant/TreeStranglerFig</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+    </statBases>
+    <plant>      
+      <growDays>10</growDays>
+      <harvestWork>500</harvestWork>
+      <harvestYield>18</harvestYield>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.4</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+    <ThingDef ParentName="PlantBase">
+    	<defName>PlantTreeBanana</defName>
+    	<label>banana</label>
+    	<description></description>
+    	<altitudeLayer>Building</altitudeLayer>
+    	<statBases>
+    		<MaxHitPoints>120</MaxHitPoints>
+    	</statBases>
+    	<graphicData>
+    		<texPath>Things/Plant/TreeBanana</texPath>
+    		<graphicClass>Graphic_Random</graphicClass>
+    		<shadowData>
+    			<volume>(0.3, 0.3, 0.3)</volume>
+    		</shadowData>
+    	</graphicData>
+    	<passability>PassThroughOnly</passability>
+    	<blockWind>true</blockWind>
+    	<selectable>true</selectable>
+    	<fillPercent>0.35</fillPercent>
+	    <pathCost>80</pathCost>
+    	<ingestible>    		
+      		<preferability>RawBad</preferability>
+      		<nutrition>1.50</nutrition>
+      	</ingestible>
+	    <plant>
+	    	<sowWork>1500</sowWork>
+	    	<harvestWork>800</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestDestroys>false</harvestDestroys>
+			<harvestedThingDef>RawBanana</harvestedThingDef>
+			<harvestYield>30</harvestYield>
+			<harvestMinGrowth>0.40</harvestMinGrowth>
+			<harvestFailable>false</harvestFailable>
+			<wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction>
+			<blockAdjacentSow>true</blockAdjacentSow>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<visualSizeRange>
+				<min>1.3</min>
+				<max>2.0</max>
+			</visualSizeRange>
+			<fertilityMin>0.3</fertilityMin>
+			<topWindExposure>0.25</topWindExposure>
+			<fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
+			<wildClusterSizeRange>
+				<min>8</min>
+				<max>30</max>
+			</wildClusterSizeRange>
+			<wildClusterRadius>8</wildClusterRadius>
+		</plant>
+	</ThingDef>
 
 </Defs>

@@ -180,8 +180,8 @@
     <label>squirrel monkey</label>
     <description>The common squirrel monkey prefers to live in the middle canopy, but occasionally comes to the ground or goes up into the high canopy. They like vegetation which provides good cover from birds of prey in the rainforest, savannah, mangroves, or marshlands.</description>
     <race>
-      <baseBodySize>0.35</baseBodySize>
-      <baseHungerRate>0.20</baseHungerRate>
+      <baseBodySize>0.5</baseBodySize>
+      <baseHungerRate>0.30</baseHungerRate>
       <baseHealthScale>0.25</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
     </race>
@@ -217,7 +217,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>1.2</drawSize>
           <!-- <color>(161,95,38)</color> -->
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -341,7 +341,7 @@
     </lifeStages>
   </PawnKindDef>
 
-  <!-- ============== Squirrel Monkey ======================= -->
+  <!-- ============== Capuchin Monkey ======================= -->
   <ThingDef ParentName="SmallMonkeyThingBase">
     <defName>CapuchinMonkey</defName>
     <label>capuchin monkey</label>
@@ -366,34 +366,34 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>0.2</drawSize>
           <color>(161,95,38)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>0.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>0.4</drawSize>
           <color>(161,95,38)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>0.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>0.6</drawSize>
           <color>(161,95,38)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
