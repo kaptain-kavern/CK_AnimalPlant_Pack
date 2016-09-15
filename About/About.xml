@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-    <name>Ecosystem Overhaul</name>
+    <name>CK - Animal Pack & Plant Pack</name>
 
     <author>Coercion (Textures) | KapTaiN_KaVerN (Code)</author>
 
@@ -9,6 +9,6 @@
 
     <targetVersion>0.15.0</targetVersion>
 
-<description>The purpose of this mod is to add a significant amount of new animals, plants and factions to the game, increase fauna and flora biome diversity and drastically change biome climate and weather to account for things like humidity.\nVersion 1.0 will focus on the Tropical Rainforest biome.</description>
+<description>The purpose of this mod is to add a significant amount of new animals and plants to the game and increase fauna and flora biome diversity. New factions have been added to control biome pack animals and introduce new trade resources.</description>
 
 </ModMetaData>
