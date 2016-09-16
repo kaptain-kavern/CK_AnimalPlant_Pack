@@ -132,7 +132,7 @@
       <meatLabel>monkey meat</meatLabel>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
-      <wildness>0.50</wildness>
+      <wildness>0.75</wildness>
       <nuzzleMtbHours>72</nuzzleMtbHours>
       <gestationPeriodDays>32</gestationPeriodDays>
       <lifeExpectancy>30</lifeExpectancy>

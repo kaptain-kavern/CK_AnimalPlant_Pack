@@ -72,14 +72,14 @@
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>TaroRoot</harvestedThingDef>
       <fertilityMin>0.2</fertilityMin>
-      <wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction>
+      <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
       </sowTags>
       <wildClusterSizeRange>
         <min>2</min>
-        <max>5</max>
+        <max>4</max>
       </wildClusterSizeRange>
       <wildClusterRadius>4</wildClusterRadius>
       <visualSizeRange>
@@ -88,9 +88,9 @@
       </visualSizeRange>
       <growDays>3</growDays>
       <topWindExposure>0.3</topWindExposure>
-      <seedEmitMTBDays>2.5</seedEmitMTBDays>
-      <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
-      <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
+      <seedEmitMTBDays>1.5</seedEmitMTBDays>
+      <fertilityFactorGrowthRate>0.3</fertilityFactorGrowthRate>
+      <!-- <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance> -->
     </plant>
   </ThingDef>
 
