@@ -97,10 +97,6 @@
       <Tropical_Clear>1</Tropical_Clear>
     </baseWeatherCommonalities>
     <wildPlants>
-      <!-- <PlantRaspberry>0.2</PlantRaspberry> -->
-      <!-- <PlantTallGrass>1</PlantTallGrass> -->
-      <!-- <PlantDandelion>0.2</PlantDandelion> -->
-      <!-- <PlantTreeCecropia>0.8</PlantTreeCecropia> -->
       <!-- Very Common -->
          <PlantFern>5</PlantFern>
       <!-- Common -->
