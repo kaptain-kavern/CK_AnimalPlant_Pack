@@ -7,7 +7,7 @@
     <label>wilder</label>
     <description>These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, wilders are a nomadic people living within in the Rim's tropical rainforests. They practice ritual sacrifice and cannabilism.</description>
     <pawnsPlural>wilders</pawnsPlural>
-    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <!-- <requiredCountAtGameStart>1</requiredCountAtGameStart> -->
     <canMakeRandomly>true</canMakeRandomly>
     <raidCommonality>100</raidCommonality>
     <canStageAttacks>true</canStageAttacks>
