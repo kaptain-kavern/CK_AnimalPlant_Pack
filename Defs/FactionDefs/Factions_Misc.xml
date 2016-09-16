@@ -76,7 +76,7 @@
     <label>jungle trader</label>
     <description>A small community of survivors.\n\nThese people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple mechanical tools and defend themselves with advanced gunpowder weapons.\n\nJungle Traders consist of various traders within the Rim's tropical rainforests</description>
     <pawnsPlural>jungle traders</pawnsPlural>
-    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <!-- <requiredCountAtGameStart>1</requiredCountAtGameStart> -->
     <canMakeRandomly>true</canMakeRandomly>
     <raidCommonality>100</raidCommonality>
     <canSiege>true</canSiege>
