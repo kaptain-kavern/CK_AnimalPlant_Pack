@@ -303,10 +303,10 @@
     <label>spider monkey</label>
     <race>SpiderMonkey</race>
     <combatPower>45</combatPower>
-    <wildSpawn_GroupSizeRange>
+<!--     <wildSpawn_GroupSizeRange>
       <min>10</min>
       <max>20</max>
-    </wildSpawn_GroupSizeRange>  
+    </wildSpawn_GroupSizeRange>   -->
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -358,10 +358,10 @@
     <defName>CapuchinMonkey</defName>
     <label>capuchin monkey</label>
     <race>CapuchinMonkey</race>
-    <wildSpawn_GroupSizeRange>
+<!--     <wildSpawn_GroupSizeRange>
       <min>10</min>
       <max>20</max>
-    </wildSpawn_GroupSizeRange>  
+    </wildSpawn_GroupSizeRange>   -->
     <lifeStages>
       <li>
         <bodyGraphicData>
