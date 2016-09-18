@@ -74,10 +74,10 @@
         <li>Hydroponic</li>
       </sowTags>
       <wildClusterSizeRange>
-        <min>2</min>
-        <max>5</max>
+        <min>1</min>
+        <max>3</max>
       </wildClusterSizeRange>
-      <wildClusterRadius>4</wildClusterRadius>      
+      <wildClusterRadius>5</wildClusterRadius>      
       <topWindExposure>0.1</topWindExposure>
       <growDays>2.705</growDays>
       <fertilityFactorGrowthRate>0.4</fertilityFactorGrowthRate>
@@ -165,10 +165,10 @@
         <li>Hydroponic</li>
       </sowTags>
       <wildClusterSizeRange>
-        <min>2</min>
-        <max>5</max>
+        <min>1</min>
+        <max>3</max>
       </wildClusterSizeRange>
-      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterRadius>5</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
@@ -205,10 +205,10 @@
       <harvestYield>11</harvestYield>
       <sowMinSkill>4</sowMinSkill>
       <wildClusterSizeRange>
-        <min>2</min>
-        <max>5</max>
+        <min>1</min>
+        <max>3</max>
       </wildClusterSizeRange>
-      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterRadius>5</wildClusterRadius>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
