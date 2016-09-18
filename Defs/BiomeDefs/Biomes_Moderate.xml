@@ -111,15 +111,16 @@
          <!-- <PlantBamboo>0.4</PlantBamboo> -->
          <PlantTaro>0.3</PlantTaro>
       <!-- Rare -->
-        <PlantSmokeleaf>0.2</PlantSmokeleaf>
-        <PlantPsychoid>0.07</PlantPsychoid>
-        <PlantHealroot>0.05</PlantHealroot>
-        <PlantCotton>0.2</PlantCotton>
-        <PlantRafflesia>0.1</PlantRafflesia>
+        <PlantTreeBanana>0.25</PlantTreeBanana>
+        <PlantRafflesia>0.08</PlantRafflesia>
         <!-- <PlantCoffea>0.4</PlantCoffea> -->
         <!-- <PlantLemongrass>0.4</PlantLemongrass> -->
         <!-- <PlantTreeCoconut>0.4</PlantTreeCoconut> -->
-        <PlantTreeBanana>0.25</PlantTreeBanana>
+      <!-- Very Rare -->
+        <PlantSmokeleaf>0.03</PlantSmokeleaf>
+        <PlantPsychoid>0.03</PlantPsychoid>
+        <PlantHealroot>0.02</PlantHealroot>
+        <PlantCotton>0.02</PlantCotton>
     </wildPlants>
     <wildAnimals>
       <!-- Common -->
