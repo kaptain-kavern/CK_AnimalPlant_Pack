@@ -71,6 +71,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>TaroRoot</harvestedThingDef>
+      <harvestWork>80</harvestWork>
       <fertilityMin>0.2</fertilityMin>
       <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction>
       <sowTags>
