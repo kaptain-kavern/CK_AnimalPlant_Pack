@@ -500,6 +500,10 @@
       <growDays>10</growDays>
       <harvestWork>350</harvestWork>
       <harvestYield>15</harvestYield>
+      <visualSizeRange>
+      	<min>2</min>
+      	<max>4</max>
+      </visualSizeRange>
     </plant>
   </ThingDef>	
 
