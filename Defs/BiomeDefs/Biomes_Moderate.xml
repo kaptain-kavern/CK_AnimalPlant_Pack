@@ -112,7 +112,6 @@
          <PlantTaro>0.3</PlantTaro>
       <!-- Rare -->
         <PlantTreeBanana>0.25</PlantTreeBanana>
-        <PlantRafflesia>0.08</PlantRafflesia>
         <PlantCoffea>0.2</PlantCoffea>
         <PlantLemongrass>0.2</PlantLemongrass>
         <PlantTreeCoconutPalm>0.25</PlantTreeCoconutPalm>
@@ -121,7 +120,8 @@
         <PlantPsychoid>0.03</PlantPsychoid>
         <PlantHealroot>0.02</PlantHealroot>
         <PlantCotton>0.02</PlantCotton>
-    </wildPlants>
+        <PlantRafflesia>0.02</PlantRafflesia>    
+</wildPlants>
     <wildAnimals>
       <!-- Common -->
          <Chinchilla>2</Chinchilla>
