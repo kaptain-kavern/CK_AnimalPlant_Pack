@@ -126,6 +126,9 @@
       <!-- Common -->
          <Chinchilla>2</Chinchilla>
          <Capybara>1.2</Capybara>
+         <Rat>0.8</Rat>
+         <WildBoar>0.5</WildBoar>
+         <Tortoise>0.4</Tortoise>
          <!-- <Anteater>1</Anteater> -->
          <!-- <Sloth>0.8</Sloth> -->
          <!-- <Tapir>1.5</Tapir> -->
@@ -134,7 +137,7 @@
          <!-- <SquirrelMonkey>1.6</SquirrelMonkey> --> 
       <!-- Uncommon -->
          <Elephant>0.6</Elephant>
-         <Panda>0.4</Panda>
+         <Panda>0.3</Panda>
          <Tiger>0.2</Tiger>
          <Jaguar>0.2</Jaguar>      
          <!-- <Python>0.16</Python> -->
