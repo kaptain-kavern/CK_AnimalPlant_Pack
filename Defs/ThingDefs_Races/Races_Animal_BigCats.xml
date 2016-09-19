@@ -12,7 +12,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTicks>90</defaultCooldownTicks>
-        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>22</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -27,7 +27,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTicks>90</defaultCooldownTicks>
-        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>22</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -42,7 +42,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
             <defaultCooldownTicks>110</defaultCooldownTicks>
-            <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
+            <meleeDamageBaseAmount>30</meleeDamageBaseAmount>
             <meleeDamageDef>Bite</meleeDamageDef>
             <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
             <surpriseAttack>
