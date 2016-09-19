@@ -116,7 +116,7 @@
     </ingestible>
     <plant>      
       <harvestYield>30</harvestYield>
-      <harvestWork>800</harvestWork>
+      <harvestWork>80</harvestWork>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
       <harvestedThingDef>RawCoffee</harvestedThingDef>
