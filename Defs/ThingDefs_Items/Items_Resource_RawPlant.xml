@@ -106,27 +106,49 @@
     </ingestible>
   </ThingDef>
 
-  <!-- <ThingDef ParentName="PlantFoodRawBase">
-    <defName>RawRice</defName>
-    <label>rice</label>
-    <description>Raw rice.</description>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>Coconuts</defName>
+    <label>coconuts</label>
+    <description>Coconuts. Nice to eat, even when raw.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Coconuts</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <tastesRaw>false</tastesRaw>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawCoffee</defName>
+    <label>coffee beans</label>
+    <description>coffee beans.</description>
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>
     <graphicData>
-      <texPath>Things/Item/Resource/PlantFoodRaw/Rice</texPath>
+      <texPath>Things/Item/Resource/PlantFoodRaw/CoffeeBeans</texPath>
     </graphicData>
     <statBases>
-      <MarketValue>1.9</MarketValue>
+      <MarketValue>2.5</MarketValue>
     </statBases>
     <ingestible>
       <foodType>Seeds</foodType>
     </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>40</daysToRotStart>
+        <daysToRotStart>60</daysToRotStart>
       </li>
     </comps>
-  </ThingDef> -->
+  </ThingDef>
 
 
   

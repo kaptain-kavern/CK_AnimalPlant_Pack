@@ -24,8 +24,8 @@
     </ingestible>
     <plant>
       <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
-      <harvestYield>18</harvestYield>
-      <harvestWork>800</harvestWork>
+      <harvestYield>5</harvestYield>
+      <harvestWork>300</harvestWork>
       <harvestTag>Wood</harvestTag>      
       <harvestFailable>false</harvestFailable>
       <harvestedThingDef>WoodLog</harvestedThingDef>
@@ -39,7 +39,7 @@
         <min>1</min>
         <max>2</max>
       </visualSizeRange>
-      <growDays>12</growDays>
+      <growDays>10</growDays>
       <topWindExposure>0.3</topWindExposure>
       <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
     </plant>
@@ -86,11 +86,53 @@
         <min>1</min>
         <max>1.2</max>
       </visualSizeRange>
-      <growDays>3</growDays>
+      <growDays>5</growDays>
       <topWindExposure>0.3</topWindExposure>
       <seedEmitMTBDays>1.5</seedEmitMTBDays>
       <fertilityFactorGrowthRate>0.3</fertilityFactorGrowthRate>
       <!-- <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance> -->
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantCoffea</defName>
+    <label>coffea bush</label>
+    <description>A bushy plant which yields coffee beans.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/BushCoffea</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.6, 0.2, 0.6)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>30</pathCost>
+    <ingestible>
+      <nutrition>0.17</nutrition>
+    </ingestible>
+    <plant>      
+      <harvestYield>30</harvestYield>
+      <harvestWork>800</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>false</harvestDestroys>
+      <harvestedThingDef>RawCoffee</harvestedThingDef>
+      <fertilityMin>0.5</fertilityMin>      
+      <wildClusterSizeRange>
+        <min>2</min>
+        <max>5</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>4</wildClusterRadius>
+      <visualSizeRange>
+        <min>0.7</min>
+        <max>1.1</max>
+      </visualSizeRange>
+      <growDays>5.5</growDays>
+      <topWindExposure>0.3</topWindExposure>
+      <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
     </plant>
   </ThingDef>
 
@@ -153,7 +195,7 @@
         <min>0.7</min>
         <max>1.3</max>
       </visualSizeRange>
-      <growDays>3</growDays>
+      <growDays>5</growDays>
       <topWindExposure>0.3</topWindExposure>
       <seedEmitMTBDays>3</seedEmitMTBDays>
       <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
@@ -190,13 +232,49 @@
         <min>0.6</min>
         <max>1</max>
       </visualSizeRange>
-      <growDays>2.5</growDays>
+      <growDays>3.5</growDays>
       <topWindExposure>0.4</topWindExposure>
       <seedEmitMTBDays>3.5</seedEmitMTBDays>
       <fertilityFactorGrowthRate>0.90</fertilityFactorGrowthRate>
       <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
     </plant>
   </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantHeliconia</defName>
+    <label>heliconia</label>
+    <description></description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>5</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Heliconia</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible>
+      <nutrition>0.15</nutrition>
+    </ingestible>
+    <plant>
+      <fertilityMin>0.35</fertilityMin>
+      <maxMeshCount>16</maxMeshCount>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>0.6</max>
+      </visualSizeRange>
+      <growDays>2.5</growDays>
+      <topWindExposure>0.3</topWindExposure>
+      <seedEmitMTBDays>3.5</seedEmitMTBDays>
+      <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
+      <fertilityFactorPlantChance>1.0</fertilityFactorPlantChance>
+      <wildClusterSizeRange>
+        <min>2</min>
+        <max>6</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>4</wildClusterRadius>
+    </plant>
+  </ThingDef>  
 
   <ThingDef ParentName="PlantBase">
     <defName>PlantLemongrass</defName>
@@ -263,6 +341,47 @@
   </ThingDef>
 
   <ThingDef ParentName="TreeBase">
+  	<defName>PlantTreeCoconutPalm</defName>
+    <label>coconut palm tree</label>
+    <description></description>
+    <graphicData>
+    	<texPath>Things/Plant/TreeCoconutPalm</texPath>
+    	<graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+    	<Beauty>1</Beauty>
+    </statBases>
+    <plant>
+    	<growDays>18</growDays>
+    	<sowWork>1500</sowWork>
+	    <harvestWork>800</harvestWork>
+  		<harvestTag>Standard</harvestTag>
+  		<harvestDestroys>false</harvestDestroys>
+  		<harvestedThingDef>Coconuts</harvestedThingDef>
+  		<harvestYield>10</harvestYield>
+  		<harvestMinGrowth>0.70</harvestMinGrowth>
+  		<harvestFailable>false</harvestFailable>
+  		<wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction>
+  		<blockAdjacentSow>true</blockAdjacentSow>
+  		<sowTags>
+  			<li>Ground</li>
+  		</sowTags>
+  		<visualSizeRange>
+  			<min>2</min>
+  			<max>3</max>
+  		</visualSizeRange>
+  		<fertilityMin>0.2</fertilityMin>
+  		<topWindExposure>0.25</topWindExposure>
+  		<fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
+  		<wildClusterSizeRange>
+  			<min>8</min>
+  			<max>20</max>
+  		</wildClusterSizeRange>
+  		<wildClusterRadius>8</wildClusterRadius>
+      </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="TreeBase">
     <defName>PlantTreeMahogany</defName>
     <label>mahogany tree</label>
     <description>A strong hardwood tree. Slow-going, but its wood is very strong.</description>
@@ -296,7 +415,7 @@
       <Beauty>2</Beauty>
     </statBases>
     <plant>      
-      <growDays>10</growDays>
+      <growDays>20</growDays>
       <harvestWork>500</harvestWork>
       <harvestYield>18</harvestYield>
       <visualSizeRange>
@@ -331,6 +450,7 @@
       		<nutrition>1.50</nutrition>
       	</ingestible>
 	    <plant>
+	    	<growDays>15</growDays>
 	    	<sowWork>1500</sowWork>
 	    	<harvestWork>800</harvestWork>
   			<harvestTag>Standard</harvestTag>
@@ -375,12 +495,11 @@
     </statBases>
     <ingestible>
       <nutrition>1</nutrition>
-    </ingestible><plant>
-      <!-- <leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath> -->
+    </ingestible>
+    <plant>      
       <growDays>10</growDays>
       <harvestWork>350</harvestWork>
       <harvestYield>15</harvestYield>
- <!--      <leaflessGraphicPath>Things/Plant/TreeBirch_Leafless</leaflessGraphicPath> -->
     </plant>
   </ThingDef>	
 
