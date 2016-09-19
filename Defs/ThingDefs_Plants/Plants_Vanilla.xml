@@ -3,7 +3,7 @@
 <!--=========================== Food crops ==============================-->
   <ThingDef ParentName="PlantBase">
     <defName>PlantRice</defName>
-    <label>rice plant</label>
+    <label>wild rice</label>
     <description>A low grain plant that thrives in rich soil and yields food fast, but is not nice to eat uncooked.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
@@ -47,7 +47,7 @@
 <!--=========================== Production crops ==============================-->
   <ThingDef ParentName="PlantBase">
     <defName>PlantCotton</defName>
-    <label>cotton plant</label>
+    <label>wild cotton</label>
     <description>Yields cotton, a fine plant fiber used to make cloth.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
@@ -90,7 +90,7 @@
 
   <ThingDef ParentName="PlantBase">
     <defName>PlantHealroot</defName>
-    <label>healroot</label>
+    <label>wild healroot</label>
     <description>A slow-growing plant which yields herbal medicine when harvested.\n\nHealroot was selectively bred for centuries by settlers. It is sometimes also called &quot;healer's hand&quot; by tribespeople - a nickname it owes to its five major medicinal virtues.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
@@ -137,7 +137,7 @@
 <!--=========================== Drug crops ==============================-->
   <ThingDef ParentName="PlantBase">
     <defName>PlantPsychoid</defName>
-    <label>psychoid plant</label>
+    <label>wild psychoid</label>
     <description>A leafy plant. Its leaves can be refined into various forms of the psychoid drug.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
@@ -181,7 +181,7 @@
 
   <ThingDef ParentName="PlantBase">
     <defName>PlantSmokeleaf</defName>
-    <label>smokeleaf plant</label>
+    <label>wild smokeleaf</label>
     <description>A leafy plant cultivated for its psychological effects. Smokeleaf leaves can be prepared into joints at the crafting spot.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
