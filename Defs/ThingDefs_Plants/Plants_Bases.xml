@@ -43,7 +43,7 @@
 	  	<description>A tree.</description>
 	  	<altitudeLayer>Building</altitudeLayer>
     	<selectable>true</selectable>
-    	<fillPercent>0.43</fillPercent>
+    	<fillPercent>0.65</fillPercent>
     	<graphicData>
     		<shadowData>
     			<volume>(0.3, 0.3, 0.3)</volume>
