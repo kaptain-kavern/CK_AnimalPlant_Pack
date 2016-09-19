@@ -399,8 +399,8 @@
     </statBases>
     <plant>      
       <growDays>34</growDays>
-      <harvestWork>1000</harvestWork>
-      <harvestYield>50</harvestYield>
+      <harvestWork>2500</harvestWork>
+      <harvestYield>125</harvestYield>
       <visualSizeRange>
         <min>3</min>
         <max>5</max>
@@ -421,8 +421,8 @@
     </statBases>
     <plant>      
       <growDays>20</growDays>
-      <harvestWork>500</harvestWork>
-      <harvestYield>18</harvestYield>
+      <harvestWork>1500</harvestWork>
+      <harvestYield>75</harvestYield>
       <visualSizeRange>
         <min>2.5</min>
         <max>3.4</max>
