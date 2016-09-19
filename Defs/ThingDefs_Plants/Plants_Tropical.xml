@@ -266,6 +266,7 @@
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>
         <min>0.6</min>
+        <max>0.9</max>
       </visualSizeRange>
       <growDays>2.5</growDays>
       <topWindExposure>0.3</topWindExposure>
