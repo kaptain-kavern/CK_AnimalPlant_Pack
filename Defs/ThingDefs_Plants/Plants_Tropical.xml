@@ -507,7 +507,7 @@
       <harvestYield>15</harvestYield>
       <visualSizeRange>
       	<min>2</min>
-      	<max>4</max>
+      	<max>3</max>
       </visualSizeRange>
     </plant>
   </ThingDef>	
