@@ -265,8 +265,7 @@
       <fertilityMin>0.35</fertilityMin>
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>
-        <min>0.3</min>
-        <max>0.6</max>
+        <min>0.6</min>
       </visualSizeRange>
       <growDays>2.5</growDays>
       <topWindExposure>0.3</topWindExposure>
