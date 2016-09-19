@@ -51,7 +51,7 @@
       <texPath>Things/Item/Resource/PlantFoodRaw/TaroRoot</texPath>
     </graphicData>
     <statBases>
-      <MarketValue>1.9</MarketValue>
+      <MarketValue>1.5</MarketValue>
     </statBases>
     <ingestible>
       <foodType>VegetableOrFruit</foodType>
@@ -71,7 +71,7 @@
       <texPath>Things/Item/Resource/PlantFoodRaw/BananaFruit</texPath>
     </graphicData>
     <statBases>
-      <MarketValue>2.1</MarketValue>
+      <MarketValue>1.5</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Rottable">
@@ -81,6 +81,27 @@
     <ingestible>
       <preferability>RawTasty</preferability>
       <tastesRaw>false</tastesRaw>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawLemongrass</defName>
+    <label>lemongrass</label>
+    <description></description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Lemongrass</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.9</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>20</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
   </ThingDef>
