@@ -24,8 +24,8 @@
     </ingestible>
     <plant>
       <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
-      <harvestYield>5</harvestYield>
-      <harvestWork>300</harvestWork>
+      <harvestYield>6</harvestYield>
+      <harvestWork>800</harvestWork>
       <harvestTag>Wood</harvestTag>      
       <harvestFailable>false</harvestFailable>
       <harvestedThingDef>WoodLog</harvestedThingDef>
@@ -71,7 +71,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>TaroRoot</harvestedThingDef>
-      <harvestWork>80</harvestWork>
+      <harvestWork>250</harvestWork>
       <fertilityMin>0.2</fertilityMin>
       <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction>
       <sowTags>
@@ -117,7 +117,7 @@
     </ingestible>
     <plant>      
       <harvestYield>30</harvestYield>
-      <harvestWork>80</harvestWork>
+      <harvestWork>600</harvestWork>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
       <harvestedThingDef>RawCoffee</harvestedThingDef>
@@ -161,7 +161,7 @@
       <nutrition>0.25</nutrition>
     </ingestible>
     <plant>
-      <harvestWork>60</harvestWork>
+      <harvestWork>250</harvestWork>
       <fertilityMin>0.05</fertilityMin>
       <maxMeshCount>9</maxMeshCount>
       <visualSizeRange>
@@ -230,7 +230,7 @@
       <nutrition>0.15</nutrition>
     </ingestible>
     <plant>      
-      <harvestWork>40</harvestWork>
+      <harvestWork>250</harvestWork>
       <fertilityMin>0.1</fertilityMin>
       <maxMeshCount>9</maxMeshCount>
       <visualSizeRange>
@@ -304,7 +304,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>RawLemongrass</harvestedThingDef>      
-      <harvestWork>60</harvestWork>
+      <harvestWork>250</harvestWork>
       <fertilityMin>0.05</fertilityMin>      
       <visualSizeRange>
         <min>1.85</min>
@@ -336,7 +336,7 @@
     </statBases>
     <plant>      
       <growDays>18</growDays>
-      <harvestWork>600</harvestWork>
+      <harvestWork>1500</harvestWork>
       <harvestYield>32</harvestYield>
       <visualSizeRange>
         <min>2.5</min>
@@ -359,7 +359,7 @@
     <plant>
     	<growDays>18</growDays>
     	<sowWork>1500</sowWork>
-	    <harvestWork>800</harvestWork>
+	    <harvestWork>1500</harvestWork>
   		<harvestTag>Standard</harvestTag>
   		<harvestDestroys>false</harvestDestroys>
   		<harvestedThingDef>Coconuts</harvestedThingDef>
@@ -399,7 +399,7 @@
     </statBases>
     <plant>      
       <growDays>34</growDays>
-      <harvestWork>2500</harvestWork>
+      <harvestWork>6000</harvestWork>
       <harvestYield>125</harvestYield>
       <visualSizeRange>
         <min>3</min>
@@ -421,7 +421,7 @@
     </statBases>
     <plant>      
       <growDays>20</growDays>
-      <harvestWork>1500</harvestWork>
+      <harvestWork>4000</harvestWork>
       <harvestYield>75</harvestYield>
       <visualSizeRange>
         <min>2.5</min>
@@ -503,7 +503,7 @@
     </ingestible>
     <plant>      
       <growDays>10</growDays>
-      <harvestWork>350</harvestWork>
+      <harvestWork>600</harvestWork>
       <harvestYield>15</harvestYield>
       <visualSizeRange>
       	<min>2</min>
