@@ -129,18 +129,18 @@
          <!-- <Anteater>1</Anteater> -->
          <!-- <Sloth>0.8</Sloth> -->
          <!-- <Tapir>1.5</Tapir> -->
-         <CapuchinMonkey>1.6</CapuchinMonkey>
-         <SpiderMonkey>1.6</SpiderMonkey>         
-         <SquirrelMonkey>1.6</SquirrelMonkey> 
+         <!-- <CapuchinMonkey>1.6</CapuchinMonkey> -->
+         <!-- <SpiderMonkey>1.6</SpiderMonkey> -->         
+         <!-- <SquirrelMonkey>1.6</SquirrelMonkey> --> 
       <!-- Uncommon -->
          <Elephant>0.6</Elephant>
          <Panda>0.4</Panda>
          <Tiger>0.2</Tiger>
          <Jaguar>0.2</Jaguar>      
-         <Python>0.16</Python>
-         <Toucan>0.2</Toucan>
-         <Peafowl>0.2</Peafowl>
-         <Gorilla>0.2</Gorilla>
+         <!-- <Python>0.16</Python> -->
+         <!-- <Toucan>0.2</Toucan> -->
+         <!-- <Peafowl>0.2</Peafowl> -->
+         <!-- <Gorilla>0.2</Gorilla> -->
          <!-- <Orangutan>0.2</Orangutan> -->
          <!-- <Macaw>0.2</Macaw> -->
          <!-- <Parrot>0.2</Parrot> -->
@@ -148,7 +148,7 @@
          <Panther>0.12</Panther>
          <Cobra>0.1</Cobra>
          <Iguana>0.1</Iguana>
-         <KomodoDragon>0.12</KomodoDragon>
+         <!-- <KomodoDragon>0.12</KomodoDragon> -->
          <!-- <Ocelot>0.12</Ocelot> -->
       <!-- Very Rare -->
          <Cassowary>0.05</Cassowary>
