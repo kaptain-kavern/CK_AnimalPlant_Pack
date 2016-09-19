@@ -151,7 +151,7 @@
       <MaxHitPoints>90</MaxHitPoints>
       <Beauty>0</Beauty>
     </statBases>
-    <pathCost>18</pathCost>
+    <pathCost>30</pathCost>
     <graphicData>
       <texPath>Things/Plant/Fern</texPath>
       <graphicClass>Graphic_Random</graphicClass>
