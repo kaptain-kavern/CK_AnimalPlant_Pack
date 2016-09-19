@@ -121,7 +121,11 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
       <harvestedThingDef>RawCoffee</harvestedThingDef>
-      <fertilityMin>0.5</fertilityMin>      
+      <fertilityMin>0.5</fertilityMin>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
       <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
