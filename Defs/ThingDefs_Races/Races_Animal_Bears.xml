@@ -11,14 +11,14 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTicks>120</defaultCooldownTicks>
-        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>30</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>21</amount>
+              <amount>20</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -26,14 +26,14 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTicks>120</defaultCooldownTicks>
-        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>30</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>21</amount>
+              <amount>20</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -41,14 +41,14 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTicks>100</defaultCooldownTicks>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>30</meleeDamageBaseAmount>
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>21</amount>
+              <amount>20</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
