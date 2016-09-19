@@ -173,12 +173,12 @@
 
   <ThingDef ParentName="PlantBase">
   	<defName>PlantRafflesia</defName>
-  	<label>rafflesias</label>
+  	<label>rafflesia</label>
     <selectable>True</selectable>
   	<description>Rafflesia (corpse flower) is a parasitic flowering plant that gives off the smell of rotting flesh. This smell attracts carrion-flies by which it is pollinated. These characteristics make Rafflesia a plant to avoid.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <Beauty>-15</Beauty>
+      <Beauty>-25</Beauty>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Rafflesia</texPath>
