@@ -4,7 +4,7 @@
   <!--================ Big Cat Base ===============-->
   <ThingDef ParentName="AnimalThingBase" Name="BigCatThingBase" Abstract="True">
     <statBases>
-      <MoveSpeed>6.5</MoveSpeed>
+      <MoveSpeed>9</MoveSpeed>
       <ComfyTemperatureMin>-8</ComfyTemperatureMin>
       <MarketValue>650</MarketValue>
     </statBases>
