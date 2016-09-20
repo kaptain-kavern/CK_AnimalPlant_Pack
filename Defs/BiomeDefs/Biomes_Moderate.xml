@@ -106,7 +106,7 @@
          <PlantTreeMahogany>0.6</PlantTreeMahogany>
          <PlantTreeStranglerFig>0.3</PlantTreeStranglerFig>
          <PlantBromeliad>0.3</PlantBromeliad>
-         <PlantRice>0.3</PlantRice>
+         <PlantWildRice>0.3</PlantWildRice>
          <PlantTreeBamboo>0.4</PlantTreeBamboo>
          <PlantTaro>0.3</PlantTaro>
       <!-- Rare -->
@@ -116,10 +116,10 @@
         <PlantTreeCoconutPalm>0.25</PlantTreeCoconutPalm>
         <PlantHeliconia>0.12</PlantHeliconia>
       <!-- Very Rare -->
-        <PlantSmokeleaf>0.03</PlantSmokeleaf>
-        <PlantPsychoid>0.03</PlantPsychoid>
-        <PlantHealroot>0.02</PlantHealroot>
-        <PlantCotton>0.02</PlantCotton>
+        <PlantWildSmokeleaf>0.03</PlantWildSmokeleaf>
+        <PlantWildPsychoid>0.03</PlantWildPsychoid>
+        <PlantWildHealroot>0.02</PlantWildHealroot>
+        <PlantWildCotton>0.02</PlantWildCotton>
         <PlantRafflesia>0.02</PlantRafflesia>    
 </wildPlants>
     <wildAnimals>
