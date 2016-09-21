@@ -461,7 +461,7 @@
   			<harvestTag>Standard</harvestTag>
   			<harvestDestroys>false</harvestDestroys>
   			<harvestedThingDef>RawBanana</harvestedThingDef>
-  			<harvestYield>30</harvestYield>
+  			<harvestYield>12</harvestYield>
   			<harvestMinGrowth>0.40</harvestMinGrowth>
   			<harvestFailable>false</harvestFailable>
   			<wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction>
