@@ -73,7 +73,7 @@
       <harvestedThingDef>TaroRoot</harvestedThingDef>
       <harvestWork>250</harvestWork>
       <fertilityMin>0.2</fertilityMin>
-      <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction>
+      <!-- <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction> -->
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
@@ -173,6 +173,7 @@
       <seedEmitMTBDays>3.5</seedEmitMTBDays>
       <fertilityFactorGrowthRate>0.90</fertilityFactorGrowthRate>
       <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
+      <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction>
     </plant>
   </ThingDef>
 
