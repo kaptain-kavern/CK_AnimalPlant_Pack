@@ -48,7 +48,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>PlantTaro</defName>
     <label>taro</label>
-    <description></description>
+    <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
     </statBases>
