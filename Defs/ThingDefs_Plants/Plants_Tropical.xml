@@ -306,7 +306,11 @@
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>RawLemongrass</harvestedThingDef>      
       <harvestWork>250</harvestWork>
-      <fertilityMin>0.05</fertilityMin>      
+      <fertilityMin>0.05</fertilityMin>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
       <visualSizeRange>
         <min>1.85</min>
         <max>2.15</max>
