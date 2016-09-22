@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>CK_Tropical_ManhunterPack</defName>
+    <label>rainforest animals attack</label>
+    <workerClass>IncidentWorker_ManhunterPack</workerClass>
+    <baseChance>2.0</baseChance>
+    <category>ThreatBig</category>
+    <minRefireDays>8</minRefireDays>
+    <pointsScaleable>true</pointsScaleable>
+    <pawnKinds>
+      <!-- <li>Gorilla</li> -->
+      <li>Jaguar</li>
+      <!-- <li>Komodo Dragon</li> -->
+      <li>Tiger</li>
+      <li>WhiteTiger</li>
+      <!-- <li>Python</li> -->
+    </pawnKinds>
+    <allowedBiomes>
+      <li>TropicalRainforest</li>
+    </allowedBiomes>
+  </IncidentDef>
+
+</Defs>
