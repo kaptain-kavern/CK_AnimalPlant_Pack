@@ -124,6 +124,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Tapir</texPath>
+          <drawSize>2.5</drawSize>          
           <shadowData>
             <volume>(0.5, 0.5, 0.4)</volume>
             <offset>(0,0,-0.05)</offset>
