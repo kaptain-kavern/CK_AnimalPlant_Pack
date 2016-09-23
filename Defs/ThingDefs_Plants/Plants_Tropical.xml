@@ -220,7 +220,7 @@
     <description></description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <Beauty>3</Beauty>
+      <Beauty>15</Beauty>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Bromeliad</texPath>
@@ -230,7 +230,7 @@
     <ingestible>
       <nutrition>0.15</nutrition>
     </ingestible>
-    <plant>      
+    <plant>
       <harvestWork>250</harvestWork>
       <fertilityMin>0.1</fertilityMin>
       <maxMeshCount>9</maxMeshCount>
@@ -252,7 +252,7 @@
     <description></description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <Beauty>5</Beauty>
+      <Beauty>25</Beauty>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Heliconia</texPath>
