@@ -8,6 +8,7 @@
     <description>A short palm.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
+      <Beauty>1</Beauty>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/BushPalm</texPath>
@@ -51,6 +52,7 @@
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
+      <Beauty>1</Beauty>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Taro</texPath>
@@ -101,6 +103,7 @@
     <description>A bushy plant which yields coffee beans.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
+      <Beauty>1</Beauty>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/BushCoffea</texPath>
@@ -149,7 +152,7 @@
     <description>Wild ferns. Significantly slows down anyone moving over it.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
-      <Beauty>0</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
     <pathCost>30</pathCost>
     <graphicData>
@@ -405,7 +408,7 @@
     <description>Wild lemongrass.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
-      <Beauty>0</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
     <pathCost>18</pathCost>
     <graphicData>
