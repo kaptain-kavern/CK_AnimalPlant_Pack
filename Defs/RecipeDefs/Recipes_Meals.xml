@@ -4,7 +4,7 @@
 	<RecipeDef>
 		<defName>CookMealCoconutSoup</defName>
 		<label>cook coconut soup</label>
-		<description>Cooks coconut soup from a combination of raw meat, coconuts and lemongrass.</description>
+		<description>Cooks coconut soup from a combination of raw meat(or eggs), coconuts and lemongrass.</description>
 		<jobString>Cooking coconut soup.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -47,11 +47,13 @@
 		</products>
 		<fixedIngredientFilter>
 			<categories>
-				<li>FoodRaw</li>
+				<li>MeatRaw</li>
+				<li>AnimalProductRaw</li>
 			</categories>
-			<disallowedSpecialFilters>
-				<li>AllowPlantFood</li>
-			</disallowedSpecialFilters>
+			<thingDefs>
+				<li>RawLemongrass</li>
+				<li>Coconuts</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<categories>
@@ -119,11 +121,13 @@
 		</products>
 		<fixedIngredientFilter>
 			<categories>
-				<li>FoodRaw</li>
+				<li>MeatRaw</li>
+				<li>AnimalProductRaw</li>
 			</categories>
-			<disallowedSpecialFilters>
-				<li>AllowPlantFood</li>
-			</disallowedSpecialFilters>
+			<thingDefs>
+				<li>RawLemongrass</li>
+				<li>RawRice</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<categories>
