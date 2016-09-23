@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="MealBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+      <foodType>Meal, Processed</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <optimalityOffset>7</optimalityOffset>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="MealBase" Name="MealRottable" Abstract="True">
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>4</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+  <ThingDef ParentName="MealRottable">
+    <defName>MealCoconutSoup</defName>
+    <label>coconut soup</label>
+    <description></description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Soup</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>28</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <nutrition>0.90</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="MealRottable">
+    <defName>MealRiceSoup</defName>
+    <label>rice soup</label>
+    <description></description>
+    <graphicData>
+      <texPath>Things/Item/Meal/NoodleSoup</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>28</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <nutrition>0.90</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+<!--   <ThingDef ParentName="MealRottable">
+    <defName>MealLavish</defName>
+    <label>lavish meal</label>
+    <description>A masterpiece of the culinary arts, this meal nourishes the body, mind, and soul.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Lavish</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>40</MarketValue>
+      <WorkToMake>800</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <nutrition>1.00</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef> -->
+
+</ThingDefs>
