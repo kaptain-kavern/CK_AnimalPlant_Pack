@@ -149,7 +149,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>PlantFern</defName>
     <label>Fern</label>
-    <description>Wild ferns. Significantly slows down anyone moving over it.</description>
+    <description>A green plant with long stems, wide, thin leaves, and no flowers. Significantly slows down anyone moving over it.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
       <Beauty>1</Beauty>
@@ -212,8 +212,8 @@
       <lifespanFraction>12</lifespanFraction>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
       <visualSizeRange>
-        <min>0.7</min>
-        <max>1.5</max>
+        <min>0.9</min>
+        <max>1.8</max>
       </visualSizeRange>
     </plant>
   </ThingDef>  
