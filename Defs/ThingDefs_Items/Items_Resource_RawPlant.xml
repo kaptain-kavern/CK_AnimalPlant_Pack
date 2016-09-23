@@ -150,6 +150,28 @@
     </comps>
   </ThingDef>
 
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawCocoa</defName>
+    <label>cocoa beans</label>
+    <description>cocoa beans.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/CocoaBeans</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>Seeds</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+      </li>
+    </comps>
+  </ThingDef>  
+
 
   
 </Defs>

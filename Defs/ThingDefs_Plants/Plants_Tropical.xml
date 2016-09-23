@@ -144,6 +144,53 @@
     </plant>
   </ThingDef>
 
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantCocoa</defName>
+    <label>cocoa bush</label>
+    <description>A bushy plant which yields cocoa beans.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/BushCocoa</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.6, 0.2, 0.6)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>30</pathCost>
+    <ingestible>
+      <nutrition>0.17</nutrition>
+    </ingestible>
+    <plant>      
+      <harvestYield>30</harvestYield>
+      <harvestWork>600</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>false</harvestDestroys>
+      <harvestedThingDef>RawCocoa</harvestedThingDef>
+      <fertilityMin>0.5</fertilityMin>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <wildClusterSizeRange>
+        <min>2</min>
+        <max>5</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>4</wildClusterRadius>
+      <visualSizeRange>
+        <min>1.2</min>
+        <max>1.8</max>
+      </visualSizeRange>
+      <growDays>5.5</growDays>
+      <topWindExposure>0.3</topWindExposure>
+      <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
+    </plant>
+  </ThingDef>  
+
   <!--======================= Wild plants - carpets ========================-->
 
   <ThingDef ParentName="PlantBase">
