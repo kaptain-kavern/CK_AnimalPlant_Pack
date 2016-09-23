@@ -256,6 +256,7 @@
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Bromeliad</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
     <selectable>true</selectable>
@@ -330,6 +331,7 @@
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Heliconia</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
     <selectable>true</selectable>
