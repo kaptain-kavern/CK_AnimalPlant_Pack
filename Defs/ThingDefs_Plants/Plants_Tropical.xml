@@ -40,7 +40,7 @@
         <min>1</min>
         <max>2</max>
       </visualSizeRange>
-      <growDays>10</growDays>
+      <growDays>7</growDays>
       <topWindExposure>0.3</topWindExposure>
       <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
     </plant>
@@ -191,6 +191,52 @@
     </plant>
 </ThingDef>
 
+<ThingDef ParentName="PlantBase">
+	<defName>PlantBushVanilla</defName>
+	<label>vanilla plant</label>
+	<description>A vanilla plant.</description>
+	<statBases>
+		<MaxHitPoints>85</MaxHitPoints>
+		<Beauty>5</Beauty>
+	</statBases>
+	<graphicData>
+		<texPath>Things/Plant/BushVanilla</texPath>
+		<graphicClass>Graphic_Random</graphicClass>
+		<shadowData>
+			<volume>(0.37, 0.2, 0.37)</volume>
+		</shadowData>
+	</graphicData>
+	<selectable>true</selectable>
+	<fillPercent>0.20</fillPercent>
+	<pathCost>17</pathCost>
+	<ingestible>
+		<nutrition>0.17</nutrition>
+	</ingestible>
+    <plant>
+      <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
+      <harvestYield>7</harvestYield>
+      <harvestWork>600</harvestWork>
+      <harvestTag>Standard</harvestTag>      
+      <harvestFailable>false</harvestFailable>
+      <harvestedThingDef>RawVanilla</harvestedThingDef>
+      <fertilityMin>0.6</fertilityMin>
+      <wildClusterSizeRange>
+        <min>2</min>
+        <max>3</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>6</wildClusterRadius>
+      <visualSizeRange>
+        <min>1</min>
+        <max>3</max>
+      </visualSizeRange>
+      <growDays>7</growDays>
+      <topWindExposure>0.5</topWindExposure>
+      <seedEmitMTBDays>2</seedEmitMTBDays>
+      <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
+      <fertilityFactorPlantChance>1.0</fertilityFactorPlantChance>
+    </plant>
+</ThingDef>
+
 <ThingDef ParentName="PlantBase" Abstract="True" Name="ChiliPepperBase">
 	<description>Chili plant is a perennial with small, tapering fruits, often two or three, at a node. The fruits are very pungent.</description>
 	<statBases>
@@ -242,7 +288,7 @@
 		<texPath>Things/Plant/BushChiliPeperGreen</texPath>
 	</graphicData>
 	<plant>
-		<harvestedThingDef>GreenChili</harvestedThingDef>
+		<harvestedThingDef>RawGreenChili</harvestedThingDef>
 	</plant>
 </ThingDef>
 
@@ -253,7 +299,7 @@
 		<texPath>Things/Plant/BushChiliPeperYellow</texPath>
 	</graphicData>
 	<plant>
-		<harvestedThingDef>YellowChili</harvestedThingDef>
+		<harvestedThingDef>RawYellowChili</harvestedThingDef>
 	</plant>
 </ThingDef>
 
@@ -264,7 +310,7 @@
 		<texPath>Things/Plant/BushChiliPeperRed</texPath>
 	</graphicData>
 	<plant>
-		<harvestedThingDef>RedChili</harvestedThingDef>
+		<harvestedThingDef>RawRedChili</harvestedThingDef>
 	</plant>
 </ThingDef>
 

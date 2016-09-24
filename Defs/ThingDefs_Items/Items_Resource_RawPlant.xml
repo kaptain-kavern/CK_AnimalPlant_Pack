@@ -85,7 +85,7 @@
     </ingestible>
   </ThingDef>
 
-  <ThingDef ParentName="PlantFoodRawBase">
+  <ThingDef ParentName="RoughPlantBase">
     <defName>RawLemongrass</defName>
     <label>lemongrass</label>
     <description></description>
@@ -102,7 +102,7 @@
       </li>
     </comps>
     <ingestible>
-      <foodType>VegetableOrFruit</foodType>
+      <li>PlantFoodRaw</li>
     </ingestible>
   </ThingDef>
 
@@ -128,7 +128,7 @@
     </ingestible>
   </ThingDef>
 
-  <ThingDef ParentName="PlantFoodRawBase">
+  <ThingDef ParentName="RoughPlantBase">
     <defName>RawCoffee</defName>
     <label>coffee beans</label>
     <description>coffee beans.</description>
@@ -150,7 +150,7 @@
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="PlantFoodRawBase">
+  <ThingDef ParentName="RoughPlantBase">
     <defName>RawCocoa</defName>
     <label>cocoa beans</label>
     <description>cocoa beans.</description>
@@ -172,8 +172,28 @@
     </comps>
   </ThingDef>
 
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>RawVanilla</defName>
+    <label>vanilla fruits</label>
+    <description>vanilla fruits.</description>    
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/VanillaFruit</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+    </statBases>
+    <ingestible>
+      <li>PlantFoodRaw</li>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>50</daysToRotStart>
+      </li>
+    </comps>
+  </ThingDef>
+
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>GreenChili</defName>
+    <defName>RawGreenChili</defName>
     <label>green chili peper</label>
     <description>Green chili peper</description>
     <graphicData>
@@ -193,7 +213,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>YellowChili</defName>
+    <defName>RawYellowChili</defName>
     <label>yellow chili peper</label>
     <description>Yellow chili peper</description>
     <graphicData>
@@ -213,7 +233,7 @@
   </ThingDef>
 
     <ThingDef ParentName="PlantFoodRawBase">
-    <defName>RedChili</defName>
+    <defName>RawRedChili</defName>
     <label>red chili peper</label>
     <description>Red chili peper</description>
     <graphicData>
@@ -234,7 +254,7 @@
 
   <ThingDef ParentName="RoughPlantBase">
     <defName>RawTobacco</defName>
-    <label>smokeleaf leaves</label>
+    <label>Tobacco</label>
     <description>Raw cut leaves of a tobacco plant. Can be rolled into cigarette/cigar at a crafting spot.</description>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/RawTobacco</texPath>
