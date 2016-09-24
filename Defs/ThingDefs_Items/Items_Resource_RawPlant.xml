@@ -104,6 +104,9 @@
     <ingestible>
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
@@ -148,6 +151,9 @@
         <daysToRotStart>60</daysToRotStart>
       </li>
     </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="RoughPlantBase">
@@ -170,6 +176,9 @@
         <daysToRotStart>60</daysToRotStart>
       </li>
     </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="RoughPlantBase">
@@ -190,6 +199,9 @@
         <daysToRotStart>50</daysToRotStart>
       </li>
     </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
