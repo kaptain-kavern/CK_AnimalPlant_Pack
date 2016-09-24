@@ -601,8 +601,8 @@
         <li>Hydroponic</li>
       </sowTags>
       <visualSizeRange>
-        <min>1.85</min>
-        <max>2.15</max>
+        <min>1.05</min>
+        <max>1.55</max>
       </visualSizeRange>
       <growDays>3</growDays>
       <wildClusterSizeRange>
