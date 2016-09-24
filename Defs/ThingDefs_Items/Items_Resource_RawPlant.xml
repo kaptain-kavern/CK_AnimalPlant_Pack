@@ -230,6 +230,27 @@
     <ingestible>      
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
-  </ThingDef>    
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>RawTobacco</defName>
+    <label>smokeleaf leaves</label>
+    <description>Raw cut leaves of a tobacco plant. Can be rolled into cigarette/cigar at a crafting spot.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/RawTobacco</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+  </ThingDef>  
 
 </Defs>

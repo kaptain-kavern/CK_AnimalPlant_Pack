@@ -568,6 +568,50 @@
     </plant>
 </ThingDef>
 
+<ThingDef ParentName="PlantBase">
+    <defName>PlantTobacco</defName>
+    <label>Tobacco</label>
+    <selectable>True</selectable>
+    <description>Tobacco.</description>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <pathCost>10</pathCost>
+    <graphicData>
+      <texPath>Things/Plant/Tobacco</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>    
+    <ingestible>
+      <nutrition>0.1</nutrition>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestYield>10</harvestYield>      
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>true</harvestDestroys>
+      <harvestedThingDef>RawTobacco</harvestedThingDef>      
+      <harvestWork>350</harvestWork>
+      <sowMinSkill>4</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.85</min>
+        <max>2.15</max>
+      </visualSizeRange>
+      <growDays>5.5</growDays>
+      <wildClusterSizeRange>
+        <min>2</min>
+        <max>5</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>4</wildClusterRadius>
+      <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
+      <topWindExposure>0.4</topWindExposure>
+    </plant>
+</ThingDef>
+
   <!--============================ Wild - Trees ============================-->
 
   <ThingDef ParentName="TreeBase">
