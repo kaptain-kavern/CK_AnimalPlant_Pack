@@ -170,8 +170,66 @@
         <daysToRotStart>60</daysToRotStart>
       </li>
     </comps>
-  </ThingDef>  
+  </ThingDef>
 
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>GreenChili</defName>
+    <label>green chili peper</label>
+    <description>Green chili peper</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/GreenChili</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+      </li>
+    </comps>
+    <ingestible>      
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
 
-  
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>YellowChili</defName>
+    <label>yellow chili peper</label>
+    <description>Yellow chili peper</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/YellowChili</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+      </li>
+    </comps>
+    <ingestible>      
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>
+
+    <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RedChili</defName>
+    <label>red chili peper</label>
+    <description>Red chili peper</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/RedChili</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>14</daysToRotStart>
+      </li>
+    </comps>
+    <ingestible>      
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+  </ThingDef>    
+
 </Defs>
