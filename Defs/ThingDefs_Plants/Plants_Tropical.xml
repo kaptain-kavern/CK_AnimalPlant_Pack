@@ -296,7 +296,7 @@
       <Beauty>15</Beauty>
     </statBases>
     <graphicData>
-      <texPath>Things/Plant/Bromeliad</texPath>
+      <texPath>Things/Plant/PottedBromeliad</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
@@ -371,7 +371,7 @@
       <Beauty>25</Beauty>
     </statBases>
     <graphicData>
-      <texPath>Things/Plant/Heliconia</texPath>
+      <texPath>Things/Plant/PottedHeliconia</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
