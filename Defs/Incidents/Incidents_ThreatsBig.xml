@@ -9,12 +9,13 @@
     <category>ThreatBig</category>
     <minRefireDays>8</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
-    <pawnKinds>
-      <!-- <li>Gorilla</li> -->
+    <pawnKinds>      
       <li>Jaguar</li>
-      <!-- <li>Komodo Dragon</li> -->
-      <li>Tiger</li>
-      <li>WhiteTiger</li>
+      <li>Cougar</li>
+      <li>Panther</li>
+      <li>Tiger</li>      
+      <!-- <li>Gorilla</li> -->
+      <!-- <li>Komodo Dragon</li> -->      
       <!-- <li>Python</li> -->
     </pawnKinds>
     <allowedBiomes>
