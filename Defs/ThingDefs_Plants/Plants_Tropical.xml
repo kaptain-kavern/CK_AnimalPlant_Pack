@@ -445,9 +445,17 @@
       <harvestWork>250</harvestWork>
       <fertilityMin>0.1</fertilityMin>
       <maxMeshCount>9</maxMeshCount>
+      <dieIfLeafless>true</dieIfLeafless>      
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>True</harvestDestroys>
+      <sowWork>400</sowWork>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
       <visualSizeRange>
         <min>0.6</min>
-        <max>1</max>
+        <max>1.2</max>
       </visualSizeRange>
       <growDays>3.5</growDays>
       <topWindExposure>0.4</topWindExposure>
@@ -466,7 +474,7 @@
       <Beauty>15</Beauty>
     </statBases>
     <graphicData>
-      <texPath>Things/Plant/Bromeliad</texPath>
+      <texPath>Things/Plant/PottedBromeliad</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
@@ -480,8 +488,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>True</harvestDestroys>
       <sowWork>400</sowWork>
-      <sowTags>
-        <li>Ground</li>
+      <sowTags>        
         <li>Decorative</li>
       </sowTags>
       <growMinGlow>0.3</growMinGlow>
@@ -490,8 +497,8 @@
       <lifespanFraction>7</lifespanFraction>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
       <visualSizeRange>
-        <min>0.6</min>
-        <max>1</max>
+        <min>1.2</min>
+        <max>1.5</max>
       </visualSizeRange>
     </plant>
 </ThingDef>  
@@ -513,6 +520,14 @@
       <nutrition>0.15</nutrition>
     </ingestible>
     <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>true</harvestDestroys>
+      <sowWork>400</sowWork>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
       <fertilityMin>0.35</fertilityMin>
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>
@@ -541,7 +556,7 @@
       <Beauty>25</Beauty>
     </statBases>
     <graphicData>
-      <texPath>Things/Plant/Heliconia</texPath>
+      <texPath>Things/Plant/PottedHeliconia</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
@@ -555,8 +570,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <sowWork>400</sowWork>
-      <sowTags>
-        <li>Ground</li>
+      <sowTags>        
         <li>Decorative</li>
       </sowTags>
       <growMinGlow>0.3</growMinGlow>
@@ -565,8 +579,8 @@
       <lifespanFraction>3</lifespanFraction>
       <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
       <visualSizeRange>
-        <min>0.6</min>
-        <max>1</max>
+        <min>1.2</min>
+        <max>1.5</max>
       </visualSizeRange>
     </plant>
 </ThingDef>  
