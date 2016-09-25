@@ -124,11 +124,11 @@
 </wildPlants>
     <wildAnimals>
       <!-- Common -->
-         <Chinchilla>2</Chinchilla>
-         <Capybara>1.2</Capybara>
-         <Rat>0.8</Rat>
-         <WildBoar>0.5</WildBoar>
-         <Tortoise>0.4</Tortoise>
+         <Chinchilla>2.5</Chinchilla>
+         <Capybara>2.2</Capybara>
+         <Rat>1.8</Rat>
+         <WildBoar>1.5</WildBoar>
+         <Tortoise>1.4</Tortoise>
          <!-- <Anteater>1</Anteater> -->
          <!-- <Sloth>0.8</Sloth> -->
          <!-- <Tapir>1.5</Tapir> -->
@@ -150,11 +150,11 @@
       <!-- Rare -->
          <Panther>0.12</Panther>
          <Cobra>0.1</Cobra>
-         <Iguana>0.1</Iguana>
+         <Iguana>0.6</Iguana>
          <!-- <KomodoDragon>0.12</KomodoDragon> -->
          <!-- <Ocelot>0.12</Ocelot> -->
       <!-- Very Rare -->
-         <Cassowary>0.05</Cassowary>
+         <Cassowary>0.15</Cassowary>
          <WhiteTiger>0.008</WhiteTiger>
     </wildAnimals>
     <allowedPackAnimals>      
