@@ -275,8 +275,7 @@
       <harvestWork>250</harvestWork>
       <fertilityMin>0.1</fertilityMin>
       <maxMeshCount>9</maxMeshCount>
-      <dieIfLeafless>true</dieIfLeafless>
-      <shootsSeeds>false</shootsSeeds>
+      <dieIfLeafless>true</dieIfLeafless>      
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>True</harvestDestroys>
       <sowWork>400</sowWork>
@@ -352,7 +351,6 @@
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
-      <shootsSeeds>false</shootsSeeds>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <sowWork>400</sowWork>
