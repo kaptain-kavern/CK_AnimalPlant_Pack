@@ -328,8 +328,8 @@
       <lifespanFraction>7</lifespanFraction>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
       <visualSizeRange>
-        <min>0.9</min>
-        <max>1.1</max>
+        <min>1.2</min>
+        <max>1.5</max>
       </visualSizeRange>
     </plant>
   </ThingDef>  
@@ -411,8 +411,8 @@
       <lifespanFraction>3</lifespanFraction>
       <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
       <visualSizeRange>
-        <min>0.9</min>
-        <max>1.1</max>
+        <min>1.2</min>
+        <max>1.5</max>
       </visualSizeRange>
     </plant>
   </ThingDef>  
