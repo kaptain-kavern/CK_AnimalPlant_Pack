@@ -275,9 +275,18 @@
       <harvestWork>250</harvestWork>
       <fertilityMin>0.1</fertilityMin>
       <maxMeshCount>9</maxMeshCount>
+      <dieIfLeafless>true</dieIfLeafless>
+      <shootsSeeds>false</shootsSeeds>
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>True</harvestDestroys>
+      <sowWork>400</sowWork>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
       <visualSizeRange>
         <min>0.6</min>
-        <max>1</max>
+        <max>1.2</max>
       </visualSizeRange>
       <growDays>3.5</growDays>
       <topWindExposure>0.4</topWindExposure>
@@ -310,8 +319,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>True</harvestDestroys>
       <sowWork>400</sowWork>
-      <sowTags>
-        <li>Ground</li>
+      <sowTags>        
         <li>Decorative</li>
       </sowTags>
       <growMinGlow>0.3</growMinGlow>
@@ -320,8 +328,8 @@
       <lifespanFraction>7</lifespanFraction>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
       <visualSizeRange>
-        <min>0.6</min>
-        <max>1</max>
+        <min>0.9</min>
+        <max>1.1</max>
       </visualSizeRange>
     </plant>
   </ThingDef>  
@@ -343,6 +351,15 @@
       <nutrition>0.15</nutrition>
     </ingestible>
     <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <shootsSeeds>false</shootsSeeds>
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>true</harvestDestroys>
+      <sowWork>400</sowWork>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
       <fertilityMin>0.35</fertilityMin>
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>
@@ -385,8 +402,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <sowWork>400</sowWork>
-      <sowTags>
-        <li>Ground</li>
+      <sowTags>        
         <li>Decorative</li>
       </sowTags>
       <growMinGlow>0.3</growMinGlow>
@@ -395,8 +411,8 @@
       <lifespanFraction>3</lifespanFraction>
       <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
       <visualSizeRange>
-        <min>0.6</min>
-        <max>1</max>
+        <min>0.9</min>
+        <max>1.1</max>
       </visualSizeRange>
     </plant>
   </ThingDef>  
