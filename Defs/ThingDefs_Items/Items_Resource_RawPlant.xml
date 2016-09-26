@@ -85,7 +85,7 @@
     </ingestible>
   </ThingDef>
 
-  <ThingDef ParentName="RoughPlantBase">
+  <ThingDef ParentName="PlantFoodRawBase">
     <defName>RawLemongrass</defName>
     <label>lemongrass</label>
     <description></description>
@@ -103,10 +103,7 @@
     </comps>
     <ingestible>
       <foodType>VegetableOrFruit</foodType>
-    </ingestible>
-    <thingCategories>
-      <li>PlantMatter</li>
-    </thingCategories>
+    </ingestible>    
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
@@ -146,11 +143,11 @@
     <ingestible>
       <foodType>Seeds</foodType>
     </ingestible>
-    <comps>
+<!--     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>60</daysToRotStart>
       </li>
-    </comps>
+    </comps> -->
     <thingCategories>
       <li>PlantMatter</li>
     </thingCategories>
@@ -171,10 +168,10 @@
     <ingestible>
       <foodType>Seeds</foodType>
     </ingestible>
-    <comps>
+<!--     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>60</daysToRotStart>
-      </li>
+      </li> -->
     </comps>
     <thingCategories>
       <li>PlantMatter</li>
@@ -276,7 +273,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>30</daysToRotStart>
+        <daysToRotStart>60</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
