@@ -289,9 +289,9 @@
     	</statBases>
     	<race>
       		<herdAnimal>false</herdAnimal>
-		    <baseBodySize>0.3</baseBodySize>
+		    <baseBodySize>0.4</baseBodySize>
 		    <baseHungerRate>0.3</baseHungerRate>
-		    <baseHealthScale>0.4</baseHealthScale>
+		    <baseHealthScale>0.5</baseHealthScale>
 		    <foodType>VegetarianRoughAnimal</foodType>
 		    <trainableIntelligence>None</trainableIntelligence>
 		    <wildness>0.45</wildness>

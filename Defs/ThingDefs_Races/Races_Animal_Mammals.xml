@@ -9,6 +9,13 @@
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <MarketValue>150</MarketValue>
     </statBases>
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Milk</milkDef>
+        <milkIntervalDays>1</milkIntervalDays>
+        <milkAmount>8</milkAmount>
+      </li>
+    </comps>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
@@ -147,13 +154,13 @@
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <MarketValue>350</MarketValue>
     </statBases>
-<!--     <comps>
+    <comps>
       <li Class="CompProperties_Milkable">
         <milkDef>Milk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
         <milkAmount>8</milkAmount>
       </li>
-    </comps> -->    
+    </comps>    
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
