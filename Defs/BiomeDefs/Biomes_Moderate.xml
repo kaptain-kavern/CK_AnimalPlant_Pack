@@ -129,7 +129,9 @@
          <Rat>1.8</Rat>
          <WildBoar>1.5</WildBoar>
          <Tortoise>1.4</Tortoise>
-         <Tapir>1.5</Tapir>
+         <Tapir>1</Tapir>
+         <Okapi>0.8</Okapi>
+         <Junglefowl>1.5</Junglefowl>
          <!-- <Anteater>1</Anteater> -->
          <!-- <Sloth>0.8</Sloth> -->
          <!-- <CapuchinMonkey>1.6</CapuchinMonkey> -->
@@ -142,7 +144,7 @@
          <Jaguar>0.2</Jaguar>      
          <!-- <Python>0.16</Python> -->
          <!-- <Toucan>0.2</Toucan> -->
-         <!-- <Peafowl>0.2</Peafowl> -->
+         <Peafowl>0.2</Peafowl>
          <!-- <Gorilla>0.2</Gorilla> -->
          <!-- <Orangutan>0.2</Orangutan> -->
          <!-- <Macaw>0.2</Macaw> -->

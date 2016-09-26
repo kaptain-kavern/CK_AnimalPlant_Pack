@@ -162,14 +162,14 @@
 	</PawnKindDef>
 
 <!--===============================================-->
-	<ThingDef ParentName="BigBirdThingBase">
+	<ThingDef ParentName="SmallBirdThingBase">
 		<defName>Peafowl</defName>
 	    <label>peafowl</label>
 	    <description></description>
 	    <statBases>
 	      <MoveSpeed>3.5</MoveSpeed>
 	      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
-	      <MarketValue>450</MarketValue>
+	      <MarketValue>1250</MarketValue>
 	    </statBases>
 	    <race>
 	      <herdAnimal>false</herdAnimal>
@@ -199,15 +199,7 @@
 	        <defaultCooldownTicks>100</defaultCooldownTicks>
 	        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
 	        <meleeDamageDef>Scratch</meleeDamageDef>
-	        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
-	        <surpriseAttack>
-	          <extraMeleeDamages>
-	            <li>
-	              <def>Stun</def>
-	              <amount>20</amount>
-	            </li>
-	          </extraMeleeDamages>
-	        </surpriseAttack>
+	        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>	        
 	      </li>
 	      <li>
 	        <verbClass>Verb_MeleeAttack</verbClass>
@@ -219,7 +211,7 @@
 	          <extraMeleeDamages>
 	            <li>
 	              <def>Stun</def>
-	              <amount>20</amount>
+	              <amount>10</amount>
 	            </li>
 	          </extraMeleeDamages>
 	        </surpriseAttack>
@@ -227,7 +219,7 @@
 	    </verbs>
 	  </ThingDef>
 
-  	<PawnKindDef ParentName="BigBirdKindBase">
+  	<PawnKindDef ParentName="SmallBirdKindBase">
   		<defName>Peafowl</defName>
   		<label>peafowl</label>
   		<race>Peafowl</race>
@@ -237,18 +229,18 @@
   			<li>
   				<label>peachick</label>
   				<bodyGraphicData>
-  					<texPath>Things/Pawn/Animal/Turkey/TurkeyHen</texPath>
-  					<drawSize>1.0</drawSize>
+  					<texPath>Things/Pawn/Animal/Peafowl</texPath>
+  					<drawSize>1.2</drawSize>
   				</bodyGraphicData>
   				<dessicatedBodyGraphicData>
   					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-  					<drawSize>1.0</drawSize>
+  					<drawSize>1.2</drawSize>
   				</dessicatedBodyGraphicData>
   			</li>
   			<li>
   				<bodyGraphicData>
-  					<texPath>Things/Pawn/Animal/Turkey/TurkeyHen</texPath>
-  					<drawSize>1.2</drawSize>
+  					<texPath>Things/Pawn/Animal/Peafowl</texPath>
+  					<drawSize>1.3</drawSize>
   					<shadowData>
   						<volume>(0.3, 0.3, 0.3)</volume>
   						<offset>(0,0,-0.3)</offset>
@@ -256,14 +248,13 @@
   				</bodyGraphicData>
   				<dessicatedBodyGraphicData>
   					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-  					<drawSize>1.2</drawSize>
+  					<drawSize>1.3</drawSize>
   				</dessicatedBodyGraphicData>
   			</li>
   			<li>
   				<bodyGraphicData>
-  					<texPath>Things/Pawn/Animal/Turkey/TurkeyTom</texPath>
-  					<color>(0,255,255)</color>  					
-  					<drawSize>1.5</drawSize>
+  					<texPath>Things/Pawn/Animal/Peafowl</texPath>
+  					<drawSize>1.8</drawSize>
   					<shaderType>CutoutComplex</shaderType>
   					<shadowData>
   						<volume>(0.4, 0.4, 0.4)</volume>
@@ -271,7 +262,7 @@
   					</shadowData>
   				</bodyGraphicData>
   				<femaleGraphicData>
-  					<texPath>Things/Pawn/Animal/Turkey/TurkeyHen</texPath>
+  					<texPath>Things/Pawn/Animal/Peafowl</texPath>
   					<drawSize>1.4</drawSize>
   					<shadowData>
   						<volume>(0.4, 0.4, 0.4)</volume>
@@ -285,5 +276,121 @@
   			</li>
   		</lifeStages>
   	</PawnKindDef>
+
+<!--===============================================-->
+  	<ThingDef ParentName="SmallBirdThingBase">
+  		<defName>Junglefowl</defName>
+  		<label>junglefowl</label>
+    	<description>The junglefowl is a tropical member of the family Phasianidae (Same as pheasants, chickens and peafowl). It is thought to be ancestral to the domestic chicken. The red junglefowl was first domesticated at least from 5,400 BC in ol'Earth Asia</description>
+    	<statBases>
+    		<MoveSpeed>2.8</MoveSpeed>
+      		<ComfyTemperatureMin>-8</ComfyTemperatureMin>
+      		<MarketValue>80</MarketValue>
+    	</statBases>
+    	<race>
+      		<herdAnimal>false</herdAnimal>
+		    <baseBodySize>0.4</baseBodySize>
+		    <baseHungerRate>0.3</baseHungerRate>
+		    <baseHealthScale>0.5</baseHealthScale>
+		    <foodType>VegetarianRoughAnimal</foodType>
+		    <trainableIntelligence>None</trainableIntelligence>
+		    <wildness>0.45</wildness>
+		    <lifeExpectancy>9</lifeExpectancy>
+		    <leatherColor>(80,80,80)</leatherColor>
+		</race>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>EggJunglefowlFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>11</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>
+					<min>1</min>
+					<max>3</max>
+				</eggCountRange>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+        		<verbClass>Verb_MeleeAttack</verbClass>
+        		<defaultCooldownTicks>90</defaultCooldownTicks>
+        		<meleeDamageBaseAmount>3</meleeDamageBaseAmount>
+		        <meleeDamageDef>Scratch</meleeDamageDef>
+        		<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+        	</li>
+        	<li>
+        		<verbClass>Verb_MeleeAttack</verbClass>
+        		<defaultCooldownTicks>100</defaultCooldownTicks>
+        		<meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+        		<meleeDamageDef>Bite</meleeDamageDef>
+        		<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+        		<surpriseAttack>
+        			<extraMeleeDamages>
+        				<li>
+        					<def>Stun</def>
+        					<amount>6</amount>
+        				</li>
+        			</extraMeleeDamages>
+        		</surpriseAttack>
+        	</li>
+        </verbs>
+    </ThingDef>
+
+  <PawnKindDef ParentName="SmallBirdKindBase">
+    <defName>Junglefowl</defName>
+    <label>junglefowl</label>
+    <race>Junglefowl</race>
+    <labelMale>jungle peacock</labelMale>
+  	<labelFemale>jungle peahen</labelFemale>    
+    <lifeStages>
+      <li>
+      	<label>jungle peachick</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Junglefowl</texPath>
+          <drawSize>0.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Junglefowl</texPath>
+          <drawSize>0.7</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Junglefowl</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Junglefowl</texPath>
+          <drawSize>0.9</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
 
 </Defs>
