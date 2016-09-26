@@ -357,8 +357,8 @@
     <defName>Junglefowl</defName>
     <label>junglefowl</label>
     <race>Junglefowl</race>
-    <labelMale>peacock</labelMale>
-  	<labelFemale>peahen</labelFemale>    
+    <labelMale>jungle peacock</labelMale>
+  	<labelFemale>jungle peahen</labelFemale>    
     <lifeStages>
       <li>
         <bodyGraphicData>
