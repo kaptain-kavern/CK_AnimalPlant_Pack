@@ -141,7 +141,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Okapi</defName>
     <label>okapi</label>
-    <description></description>
+    <description>A giraffid artiodactyl mammal native from ol'Earth Central Africa. Okapis are primarily diurnal but may be active for a few hours in darkness. They are essentially solitary, coming together only to breed. Okapis are herbivores, feeding on tree leaves and buds, grasses, ferns, fruits, and fungi. Okapis inhabit canopy forests at altitudes of 500–1,500 m (1,600–4,900 ft). </description>
     <statBases>
       <MoveSpeed>3.2</MoveSpeed>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
