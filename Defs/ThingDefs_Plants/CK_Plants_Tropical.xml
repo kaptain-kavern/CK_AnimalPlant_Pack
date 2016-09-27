@@ -89,7 +89,7 @@
         <min>1</min>
         <max>1.2</max>
       </visualSizeRange>
-      <growDays>5</growDays>
+      <growDays>4</growDays>
       <topWindExposure>0.3</topWindExposure>
       <seedEmitMTBDays>1.5</seedEmitMTBDays>
       <fertilityFactorGrowthRate>0.3</fertilityFactorGrowthRate>
@@ -214,7 +214,7 @@
 	</ingestible>
     <plant>
       <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
-      <harvestYield>7</harvestYield>
+      <harvestYield>30</harvestYield>
       <harvestWork>600</harvestWork>
       <harvestTag>Standard</harvestTag>      
       <harvestFailable>false</harvestFailable>
@@ -229,7 +229,7 @@
         <min>1</min>
         <max>3</max>
       </visualSizeRange>
-      <growDays>7</growDays>
+      <growDays>5.5</growDays>
       <topWindExposure>0.5</topWindExposure>
       <seedEmitMTBDays>2</seedEmitMTBDays>
       <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
@@ -661,7 +661,7 @@
         <min>1.85</min>
         <max>2.15</max>
       </visualSizeRange>
-      <growDays>5.5</growDays>
+      <growDays>6.84</growDays>
       <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
