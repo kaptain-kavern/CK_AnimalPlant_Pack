@@ -6,7 +6,7 @@
     <label>make chocolate</label>
     <description>Make chocolate from vanilla and cocoa beans.</description>
     <jobString>Making chocolate.</jobString>
-    <workSpeedStat>CookingSpeed</workSpeedStat>
+    <workSpeedStat>CookSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Cooking</soundWorking>
     <allowMixingIngredients>true</allowMixingIngredients>
