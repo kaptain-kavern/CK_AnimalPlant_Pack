@@ -220,6 +220,10 @@
       <harvestFailable>false</harvestFailable>
       <harvestedThingDef>RawVanilla</harvestedThingDef>
       <fertilityMin>0.6</fertilityMin>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
       <wildClusterSizeRange>
         <min>2</min>
         <max>3</max>
