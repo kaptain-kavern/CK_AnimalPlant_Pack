@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+<!--===========================  Wild - clustering bushes (some harvestable) ==============================-->
 
-    <!--===========================  Wild - clustering bushes (some harvestable) ==============================-->
-  <ThingDef ParentName="PlantBase">
-    <defName>PlantBushPalm</defName>
-    <label>palm</label>
-    <description>A short palm.</description>
-    <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
-      <Beauty>1</Beauty>
-    </statBases>
-    <graphicData>
-      <texPath>Things/Plant/BushPalm</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-       <shadowData>
-         <volume>(0.37, 0.2, 0.37)</volume>
-       </shadowData>
-    </graphicData>
-    <selectable>true</selectable>
-    <fillPercent>0.25</fillPercent>
-    <pathCost>30</pathCost>
-    <ingestible>
-      <nutrition>0.17</nutrition>
-    </ingestible>
+<ThingDef ParentName="PlantBase">
+	<defName>PlantBushPalm</defName>
+	<label>palm</label>
+	<description>A short palm.</description>
+	<statBases>
+		<MaxHitPoints>120</MaxHitPoints>
+		<Beauty>1</Beauty>
+	</statBases>
+	<graphicData>
+		<texPath>Things/Plant/BushPalm</texPath>
+		<graphicClass>Graphic_Random</graphicClass>
+		<shadowData>
+			<volume>(0.37, 0.2, 0.37)</volume>
+		</shadowData>
+	</graphicData>
+	<selectable>true</selectable>
+	<fillPercent>0.25</fillPercent>
+	<pathCost>30</pathCost>
+	<ingestible>
+		<nutrition>0.17</nutrition>
+	</ingestible>
     <plant>
       <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
       <harvestYield>6</harvestYield>
@@ -40,32 +40,32 @@
         <min>1</min>
         <max>2</max>
       </visualSizeRange>
-      <growDays>10</growDays>
+      <growDays>7</growDays>
       <topWindExposure>0.3</topWindExposure>
       <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
     </plant>
-  </ThingDef>
+</ThingDef>
 
-  <ThingDef ParentName="PlantBase">
-    <defName>PlantTaro</defName>
-    <label>taro</label>
-    <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
-    <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
-      <Beauty>1</Beauty>
-    </statBases>
+<ThingDef ParentName="PlantBase">
+ 	<defName>PlantTaro</defName>
+ 	<label>taro</label>
+ 	<description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
+ 	<statBases>
+ 		<MaxHitPoints>120</MaxHitPoints>
+ 		<Beauty>1</Beauty>
+ 	</statBases>
     <graphicData>
-      <texPath>Things/Plant/Taro</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-      <shadowData>
-        <volume>(0.6, 0.2, 0.6)</volume>
-      </shadowData>
+    	<texPath>Things/Plant/Taro</texPath>
+    	<graphicClass>Graphic_Random</graphicClass>
+    	<shadowData>
+    		<volume>(0.6, 0.2, 0.6)</volume>
+    	</shadowData>
     </graphicData>
     <selectable>true</selectable>
     <fillPercent>0.25</fillPercent>
     <pathCost>20</pathCost>
     <ingestible>
-      <nutrition>0.25</nutrition>
+    	<nutrition>0.25</nutrition>
     </ingestible>
     <plant>
       <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
@@ -95,9 +95,9 @@
       <fertilityFactorGrowthRate>0.3</fertilityFactorGrowthRate>
       <!-- <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance> -->
     </plant>
-  </ThingDef>
+</ThingDef>
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
     <defName>PlantCoffea</defName>
     <label>coffea bush</label>
     <description>A bushy plant which yields coffee beans.</description>
@@ -142,11 +142,181 @@
       <topWindExposure>0.3</topWindExposure>
       <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
     </plant>
-  </ThingDef>
+</ThingDef>
 
-  <!--======================= Wild plants - carpets ========================-->
+<ThingDef ParentName="PlantBase">
+    <defName>PlantCocoa</defName>
+    <label>cocoa bush</label>
+    <description>A bushy plant which yields cocoa beans.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/BushCocoa</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.6, 0.2, 0.6)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>30</pathCost>
+    <ingestible>
+      <nutrition>0.17</nutrition>
+    </ingestible>
+    <plant>      
+      <harvestYield>30</harvestYield>
+      <harvestWork>600</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>false</harvestDestroys>
+      <harvestedThingDef>RawCocoa</harvestedThingDef>
+      <fertilityMin>0.5</fertilityMin>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <wildClusterSizeRange>
+        <min>2</min>
+        <max>5</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>4</wildClusterRadius>
+      <visualSizeRange>
+        <min>1.2</min>
+        <max>1.8</max>
+      </visualSizeRange>
+      <growDays>5.5</growDays>
+      <topWindExposure>0.3</topWindExposure>
+      <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
+    </plant>
+</ThingDef>
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
+	<defName>PlantBushVanilla</defName>
+	<label>vanilla plant</label>
+	<description>A vanilla plant.</description>
+	<statBases>
+		<MaxHitPoints>85</MaxHitPoints>
+		<Beauty>5</Beauty>
+	</statBases>
+	<graphicData>
+		<texPath>Things/Plant/BushVanilla</texPath>
+		<graphicClass>Graphic_Random</graphicClass>
+		<shadowData>
+			<volume>(0.37, 0.2, 0.37)</volume>
+		</shadowData>
+	</graphicData>
+	<selectable>true</selectable>
+	<fillPercent>0.20</fillPercent>
+	<pathCost>17</pathCost>
+	<ingestible>
+		<nutrition>0.17</nutrition>
+	</ingestible>
+    <plant>
+      <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
+      <harvestYield>7</harvestYield>
+      <harvestWork>600</harvestWork>
+      <harvestTag>Standard</harvestTag>      
+      <harvestFailable>false</harvestFailable>
+      <harvestedThingDef>RawVanilla</harvestedThingDef>
+      <fertilityMin>0.6</fertilityMin>
+      <wildClusterSizeRange>
+        <min>2</min>
+        <max>3</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>6</wildClusterRadius>
+      <visualSizeRange>
+        <min>1</min>
+        <max>3</max>
+      </visualSizeRange>
+      <growDays>7</growDays>
+      <topWindExposure>0.5</topWindExposure>
+      <seedEmitMTBDays>2</seedEmitMTBDays>
+      <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
+      <fertilityFactorPlantChance>1.0</fertilityFactorPlantChance>
+    </plant>
+</ThingDef>
+
+<ThingDef ParentName="PlantBase" Abstract="True" Name="ChiliPepperBase">
+	<description>Chili plant is a perennial with small, tapering fruits, often two or three, at a node. The fruits are very pungent.</description>
+	<statBases>
+		<MaxHitPoints>120</MaxHitPoints>
+		<Beauty>1</Beauty>
+	</statBases>
+	<graphicData>
+		<graphicClass>Graphic_Random</graphicClass>
+		<shadowData>
+			<volume>(0.6, 0.2, 0.6)</volume>
+		</shadowData>
+	</graphicData>
+	<selectable>true</selectable>
+	<pathCost>10</pathCost>
+	<ingestible>
+		<nutrition>0.20</nutrition>
+	</ingestible>
+	<plant>
+		<dieIfLeafless>true</dieIfLeafless>
+		<harvestTag>Standard</harvestTag>
+		<harvestDestroys>false</harvestDestroys>
+		<harvestWork>500</harvestWork>
+		<harvestYield>6</harvestYield>
+		<fertilityMin>0.5</fertilityMin>
+		<wildClusterSizeRange>
+			<min>2</min>
+			<max>5</max>
+		</wildClusterSizeRange>
+		<wildClusterRadius>4</wildClusterRadius>
+		<sowMinSkill>6</sowMinSkill>
+		<sowTags>
+			<li>Ground</li>
+			<li>Hydroponic</li>
+		</sowTags>
+		<topWindExposure>0.3</topWindExposure>
+		<growDays>3.65</growDays>
+		<fertilityFactorGrowthRate>0.6</fertilityFactorGrowthRate>
+		<visualSizeRange>
+			<min>0.7</min>
+			<max>1.1</max>
+		</visualSizeRange>
+	</plant>
+</ThingDef>
+
+<ThingDef ParentName="ChiliPepperBase">
+	<defName>PlantBushChiliPeperGreen</defName>
+	<label>Green Chili Peper</label>
+	<graphicData>
+		<texPath>Things/Plant/BushChiliPeperGreen</texPath>
+	</graphicData>
+	<plant>
+		<harvestedThingDef>RawGreenChili</harvestedThingDef>
+	</plant>
+</ThingDef>
+
+<ThingDef ParentName="ChiliPepperBase">
+	<defName>PlantBushChiliPeperYellow</defName>
+	<label>Yellow Chili Peper</label>
+	<graphicData>
+		<texPath>Things/Plant/BushChiliPeperYellow</texPath>
+	</graphicData>
+	<plant>
+		<harvestedThingDef>RawYellowChili</harvestedThingDef>
+	</plant>
+</ThingDef>
+
+<ThingDef ParentName="ChiliPepperBase">
+	<defName>PlantBushChiliPeperRed</defName>
+	<label>Red Chili Peper</label>
+	<graphicData>
+		<texPath>Things/Plant/BushChiliPeperRed</texPath>
+	</graphicData>
+	<plant>
+		<harvestedThingDef>RawRedChili</harvestedThingDef>
+	</plant>
+</ThingDef>
+
+<!--======================= Wild plants - carpets ========================-->
+
+<ThingDef ParentName="PlantBase">
     <defName>PlantFern</defName>
     <label>Fern</label>
     <description>A green plant with long stems, wide, thin leaves, and no flowers. Significantly slows down anyone moving over it.</description>
@@ -178,9 +348,9 @@
       <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
       <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction>
     </plant>
-  </ThingDef>
+</ThingDef>
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
     <defName>PlantPottedFern</defName>
     <label>Fern</label>
     <description>Ornemental fern</description>
@@ -216,9 +386,9 @@
         <max>1.8</max>
       </visualSizeRange>
     </plant>
-  </ThingDef>  
+</ThingDef>  
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
   	<defName>PlantRafflesia</defName>
   	<label>rafflesia</label>
     <selectable>True</selectable>
@@ -253,9 +423,9 @@
       </wildClusterSizeRange>
       <wildClusterRadius>10</wildClusterRadius>
     </plant>
-  </ThingDef>
+</ThingDef>
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
     <defName>PlantBromeliad</defName>
     <label>bromeliad</label>
     <description>Commonly known as the Flaming torch, is a species of bromeliad that is native to ol'Earth Brazil, Venezuela, French Guiana, Antilles and Cuba. They are adaptable, growing well as a terrestrial or epiphytic plant. When on the ground, they quickly create large clumps, and when planted at the base of a tree, they slowly will climb the trunk. The flowers on an individual plant last less than one month, but nearly all of the plants will come into bloom at the same time in the late summer.</description>
@@ -293,9 +463,9 @@
       <fertilityFactorGrowthRate>0.90</fertilityFactorGrowthRate>
       <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
     </plant>
-  </ThingDef>
+</ThingDef>
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
     <defName>PlantPottedBromeliad</defName>
     <label>bromeliad</label>
     <description>Commonly known as the Flaming torch, is a species of bromeliad that is native to ol'Earth Brazil, Venezuela, French Guiana, Antilles and Cuba. They are adaptable, growing well as a terrestrial or epiphytic plant. When on the ground, they quickly create large clumps, and when planted at the base of a tree, they slowly will climb the trunk. The flowers on an individual plant last less than one month, but nearly all of the plants will come into bloom at the same time in the late summer.</description>
@@ -331,9 +501,9 @@
         <max>1.5</max>
       </visualSizeRange>
     </plant>
-  </ThingDef>  
+</ThingDef>  
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
     <defName>PlantHeliconia</defName>
     <label>heliconia</label>
     <description>Heliconias are sometimes called "lobster claws" or "parrot flowers" because of their beak-like "bracts".The leaves of this plant are paddle-shaped, and they are related to the banana family. The heliconia's flowers are tiny and found inside these bracts, which are so large and colorful that they almost hide the flowers altogether. Heliconias are found throughout the Neotropics and are actually quite common in the rainforest.</description>
@@ -375,9 +545,9 @@
       </wildClusterSizeRange>
       <wildClusterRadius>4</wildClusterRadius>
     </plant>
-  </ThingDef>
+</ThingDef>
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
     <defName>PlantPottedHeliconia</defName>
     <label>heliconia</label>
     <description>Heliconias are sometimes called "lobster claws" or "parrot flowers" because of their beak-like "bracts".The leaves of this plant are paddle-shaped, and they are related to the banana family. The heliconia's flowers are tiny and found inside these bracts, which are so large and colorful that they almost hide the flowers altogether. Heliconias are found throughout the Neotropics and are actually quite common in the rainforest.</description>
@@ -413,9 +583,9 @@
         <max>1.5</max>
       </visualSizeRange>
     </plant>
-  </ThingDef>  
+</ThingDef>  
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
     <defName>PlantLemongrass</defName>
     <label>lemongrass</label>
     <selectable>True</selectable>
@@ -445,8 +615,8 @@
         <li>Hydroponic</li>
       </sowTags>
       <visualSizeRange>
-        <min>1.85</min>
-        <max>2.15</max>
+        <min>1.05</min>
+        <max>1.55</max>
       </visualSizeRange>
       <growDays>3</growDays>
       <wildClusterSizeRange>
@@ -456,7 +626,51 @@
       <wildClusterRadius>4</wildClusterRadius>
       <topWindExposure>0.4</topWindExposure>
     </plant>
-  </ThingDef>
+</ThingDef>
+
+<ThingDef ParentName="PlantBase">
+    <defName>PlantTobacco</defName>
+    <label>Tobacco</label>
+    <selectable>True</selectable>
+    <description>Tobacco.</description>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <pathCost>10</pathCost>
+    <graphicData>
+      <texPath>Things/Plant/Tobacco</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>    
+    <ingestible>
+      <nutrition>0.1</nutrition>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestYield>10</harvestYield>      
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>true</harvestDestroys>
+      <harvestedThingDef>RawTobacco</harvestedThingDef>      
+      <harvestWork>350</harvestWork>
+      <sowMinSkill>4</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.85</min>
+        <max>2.15</max>
+      </visualSizeRange>
+      <growDays>5.5</growDays>
+      <wildClusterSizeRange>
+        <min>2</min>
+        <max>5</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>4</wildClusterRadius>
+      <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
+      <topWindExposure>0.4</topWindExposure>
+    </plant>
+</ThingDef>
 
   <!--============================ Wild - Trees ============================-->
 
