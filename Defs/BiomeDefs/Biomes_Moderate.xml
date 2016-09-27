@@ -126,13 +126,13 @@
       <!-- Common -->
          <Chinchilla>2.5</Chinchilla>
          <Capybara>2.2</Capybara>
-         <Rat>1.8</Rat>
+         <Rat>1</Rat>
          <WildBoar>1.5</WildBoar>
-         <Tortoise>1.4</Tortoise>
-         <Tapir>1</Tapir>
-         <Okapi>0.8</Okapi>
+         <Tortoise>1</Tortoise>
+         <Tapir>1.5</Tapir>
+         <Okapi>1.8</Okapi>
          <Junglefowl>1.5</Junglefowl>
-         <!-- <Anteater>1</Anteater> -->
+         <!-- <Anteater>1.8</Anteater> -->
          <!-- <Sloth>0.8</Sloth> -->
          <!-- <CapuchinMonkey>1.6</CapuchinMonkey> -->
          <!-- <SpiderMonkey>1.6</SpiderMonkey> -->         
