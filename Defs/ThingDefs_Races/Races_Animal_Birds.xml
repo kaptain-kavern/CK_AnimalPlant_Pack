@@ -4,6 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase" Name="BigBirdThingBase" Abstract="True">
 		<race>
 			<body>Bird</body>
+			<useMeatFrom>Cassowary</useMeatFrom>
 			<leatherInsulation>0.5</leatherInsulation>      
 		    <gestationPeriodDays>20</gestationPeriodDays>
 		    <lifeStageAges>
@@ -56,7 +57,9 @@
 		    <baseHungerRate>0.5</baseHungerRate>
 		    <baseBodySize>0.5</baseBodySize>
 		    <baseHealthScale>0.7</baseHealthScale>
-		    <foodType>VegetarianRoughAnimal</foodType>      
+		    <foodType>VegetarianRoughAnimal</foodType>
+		    <leatherLabel>birdskin</leatherLabel>
+		    <useMeatFrom>Cassowary</useMeatFrom>
 		    <wildness>30</wildness>
 		    <lifeExpectancy>10</lifeExpectancy>
 		    <lifeStageAges>
