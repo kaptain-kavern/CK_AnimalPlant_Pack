@@ -179,8 +179,8 @@
 <!--     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>60</daysToRotStart>
-      </li> -->
-    </comps>
+      </li> 
+    </comps> -->
     <thingCategories>
       <li>PlantMatter</li>
     </thingCategories>
