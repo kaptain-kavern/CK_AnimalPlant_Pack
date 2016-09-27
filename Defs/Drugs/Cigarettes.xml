@@ -90,7 +90,9 @@
   </HediffDef>
   
   <ThoughtDef>
+    <defName>TobaccoHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>TobaccoHigh</hediff>
     <stages>
       <li>
         <label>smoke a cigarette</label>
