@@ -81,6 +81,8 @@
     <ingestible>
       <preferability>RawTasty</preferability>
       <tastesRaw>false</tastesRaw>
+      <joy>0.01</joy>
+      <joyKind>Gluttonous</joyKind>      
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
   </ThingDef>
@@ -101,7 +103,7 @@
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
-    <ingestible>
+    <ingestible>      
       <foodType>VegetableOrFruit</foodType>
     </ingestible>    
   </ThingDef>
@@ -124,6 +126,8 @@
     <ingestible>
       <preferability>RawTasty</preferability>
       <tastesRaw>false</tastesRaw>
+      <joy>0.01</joy>
+      <joyKind>Gluttonous</joyKind>      
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
   </ThingDef>
@@ -141,7 +145,9 @@
       <MarketValue>2.5</MarketValue>
     </statBases>
     <ingestible>
+      <preferability>DesperateOnly</preferability>
       <foodType>Seeds</foodType>
+      <nutrition>0.01</nutrition>
     </ingestible>
 <!--     <comps>
       <li Class="CompProperties_Rottable">
@@ -166,7 +172,9 @@
       <MarketValue>2.5</MarketValue>
     </statBases>
     <ingestible>
+      <preferability>DesperateOnly</preferability>
       <foodType>Seeds</foodType>
+      <nutrition>0.01</nutrition>
     </ingestible>
 <!--     <comps>
       <li Class="CompProperties_Rottable">
@@ -189,7 +197,9 @@
       <MarketValue>2.5</MarketValue>
     </statBases>
     <ingestible>
+      <preferability>DesperateOnly</preferability>
       <foodType>Plant</foodType>
+      <nutrition>0.01</nutrition>
     </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
