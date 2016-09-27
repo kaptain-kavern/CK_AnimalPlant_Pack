@@ -19,9 +19,16 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>RawCocoa</li>
+          <thingDefs>            
             <li>RawVanilla</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCocoa</li>            
           </thingDefs>
         </filter>
         <count>8</count>
