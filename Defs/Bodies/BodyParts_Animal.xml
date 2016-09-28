@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <BodyPartDef>
+    <defName>LeftHorn</defName>
+    <label>left horn</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0.2</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightHorn</defName>
+    <label>right horn</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0.2</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+  </BodyPartDef>
+
+</Defs>
