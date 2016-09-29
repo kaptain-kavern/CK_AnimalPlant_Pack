@@ -65,7 +65,7 @@
     <fillPercent>0.25</fillPercent>
     <pathCost>20</pathCost>
     <ingestible>
-      <nutrition>0.25</nutrition>
+      <nutrition>0.2</nutrition>
     </ingestible>
     <plant>
       <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
@@ -161,7 +161,7 @@
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
-      <nutrition>0.25</nutrition>
+      <nutrition>0.12</nutrition>
     </ingestible>
     <plant>
       <harvestWork>250</harvestWork>
@@ -195,7 +195,7 @@
     <altitudeLayer>Item</altitudeLayer>
     <selectable>true</selectable>
     <ingestible>
-      <nutrition>0.03</nutrition>
+      <nutrition>0.1</nutrition>
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
@@ -269,7 +269,7 @@
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
-      <nutrition>0.15</nutrition>
+      <nutrition>0.2</nutrition>
     </ingestible>
     <plant>
       <harvestWork>250</harvestWork>
@@ -310,7 +310,7 @@
     <altitudeLayer>Item</altitudeLayer>
     <selectable>true</selectable>
     <ingestible>
-      <nutrition>0.03</nutrition>
+      <nutrition>0.1</nutrition>
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
@@ -347,7 +347,7 @@
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
-      <nutrition>0.15</nutrition>
+      <nutrition>0.2</nutrition>
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
@@ -392,7 +392,7 @@
     <altitudeLayer>Item</altitudeLayer>
     <selectable>true</selectable>
     <ingestible>
-      <nutrition>0.03</nutrition>
+      <nutrition>0.1</nutrition>
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
@@ -431,7 +431,7 @@
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
-      <nutrition>0.18</nutrition>
+      <nutrition>0.2</nutrition>
     </ingestible>
     <plant>
       <harvestYield>10</harvestYield>      
