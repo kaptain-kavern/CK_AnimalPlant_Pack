@@ -192,7 +192,7 @@
 	      <baseHungerRate>0.8</baseHungerRate>
 	      <baseHealthScale>1.2</baseHealthScale>
 	      <foodType>VegetarianRoughAnimal</foodType>
-	      <leatherColor>(201,201,201)</leatherColor>
+	      <leatherColor>(40,20,10)</leatherColor>
 	      <leatherInsulation>0.75</leatherInsulation>
 	      <wildness>0.75</wildness>
 	      <trainableIntelligence>Intermediate</trainableIntelligence>
