@@ -49,4 +49,40 @@
     </tradeTags>
   </ThingDef>
 
+  <!--=============== Rhinoceros horn ====================-->
+  
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>RhinocerosHorn</defName>
+    <label>rhinoceros horn</label>
+    <description>A rhinoceros' horn. Very durable and valuable. Somewhat unwieldy as a weapon.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/ElephantTusk</texPath>
+      <color>(145,150,145)</color>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>450</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+      <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.2</MeleeWeapon_Cooldown>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+      </li>
+    </verbs>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
 </GameData>
