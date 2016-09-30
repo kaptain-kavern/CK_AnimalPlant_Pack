@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+  <Plants>    
+  <!--=========================== Food crops ==============================-->
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantTaro</defName>
+    <label>taro</label>
+    <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Taro</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.6, 0.2, 0.6)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.15</fillPercent>
+    <pathCost>20</pathCost>
+    <ingestible>
+      <nutrition>0.2</nutrition>
+    </ingestible>
+    <plant>      
+      <harvestYield>10</harvestYield>      
+      <dieIfLeafless>true</dieIfLeafless>
+      <shootsSeeds>false</shootsSeeds>
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>true</harvestDestroys>
+      <harvestedThingDef>TaroRoot</harvestedThingDef>
+      <harvestWork>250</harvestWork>
+      <fertilityMin>0.2</fertilityMin>      
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>      
+      <visualSizeRange>
+        <min>1</min>
+        <max>1.2</max>
+      </visualSizeRange>
+      <growDays>4</growDays>
+      <topWindExposure>0.3</topWindExposure>      
+      <fertilityFactorGrowthRate>0.3</fertilityFactorGrowthRate>      
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantCoffea</defName>
+    <label>coffea bush</label>
+    <description>A bushy plant which yields coffee beans.</description>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/BushCoffea</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.6, 0.2, 0.6)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>20</pathCost>
+    <ingestible>
+      <nutrition>0.2</nutrition>
+    </ingestible>
+    <plant>
+      <sowMinSkill>5</sowMinSkill>
+      <harvestYield>30</harvestYield>
+      <harvestWork>400</harvestWork>
+      <dieIfLeafless>true</dieIfLeafless>
+      <shootsSeeds>false</shootsSeeds>
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>false</harvestDestroys>
+      <harvestedThingDef>RawCoffee</harvestedThingDef>
+      <fertilityMin>0.4</fertilityMin>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>     
+      <visualSizeRange>
+        <min>1.2</min>
+        <max>1.8</max>
+      </visualSizeRange>
+      <growDays>5.5</growDays>
+      <topWindExposure>0.3</topWindExposure>
+      <fertilityFactorGrowthRate>0.6</fertilityFactorGrowthRate>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantLemongrass</defName>
+    <label>lemongrass</label>
+    <selectable>True</selectable>
+    <description>Lemongrass.</description>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <pathCost>10</pathCost>
+    <graphicData>
+      <texPath>Things/Plant/Lemongrass</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <ingestible>
+      <nutrition>0.18</nutrition>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <shootsSeeds>false</shootsSeeds>
+      <harvestYield>10</harvestYield>      
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>true</harvestDestroys>
+      <harvestedThingDef>RawLemongrass</harvestedThingDef>      
+      <harvestWork>250</harvestWork>
+      <fertilityMin>0.05</fertilityMin>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.85</min>
+        <max>2.15</max>
+      </visualSizeRange>
+      <growDays>3</growDays>
+      <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
+      <topWindExposure>0.4</topWindExposure>
+    </plant>
+  </ThingDef>
+  <!--=========================== Production crops ==============================-->
+  <!--=========================== Drug crops ==============================-->    
+  </Plants>
