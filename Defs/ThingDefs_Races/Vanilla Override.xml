@@ -200,7 +200,6 @@
       <li>StandardAnimal</li>
     </tradeTags>
   </ThingDef>
-
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Rhinoceros</defName>
     <label>rhinoceros</label>

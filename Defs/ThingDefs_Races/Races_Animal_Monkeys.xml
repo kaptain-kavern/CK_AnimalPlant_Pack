@@ -195,8 +195,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>0.5</drawSize>
-          <!-- <color>(161,95,38)</color> -->
+          <drawSize>0.5</drawSize>          
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -206,8 +205,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>0.8</drawSize>
-          <!-- <color>(161,95,38)</color> -->
+          <drawSize>0.8</drawSize>          
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -217,8 +215,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>1.2</drawSize>
-          <!-- <color>(161,95,38)</color> -->
+          <drawSize>1.2</drawSize>          
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -303,10 +300,6 @@
     <label>spider monkey</label>
     <race>SpiderMonkey</race>
     <combatPower>45</combatPower>
-<!--     <wildSpawn_GroupSizeRange>
-      <min>10</min>
-      <max>20</max>
-    </wildSpawn_GroupSizeRange>   -->
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -358,10 +351,6 @@
     <defName>CapuchinMonkey</defName>
     <label>capuchin monkey</label>
     <race>CapuchinMonkey</race>
-<!--     <wildSpawn_GroupSizeRange>
-      <min>10</min>
-      <max>20</max>
-    </wildSpawn_GroupSizeRange>   -->
     <lifeStages>
       <li>
         <bodyGraphicData>
