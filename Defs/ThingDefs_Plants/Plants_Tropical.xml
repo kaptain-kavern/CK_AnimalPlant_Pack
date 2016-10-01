@@ -46,6 +46,7 @@
     </plant>
 </ThingDef>
 
+<<<<<<< HEAD:Defs/ThingDefs_Plants/CK_Plants_Tropical.xml
 <ThingDef ParentName="PlantBase">
  	<defName>PlantTaro</defName>
  	<label>taro</label>
@@ -54,6 +55,16 @@
  		<MaxHitPoints>120</MaxHitPoints>
  		<Beauty>1</Beauty>
  	</statBases>
+=======
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantWildTaro</defName>
+    <label>taro</label>
+    <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+>>>>>>> dev:Defs/ThingDefs_Plants/Plants_Tropical.xml
     <graphicData>
     	<texPath>Things/Plant/Taro</texPath>
     	<graphicClass>Graphic_Random</graphicClass>
@@ -62,10 +73,14 @@
     	</shadowData>
     </graphicData>
     <selectable>true</selectable>
-    <fillPercent>0.25</fillPercent>
+    <fillPercent>0.15</fillPercent>
     <pathCost>20</pathCost>
     <ingestible>
+<<<<<<< HEAD:Defs/ThingDefs_Plants/CK_Plants_Tropical.xml
     	<nutrition>0.25</nutrition>
+=======
+      <nutrition>0.2</nutrition>
+>>>>>>> dev:Defs/ThingDefs_Plants/Plants_Tropical.xml
     </ingestible>
     <plant>
       <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
@@ -75,11 +90,7 @@
       <harvestedThingDef>TaroRoot</harvestedThingDef>
       <harvestWork>250</harvestWork>
       <fertilityMin>0.2</fertilityMin>
-      <!-- <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction> -->
-      <sowTags>
-        <li>Ground</li>
-        <li>Hydroponic</li>
-      </sowTags>
+      <!-- <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction> -->      
       <wildClusterSizeRange>
         <min>2</min>
         <max>4</max>
@@ -92,13 +103,17 @@
       <growDays>4</growDays>
       <topWindExposure>0.3</topWindExposure>
       <seedEmitMTBDays>1.5</seedEmitMTBDays>
-      <fertilityFactorGrowthRate>0.3</fertilityFactorGrowthRate>
-      <!-- <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance> -->
+      <fertilityFactorGrowthRate>0.3</fertilityFactorGrowthRate>      
     </plant>
 </ThingDef>
 
+<<<<<<< HEAD:Defs/ThingDefs_Plants/CK_Plants_Tropical.xml
 <ThingDef ParentName="PlantBase">
     <defName>PlantCoffea</defName>
+=======
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantWildCoffea</defName>
+>>>>>>> dev:Defs/ThingDefs_Plants/Plants_Tropical.xml
     <label>coffea bush</label>
     <description>A bushy plant which yields coffee beans.</description>
     <statBases>
@@ -124,11 +139,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
       <harvestedThingDef>RawCoffee</harvestedThingDef>
-      <fertilityMin>0.5</fertilityMin>
-      <sowTags>
-        <li>Ground</li>
-        <li>Hydroponic</li>
-      </sowTags>
+      <fertilityMin>0.5</fertilityMin>      
       <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
@@ -335,7 +346,7 @@
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
-      <nutrition>0.25</nutrition>
+      <nutrition>0.12</nutrition>
     </ingestible>
     <plant>
       <harvestWork>250</harvestWork>
@@ -354,6 +365,7 @@
     </plant>
 </ThingDef>
 
+<<<<<<< HEAD:Defs/ThingDefs_Plants/CK_Plants_Tropical.xml
 <ThingDef ParentName="PlantBase">
     <defName>PlantPottedFern</defName>
     <label>Fern</label>
@@ -393,6 +405,9 @@
 </ThingDef>  
 
 <ThingDef ParentName="PlantBase">
+=======
+  <ThingDef ParentName="PlantBase">
+>>>>>>> dev:Defs/ThingDefs_Plants/Plants_Tropical.xml
   	<defName>PlantRafflesia</defName>
   	<label>rafflesia</label>
     <selectable>True</selectable>
@@ -443,7 +458,7 @@
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
-      <nutrition>0.15</nutrition>
+      <nutrition>0.2</nutrition>
     </ingestible>
     <plant>
       <harvestWork>250</harvestWork>
@@ -467,6 +482,7 @@
       <fertilityFactorGrowthRate>0.90</fertilityFactorGrowthRate>
       <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
     </plant>
+<<<<<<< HEAD:Defs/ThingDefs_Plants/CK_Plants_Tropical.xml
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
@@ -506,6 +522,9 @@
       </visualSizeRange>
     </plant>
 </ThingDef>  
+=======
+  </ThingDef> 
+>>>>>>> dev:Defs/ThingDefs_Plants/Plants_Tropical.xml
 
 <ThingDef ParentName="PlantBase">
     <defName>PlantHeliconia</defName>
@@ -521,7 +540,7 @@
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
-      <nutrition>0.15</nutrition>
+      <nutrition>0.2</nutrition>
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
@@ -549,6 +568,7 @@
       </wildClusterSizeRange>
       <wildClusterRadius>4</wildClusterRadius>
     </plant>
+<<<<<<< HEAD:Defs/ThingDefs_Plants/CK_Plants_Tropical.xml
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
@@ -591,6 +611,12 @@
 
 <ThingDef ParentName="PlantBase">
     <defName>PlantLemongrass</defName>
+=======
+  </ThingDef>  
+
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantWildLemongrass</defName>
+>>>>>>> dev:Defs/ThingDefs_Plants/Plants_Tropical.xml
     <label>lemongrass</label>
     <selectable>True</selectable>
     <description>Wild lemongrass.</description>
@@ -605,7 +631,7 @@
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
-      <nutrition>0.18</nutrition>
+      <nutrition>0.2</nutrition>
     </ingestible>
     <plant>
       <harvestYield>10</harvestYield>      
@@ -613,11 +639,7 @@
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>RawLemongrass</harvestedThingDef>      
       <harvestWork>250</harvestWork>
-      <fertilityMin>0.05</fertilityMin>
-      <sowTags>
-        <li>Ground</li>
-        <li>Hydroponic</li>
-      </sowTags>
+      <fertilityMin>0.05</fertilityMin>      
       <visualSizeRange>
         <min>1.05</min>
         <max>1.55</max>
@@ -673,6 +695,7 @@
       <wildClusterRadius>4</wildClusterRadius>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
       <topWindExposure>0.4</topWindExposure>
+      <fertilityFactorGrowthRate>0.90</fertilityFactorGrowthRate>
     </plant>
 </ThingDef>
 
@@ -810,7 +833,7 @@
       		<nutrition>1.50</nutrition>
       	</ingestible>
 	    <plant>
-	    	<growDays>15</growDays>
+	    	<growDays>17</growDays>
 	    	<sowWork>1500</sowWork>
 	    	<harvestWork>800</harvestWork>
   			<harvestTag>Standard</harvestTag>
