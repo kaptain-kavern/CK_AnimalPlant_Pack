@@ -74,8 +74,7 @@
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>TaroRoot</harvestedThingDef>
       <harvestWork>250</harvestWork>
-      <fertilityMin>0.2</fertilityMin>
-      <!-- <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction> -->      
+      <fertilityMin>0.2</fertilityMin>            
       <wildClusterSizeRange>
         <min>2</min>
         <max>4</max>
