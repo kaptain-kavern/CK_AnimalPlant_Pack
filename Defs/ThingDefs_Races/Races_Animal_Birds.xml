@@ -303,10 +303,11 @@
 		</race>
 		<comps>
 			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>EggJunglefowlUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>EggJunglefowlFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>11</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggLayIntervalDays>7</eggLayIntervalDays>
+				<!-- <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax> -->
 				<eggCountRange>
 					<min>1</min>
 					<max>3</max>
