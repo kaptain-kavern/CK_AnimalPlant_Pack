@@ -6,8 +6,7 @@
     <defName>Wilder</defName>
     <label>wilder</label>
     <description>These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, wilders are a nomadic people living within in the Rim's tropical rainforests. They practice ritual sacrifice and cannabilism.</description>
-    <pawnsPlural>wilders</pawnsPlural>
-    <!-- <requiredCountAtGameStart>1</requiredCountAtGameStart> -->
+    <pawnsPlural>wilders</pawnsPlural>    
     <canMakeRandomly>true</canMakeRandomly>
     <raidCommonality>100</raidCommonality>
     <canStageAttacks>true</canStageAttacks>
@@ -76,7 +75,7 @@
     <label>jungle trader</label>
     <description>A small community of survivors.\n\nThese people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple mechanical tools and defend themselves with advanced gunpowder weapons.\n\nJungle Traders consist of various traders within the Rim's tropical rainforests</description>
     <pawnsPlural>jungle traders</pawnsPlural>
-    <!-- <requiredCountAtGameStart>1</requiredCountAtGameStart> -->
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <raidCommonality>100</raidCommonality>
     <canSiege>true</canSiege>
@@ -98,7 +97,7 @@
     </naturalColonyGoodwill>
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
-      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Animal_Traders</li>
       <li>Caravan_Outlander_Exotic</li>
       <li>Caravan_Outlander_PirateMerchant</li>
     </caravanTraderKinds>
@@ -138,7 +137,7 @@
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
-    <homeIconColor>(150,150,255)</homeIconColor>
+    <homeIconColor>(0,100,255)</homeIconColor>
   </FactionDef>
 
 </FactionDefs>

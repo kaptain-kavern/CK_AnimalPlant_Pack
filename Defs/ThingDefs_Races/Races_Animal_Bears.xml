@@ -117,6 +117,9 @@
       <meatLabel>panda meat</meatLabel>
       <predator>false</predator>
     </race>
+    <tradeTags>
+      <li>CK_RareAnimal</li>
+    </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="BearBase">
