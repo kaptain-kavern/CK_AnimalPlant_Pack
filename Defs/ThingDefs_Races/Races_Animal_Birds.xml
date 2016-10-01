@@ -231,8 +231,9 @@
   			<li>
   				<label>peachick</label>
   				<bodyGraphicData>
-  					<texPath>Things/Pawn/Animal/Peafowl</texPath>
-  					<drawSize>1.2</drawSize>
+  					<texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>
+  					<color>(150,135,55)</color>
+  					<drawSize>0.5</drawSize>  					
   				</bodyGraphicData>
   				<dessicatedBodyGraphicData>
   					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -296,7 +297,7 @@
 		    <baseHealthScale>0.5</baseHealthScale>
 		    <foodType>VegetarianRoughAnimal</foodType>
 		    <trainableIntelligence>None</trainableIntelligence>
-		    <wildness>0.45</wildness>
+		    <wildness>0.4</wildness>
 		    <lifeExpectancy>9</lifeExpectancy>
 		    <leatherColor>(80,80,80)</leatherColor>
 		</race>
@@ -348,8 +349,8 @@
       <li>
       	<label>jungle peachick</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Junglefowl</texPath>
-          <drawSize>0.5</drawSize>
+          <texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>				<color>(150,135,55)</color>
+          <drawSize>0.45</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
