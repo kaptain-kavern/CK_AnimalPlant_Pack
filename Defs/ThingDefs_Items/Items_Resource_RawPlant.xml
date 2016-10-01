@@ -149,11 +149,6 @@
       <foodType>Seeds</foodType>
       <nutrition>0.01</nutrition>
     </ingestible>
-<!--     <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>60</daysToRotStart>
-      </li>
-    </comps> -->
     <thingCategories>
       <li>PlantMatter</li>
     </thingCategories>
@@ -176,11 +171,6 @@
       <foodType>Seeds</foodType>
       <nutrition>0.01</nutrition>
     </ingestible>
-<!--     <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>60</daysToRotStart>
-      </li> 
-    </comps> -->
     <thingCategories>
       <li>PlantMatter</li>
     </thingCategories>

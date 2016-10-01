@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugBase">
     <defName>TobaccoRoll</defName>
     <label>tobacco roll</label>
-    <description>Raw tobacco prepared in small rolls for smoking. Improves mood and also decreases appetite a bit, but reduces focus a bit. Smoking can produce a dependency. Can be produced without equipment, at a crafting spot.</description>
+    <description>Raw tobacco prepared in small rolls for smoking. Improves mood and also decreases appetite but reduces focus a bit. Smoking can produce a dependency. Can be produced without equipment, at a crafting spot.</description>
     <graphicData>
       <texPath>Things/Item/Drug/CigRoll</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
