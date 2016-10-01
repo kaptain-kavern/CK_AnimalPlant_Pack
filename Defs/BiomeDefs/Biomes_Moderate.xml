@@ -108,11 +108,11 @@
          <PlantBromeliad>0.3</PlantBromeliad>
          <PlantWildRice>0.3</PlantWildRice>
          <PlantTreeBamboo>0.4</PlantTreeBamboo>
-         <PlantTaro>0.3</PlantTaro>
+         <PlantWildTaro>0.3</PlantWildTaro>
       <!-- Rare -->
         <PlantTreeBanana>0.25</PlantTreeBanana>
-        <PlantCoffea>0.2</PlantCoffea>
-        <PlantLemongrass>0.2</PlantLemongrass>
+        <PlantWildCoffea>0.2</PlantWildCoffea>
+        <PlantWildLemongrass>0.2</PlantWildLemongrass>
         <PlantTreeCoconutPalm>0.25</PlantTreeCoconutPalm>
         <PlantHeliconia>0.12</PlantHeliconia>
       <!-- Very Rare -->
