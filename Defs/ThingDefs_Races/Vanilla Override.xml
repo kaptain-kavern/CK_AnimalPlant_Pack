@@ -676,7 +676,8 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>DeerAntler</thing>          
+          <thing>DeerAntler</thing>
+          <allowFemale>false</allowFemale>
         </dropBodyPart>
       </li>
     </lifeStages>
@@ -822,7 +823,8 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>ElkAntler</thing>          
+          <thing>ElkAntler</thing>
+          <allowFemale>false</allowFemale>
         </dropBodyPart>
       </li>
     </lifeStages>
@@ -951,7 +953,8 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>CaribouAntler</thing>          
+          <thing>CaribouAntler</thing>
+          <allowFemale>true</allowFemale>
         </dropBodyPart>
       </li>
     </lifeStages>
