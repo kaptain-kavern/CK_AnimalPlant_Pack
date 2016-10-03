@@ -95,7 +95,7 @@
       <texPath>Things/Item/Special/GazelleHorn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <equippedAngleOffset>20</equippedAngleOffset>
+    <equippedAngleOffset>90</equippedAngleOffset>
     <statBases>
       <MarketValue>200</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
@@ -131,7 +131,7 @@
       <texPath>Things/Item/Special/IbexHorn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <equippedAngleOffset>20</equippedAngleOffset>
+    <equippedAngleOffset>90</equippedAngleOffset>
     <statBases>
       <MarketValue>200</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>

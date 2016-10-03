@@ -255,7 +255,8 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>RhinocerosHorn</thing>          
+          <thing>RhinocerosHorn</thing>
+          <allowFemale>true</allowFemale>
         </dropBodyPart>
       </li>
     </lifeStages>
@@ -526,7 +527,8 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>IbexHorn</thing>          
+          <thing>IbexHorn</thing>
+          <allowFemale>false</allowFemale>
         </dropBodyPart>        
       </li>
     </lifeStages>
