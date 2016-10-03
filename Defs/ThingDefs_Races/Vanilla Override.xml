@@ -260,54 +260,45 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-<!-- ======================= Deer ==========================-->  
+<!-- ====================== Gazelle ========================-->
   <ThingDef ParentName="AnimalThingBase">
-    <defName>Deer</defName>
-    <label>deer</label>
-    <description>A medium-sized herding herbivore. Generally peaceful unless disturbed.</description>
+    <defName>Gazelle</defName>
+    <label>gazelle</label>
+    <description>A small, extremely quick antelope known for its amazingly long leap.</description>
     <statBases>
-      <MoveSpeed>4.84</MoveSpeed>
-      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
-      <MarketValue>200</MarketValue>
+      <MoveSpeed>6.2</MoveSpeed>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <MarketValue>120</MarketValue>
     </statBases>
-    <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>Milk</milkDef>
-        <milkIntervalDays>2</milkIntervalDays>
-        <milkAmount>4</milkAmount>
-      </li>
-    </comps>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTicks>100</defaultCooldownTicks>
-        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
-        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTicks>100</defaultCooldownTicks>
-        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
-        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
     </verbs>
     <race>
-      <body>QuadrupedAnimalWithHooves</body>
+      <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>      
+      <body>QuadrupedAnimalWithHoovesAndHorns</body>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>0.9</baseBodySize>
-      <baseHungerRate>0.45</baseHungerRate>
-      <baseHealthScale>0.9</baseHealthScale>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHungerRate>0.35</baseHungerRate>
+      <baseHealthScale>0.7</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(162,106,57)</leatherColor>
-      <leatherLabel>deerhide</leatherLabel>
-      <leatherInsulation>0.9</leatherInsulation>
-      <meatLabel>venison</meatLabel>
+      <leatherColor>(214,134,59)</leatherColor>
+      <leatherInsulation>0.75</leatherInsulation>
       <wildness>0.75</wildness>
-      <nuzzleMtbHours>120</nuzzleMtbHours>
-      <gestationPeriodDays>22.5</gestationPeriodDays>
-      <lifeExpectancy>15</lifeExpectancy>
+      <gestationPeriodDays>20</gestationPeriodDays>
+      <lifeExpectancy>12</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -315,11 +306,11 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>0.25</minAge>
+          <minAge>0.20</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>0.8</minAge>
+          <minAge>0.7</minAge>
           <soundWounded>Pawn_Deer_Wounded</soundWounded>
           <soundDeath>Pawn_Deer_Death</soundDeath>
           <soundCall>Pawn_Deer_Call</soundCall>
@@ -333,39 +324,33 @@
     <tradeTags>
       <li>StandardAnimal</li>
     </tradeTags>
-  </ThingDef>  
+  </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Deer</defName>
-    <label>deer</label>
-    <race>Deer</race>
-    <combatPower>50</combatPower>
+    <defName>Gazelle</defName>
+    <label>gazelle</label>
+    <race>Gazelle</race>
+    <combatPower>40</combatPower>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.7</wildSpawn_EcoSystemWeight>
+    <wildSpawn_EcoSystemWeight>0.55</wildSpawn_EcoSystemWeight>
     <wildSpawn_GroupSizeRange>
-      <min>3</min>
-      <max>9</max>
+      <min>4</min>
+      <max>13</max>
     </wildSpawn_GroupSizeRange>
-    <labelMale>buck</labelMale>
-    <labelFemale>doe</labelFemale>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Deer/DeerBaby</texPath>
-          <drawSize>1.1</drawSize>
-          <color>(140,74,41)</color>
-          <shaderType>CutoutComplex</shaderType>
+          <texPath>Things/Pawn/Animal/Gazelle/Gazelle</texPath>
+          <drawSize>1.0</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.0</drawSize>
+          <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Deer/DeerBaby</texPath>
-          <drawSize>1.5</drawSize>
-          <color>(140,74,41)</color>
-          <shaderType>CutoutComplex</shaderType>
+          <texPath>Things/Pawn/Animal/Gazelle/Gazelle</texPath>
+          <drawSize>1.3</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -373,37 +358,32 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.15</drawSize>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Deer/DeerMale</texPath>
-          <drawSize>3.45</drawSize>
-          <color>(156,112,62)</color>
-          <shaderType>CutoutComplex</shaderType>
+          <texPath>Things/Pawn/Animal/Gazelle/Gazelle</texPath>
+          <drawSize>1.65</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
-        <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Deer/DeerFemale</texPath>
-          <drawSize>1.55</drawSize>
-          <color>(188,146,110)</color>
-          <shaderType>CutoutComplex</shaderType>
-          <shadowData>
-            <volume>(0.4, 0.4, 0.4)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
-        </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.35</drawSize>
+          <drawSize>1.65</drawSize>
         </dessicatedBodyGraphicData>
+        <dropBodyPart>
+            <bodyPartGroup>HornAttackTool</bodyPartGroup>
+            <thing>GazelleHorn</thing>
+            <allowFemale>true</allowFemale>
+          </dropBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>
+<!-- ======================= Deer ==========================-->  
+
 <!-- ======================= Ibex ==========================-->
   <ThingDef ParentName="AnimalThingBase">
     <defName>Ibex</defName>
@@ -438,7 +418,8 @@
       </li>
     </verbs>
     <race>
-      <body>QuadrupedAnimalWithHooves</body>
+      <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
+      <body>QuadrupedAnimalWithHoovesAndHorns</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.85</baseBodySize>
       <baseHungerRate>0.35</baseHungerRate>
@@ -543,6 +524,10 @@
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
           <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
+        <dropBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>IbexHorn</thing>          
+        </dropBodyPart>        
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -800,4 +785,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+<!-- ==================== Chinchilla =======================-->
+<!-- ==================== Chinchilla =======================-->
 </Defs>
