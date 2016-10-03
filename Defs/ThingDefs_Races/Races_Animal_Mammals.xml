@@ -303,8 +303,8 @@
 	      <li>
 	        <verbClass>Verb_MeleeAttack</verbClass>
 	        <defaultCooldownTicks>110</defaultCooldownTicks>
-	        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
-	        <meleeDamageDef>Scratch</meleeDamageDef>
+	        <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
+	        <meleeDamageDef>Blunt</meleeDamageDef>
 	        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 	      </li>	      
 	    </verbs>
