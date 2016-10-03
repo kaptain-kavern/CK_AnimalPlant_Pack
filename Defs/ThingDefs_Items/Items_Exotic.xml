@@ -65,8 +65,8 @@
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.2</MeleeWeapon_Cooldown>
+      <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.4</MeleeWeapon_Cooldown>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
@@ -110,7 +110,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <meleeDamageDef>Stab</meleeDamageDef>
       </li>
     </verbs>
     <thingCategories>
@@ -146,7 +146,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <meleeDamageDef>Blunt</meleeDamageDef>
       </li>
     </verbs>
     <thingCategories>
