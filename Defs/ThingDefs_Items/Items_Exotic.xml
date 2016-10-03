@@ -170,11 +170,11 @@
     <equippedAngleOffset>90</equippedAngleOffset>
     <statBases>
       <MarketValue>75</MarketValue>
-      <MaxHitPoints>150</MaxHitPoints>
+      <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>13</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.4</MeleeWeapon_Cooldown>
+      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2</MeleeWeapon_Cooldown>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
@@ -209,8 +209,8 @@
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>13</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.4</MeleeWeapon_Cooldown>
+      <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.2</MeleeWeapon_Cooldown>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
@@ -245,7 +245,7 @@
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>13</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>2.4</MeleeWeapon_Cooldown>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
