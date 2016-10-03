@@ -95,7 +95,7 @@
       <texPath>Things/Item/Special/GazelleHorn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <equippedAngleOffset>-20</equippedAngleOffset>
+    <equippedAngleOffset>20</equippedAngleOffset>
     <statBases>
       <MarketValue>200</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
@@ -128,10 +128,10 @@
     <label>ibex horn</label>
     <description>An ibex's horn. It's valuable in most markets. This is a trophy.</description>
     <graphicData>
-      <texPath>Things/Item/Special/BongoHorn</texPath>
+      <texPath>Things/Item/Special/IbexHorn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <equippedAngleOffset>-20</equippedAngleOffset>
+    <equippedAngleOffset>20</equippedAngleOffset>
     <statBases>
       <MarketValue>200</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
