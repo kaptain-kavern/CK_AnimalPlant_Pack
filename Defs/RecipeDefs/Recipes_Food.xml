@@ -8,7 +8,7 @@
     <jobString>Making chocolate.</jobString>
     <workSpeedStat>CookSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Cooking</soundWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
     <allowMixingIngredients>true</allowMixingIngredients>
     <workAmount>1000</workAmount>
     <targetCountAdjustment>1</targetCountAdjustment>
