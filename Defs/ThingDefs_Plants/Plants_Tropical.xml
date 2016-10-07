@@ -609,6 +609,9 @@
         <min>2.5</min>
         <max>3.5</max>
       </visualSizeRange>
+      <sowResearchPrerequisites>
+        <li>CK_TropicalWoodGrowing</li>
+      </sowResearchPrerequisites>
     </plant>
   </ThingDef>
 
@@ -671,7 +674,10 @@
       <visualSizeRange>
         <min>3</min>
         <max>5</max>
-      </visualSizeRange>      
+      </visualSizeRange>
+      <sowResearchPrerequisites>
+        <li>CK_TropicalWoodGrowing</li>
+      </sowResearchPrerequisites>
     </plant>
   </ThingDef>
 
@@ -694,6 +700,9 @@
         <min>2.5</min>
         <max>3.4</max>
       </visualSizeRange>
+      <sowResearchPrerequisites>
+        <li>CK_TropicalWoodGrowing</li>
+      </sowResearchPrerequisites>
     </plant>
   </ThingDef>
 
@@ -776,7 +785,11 @@
       	<min>2</min>
       	<max>3</max>
       </visualSizeRange>
+      <sowResearchPrerequisites>
+        <li>CK_TropicalWoodGrowing</li>
+      </sowResearchPrerequisites>
     </plant>
+
   </ThingDef>	
 
 </Defs>

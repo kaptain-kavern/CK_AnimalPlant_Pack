@@ -31,6 +31,9 @@
         <min>1.9</min>
         <max>2.4</max>
       </visualSizeRange>
+      <sowResearchPrerequisites>
+        <li>CK_Beekeeping</li>
+      </sowResearchPrerequisites>
     </plant>
   </ThingDef>    
   <!--=========================== Food crops ==============================-->
