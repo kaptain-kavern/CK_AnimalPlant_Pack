@@ -23,7 +23,7 @@
       <harvestMinGrowth>0.80</harvestMinGrowth>
       <harvestFailable>true</harvestFailable>
       <harvestTag>Standard</harvestTag>
-      <fertilityMin>0</fertilityMin>
+      <fertilityMin>0.01</fertilityMin>
       <fertilityFactorGrowthRate>0</fertilityFactorGrowthRate>
       <wildClusterSizeRange>
         <min>1</min>
