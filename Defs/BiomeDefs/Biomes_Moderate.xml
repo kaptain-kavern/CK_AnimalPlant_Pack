@@ -126,23 +126,25 @@
       <!-- Common -->
          <Chinchilla>2.5</Chinchilla>
          <Capybara>2.2</Capybara>
-         <Rat>1.8</Rat>
+         <Rat>1</Rat>
          <WildBoar>1.5</WildBoar>
-         <Tortoise>1.4</Tortoise>
-         <!-- <Anteater>1</Anteater> -->
+         <Tortoise>1</Tortoise>
+         <Tapir>1.5</Tapir>
+         <Okapi>1.8</Okapi>
+         <Junglefowl>1.5</Junglefowl>
+         <!-- <Anteater>1.8</Anteater> -->
          <!-- <Sloth>0.8</Sloth> -->
-         <!-- <Tapir>1.5</Tapir> -->
          <!-- <CapuchinMonkey>1.6</CapuchinMonkey> -->
          <!-- <SpiderMonkey>1.6</SpiderMonkey> -->         
          <!-- <SquirrelMonkey>1.6</SquirrelMonkey> --> 
       <!-- Uncommon -->
          <Elephant>0.6</Elephant>
-         <Panda>0.3</Panda>
+         <CK_Panda>0.3</CK_Panda>
          <Tiger>0.2</Tiger>
          <Jaguar>0.2</Jaguar>      
          <!-- <Python>0.16</Python> -->
          <!-- <Toucan>0.2</Toucan> -->
-         <!-- <Peafowl>0.2</Peafowl> -->
+         <Peafowl>0.2</Peafowl>
          <!-- <Gorilla>0.2</Gorilla> -->
          <!-- <Orangutan>0.2</Orangutan> -->
          <!-- <Macaw>0.2</Macaw> -->
