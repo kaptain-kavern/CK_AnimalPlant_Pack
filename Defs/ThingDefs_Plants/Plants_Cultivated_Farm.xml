@@ -1,6 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-  <Plants>    
+  <Plants>
+  <!--========================= Special - Apiary ========================-->
+  <ThingDef ParentName="TreeBase">
+    <defName>SpecialTreeApiary</defName>
+    <label>apiary</label>
+    <description>Apiaries, will slowly fill with honey</description>
+    <graphicData>
+      <texPath>Things/Plant/TreeHive/TreeHive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <pathCost>200</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+    </statBases>    
+    <plant>
+      <leaflessGraphicPath>Things/Plant/TreeHive/TreeHive_Leafless</leaflessGraphicPath>
+      <growDays>25</growDays>
+      <harvestWork>1000</harvestWork>
+      <harvestedThingDef>InsectJelly</harvestedThingDef>
+      <harvestYield>40</harvestYield>
+      <harvestDestroys>false</harvestDestroys>
+      <harvestMinGrowth>0.80</harvestMinGrowth>
+      <harvestFailable>true</harvestFailable>
+      <harvestTag>Standard</harvestTag>
+      <fertilityMin>0.1</fertilityMin>
+      <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>      
+      <shootsSeeds>false</shootsSeeds>
+      <visualSizeRange>
+        <min>1.9</min>
+        <max>2.4</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>    
   <!--=========================== Food crops ==============================-->
   <ThingDef ParentName="PlantBase">
     <defName>PlantTaro</defName>
