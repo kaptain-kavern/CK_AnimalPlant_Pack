@@ -310,7 +310,7 @@
 	    </verbs>
 	    <race>
 	    	<deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
-	    	<body>QuadrupedAnimalWithHoovesAndHorns</body>
+	    	<body>CK_QuadrupedAnimalWithHoovesAndHorns</body>
 	      	<herdAnimal>true</herdAnimal>
 	      	<baseBodySize>1.1</baseBodySize>
 	      	<baseHungerRate>0.55</baseHungerRate>
@@ -419,7 +419,7 @@
 	        </dessicatedBodyGraphicData>
 	        <dropBodyPart>
 	          <bodyPartGroup>HornAttackTool</bodyPartGroup>
-	          <thing>BongoHorn</thing>
+	          <thing>CK_BongoHorn</thing>
 	          <allowFemale>true</allowFemale>
 	        </dropBodyPart>
 	      </li>

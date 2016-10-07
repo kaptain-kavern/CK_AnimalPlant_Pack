@@ -31,7 +31,7 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>CK_TobaccoHigh</hediffDef>
           <severity>0.3</severity>
-          <toleranceChemical>Tobacco</toleranceChemical>
+          <toleranceChemical>CK_Tobacco</toleranceChemical>
         </li>
         <li Class="IngestionOutcomeDoer_OffsetNeed">
           <need>Rest</need>
@@ -92,7 +92,7 @@
   <ThoughtDef>
     <defName>CK_TobaccoHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>TobaccoHigh</hediff>
+    <hediff>CK_TobaccoHigh</hediff>
     <stages>
       <li>
         <label>smoke a cigarette</label>
@@ -102,13 +102,13 @@
     </stages>
   </ThoughtDef>
 
-  <!-- Smokeleaf addiction -->
+  <!-- Tobacco addiction -->
 
   <ChemicalDef>
     <defName>CK_Tobacco</defName>
     <label>Tobacco</label>
-    <addictionHediff>TobaccoAddiction</addictionHediff>
-    <toleranceHediff>TobaccoTolerance</toleranceHediff>
+    <addictionHediff>CK_TobaccoAddiction</addictionHediff>
+    <toleranceHediff>CK_TobaccoTolerance</toleranceHediff>
   </ChemicalDef>
 
   <NeedDef ParentName="DrugAddictionNeedBase">
@@ -129,7 +129,7 @@
       </li>
       <li>
         <compClass>HediffComp_DrugEffectFactor</compClass>
-        <chemical>Tobacco</chemical>
+        <chemical>CK_Tobacco</chemical>
       </li>
     </comps>
   </HediffDef>

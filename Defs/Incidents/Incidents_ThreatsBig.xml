@@ -11,7 +11,7 @@
     <pointsScaleable>true</pointsScaleable>
     <pawnKinds>      
       <li>CK_Jaguar</li>
-      <li>CK_Panther</li>
+      <li>Panther</li>
       <li>CK_Tiger</li>      
       <!-- <li>CK_Gorilla</li> -->
       <!-- <li>CK_KomodoDragon</li> -->      
