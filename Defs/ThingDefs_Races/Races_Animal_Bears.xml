@@ -106,7 +106,7 @@
 
 
   <ThingDef ParentName="BaseBear">
-    <defName>Panda</defName>
+    <defName>CK_Panda</defName>
     <label>panda</label>
     <description>The giant panda, is a bear native to old Earth south central China. It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. Though it belongs to the order Carnivora, the giant panda's diet is over 99% bamboo. Giant pandas in the wild will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents or carrion. In captivity, they may receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food.</description>
     <race>
@@ -120,9 +120,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="BearBase">
-    <defName>Panda</defName>
+    <defName>CK_Panda</defName>
     <label>panda</label>
-    <race>Panda</race>    
+    <race>CK_Panda</race>    
     <lifeStages>
       <li>
         <bodyGraphicData>
