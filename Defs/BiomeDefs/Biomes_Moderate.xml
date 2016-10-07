@@ -120,7 +120,8 @@
         <PlantWildPsychoid>0.03</PlantWildPsychoid>
         <PlantWildHealroot>0.02</PlantWildHealroot>
         <PlantWildCotton>0.02</PlantWildCotton>
-        <PlantRafflesia>0.02</PlantRafflesia>    
+        <PlantRafflesia>0.02</PlantRafflesia>
+        <SpecialTreeHive>0.005</SpecialTreeHive>
 </wildPlants>
     <wildAnimals>
       <!-- Common -->

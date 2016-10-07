@@ -1,6 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--===========================  Wild - clustering bushes (some harvestable) ==============================-->
+<!--========================= Special - Hive Tree ========================-->
+  <ThingDef ParentName="TreeBase">
+    <defName>SpecialTreeHive</defName>
+    <label>hive tree</label>
+    <description>An old hollow tree, now colonised by bees</description>
+    <graphicData>
+      <texPath>Things/Plant/TreeHive/TreeHive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <pathCost>200</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+    </statBases>    
+    <plant>
+      <leaflessGraphicPath>Things/Plant/TreeHive/TreeHive_Leafless</leaflessGraphicPath>
+      <growDays>32.5</growDays>
+      <harvestWork>1200</harvestWork>
+      <harvestedThingDef>InsectJelly</harvestedThingDef>
+      <harvestYield>60</harvestYield>
+      <harvestDestroys>false</harvestDestroys>
+      <harvestMinGrowth>0.80</harvestMinGrowth>
+      <harvestFailable>true</harvestFailable>
+      <harvestTag>Standard</harvestTag>
+      <fertilityMin>0</fertilityMin>
+      <fertilityFactorGrowthRate>0</fertilityFactorGrowthRate>
+      <wildClusterSizeRange>
+        <min>1</min>
+        <max>1</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>100</wildClusterRadius>
+      <seedEmitMTBDays>32.5</seedEmitMTBDays>
+      <seedShootRadius>100</seedShootRadius>
+      <visualSizeRange>
+        <min>1.9</min>
+        <max>2.4</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+<!--===========  Wild - clustering bushes (some harvestable) =============-->
 
 <ThingDef ParentName="PlantBase">
 	<defName>PlantBushPalm</defName>
@@ -46,7 +84,7 @@
     </plant>
 </ThingDef>
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
     <defName>PlantWildTaro</defName>
     <label>taro</label>
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
@@ -91,7 +129,7 @@
     </plant>
 </ThingDef>
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
     <defName>PlantWildCoffea</defName>
     <label>coffea bush</label>
     <description>A bushy plant which yields coffee beans.</description>
@@ -345,7 +383,7 @@
 </ThingDef>
 
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
   	<defName>PlantRafflesia</defName>
   	<label>rafflesia</label>
     <selectable>True</selectable>
@@ -420,7 +458,7 @@
       <fertilityFactorGrowthRate>0.90</fertilityFactorGrowthRate>
       <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
     </plant>
-  </ThingDef> 
+</ThingDef> 
 
 <ThingDef ParentName="PlantBase">
     <defName>PlantHeliconia</defName>
@@ -466,7 +504,7 @@
     </plant>
 </ThingDef> 
 
-  <ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PlantBase">
     <defName>PlantWildLemongrass</defName>
     <label>lemongrass</label>
     <selectable>True</selectable>
@@ -550,7 +588,7 @@
     </plant>
 </ThingDef>
 
-  <!--============================ Wild - Trees ============================-->
+<!--=========================== Wild - Trees ===========================-->
 
   <ThingDef ParentName="TreeBase">
     <defName>PlantTreePalm</defName>
