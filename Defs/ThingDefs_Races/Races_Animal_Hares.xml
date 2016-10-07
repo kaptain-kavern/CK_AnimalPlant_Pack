@@ -72,7 +72,7 @@
 
 <!--============== ArcticHare ====================== -->
   <ThingDef ParentName="BaseHare">
-    <defName>ArcticHare</defName>
+    <defName>CK_ArcticHare</defName>
     <label>artic hare</label>
     <description></description>
     <statBases>
@@ -85,9 +85,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="HareBase">
-    <defName>ArcticHare</defName>
+    <defName>CK_ArcticHare</defName>
     <label>artic hare</label>
-    <race>ArcticHare</race>
+    <race>CK_ArcticHare</race>
     <lifeStages>
       <li>
         <bodyGraphicData>

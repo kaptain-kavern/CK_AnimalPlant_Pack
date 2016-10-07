@@ -16,7 +16,7 @@
   <!--=============== Bongo horn ====================-->
   
   <ThingDef ParentName="ResourceVerbBase">
-    <defName>BongoHorn</defName>
+    <defName>CK_BongoHorn</defName>
     <label>bongo horn</label>
     <description>A bongo's horn. It's valuable in most markets. This is a trophy.</description>
     <graphicData>
@@ -52,7 +52,7 @@
   <!--=============== Rhino horn ====================-->
   
   <ThingDef ParentName="ResourceVerbBase">
-    <defName>RhinocerosHorn</defName>
+    <defName>CK_RhinocerosHorn</defName>
     <label>rhinoceros horn</label>
     <description>A rhinoceros' horn. Very durable and valuable. Somewhat unwieldy as a weapon.</description>
     <graphicData>
@@ -88,7 +88,7 @@
   <!--============== Gazelle horn ===================-->
 
   <ThingDef ParentName="ResourceVerbBase">
-    <defName>GazelleHorn</defName>
+    <defName>CK_GazelleHorn</defName>
     <label>gazelle horn</label>
     <description>A gazelle's horn. It's valuable in most markets. This is a trophy.</description>
     <graphicData>
@@ -124,7 +124,7 @@
   <!--================ Ibex horn ====================-->
 
   <ThingDef ParentName="ResourceVerbBase">
-    <defName>IbexHorn</defName>
+    <defName>CK_IbexHorn</defName>
     <label>ibex horn</label>
     <description>An ibex's horn. It's valuable in most markets. This is a trophy.</description>
     <graphicData>
@@ -160,7 +160,7 @@
   <!--=============== Deer Antler ===================-->
 
   <ThingDef ParentName="ResourceVerbBase">
-    <defName>DeerAntler</defName>
+    <defName>CK_DeerAntler</defName>
     <label>deer antler</label>
     <description>A deer's antler. It's valuable in most markets. This is a trophy.</description>
     <graphicData>
@@ -196,7 +196,7 @@
   <!--=============== Elk Antler ====================-->
 
   <ThingDef ParentName="ResourceVerbBase">
-    <defName>ElkAntler</defName>
+    <defName>CK_ElkAntler</defName>
     <label>elk antler</label>
     <description>An elk's antler. It's valuable in most markets. This is a trophy.</description>
     <graphicData>
@@ -232,7 +232,7 @@
   <!--============= Caribou Antler ==================-->
 
   <ThingDef ParentName="ResourceVerbBase">
-    <defName>CaribouAntler</defName>
+    <defName>CK_CaribouAntler</defName>
     <label>caribou antler</label>
     <description>A caribou's antler. It's valuable in most markets. This is a trophy.</description>
     <graphicData>

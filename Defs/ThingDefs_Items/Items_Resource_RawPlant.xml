@@ -44,7 +44,7 @@
 
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>TaroRoot</defName>
+    <defName>CK_TaroRoot</defName>
     <label>taro roots</label>
     <description>Taro roots.</description>
     <graphicData>
@@ -64,7 +64,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>RawBanana</defName>
+    <defName>CK_RawBanana</defName>
     <label>bananas</label>
     <description>Bananas. Nice to eat, even when raw.</description>
     <graphicData>
@@ -88,7 +88,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>RawLemongrass</defName>
+    <defName>CK_RawLemongrass</defName>
     <label>lemongrass</label>
     <description></description>
     <graphicData>
@@ -109,7 +109,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>Coconuts</defName>
+    <defName>CK_Coconuts</defName>
     <label>coconuts</label>
     <description>Coconuts. Nice to eat, even when raw.</description>
     <graphicData>
@@ -133,7 +133,7 @@
   </ThingDef>
 
   <ThingDef ParentName="RoughPlantBase">
-    <defName>RawCoffee</defName>
+    <defName>CK_RawCoffee</defName>
     <label>coffee beans</label>
     <description>coffee beans.</description>
     <soundInteract>Grain_Drop</soundInteract>
@@ -155,7 +155,7 @@
   </ThingDef>
 
   <ThingDef ParentName="RoughPlantBase">
-    <defName>RawCocoa</defName>
+    <defName>CK_RawCocoa</defName>
     <label>cocoa beans</label>
     <description>cocoa beans.</description>
     <soundInteract>Grain_Drop</soundInteract>
@@ -177,7 +177,7 @@
   </ThingDef>
 
   <ThingDef ParentName="RoughPlantBase">
-    <defName>RawVanilla</defName>
+    <defName>CK_RawVanilla</defName>
     <label>vanilla fruits</label>
     <description>vanilla fruits.</description>    
     <graphicData>
@@ -202,7 +202,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>RawGreenChili</defName>
+    <defName>CK_RawGreenChili</defName>
     <label>green chili peper</label>
     <description>Green chili peper</description>
     <graphicData>
@@ -222,7 +222,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>RawYellowChili</defName>
+    <defName>CK_RawYellowChili</defName>
     <label>yellow chili peper</label>
     <description>Yellow chili peper</description>
     <graphicData>
@@ -241,8 +241,8 @@
     </ingestible>
   </ThingDef>
 
-    <ThingDef ParentName="PlantFoodRawBase">
-    <defName>RawRedChili</defName>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>CK_RawRedChili</defName>
     <label>red chili peper</label>
     <description>Red chili peper</description>
     <graphicData>
@@ -262,7 +262,7 @@
   </ThingDef>
 
   <ThingDef ParentName="RoughPlantBase">
-    <defName>RawTobacco</defName>
+    <defName>CK_RawTobacco</defName>
     <label>Tobacco</label>
     <description>Raw cut leaves of a tobacco plant. Can be rolled into cigarette/cigar at a crafting spot.</description>
     <graphicData>

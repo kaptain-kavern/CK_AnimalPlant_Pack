@@ -2,7 +2,7 @@
 <Defs>
   
   <BodyPartDef>
-    <defName>LeftHorn</defName>
+    <defName>CK_LeftHorn</defName>
     <label>left horn</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.2</oldInjuryBaseChance>
@@ -12,7 +12,7 @@
   </BodyPartDef>
 
   <BodyPartDef>
-    <defName>RightHorn</defName>
+    <defName>CK_RightHorn</defName>
     <label>right horn</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.2</oldInjuryBaseChance>
@@ -22,7 +22,7 @@
   </BodyPartDef>
 
     <BodyPartDef>
-    <defName>RightAntler</defName>
+    <defName>CK_RightAntler</defName>
     <label>right antler</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.2</oldInjuryBaseChance>
@@ -32,7 +32,7 @@
   </BodyPartDef>
 
     <BodyPartDef>
-    <defName>LeftAntler</defName>
+    <defName>CK_LeftAntler</defName>
     <label>left antler</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.2</oldInjuryBaseChance>

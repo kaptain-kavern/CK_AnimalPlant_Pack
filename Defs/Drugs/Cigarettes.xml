@@ -2,7 +2,7 @@
 <Smokeleaf>
 
   <ThingDef ParentName="MakeableDrugBase">
-    <defName>TobaccoRoll</defName>
+    <defName>CK_TobaccoRoll</defName>
     <label>tobacco roll</label>
     <description>Raw tobacco prepared in small rolls for smoking. Improves mood and also decreases appetite but reduces focus a bit. Smoking can produce a dependency. Can be produced without equipment, at a crafting spot.</description>
     <graphicData>
@@ -29,7 +29,7 @@
       <ingestReportString>Smoking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>TobaccoHigh</hediffDef>
+          <hediffDef>CK_TobaccoHigh</hediffDef>
           <severity>0.3</severity>
           <toleranceChemical>Tobacco</toleranceChemical>
         </li>
@@ -38,7 +38,7 @@
           <offset>0.1</offset>
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>TobaccoTolerance</hediffDef>
+          <hediffDef>CK_TobaccoTolerance</hediffDef>
           <severity>0.020</severity>
         </li>
       </outcomeDoers>
@@ -49,11 +49,11 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <RawTobacco>8</RawTobacco>
+      <CK_RawTobacco>8</CK_RawTobacco>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
-        <chemical>Tobacco</chemical>
+        <chemical>CK_Tobacco</chemical>
         <addictiveness>0.009</addictiveness>
         <minToleranceToAddict>0.20</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.05</existingAddictionSeverityOffset>
@@ -64,7 +64,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>TobaccoHigh</defName>
+    <defName>CK_TobaccoHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>dizzy from cigarettes</label>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
@@ -90,7 +90,7 @@
   </HediffDef>
   
   <ThoughtDef>
-    <defName>TobaccoHigh</defName>
+    <defName>CK_TobaccoHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>TobaccoHigh</hediff>
     <stages>
@@ -105,14 +105,14 @@
   <!-- Smokeleaf addiction -->
 
   <ChemicalDef>
-    <defName>Tobacco</defName>
+    <defName>CK_Tobacco</defName>
     <label>Tobacco</label>
     <addictionHediff>TobaccoAddiction</addictionHediff>
     <toleranceHediff>TobaccoTolerance</toleranceHediff>
   </ChemicalDef>
 
   <NeedDef ParentName="DrugAddictionNeedBase">
-    <defName>Chemical_Tobacco</defName>
+    <defName>CK_Chemical_Tobacco</defName>
     <needClass>Need_Chemical</needClass>
     <label>Tobacco</label>
     <description>Because of a developed Tobacco dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
@@ -120,7 +120,7 @@
   </NeedDef>
   
   <HediffDef ParentName="DrugToleranceBase">
-    <defName>TobaccoTolerance</defName>
+    <defName>CK_TobaccoTolerance</defName>
     <label>Tobacco tolerance</label>
     <comps>
       <li>
@@ -135,10 +135,10 @@
   </HediffDef>
 
   <HediffDef ParentName="AddictionBase">
-    <defName>TobaccoAddiction</defName>
+    <defName>CK_TobaccoAddiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>Tobacco dependence</label>
-    <causesNeed>Chemical_Tobacco</causesNeed>
+    <causesNeed>CK_Chemical_Tobacco</causesNeed>
     <comps>
       <li>
         <compClass>HediffComp_SeverityPerDay</compClass>
@@ -165,9 +165,9 @@
   </HediffDef>
 
   <ThoughtDef>
-    <defName>TobaccoWithdrawal</defName>
+    <defName>CK_TobaccoWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>TobaccoAddiction</hediff>
+    <hediff>CK_TobaccoAddiction</hediff>
     <stages>
       <li>
         <visible>false</visible>

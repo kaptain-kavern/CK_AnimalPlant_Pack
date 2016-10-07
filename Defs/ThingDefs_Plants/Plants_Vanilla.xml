@@ -2,7 +2,7 @@
 <Defs>
 <!--=========================== Food crops ==============================-->
   <ThingDef ParentName="PlantBase">
-    <defName>PlantWildRice</defName>
+    <defName>CK_PlantWildRice</defName>
     <label>rice</label>
     <description>A low grain plant that thrives in rich soil and yields food fast, but is not nice to eat uncooked.</description>
     <statBases>
@@ -42,7 +42,7 @@
   </ThingDef>
 <!--=========================== Production crops ==============================-->
   <ThingDef ParentName="PlantBase">
-    <defName>PlantWildCotton</defName>
+    <defName>CK_PlantWildCotton</defName>
     <label>cotton</label>
     <description>Yields cotton, a fine plant fiber used to make cloth.</description>
     <statBases>
@@ -81,7 +81,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantBase">
-    <defName>PlantWildHealroot</defName>
+    <defName>CK_PlantWildHealroot</defName>
     <label>healroot</label>
     <description>A slow-growing plant which yields herbal medicine when harvested.\n\nHealroot was selectively bred for centuries by settlers. It is sometimes also called &quot;healer's hand&quot; by tribespeople - a nickname it owes to its five major medicinal virtues.</description>
     <statBases>
@@ -121,7 +121,7 @@
   </ThingDef>
 <!--=========================== Drug crops ==============================-->
   <ThingDef ParentName="PlantBase">
-    <defName>PlantWildPsychoid</defName>
+    <defName>CK_PlantWildPsychoid</defName>
     <label>psychoid</label>
     <description>A leafy plant. Its leaves can be refined into various forms of the psychoid drug.</description>
     <statBases>
@@ -160,7 +160,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantBase">
-    <defName>PlantWildSmokeleaf</defName>
+    <defName>CK_PlantWildSmokeleaf</defName>
     <label>smokeleaf</label>
     <description>A leafy plant cultivated for its psychological effects. Smokeleaf leaves can be prepared into joints at the crafting spot.</description>
     <statBases>

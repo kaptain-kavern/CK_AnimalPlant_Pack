@@ -3,7 +3,7 @@
 
 <!-- =================== Tapir ============================ -->
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>Tapir</defName>
+		<defName>CK_Tapir</defName>
 	    <label>tapir</label>
 	    <description>A large, herbivorous mammal, similar in shape to a pig, with a short, prehensile snout. Tapirs inhabit jungle and forest regions. Their closest relatives are the other odd-toed ungulates, which include horses, donkeys, zebras and rhinoceroses. Tapirs are generally shy, but when scared they can defend themselves with their very powerful jaws.</description>
 	    <statBases>
@@ -93,9 +93,9 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-	    <defName>Tapir</defName>
+	    <defName>CK_Tapir</defName>
 	    <label>tapir</label>
-	    <race>Tapir</race>
+	    <race>CK_Tapir</race>
 	    <combatPower>55</combatPower>
 	    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
 	    <wildSpawn_EcoSystemWeight>0.8</wildSpawn_EcoSystemWeight>
@@ -148,7 +148,7 @@
 	</PawnKindDef>
 <!-- =================== Okapi ============================ -->
 	<ThingDef ParentName="AnimalThingBase">
-	    <defName>Okapi</defName>
+	    <defName>CK_Okapi</defName>
 	    <label>okapi</label>
 	    <description>A giraffid artiodactyl mammal native from ol'Earth Central Africa. Okapis are primarily diurnal but may be active for a few hours in darkness. They are essentially solitary, coming together only to breed. Okapis are herbivores, feeding on tree leaves and buds, grasses, ferns, fruits, and fungi. Okapis inhabit canopy forests at altitudes of 500–1,500 m (1,600–4,900 ft). </description>
 	    <statBases>
@@ -234,9 +234,9 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-	    <defName>Okapi</defName>
+	    <defName>CK_Okapi</defName>
 	    <label>okapi</label>
-	    <race>Okapi</race>
+	    <race>CK_Okapi</race>
 	    <combatPower>60</combatPower>
 	    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
 	    <wildSpawn_EcoSystemWeight>0.50</wildSpawn_EcoSystemWeight>
@@ -291,7 +291,7 @@
 	</PawnKindDef>
 <!-- =================== Bongo ============================ -->
 	<ThingDef ParentName="AnimalThingBase">
-	  	<defName>Bongo</defName>
+	  	<defName>CK_Bongo</defName>
 	    <label>bongo</label>
 	    <description>The bongo is a herbivorous, mostly nocturnal forest ungulate. It is among the largest of ol'Earth African forest antelope species. Bongos are characterised by a striking reddish-brown coat, black and white markings, white-yellow stripes and long slightly spiralled horns. Indeed, bongos are the only tragelaphid in which both sexes have horns. They have a complex social interaction and were found in African dense forest mosaics.</description>
 	    <statBases>
@@ -351,9 +351,9 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-	    <defName>Bongo</defName>
+	    <defName>CK_Bongo</defName>
 	    <label>bongo</label>
-	    <race>Bongo</race>
+	    <race>CK_Bongo</race>
 	    <combatPower>70</combatPower>
 	    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
 	    <wildSpawn_EcoSystemWeight>0.6</wildSpawn_EcoSystemWeight>

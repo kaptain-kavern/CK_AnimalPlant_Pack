@@ -63,7 +63,7 @@
   </ThingDef>
   
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>PackElephant</defName>
+		<defName>CK_PackElephant</defName>
 		<label>pack elephant</label>
 		<carrier>true</carrier>
 		<combatPower>150</combatPower>

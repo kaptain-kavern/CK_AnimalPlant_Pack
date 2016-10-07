@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DefPackage-TraderKindDef>
     <TraderKindDef>
-    <defName>Caravan_Outlander_Animal_Traders</defName>
+    <defName>CK_Caravan_Outlander_Animal_Traders</defName>
     <label>animal trader</label>
     <stockGenerators>
       <li Class="StockGenerator_SingleDef">

@@ -3,7 +3,7 @@
   <Plants>
   <!--========================= Special - Apiary ========================-->
   <ThingDef ParentName="TreeBase">
-    <defName>SpecialTreeApiary</defName>
+    <defName>CK_SpecialTreeApiary</defName>
     <label>apiary</label>
     <description>Apiaries, will slowly fill with honey</description>
     <graphicData>
@@ -35,7 +35,7 @@
   </ThingDef>    
   <!--=========================== Food crops ==============================-->
   <ThingDef ParentName="PlantBase">
-    <defName>PlantTaro</defName>
+    <defName>CK_PlantTaro</defName>
     <label>taro</label>
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
     <statBases>
@@ -61,7 +61,7 @@
       <shootsSeeds>false</shootsSeeds>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
-      <harvestedThingDef>TaroRoot</harvestedThingDef>
+      <harvestedThingDef>CK_TaroRoot</harvestedThingDef>
       <harvestWork>250</harvestWork>
       <fertilityMin>0.2</fertilityMin>      
       <sowTags>
@@ -79,7 +79,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantBase">
-    <defName>PlantCoffea</defName>
+    <defName>CK_PlantCoffea</defName>
     <label>coffea bush</label>
     <description>A bushy plant which yields coffee beans.</description>
     <statBases>
@@ -107,7 +107,7 @@
       <shootsSeeds>false</shootsSeeds>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
-      <harvestedThingDef>RawCoffee</harvestedThingDef>
+      <harvestedThingDef>CK_RawCoffee</harvestedThingDef>
       <fertilityMin>0.4</fertilityMin>
       <sowTags>
         <li>Ground</li>
@@ -124,7 +124,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantBase">
-    <defName>PlantLemongrass</defName>
+    <defName>CK_PlantLemongrass</defName>
     <label>lemongrass</label>
     <selectable>True</selectable>
     <description>Lemongrass.</description>
@@ -147,7 +147,7 @@
       <harvestYield>10</harvestYield>      
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
-      <harvestedThingDef>RawLemongrass</harvestedThingDef>      
+      <harvestedThingDef>CK_RawLemongrass</harvestedThingDef>      
       <harvestWork>250</harvestWork>
       <fertilityMin>0.05</fertilityMin>
       <sowTags>

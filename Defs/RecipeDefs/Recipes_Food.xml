@@ -2,7 +2,7 @@
 <Defs>
   
   <RecipeDef>
-    <defName>MakeChocolate</defName>
+    <defName>CK_MakeChocolate</defName>
     <label>make chocolate</label>
     <description>Make chocolate from vanilla and cocoa beans.</description>
     <jobString>Making chocolate.</jobString>
@@ -20,7 +20,7 @@
       <li>
         <filter>
           <thingDefs>            
-            <li>RawVanilla</li>
+            <li>CK_RawVanilla</li>
           </thingDefs>
         </filter>
         <count>8</count>
@@ -28,7 +28,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>RawCocoa</li>            
+            <li>CK_RawCocoa</li>            
           </thingDefs>
         </filter>
         <count>8</count>
@@ -36,8 +36,8 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>RawCocoa</li>
-        <li>RawVanilla</li>
+        <li>CK_RawCocoa</li>
+        <li>CK_RawVanilla</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>

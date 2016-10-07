@@ -9,7 +9,7 @@
 
 <BodyDefs>
   <BodyDef>
-    <defName>QuadrupedAnimalWithHoovesAndHorns</defName>
+    <defName>CK_QuadrupedAnimalWithHoovesAndHorns</defName>
     <label>quadruped animal</label>
     <corePart>
       <def>Body</def>
@@ -62,14 +62,14 @@
           <height>Top</height>
           <parts>
             <li>
-              <def>LeftHorn</def>
+              <def>CK_LeftHorn</def>
               <coverage>0.15</coverage>
               <groups>
                 <li>HornAttackTool</li>
               </groups>
             </li>
             <li>
-              <def>RightHorn</def>
+              <def>CK_RightHorn</def>
               <coverage>0.15</coverage>
               <groups>
                 <li>HornAttackTool</li>
@@ -180,7 +180,7 @@
   </BodyDef>
 
   <BodyDef>
-    <defName>QuadrupedAnimalWithHoovesAndAntlers</defName>
+    <defName>CK_QuadrupedAnimalWithHoovesAndAntlers</defName>
     <label>quadruped animal</label>
     <corePart>
       <def>Body</def>
@@ -233,14 +233,14 @@
           <height>Top</height>
           <parts>
             <li>
-              <def>LeftAntler</def>
+              <def>CK_LeftAntler</def>
               <coverage>0.25</coverage>
               <groups>
                 <li>HornAttackTool</li>
               </groups>
             </li>
             <li>
-              <def>RightAntler</def>
+              <def>CK_RightAntler</def>
               <coverage>0.25</coverage>
               <groups>
                 <li>HornAttackTool</li>

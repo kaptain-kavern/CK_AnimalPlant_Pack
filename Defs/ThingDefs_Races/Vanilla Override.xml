@@ -255,7 +255,7 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>RhinocerosHorn</thing>
+          <thing>CK_RhinocerosHorn</thing>
           <allowFemale>true</allowFemale>
         </dropBodyPart>
       </li>
@@ -289,7 +289,7 @@
     </verbs>
     <race>
       <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>      
-      <body>QuadrupedAnimalWithHoovesAndHorns</body>
+      <body>CK_QuadrupedAnimalWithHoovesAndHorns</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.7</baseBodySize>
       <baseHungerRate>0.35</baseHungerRate>
@@ -377,7 +377,7 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
             <bodyPartGroup>HornAttackTool</bodyPartGroup>
-            <thing>GazelleHorn</thing>
+            <thing>CK_GazelleHorn</thing>
             <allowFemale>true</allowFemale>
           </dropBodyPart>
       </li>
@@ -418,7 +418,7 @@
     </verbs>
     <race>
       <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
-      <body>QuadrupedAnimalWithHoovesAndHorns</body>
+      <body>CK_QuadrupedAnimalWithHoovesAndHorns</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.85</baseBodySize>
       <baseHungerRate>0.35</baseHungerRate>
@@ -525,7 +525,7 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>IbexHorn</thing>
+          <thing>CK_IbexHorn</thing>
           <allowFemale>false</allowFemale>
         </dropBodyPart>        
       </li>
@@ -566,7 +566,7 @@
     </verbs>
     <race>
       <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
-      <body>QuadrupedAnimalWithHoovesAndAntlers</body>
+      <body>CK_QuadrupedAnimalWithHoovesAndAntlers</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.9</baseBodySize>
       <baseHungerRate>0.45</baseHungerRate>
@@ -676,7 +676,7 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>DeerAntler</thing>
+          <thing>CK_DeerAntler</thing>
           <allowFemale>false</allowFemale>
         </dropBodyPart>
       </li>
@@ -717,7 +717,7 @@
     </verbs>
     <race>
       <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
-      <body>QuadrupedAnimalWithHoovesAndAntlers</body>
+      <body>CK_QuadrupedAnimalWithHoovesAndAntlers</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>1.9</baseBodySize>
       <baseHungerRate>0.95</baseHungerRate>
@@ -823,7 +823,7 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>ElkAntler</thing>
+          <thing>CK_ElkAntler</thing>
           <allowFemale>false</allowFemale>
         </dropBodyPart>
       </li>
@@ -864,7 +864,7 @@
     </verbs>
     <race>
       <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
-      <body>QuadrupedAnimalWithHoovesAndAntlers</body>
+      <body>CK_QuadrupedAnimalWithHoovesAndAntlers</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>1.9</baseBodySize>
       <baseHungerRate>0.95</baseHungerRate>
@@ -953,7 +953,7 @@
         </dessicatedBodyGraphicData>
         <dropBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>CaribouAntler</thing>
+          <thing>CK_CaribouAntler</thing>
           <allowFemale>true</allowFemale>
         </dropBodyPart>
       </li>

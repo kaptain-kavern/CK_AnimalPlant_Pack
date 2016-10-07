@@ -2,7 +2,7 @@
 <Defs>
   <!-- ====================================================== -->
   <ThingDef ParentName="AnimalThingBase">
-    <defName>Python</defName>
+    <defName>CK_Python</defName>
     <label>python</label>
     <description>A large snake.</description>
     <statBases>
@@ -29,7 +29,7 @@
     </verbs>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggPythonFertilized</eggFertilizedDef>
+        <eggFertilizedDef>CK_EggPythonFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>7.5</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -94,9 +94,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Python</defName>
+    <defName>CK_Python</defName>
     <label>python</label>
-    <race>Python</race>
+    <race>CK_Python</race>
     <combatPower>75</combatPower>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
     <wildSpawn_EcoSystemWeight>0.8</wildSpawn_EcoSystemWeight>

@@ -2,7 +2,7 @@
 <FactionDefs>
 
   <FactionDef>
-    <defName>JungleTraders</defName>
+    <defName>CK_JungleTraders</defName>
     <label>jungle trader</label>
     <description>A small community of survivors.\n\nThese people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple mechanical tools and defend themselves with advanced gunpowder weapons.\n\nJungle Traders consist of various traders within the Rim's tropical rainforests</description>
     <pawnsPlural>jungle traders</pawnsPlural>
@@ -28,7 +28,7 @@
     </naturalColonyGoodwill>
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
-      <li>Caravan_Outlander_Animal_Traders</li>
+      <li>CK_Caravan_Outlander_Animal_Traders</li>
       <li>Caravan_Outlander_Exotic</li>
       <li>Caravan_Outlander_PirateMerchant</li>
     </caravanTraderKinds>
@@ -57,7 +57,7 @@
         <carriers>
           <PackMuffalo>1</PackMuffalo>
           <PackDromedary>1</PackDromedary>
-          <PackElephant>1</PackElephant>
+          <CK_PackElephant>1</CK_PackElephant>
         </carriers>
         <guards>
           <TownGuard>250</TownGuard>

@@ -4,7 +4,7 @@
   <!-- ====================================================== -->  
 
 <ThingDef ParentName="AnimalThingBase">
-    <defName>KomodoDragon</defName>
+    <defName>CK_KomodoDragon</defName>
     <label>Komodo Dragon</label>
     <description>Also known as the Komodo monitor, this is a large species of lizard found in Indonesian islands on old Earth. Komodo dragon group behaviour in hunting is exceptional in the reptile world./nAs a result of their size, these lizards were dominate the ecosystems in which they were living. The diet of big Komodo dragons mainly consists of deer, though they also eat considerable amounts of carrion. Komodo dragons also occasionally attack humans.</description>
     <statBases>
@@ -37,7 +37,7 @@
     </verbs>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggKomodoFertilized</eggFertilizedDef>
+        <eggFertilizedDef>CK_EggKomodoFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>20</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -98,9 +98,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>KomodoDragon</defName>
+    <defName>CK_KomodoDragon</defName>
     <label>Komodo dragon</label>
-    <race>KomodoDragon</race>
+    <race>CK_KomodoDragon</race>
     <combatPower>75</combatPower>
     <wildSpawn_EcoSystemWeight>0.73</wildSpawn_EcoSystemWeight>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>

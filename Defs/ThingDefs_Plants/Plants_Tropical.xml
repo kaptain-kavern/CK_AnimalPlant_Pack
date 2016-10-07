@@ -2,7 +2,7 @@
 <Defs>
 <!--========================= Special - Hive Tree ========================-->
   <ThingDef ParentName="TreeBase">
-    <defName>SpecialTreeHive</defName>
+    <defName>CK_SpecialTreeHive</defName>
     <label>hive tree</label>
     <description>An old hollow tree, now colonised by bees</description>
     <graphicData>
@@ -41,7 +41,7 @@
 <!--===========  Wild - clustering bushes (some harvestable) =============-->
 
 <ThingDef ParentName="PlantBase">
-	<defName>PlantBushPalm</defName>
+	<defName>CK_PlantBushPalm</defName>
 	<label>palm</label>
 	<description>A short palm.</description>
 	<statBases>
@@ -85,7 +85,7 @@
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
-    <defName>PlantWildTaro</defName>
+    <defName>CK_PlantWildTaro</defName>
     <label>taro</label>
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
     <statBases>
@@ -110,7 +110,7 @@
       <harvestYield>10</harvestYield>      
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
-      <harvestedThingDef>TaroRoot</harvestedThingDef>
+      <harvestedThingDef>CK_TaroRoot</harvestedThingDef>
       <harvestWork>250</harvestWork>
       <fertilityMin>0.2</fertilityMin>            
       <wildClusterSizeRange>
@@ -130,7 +130,7 @@
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
-    <defName>PlantWildCoffea</defName>
+    <defName>CK_PlantWildCoffea</defName>
     <label>coffea bush</label>
     <description>A bushy plant which yields coffee beans.</description>
     <statBases>
@@ -155,7 +155,7 @@
       <harvestWork>600</harvestWork>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
-      <harvestedThingDef>RawCoffee</harvestedThingDef>
+      <harvestedThingDef>CK_RawCoffee</harvestedThingDef>
       <fertilityMin>0.5</fertilityMin>      
       <wildClusterSizeRange>
         <min>2</min>
@@ -173,7 +173,7 @@
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
-    <defName>PlantCocoa</defName>
+    <defName>CK_PlantCocoa</defName>
     <label>cocoa bush</label>
     <description>A bushy plant which yields cocoa beans.</description>
     <statBases>
@@ -198,7 +198,7 @@
       <harvestWork>600</harvestWork>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
-      <harvestedThingDef>RawCocoa</harvestedThingDef>
+      <harvestedThingDef>CK_RawCocoa</harvestedThingDef>
       <fertilityMin>0.5</fertilityMin>
       <sowTags>
         <li>Ground</li>
@@ -220,7 +220,7 @@
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
-	<defName>PlantBushVanilla</defName>
+	<defName>CK_PlantBushVanilla</defName>
 	<label>vanilla plant</label>
 	<description>A vanilla plant.</description>
 	<statBases>
@@ -246,7 +246,7 @@
       <harvestWork>600</harvestWork>
       <harvestTag>Standard</harvestTag>      
       <harvestFailable>false</harvestFailable>
-      <harvestedThingDef>RawVanilla</harvestedThingDef>
+      <harvestedThingDef>CK_RawVanilla</harvestedThingDef>
       <fertilityMin>0.6</fertilityMin>
       <sowTags>
         <li>Ground</li>
@@ -314,42 +314,42 @@
 </ThingDef>
 
 <ThingDef ParentName="ChiliPepperBase">
-	<defName>PlantBushChiliPeperGreen</defName>
+	<defName>CK_PlantBushChiliPeperGreen</defName>
 	<label>Green Chili Peper</label>
 	<graphicData>
 		<texPath>Things/Plant/BushChiliPeperGreen</texPath>
 	</graphicData>
 	<plant>
-		<harvestedThingDef>RawGreenChili</harvestedThingDef>
+		<harvestedThingDef>CK_RawGreenChili</harvestedThingDef>
 	</plant>
 </ThingDef>
 
 <ThingDef ParentName="ChiliPepperBase">
-	<defName>PlantBushChiliPeperYellow</defName>
+	<defName>CK_PlantBushChiliPeperYellow</defName>
 	<label>Yellow Chili Peper</label>
 	<graphicData>
 		<texPath>Things/Plant/BushChiliPeperYellow</texPath>
 	</graphicData>
 	<plant>
-		<harvestedThingDef>RawYellowChili</harvestedThingDef>
+		<harvestedThingDef>CK_RawYellowChili</harvestedThingDef>
 	</plant>
 </ThingDef>
 
 <ThingDef ParentName="ChiliPepperBase">
-	<defName>PlantBushChiliPeperRed</defName>
+	<defName>CK_PlantBushChiliPeperRed</defName>
 	<label>Red Chili Peper</label>
 	<graphicData>
 		<texPath>Things/Plant/BushChiliPeperRed</texPath>
 	</graphicData>
 	<plant>
-		<harvestedThingDef>RawRedChili</harvestedThingDef>
+		<harvestedThingDef>CK_RawRedChili</harvestedThingDef>
 	</plant>
 </ThingDef>
 
 <!--======================= Wild plants - carpets ========================-->
 
 <ThingDef ParentName="PlantBase">
-    <defName>PlantFern</defName>
+    <defName>CK_PlantFern</defName>
     <label>Fern</label>
     <description>A green plant with long stems, wide, thin leaves, and no flowers. Significantly slows down anyone moving over it.</description>
     <statBases>
@@ -384,7 +384,7 @@
 
 
 <ThingDef ParentName="PlantBase">
-  	<defName>PlantRafflesia</defName>
+  	<defName>CK_PlantRafflesia</defName>
   	<label>rafflesia</label>
     <selectable>True</selectable>
   	<description>Rafflesia (corpse flower) is a parasitic flowering plant that gives off the smell of rotting flesh. This smell attracts carrion-flies by which it is pollinated. These characteristics make Rafflesia a plant to avoid.</description>
@@ -421,7 +421,7 @@
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
-    <defName>PlantBromeliad</defName>
+    <defName>CK_PlantBromeliad</defName>
     <label>bromeliad</label>
     <description>Commonly known as the Flaming torch, is a species of bromeliad that is native to ol'Earth Brazil, Venezuela, French Guiana, Antilles and Cuba. They are adaptable, growing well as a terrestrial or epiphytic plant. When on the ground, they quickly create large clumps, and when planted at the base of a tree, they slowly will climb the trunk. The flowers on an individual plant last less than one month, but nearly all of the plants will come into bloom at the same time in the late summer.</description>
     <statBases>
@@ -461,7 +461,7 @@
 </ThingDef> 
 
 <ThingDef ParentName="PlantBase">
-    <defName>PlantHeliconia</defName>
+    <defName>CK_PlantHeliconia</defName>
     <label>heliconia</label>
     <description>Heliconias are sometimes called "lobster claws" or "parrot flowers" because of their beak-like "bracts".The leaves of this plant are paddle-shaped, and they are related to the banana family. The heliconia's flowers are tiny and found inside these bracts, which are so large and colorful that they almost hide the flowers altogether. Heliconias are found throughout the Neotropics and are actually quite common in the rainforest.</description>
     <statBases>
@@ -505,7 +505,7 @@
 </ThingDef> 
 
 <ThingDef ParentName="PlantBase">
-    <defName>PlantWildLemongrass</defName>
+    <defName>CK_PlantWildLemongrass</defName>
     <label>lemongrass</label>
     <selectable>True</selectable>
     <description>Wild lemongrass.</description>
@@ -526,7 +526,7 @@
       <harvestYield>10</harvestYield>      
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
-      <harvestedThingDef>RawLemongrass</harvestedThingDef>      
+      <harvestedThingDef>CK_RawLemongrass</harvestedThingDef>      
       <harvestWork>250</harvestWork>
       <fertilityMin>0.05</fertilityMin>      
       <visualSizeRange>
@@ -544,7 +544,7 @@
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
-    <defName>PlantTobacco</defName>
+    <defName>CK_PlantTobacco</defName>
     <label>Tobacco</label>
     <selectable>True</selectable>
     <description>Tobacco.</description>
@@ -565,7 +565,7 @@
       <harvestYield>10</harvestYield>      
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
-      <harvestedThingDef>RawTobacco</harvestedThingDef>      
+      <harvestedThingDef>CK_RawTobacco</harvestedThingDef>      
       <harvestWork>350</harvestWork>
       <sowMinSkill>4</sowMinSkill>
       <sowTags>
@@ -591,7 +591,7 @@
 <!--=========================== Wild - Trees ===========================-->
 
   <ThingDef ParentName="TreeBase">
-    <defName>PlantTreePalm</defName>
+    <defName>CK_PlantTreePalm</defName>
     <label>palm tree</label>
     <description></description>
     <graphicData>
@@ -613,7 +613,7 @@
   </ThingDef>
 
   <ThingDef ParentName="TreeBase">
-  	<defName>PlantTreeCoconutPalm</defName>
+  	<defName>CK_PlantTreeCoconutPalm</defName>
     <label>coconut palm tree</label>
     <description></description>
     <graphicData>
@@ -629,7 +629,7 @@
 	    <harvestWork>1500</harvestWork>
   		<harvestTag>Standard</harvestTag>
   		<harvestDestroys>false</harvestDestroys>
-  		<harvestedThingDef>Coconuts</harvestedThingDef>
+  		<harvestedThingDef>CK_Coconuts</harvestedThingDef>
   		<harvestYield>10</harvestYield>
   		<harvestMinGrowth>0.70</harvestMinGrowth>
   		<harvestFailable>false</harvestFailable>
@@ -654,7 +654,7 @@
   </ThingDef>
 
   <ThingDef ParentName="TreeBase">
-    <defName>PlantTreeMahogany</defName>
+    <defName>CK_PlantTreeMahogany</defName>
     <label>mahogany tree</label>
     <description>A strong hardwood tree. Slow-going, but its wood is very strong.</description>
     <graphicData>
@@ -676,7 +676,7 @@
   </ThingDef>
 
   <ThingDef ParentName="TreeBase">
-    <defName>PlantTreeStranglerFig</defName>
+    <defName>CK_PlantTreeStranglerFig</defName>
     <label>strangler fig tree</label>
     <description></description>
     <graphicData>
@@ -698,7 +698,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantBase">
-    	<defName>PlantTreeBanana</defName>
+    	<defName>CK_PlantTreeBanana</defName>
     	<label>banana</label>
     	<description></description>
     	<altitudeLayer>Building</altitudeLayer>
@@ -727,7 +727,7 @@
 	    	<harvestWork>800</harvestWork>
   			<harvestTag>Standard</harvestTag>
   			<harvestDestroys>false</harvestDestroys>
-  			<harvestedThingDef>RawBanana</harvestedThingDef>
+  			<harvestedThingDef>CK_RawBanana</harvestedThingDef>
   			<harvestYield>12</harvestYield>
   			<harvestMinGrowth>0.40</harvestMinGrowth>
   			<harvestFailable>false</harvestFailable>
@@ -752,7 +752,7 @@
 	</ThingDef>
 
   <ThingDef ParentName="TreeBase">
-    <defName>PlantTreeBamboo</defName>
+    <defName>CK_PlantTreeBamboo</defName>
     <label>bamboo</label>
     <description></description>
     <graphicData>

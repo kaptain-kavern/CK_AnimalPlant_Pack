@@ -48,7 +48,7 @@
   <!-- Komodo dragon -->
   
   <ThingDef ParentName="EggFertBase">
-    <defName>EggKomodoFertilized</defName>
+    <defName>CK_EggKomodoFertilized</defName>
     <label>Komodo dragon egg (fert.)</label>
     <description>Fertilized Komodo dragon egg. If all goes well, it should hatch into a baby Komodo dragon. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -61,7 +61,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaysToHatch>6</hatcherDaysToHatch>
-        <hatcherPawn>KomodoDragon</hatcherPawn>
+        <hatcherPawn>CK_KomodoDragon</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
@@ -69,7 +69,7 @@
   <!-- Python -->
 
   <ThingDef ParentName="EggFertBase">
-    <defName>EggPythonFertilized</defName>
+    <defName>CK_EggPythonFertilized</defName>
     <label>Python egg (fert.)</label>
     <description>Fertilized python egg. If all goes well, it should hatch into a baby python. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -82,7 +82,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaysToHatch>6</hatcherDaysToHatch>
-        <hatcherPawn>Python</hatcherPawn>
+        <hatcherPawn>CK_Python</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
@@ -90,7 +90,7 @@
   <!-- Toucan -->
 
   <ThingDef ParentName="EggFertBase">
-    <defName>EggToucanFertilized</defName>
+    <defName>CK_EggToucanFertilized</defName>
     <label>toucan egg (fert.)</label>
     <description>Fertilized toucan egg. If all goes well, it should hatch into a baby toucan. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>      
@@ -102,7 +102,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaysToHatch>8</hatcherDaysToHatch>
-        <hatcherPawn>Toucan</hatcherPawn>
+        <hatcherPawn>CK_Toucan</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
@@ -110,7 +110,7 @@
   <!-- Peafowl -->
 
   <ThingDef ParentName="EggFertBase">
-    <defName>EggPeafowlFertilized</defName>
+    <defName>CK_EggPeafowlFertilized</defName>
     <label>peafowl egg (fert.)</label>
     <description>Fertilized peafowl egg. If all goes well, it should hatch into a baby peafowl. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -123,7 +123,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaysToHatch>5</hatcherDaysToHatch>
-        <hatcherPawn>Peafowl</hatcherPawn>
+        <hatcherPawn>CK_Peafowl</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
@@ -131,8 +131,8 @@
   <!-- Junglefowl -->
 
   <ThingDef ParentName="EggUnfertBase">
-    <defName>EggJunglefowlUnfertilized</defName>
-    <label>chicken egg (unfert.)</label>
+    <defName>CK_EggJunglefowlUnfertilized</defName>
+    <label>junglehen egg (unfert.)</label>
     <description>Unfertilized junglefowl egg. It can be eaten raw, but it's much, much better cooked.</description>
     <graphicData>
       <color>(228,185,135)</color>
@@ -143,7 +143,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>EggJunglefowlFertilized</defName>
+    <defName>CK_EggJunglefowlFertilized</defName>
     <label>junglefowl egg (fert.)</label>
     <description>Fertilized junglefowl egg. If all goes well, it should hatch into a baby junglefowl. It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -156,7 +156,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaysToHatch>5</hatcherDaysToHatch>
-        <hatcherPawn>Junglefowl</hatcherPawn>
+        <hatcherPawn>CK_Junglefowl</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
