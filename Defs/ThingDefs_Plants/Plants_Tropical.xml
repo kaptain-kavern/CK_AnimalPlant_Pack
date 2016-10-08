@@ -419,7 +419,7 @@
 
 <ThingDef ParentName="PlantBase">
     <defName>CK_PlantBromeliad</defName>
-    <label>bromeliad</label>
+    <label>bromeliad (decorative)</label>
     <description>Commonly known as the Flaming torch, is a species of bromeliad that is native to ol'Earth Brazil, Venezuela, French Guiana, Antilles and Cuba. They are adaptable, growing well as a terrestrial or epiphytic plant. When on the ground, they quickly create large clumps, and when planted at the base of a tree, they slowly will climb the trunk. The flowers on an individual plant last less than one month, but nearly all of the plants will come into bloom at the same time in the late summer.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
@@ -459,7 +459,7 @@
 
 <ThingDef ParentName="PlantBase">
     <defName>CK_PlantHeliconia</defName>
-    <label>heliconia</label>
+    <label>heliconia (decorative)</label>
     <description>Heliconias are sometimes called "lobster claws" or "parrot flowers" because of their beak-like "bracts".The leaves of this plant are paddle-shaped, and they are related to the banana family. The heliconia's flowers are tiny and found inside these bracts, which are so large and colorful that they almost hide the flowers altogether. Heliconias are found throughout the Neotropics and are actually quite common in the rainforest.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
@@ -541,7 +541,7 @@
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
-    <defName>CK_PlantTobacco</defName>
+    <defName>CK_WildPlantTobacco</defName>
     <label>Tobacco</label>
     <selectable>True</selectable>
     <description>Tobacco.</description>
@@ -559,16 +559,11 @@
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
-      <harvestYield>10</harvestYield>      
+      <harvestYield>12</harvestYield>      
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>CK_RawTobacco</harvestedThingDef>      
-      <harvestWork>350</harvestWork>
-      <sowMinSkill>4</sowMinSkill>
-      <sowTags>
-        <li>Ground</li>
-        <li>Hydroponic</li>
-      </sowTags>
+      <harvestWork>350</harvestWork>      
       <visualSizeRange>
         <min>1.85</min>
         <max>2.15</max>

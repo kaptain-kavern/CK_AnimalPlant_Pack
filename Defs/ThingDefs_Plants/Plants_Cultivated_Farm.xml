@@ -274,6 +274,43 @@
   </ThingDef>
 <!--====================== Production crops ===========================-->
 <!--========================== Drug crops =============================-->
+  <ThingDef ParentName="PlantBase">
+    <defName>CK_PlantTobacco</defName>
+    <label>tobacco</label>
+    <description>Tobacco.</description>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Tobacco</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible>
+      <nutrition>0.1</nutrition>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <shootsSeeds>false</shootsSeeds>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>CK_RawTobacco</harvestedThingDef>
+      <harvestDestroys>true</harvestDestroys>
+      <harvestYield>10</harvestYield>      
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.4</topWindExposure>
+      <growDays>6</growDays>
+      <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
+      <visualSizeRange>
+        <min>1.85</min>
+        <max>2.15</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
 <!--========================= Special - Apiary ========================-->
   <ThingDef ParentName="TreeBase">
     <defName>CK_SpecialTreeApiary</defName>
