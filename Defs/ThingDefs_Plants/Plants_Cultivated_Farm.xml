@@ -1,42 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
   <Plants>
-  <!--========================= Special - Apiary ========================-->
-  <ThingDef ParentName="TreeBase">
-    <defName>CK_SpecialTreeApiary</defName>
-    <label>apiary</label>
-    <description>Apiaries, will slowly fill with honey</description>
-    <graphicData>
-      <texPath>Things/Plant/TreeHive/TreeHive</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <pathCost>200</pathCost>
-    <statBases>
-      <Beauty>0</Beauty>
-    </statBases>    
-    <plant>
-      <leaflessGraphicPath>Things/Plant/TreeHive/TreeHive_Leafless</leaflessGraphicPath>
-      <growDays>25</growDays>
-      <harvestWork>1000</harvestWork>
-      <harvestedThingDef>InsectJelly</harvestedThingDef>
-      <harvestYield>40</harvestYield>
-      <harvestDestroys>false</harvestDestroys>
-      <harvestMinGrowth>0.80</harvestMinGrowth>
-      <harvestFailable>true</harvestFailable>
-      <harvestTag>Standard</harvestTag>
-      <fertilityMin>0.1</fertilityMin>
-      <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>      
-      <shootsSeeds>false</shootsSeeds>
-      <visualSizeRange>
-        <min>1.9</min>
-        <max>2.4</max>
-      </visualSizeRange>
-      <sowResearchPrerequisites>
-        <li>CK_Beekeeping</li>
-      </sowResearchPrerequisites>
-    </plant>
-  </ThingDef>    
-  <!--=========================== Food crops ==============================-->
+  <!--========================== Food crops =============================-->
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantTaro</defName>
     <label>taro</label>
@@ -147,7 +112,7 @@
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
       <shootsSeeds>false</shootsSeeds>
-      <harvestYield>10</harvestYield>      
+      <harvestYield>10</harvestYield>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>CK_RawLemongrass</harvestedThingDef>      
@@ -166,6 +131,85 @@
       <topWindExposure>0.4</topWindExposure>
     </plant>
   </ThingDef>
-  <!--=========================== Production crops ==============================-->
-  <!--=========================== Drug crops ==============================-->    
+
+  <ThingDef ParentName="PlantBase">
+    <defName>CK_PlantCocoa</defName>
+    <label>cocoa bush</label>
+    <description>A bushy plant which yields cocoa beans.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Beauty>1</Beauty>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/BushCocoa</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.6, 0.2, 0.6)</volume>
+      </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>30</pathCost>
+    <ingestible>
+      <nutrition>0.17</nutrition>
+    </ingestible>
+    <plant>      
+      <dieIfLeafless>true</dieIfLeafless>
+      <shootsSeeds>false</shootsSeeds>
+      <harvestYield>10</harvestYield>
+      <harvestWork>400</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>true</harvestDestroys>
+      <harvestedThingDef>CK_RawCocoa</harvestedThingDef>
+      <fertilityMin>0.5</fertilityMin>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>      
+      <visualSizeRange>
+        <min>1.2</min>
+        <max>1.8</max>
+      </visualSizeRange>
+      <growDays>5.5</growDays>
+      <topWindExposure>0.3</topWindExposure>
+      <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
+    </plant>
+</ThingDef>
+  <!--====================== Production crops ===========================-->
+  <!--========================== Drug crops =============================-->
+  <!--========================= Special - Apiary ========================-->
+  <ThingDef ParentName="TreeBase">
+    <defName>CK_SpecialTreeApiary</defName>
+    <label>apiary</label>
+    <description>Apiaries, will slowly fill with honey</description>
+    <graphicData>
+      <texPath>Things/Plant/TreeHive/TreeHive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <pathCost>200</pathCost>
+    <statBases>
+      <Beauty>0</Beauty>
+    </statBases>    
+    <plant>
+      <leaflessGraphicPath>Things/Plant/TreeHive/TreeHive_Leafless</leaflessGraphicPath>
+      <growDays>25</growDays>
+      <harvestWork>1000</harvestWork>
+      <harvestedThingDef>InsectJelly</harvestedThingDef>
+      <harvestYield>40</harvestYield>
+      <harvestDestroys>false</harvestDestroys>
+      <harvestMinGrowth>0.80</harvestMinGrowth>
+      <harvestFailable>true</harvestFailable>
+      <harvestTag>Standard</harvestTag>
+      <fertilityMin>0.1</fertilityMin>
+      <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>      
+      <shootsSeeds>false</shootsSeeds>
+      <visualSizeRange>
+        <min>1.9</min>
+        <max>2.4</max>
+      </visualSizeRange>
+      <sowResearchPrerequisites>
+        <li>CK_Beekeeping</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>    
   </Plants>

@@ -173,7 +173,7 @@
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
-    <defName>CK_PlantCocoa</defName>
+    <defName>CK_WildPlantCocoa</defName>
     <label>cocoa bush</label>
     <description>A bushy plant which yields cocoa beans.</description>
     <statBases>
@@ -199,11 +199,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
       <harvestedThingDef>CK_RawCocoa</harvestedThingDef>
-      <fertilityMin>0.5</fertilityMin>
-      <sowTags>
-        <li>Ground</li>
-        <li>Hydroponic</li>
-      </sowTags>
+      <fertilityMin>0.5</fertilityMin>      
       <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
