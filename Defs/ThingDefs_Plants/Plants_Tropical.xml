@@ -216,7 +216,7 @@
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
-	<defName>CK_PlantBushVanilla</defName>
+	<defName>CK_WildPlantBushVanilla</defName>
 	<label>vanilla plant</label>
 	<description>A vanilla plant.</description>
 	<statBases>
@@ -243,11 +243,7 @@
       <harvestTag>Standard</harvestTag>      
       <harvestFailable>false</harvestFailable>
       <harvestedThingDef>CK_RawVanilla</harvestedThingDef>
-      <fertilityMin>0.6</fertilityMin>
-      <sowTags>
-        <li>Ground</li>
-        <li>Hydroponic</li>
-      </sowTags>
+      <fertilityMin>0.6</fertilityMin>      
       <wildClusterSizeRange>
         <min>2</min>
         <max>3</max>
@@ -287,18 +283,8 @@
 		<harvestTag>Standard</harvestTag>
 		<harvestDestroys>false</harvestDestroys>
 		<harvestWork>500</harvestWork>
-		<harvestYield>6</harvestYield>
-		<fertilityMin>0.5</fertilityMin>
-		<wildClusterSizeRange>
-			<min>2</min>
-			<max>5</max>
-		</wildClusterSizeRange>
-		<wildClusterRadius>4</wildClusterRadius>
-		<sowMinSkill>6</sowMinSkill>
-		<sowTags>
-			<li>Ground</li>
-			<li>Hydroponic</li>
-		</sowTags>
+		<harvestYield>10</harvestYield>
+		<fertilityMin>0.5</fertilityMin>		
 		<topWindExposure>0.3</topWindExposure>
 		<growDays>3.65</growDays>
 		<fertilityFactorGrowthRate>0.6</fertilityFactorGrowthRate>
@@ -310,35 +296,50 @@
 </ThingDef>
 
 <ThingDef ParentName="ChiliPepperBase">
-	<defName>CK_PlantBushChiliPeperGreen</defName>
+	<defName>CK_WildPlantBushChiliPeperGreen</defName>
 	<label>Green Chili Peper</label>
 	<graphicData>
 		<texPath>Things/Plant/BushChiliPeperGreen</texPath>
 	</graphicData>
 	<plant>
 		<harvestedThingDef>CK_RawGreenChili</harvestedThingDef>
+    <wildClusterSizeRange>
+      <min>2</min>
+      <max>5</max>
+    </wildClusterSizeRange>
+    <wildClusterRadius>4</wildClusterRadius>
 	</plant>
 </ThingDef>
 
 <ThingDef ParentName="ChiliPepperBase">
-	<defName>CK_PlantBushChiliPeperYellow</defName>
+	<defName>CK_WildPlantBushChiliPeperYellow</defName>
 	<label>Yellow Chili Peper</label>
 	<graphicData>
 		<texPath>Things/Plant/BushChiliPeperYellow</texPath>
 	</graphicData>
 	<plant>
 		<harvestedThingDef>CK_RawYellowChili</harvestedThingDef>
+    <wildClusterSizeRange>
+      <min>2</min>
+      <max>5</max>
+    </wildClusterSizeRange>
+    <wildClusterRadius>4</wildClusterRadius>
 	</plant>
 </ThingDef>
 
 <ThingDef ParentName="ChiliPepperBase">
-	<defName>CK_PlantBushChiliPeperRed</defName>
+	<defName>CK_WildPlantBushChiliPeperRed</defName>
 	<label>Red Chili Peper</label>
 	<graphicData>
 		<texPath>Things/Plant/BushChiliPeperRed</texPath>
 	</graphicData>
 	<plant>
 		<harvestedThingDef>CK_RawRedChili</harvestedThingDef>
+    <wildClusterSizeRange>
+      <min>2</min>
+      <max>5</max>
+    </wildClusterSizeRange>
+    <wildClusterRadius>4</wildClusterRadius>
 	</plant>
 </ThingDef>
 

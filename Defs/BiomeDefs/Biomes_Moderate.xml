@@ -116,6 +116,11 @@
         <CK_PlantTreeCoconutPalm>0.25</CK_PlantTreeCoconutPalm>
         <CK_PlantHeliconia>0.12</CK_PlantHeliconia>
       <!-- Very Rare -->
+        <CK_WildPlantBushChiliPeperGreen>0.01</CK_WildPlantBushChiliPeperGreen>
+        <CK_WildPlantBushChiliPeperYellow>0.01</CK_WildPlantBushChiliPeperYellow>
+        <CK_WildPlantBushChiliPeperRed>0.01</CK_WildPlantBushChiliPeperRed>
+        <CK_WildPlantCocoa>0.03</CK_WildPlantCocoa>
+        <CK_WildPlantBushVanilla>0.03</CK_WildPlantBushVanilla>
         <CK_PlantWildSmokeleaf>0.03</CK_PlantWildSmokeleaf>
         <CK_PlantWildPsychoid>0.03</CK_PlantWildPsychoid>
         <CK_PlantWildHealroot>0.02</CK_PlantWildHealroot>
