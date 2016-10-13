@@ -61,6 +61,7 @@
 		    <leatherLabel>birdskin</leatherLabel>
 		    <useMeatFrom>Cassowary</useMeatFrom>
 		    <wildness>30</wildness>
+		    <trainableIntelligence>None</trainableIntelligence>
 		    <lifeExpectancy>10</lifeExpectancy>
 		    <lifeStageAges>
 		    	<li>
@@ -295,8 +296,7 @@
 		    <baseBodySize>0.4</baseBodySize>
 		    <baseHungerRate>0.3</baseHungerRate>
 		    <baseHealthScale>0.5</baseHealthScale>
-		    <foodType>VegetarianRoughAnimal</foodType>
-		    <trainableIntelligence>None</trainableIntelligence>
+		    <foodType>VegetarianRoughAnimal</foodType>		    
 		    <wildness>0.4</wildness>
 		    <lifeExpectancy>9</lifeExpectancy>
 		    <leatherColor>(80,80,80)</leatherColor>

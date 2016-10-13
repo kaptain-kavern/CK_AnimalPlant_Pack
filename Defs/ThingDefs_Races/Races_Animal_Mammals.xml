@@ -318,6 +318,7 @@
 	      	<foodType>VegetarianRoughAnimal</foodType>
 	      	<leatherColor>(150,69,53)</leatherColor>
 	      	<leatherInsulation>0.75</leatherInsulation>
+	      	<trainableIntelligence>Intermediate</trainableIntelligence>
 	      	<wildness>0.75</wildness>
 	      	<manhunterOnTameFailChance>0.005</manhunterOnTameFailChance>
 	      	<manhunterOnDamageChance>0.0125</manhunterOnDamageChance>      
