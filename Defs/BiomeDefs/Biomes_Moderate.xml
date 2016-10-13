@@ -100,27 +100,27 @@
       <!-- Very Common -->
          <CK_PlantFern>5</CK_PlantFern>
       <!-- Common -->
-         <CK_PlantTreePalm>1.5</CK_PlantTreePalm>
-         <CK_PlantBushPalm>0.8</CK_PlantBushPalm>
+         <CK_PlantTreePalm>1.8</CK_PlantTreePalm>
+         <CK_PlantBushPalm>1</CK_PlantBushPalm>
       <!-- Uncommon -->
          <CK_PlantTreeMahogany>0.6</CK_PlantTreeMahogany>
          <CK_PlantTreeStranglerFig>0.3</CK_PlantTreeStranglerFig>
          <CK_PlantBromeliad>0.3</CK_PlantBromeliad>
          <CK_PlantWildRice>0.3</CK_PlantWildRice>
-         <CK_PlantTreeBamboo>0.4</CK_PlantTreeBamboo>
+         <CK_PlantTreeBamboo>0.5</CK_PlantTreeBamboo>
          <CK_PlantWildTaro>0.3</CK_PlantWildTaro>
       <!-- Rare -->
-        <CK_PlantTreeBanana>0.25</CK_PlantTreeBanana>
-        <CK_PlantWildCoffea>0.2</CK_PlantWildCoffea>
+        <CK_PlantTreeBanana>0.25</CK_PlantTreeBanana>        
         <CK_PlantWildLemongrass>0.2</CK_PlantWildLemongrass>
         <CK_PlantTreeCoconutPalm>0.25</CK_PlantTreeCoconutPalm>
-        <CK_PlantHeliconia>0.12</CK_PlantHeliconia>
+        <CK_PlantHeliconia>0.15</CK_PlantHeliconia>
       <!-- Very Rare -->
         <CK_WildPlantBushChiliPeperGreen>0.01</CK_WildPlantBushChiliPeperGreen>
         <CK_WildPlantBushChiliPeperYellow>0.01</CK_WildPlantBushChiliPeperYellow>
         <CK_WildPlantBushChiliPeperRed>0.01</CK_WildPlantBushChiliPeperRed>
         <CK_WildPlantCocoa>0.03</CK_WildPlantCocoa>
         <CK_WildPlantBushVanilla>0.03</CK_WildPlantBushVanilla>
+        <CK_PlantWildCoffea>0.05</CK_PlantWildCoffea>
         <CK_WildPlantTobacco>0.04</CK_WildPlantTobacco>
         <CK_PlantWildSmokeleaf>0.03</CK_PlantWildSmokeleaf>
         <CK_PlantWildPsychoid>0.03</CK_PlantWildPsychoid>
