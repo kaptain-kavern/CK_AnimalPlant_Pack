@@ -82,7 +82,7 @@
       <preferability>RawTasty</preferability>
       <tastesRaw>false</tastesRaw>
       <joy>0.01</joy>
-      <joyKind>Gluttonous</joyKind>      
+      <joyKind>Gluttonous</joyKind>
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
   </ThingDef>
@@ -135,23 +135,28 @@
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawCoffee</defName>
     <label>coffee beans</label>
-    <description>coffee beans.</description>
+    <description>coffee beans. Can give a little boost to Rest need but taste bad. (You may want to check if you want this to be used in cooking or not)</description>
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/CoffeeBeans</texPath>
     </graphicData>
     <statBases>
-      <MarketValue>2.5</MarketValue>
+      <MarketValue>4.5</MarketValue>
     </statBases>
     <ingestible>
-      <preferability>DesperateOnly</preferability>
+      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <baseIngestTicks>120</baseIngestTicks>
+      <joyKind>Chemical</joyKind>
       <foodType>Seeds</foodType>
       <nutrition>0.01</nutrition>
-    </ingestible>
-    <thingCategories>
-      <li>PlantMatter</li>
-    </thingCategories>
+      <outcomeDoers>        
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.1</offset>
+        </li>        
+      </outcomeDoers>
+    </ingestible>    
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
@@ -170,10 +175,7 @@
       <preferability>DesperateOnly</preferability>
       <foodType>Seeds</foodType>
       <nutrition>0.01</nutrition>
-    </ingestible>
-    <thingCategories>
-      <li>PlantMatter</li>
-    </thingCategories>
+    </ingestible>    
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
@@ -188,17 +190,14 @@
     </statBases>
     <ingestible>
       <preferability>DesperateOnly</preferability>
-      <foodType>Plant</foodType>
+      <foodType>VegetableOrFruit</foodType>
       <nutrition>0.01</nutrition>
     </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>50</daysToRotStart>
       </li>
-    </comps>
-    <thingCategories>
-      <li>PlantMatter</li>
-    </thingCategories>
+    </comps>    
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
