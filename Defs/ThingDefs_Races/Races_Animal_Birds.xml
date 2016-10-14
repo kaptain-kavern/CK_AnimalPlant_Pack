@@ -345,10 +345,10 @@
     <label>junglefowl</label>
     <race>CK_Junglefowl</race>
     <!-- <labelMale>jungle peacock</labelMale> -->
-  	<labelFemale>jungle peahen</labelFemale>    
+  	<labelFemale>jungle hen</labelFemale>    
     <lifeStages>
       <li>
-      	<label>jungle peachick</label>
+      	<label>jungle chick</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>				<color>(150,135,55)</color>
           <drawSize>0.45</drawSize>
