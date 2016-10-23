@@ -17,7 +17,7 @@
       <leaflessGraphicPath>Things/Plant/TreeHive/TreeHive_Leafless</leaflessGraphicPath>
       <growDays>32.5</growDays>
       <harvestWork>1200</harvestWork>
-      <harvestedThingDef>InsectJelly</harvestedThingDef>
+      <harvestedThingDef>CK_Honeycomb</harvestedThingDef>
       <harvestYield>60</harvestYield>
       <harvestDestroys>false</harvestDestroys>
       <harvestMinGrowth>0.80</harvestMinGrowth>

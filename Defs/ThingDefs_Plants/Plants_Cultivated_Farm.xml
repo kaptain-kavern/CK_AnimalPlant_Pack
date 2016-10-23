@@ -317,7 +317,7 @@
     <label>apiary</label>
     <description>Apiaries, will slowly fill with honey</description>
     <graphicData>
-      <texPath>Things/Plant/TreeHive/TreeHive</texPath>
+      <texPath>Things/Plant/Apiary/Apiary</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <pathCost>200</pathCost>
@@ -325,10 +325,9 @@
       <Beauty>0</Beauty>
     </statBases>    
     <plant>
-      <leaflessGraphicPath>Things/Plant/TreeHive/TreeHive_Leafless</leaflessGraphicPath>
       <growDays>25</growDays>
       <harvestWork>1000</harvestWork>
-      <harvestedThingDef>InsectJelly</harvestedThingDef>
+      <harvestedThingDef>CK_Honeycomb</harvestedThingDef>
       <harvestYield>40</harvestYield>
       <harvestDestroys>false</harvestDestroys>
       <harvestMinGrowth>0.80</harvestMinGrowth>
