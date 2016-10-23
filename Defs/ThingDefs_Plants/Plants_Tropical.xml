@@ -1,18 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <!--========================= Special - Hive Tree ========================-->
-  <ThingDef ParentName="TreeBase">
+  <ThingDef ParentName="PlantBase">
     <defName>CK_SpecialTreeHive</defName>
     <label>hive tree</label>
     <description>An old hollow tree, now colonised by bees</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.65</fillPercent>
     <graphicData>
+        <shadowData>
+          <volume>(0.3, 0.3, 0.3)</volume>
+        </shadowData>      
       <texPath>Things/Plant/TreeHive/TreeHive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <passability>PassThroughOnly</passability>
+    <blockWind>true</blockWind>    
     <pathCost>200</pathCost>
     <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
       <Beauty>0</Beauty>
-    </statBases>    
+    </statBases>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>RawBad</preferability>
+      <nutrition>2</nutrition>
+    </ingestible>
     <plant>
       <leaflessGraphicPath>Things/Plant/TreeHive/TreeHive_Leafless</leaflessGraphicPath>
       <growDays>32.5</growDays>
@@ -24,6 +38,8 @@
       <harvestFailable>true</harvestFailable>
       <harvestTag>Standard</harvestTag>
       <fertilityMin>0.01</fertilityMin>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <topWindExposure>0.25</topWindExposure>
       <fertilityFactorGrowthRate>0</fertilityFactorGrowthRate>
       <wildClusterSizeRange>
         <min>1</min>
