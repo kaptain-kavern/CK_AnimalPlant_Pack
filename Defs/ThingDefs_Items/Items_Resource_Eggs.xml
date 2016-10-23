@@ -109,6 +109,18 @@
 
   <!-- Peafowl -->
 
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>CK_EggPeafowlUnfertilized</defName>
+    <label>peafowl egg (unfert.)</label>
+    <description>Unfertilized peafowl egg. It can be eaten raw, but it's much, much better cooked.</description>
+    <graphicData>
+      <color>(228,185,135)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+  </ThingDef>  
+
   <ThingDef ParentName="EggFertBase">
     <defName>CK_EggPeafowlFertilized</defName>
     <label>peafowl egg (fert.)</label>
