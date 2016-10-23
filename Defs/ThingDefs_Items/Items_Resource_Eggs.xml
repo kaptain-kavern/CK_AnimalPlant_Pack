@@ -1,50 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
-  <!--=====================================================================-->
-  <!--=============================== Eggs ================================-->
-  <!--=====================================================================-->
-
-  <ThingDef Abstract="True" Name="EggBase" ParentName="OrganicProductBase" >
-    <graphicData>
-      <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
-    </graphicData>
-    <ingestible>
-      <foodType>AnimalProduct</foodType>
-      <nutrition>0.25</nutrition>
-      <ingestEffect>EatMeat</ingestEffect>
-      <ingestSound>RawMeat_Eat</ingestSound>
-      <tastesRaw>true</tastesRaw>
-    </ingestible>
-  </ThingDef>
-
-  <ThingDef Abstract="True" Name="EggUnfertBase" ParentName="EggBase" >
-    <ingestible>
-      <preferability>RawBad</preferability>
-    </ingestible>
-    <thingCategories>
-      <li>EggsUnfertilized</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>15</daysToRotStart>
-      </li>
-      <li Class="CompProperties_FoodPoisoningChance" />
-    </comps>
-  </ThingDef>
-
-  <ThingDef Abstract="True" Name="EggFertBase" ParentName="EggBase" >
-    <tickerType>Normal</tickerType>
-    <ingestible>
-      <preferability>DesperateOnly</preferability>
-    </ingestible>
-    <thingCategories>
-      <li>EggsFertilized</li>
-    </thingCategories>
-  </ThingDef>
-
   <!-- Komodo dragon -->
   
   <ThingDef ParentName="EggFertBase">

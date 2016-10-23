@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--================== Resource Bases ==================-->
+  
+  <ThingDef Name="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <label>unspecified resource</label>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>  
+
+  <ThingDef Name="ResourceVerbBase" ParentName="ResourceBase" Abstract="True">
+    <equipmentType>Primary</equipmentType>
+    <techLevel>Neolithic</techLevel>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="OrganicProductBase" ParentName="ResourceBase">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>10</DeteriorationRate>
+    </statBases>
+    <tickerType>Rare</tickerType>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="PlantFoodRawBase" ParentName="OrganicProductBase">
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <tastesRaw>true</tastesRaw>
+      <nutrition>0.05</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_FoodPoisoningChance" />
+    </comps>
+  </ThingDef>
+
+    <!-- Plant matter (inedible by people) -->
+
+  <ThingDef ParentName="OrganicProductBase" Name="RoughPlantBase" Abstract="True">
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>RawBad</preferability>
+      <nutrition>0.05</nutrition>
+    </ingestible>
+  </ThingDef>
+
+  <!--=============================== Eggs bases ==========================--> 
+
+  <ThingDef Abstract="True" Name="EggBase" ParentName="OrganicProductBase" >
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <nutrition>0.25</nutrition>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tastesRaw>true</tastesRaw>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="EggUnfertBase" ParentName="EggBase" >
+    <ingestible>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <thingCategories>
+      <li>EggsUnfertilized</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+      </li>
+      <li Class="CompProperties_FoodPoisoningChance" />
+    </comps>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="EggFertBase" ParentName="EggBase" >
+    <tickerType>Normal</tickerType>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+    <thingCategories>
+      <li>EggsFertilized</li>
+    </thingCategories>
+  </ThingDef>  
+
+</Defs>
