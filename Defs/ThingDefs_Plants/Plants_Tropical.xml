@@ -720,6 +720,29 @@
     </plant>
   </ThingDef>
 
+  <ThingDef ParentName="TreeBase">
+    <defName>CK_PlantTreeTreeStump</defName>
+    <label>tree (dead)</label>
+    <description></description>
+    <graphicData>
+      <texPath>Things/Plant/TreeHive/TreeHive_Leafless</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <plant>
+      <sowTags></sowTags>
+      <growDays>20</growDays>
+      <harvestWork>1000</harvestWork>
+      <harvestYield>20</harvestYield>
+      <visualSizeRange>
+        <min>2</min>
+        <max>3</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>  
+
   <ThingDef ParentName="PlantBase">
     	<defName>CK_PlantTreeBanana</defName>
     	<label>banana</label>
