@@ -37,8 +37,8 @@
         <li>Hydroponic</li>
       </sowTags>      
       <visualSizeRange>
-        <min>1</min>
-        <max>1.2</max>
+        <min>1.6</min>
+        <max>2</max>
       </visualSizeRange>
       <growDays>4</growDays>
       <topWindExposure>0.3</topWindExposure>      

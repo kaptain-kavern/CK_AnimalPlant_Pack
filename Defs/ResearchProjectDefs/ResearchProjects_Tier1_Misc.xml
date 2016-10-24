@@ -23,7 +23,7 @@
     <defName>CK_Beekeeping</defName>
     <label>beekeeping</label>
     <description>Allows colonists to use apiaries in growing zone</description>
-    <baseCost>300</baseCost>
+    <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
   </ResearchProjectDef>
 

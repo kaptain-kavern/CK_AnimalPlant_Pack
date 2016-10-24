@@ -95,6 +95,7 @@
         <max>2</max>
       </visualSizeRange>
       <growDays>7</growDays>
+      <seedEmitMTBDays>2.5</seedEmitMTBDays>
       <topWindExposure>0.3</topWindExposure>
       <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
     </plant>
@@ -135,12 +136,12 @@
       </wildClusterSizeRange>
       <wildClusterRadius>4</wildClusterRadius>
       <visualSizeRange>
-        <min>1</min>
-        <max>1.2</max>
+        <min>1.8</min>
+        <max>2.2</max>
       </visualSizeRange>
       <growDays>4</growDays>
       <topWindExposure>0.3</topWindExposure>
-      <seedEmitMTBDays>1.5</seedEmitMTBDays>
+      <seedEmitMTBDays>3</seedEmitMTBDays>
       <fertilityFactorGrowthRate>0.3</fertilityFactorGrowthRate>      
     </plant>
 </ThingDef>
@@ -182,6 +183,7 @@
         <min>1.2</min>
         <max>1.8</max>
       </visualSizeRange>
+      <seedEmitMTBDays>4</seedEmitMTBDays>
       <growDays>5.5</growDays>
       <topWindExposure>0.3</topWindExposure>
       <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
@@ -225,6 +227,7 @@
         <min>1.2</min>
         <max>1.8</max>
       </visualSizeRange>
+      <seedEmitMTBDays>4</seedEmitMTBDays>
       <growDays>5.5</growDays>
       <topWindExposure>0.3</topWindExposure>
       <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
@@ -271,7 +274,7 @@
       </visualSizeRange>
       <growDays>5.5</growDays>
       <topWindExposure>0.5</topWindExposure>
-      <seedEmitMTBDays>2</seedEmitMTBDays>
+      <seedEmitMTBDays>4</seedEmitMTBDays>
       <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
       <fertilityFactorPlantChance>1.0</fertilityFactorPlantChance>
     </plant>
@@ -308,6 +311,7 @@
 			<min>0.7</min>
 			<max>1.1</max>
 		</visualSizeRange>
+    <seedEmitMTBDays>4</seedEmitMTBDays>
 	</plant>
 </ThingDef>
 
@@ -388,7 +392,7 @@
       </visualSizeRange>
       <growDays>3</growDays>
       <topWindExposure>0.4</topWindExposure>
-      <seedEmitMTBDays>3.5</seedEmitMTBDays>
+      <seedEmitMTBDays>2</seedEmitMTBDays>
       <fertilityFactorGrowthRate>0.90</fertilityFactorGrowthRate>
       <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
       <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction>
@@ -422,7 +426,7 @@
       </visualSizeRange>
       <growDays>5</growDays>
       <topWindExposure>0.3</topWindExposure>
-      <seedEmitMTBDays>3</seedEmitMTBDays>
+      <seedEmitMTBDays>5</seedEmitMTBDays>
       <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
       <fertilityFactorPlantChance>1.0</fertilityFactorPlantChance>
       <wildClusterSizeRange>
@@ -467,7 +471,7 @@
       </visualSizeRange>
       <growDays>3.5</growDays>
       <topWindExposure>0.4</topWindExposure>
-      <seedEmitMTBDays>3.5</seedEmitMTBDays>
+      <seedEmitMTBDays>4</seedEmitMTBDays>
       <fertilityFactorGrowthRate>0.90</fertilityFactorGrowthRate>
       <fertilityFactorPlantChance>0.90</fertilityFactorPlantChance>
     </plant>
@@ -506,7 +510,7 @@
       </visualSizeRange>
       <growDays>2.5</growDays>
       <topWindExposure>0.3</topWindExposure>
-      <seedEmitMTBDays>3.5</seedEmitMTBDays>
+      <seedEmitMTBDays>4</seedEmitMTBDays>
       <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
       <fertilityFactorPlantChance>1.0</fertilityFactorPlantChance>
       <wildClusterSizeRange>
@@ -551,6 +555,7 @@
         <min>2</min>
         <max>5</max>
       </wildClusterSizeRange>
+      <seedEmitMTBDays>3</seedEmitMTBDays>
       <wildClusterRadius>4</wildClusterRadius>
       <topWindExposure>0.4</topWindExposure>
     </plant>
@@ -589,6 +594,7 @@
         <min>2</min>
         <max>5</max>
       </wildClusterSizeRange>
+      <seedEmitMTBDays>4</seedEmitMTBDays>
       <wildClusterRadius>4</wildClusterRadius>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
       <topWindExposure>0.4</topWindExposure>
