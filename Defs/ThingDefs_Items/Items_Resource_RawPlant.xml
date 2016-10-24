@@ -139,6 +139,30 @@
     <thingCategories>
       <li>AnimalProductRaw</li>
     </thingCategories>
-  </ThingDef>  
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>CK_DreamVineRoot</defName>
+    <label>dream vine root</label>
+    <description></description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/DreamVineRoot</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+    </ingestible>
+  </ThingDef>
   
 </Defs>
