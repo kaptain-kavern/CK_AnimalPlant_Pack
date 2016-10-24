@@ -123,8 +123,8 @@
         <li>Hydroponic</li>
       </sowTags>
       <visualSizeRange>
-        <min>1.85</min>
-        <max>2.15</max>
+        <min>1</min>
+        <max>1.60</max>
       </visualSizeRange>
       <growDays>3</growDays>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
