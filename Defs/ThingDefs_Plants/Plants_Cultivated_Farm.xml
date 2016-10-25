@@ -170,8 +170,8 @@
       <growDays>6.84</growDays>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
       <visualSizeRange>
-        <min>0.6</min>
-        <max>1.2</max>
+        <min>1.6</min>
+        <max>2</max>
       </visualSizeRange>
     </plant>
   </ThingDef>
@@ -201,8 +201,8 @@
       <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>      
       <shootsSeeds>false</shootsSeeds>
       <visualSizeRange>
-        <min>1.9</min>
-        <max>2.4</max>
+        <min>2.2</min>
+        <max>2.2</max>
       </visualSizeRange>
       <sowResearchPrerequisites>
         <li>CK_Beekeeping</li>
