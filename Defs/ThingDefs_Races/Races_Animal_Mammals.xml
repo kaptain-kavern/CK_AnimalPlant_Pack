@@ -299,6 +299,13 @@
 	      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
 	      <MarketValue>520</MarketValue>
 	    </statBases>
+	    <comps>
+	      <li Class="CompProperties_Milkable">
+	        <milkDef>Milk</milkDef>
+	        <milkIntervalDays>2</milkIntervalDays>
+	        <milkAmount>8</milkAmount>
+	      </li>
+	    </comps>	    
 	    <verbs>
 	      <li>
 	        <verbClass>Verb_MeleeAttack</verbClass>
