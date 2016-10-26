@@ -210,7 +210,7 @@
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AlcoholTolerance</hediffDef>
-          <severity>0.01</severity>
+          <severity>0.015</severity>
         </li>
       </outcomeDoers>
     </ingestible>
