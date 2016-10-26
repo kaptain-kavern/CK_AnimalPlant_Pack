@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <RecipeDef>
+    <defName>CK_MakeNeutroamine</defName>
+    <label>make neutroamine</label>
+    <description>Make neutroamine from dream vine roots.</description>
+    <jobString>Making neutroamine.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <recipeUsers>
+      <li>DrugLab</li>      
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>            
+            <li>CK_DreamVineRoot</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>      
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CK_DreamVineRoot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Neutroamine>1</Neutroamine>
+    </products>
+    <skillRequirements>
+      <li>
+        <skill>Cooking</skill>
+        <minLevel>10</minLevel>
+      </li>
+    </skillRequirements>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+
+</Defs>
