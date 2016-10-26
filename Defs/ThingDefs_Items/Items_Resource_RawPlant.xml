@@ -93,7 +93,7 @@
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawCoffee</defName>
     <label>coffee beans</label>
-    <description>coffee beans. Can give a little boost to Rest need but taste bad. (You may want to check if you want this to be used in cooking or not)</description>
+    <description>Can be cooked or can give a little boost to movement speed and "Rest need" if eaten raw, but taste bad. (You may want to check if you want this to be used in cooking or not)</description>
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>
     <graphicData>
@@ -106,6 +106,7 @@
       <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
       <baseIngestTicks>120</baseIngestTicks>
       <joyKind>Chemical</joyKind>
+      <joy>0.01</joy>
       <foodType>Seeds</foodType>
       <nutrition>0.01</nutrition>
       <outcomeDoers>        
@@ -122,19 +123,19 @@
 
   <HediffDef>
     <defName>CK_AteRawCoffee</defName>
-    <label>Ate raw coffee</label>
+    <label>Cafeine</label>
     <initialSeverity>1</initialSeverity>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li>
         <compClass>HediffComp_Immunizable</compClass>
-        <severityPerDayNotImmune>-1</severityPerDayNotImmune>
+        <severityPerDayNotImmune>-12</severityPerDayNotImmune>
       </li>
     </comps>
     <stages>
         <li>
           <minSeverity>0</minSeverity>
-          <label>Had raw coffee</label>          
+          <label>speed from coffee</label>          
             <capMods>
               <li>
                 <capacity>Moving</capacity>
@@ -169,27 +170,49 @@
     </thingCategories>
   </ThingDef>
 
-  <ThingDef ParentName="RoughPlantBase">
+  <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_DreamVineRoot</defName>
     <label>dream vine root</label>
-    <description></description>
+    <description>Can be cooked or eaten raw (You may want to check if you want this to be used in cooking or not). Dream Vine Roots are traditionally used to induce vivid lucid dreams during the initiation process of shamans to help them remember their dreams. </description>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/DreamVineRoot</texPath>
     </graphicData>
     <statBases>
-      <MarketValue>1</MarketValue>
+      <MarketValue>2</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>30</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
-    </comps>
-    <thingCategories>
-      <li>PlantMatter</li>
-    </thingCategories>
-    <ingestible>
-      <preferability>NeverForNutrition</preferability>
+      <li Class="CompProperties_Drug">
+        <chemical>Alcohol</chemical>
+        <addictiveness>0.003</addictiveness>
+        <minToleranceToAddict>0.5</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.10</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>10</listOrder>
+      </li>
+    </comps>    
+     <ingestible>
+     <drugCategory>Social</drugCategory>
+     <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+     <baseIngestTicks>120</baseIngestTicks>
+     <joyKind>Chemical</joyKind>
+     <joy>0.1</joy>
+     <foodType>VegetableOrFruit</foodType>
+     <nutrition>0.01</nutrition>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholHigh</hediffDef>
+          <severity>0.1</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholTolerance</hediffDef>
+          <severity>0.01</severity>
+        </li>
+      </outcomeDoers>
     </ingestible>
   </ThingDef>
   

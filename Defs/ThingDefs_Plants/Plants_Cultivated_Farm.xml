@@ -157,7 +157,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
       <harvestDestroys>true</harvestDestroys>
-      <harvestYield>11</harvestYield>
+      <harvestYield>6</harvestYield>
       <sowMinSkill>6</sowMinSkill>
       <sowTags>
         <li>Ground</li>
