@@ -158,14 +158,11 @@
       <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
       <harvestDestroys>true</harvestDestroys>
       <harvestYield>6</harvestYield>
-      <sowMinSkill>6</sowMinSkill>
+      <sowMinSkill>8</sowMinSkill>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
-      </sowTags>
-      <sowResearchPrerequisites>
-        <li>DrugProduction</li>
-      </sowResearchPrerequisites>
+      </sowTags>      
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
