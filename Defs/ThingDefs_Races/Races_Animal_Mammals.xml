@@ -290,7 +290,7 @@
 	    </lifeStages>
 	</PawnKindDef>
 <!-- =================== Bongo ============================ -->
-	<!-- <ThingDef ParentName="AnimalThingBase">
+	<ThingDef ParentName="AnimalThingBase">
 	  	<defName>CK_Bongo</defName>
 	    <label>bongo</label>
 	    <description>The bongo is a herbivorous, mostly nocturnal forest ungulate. It is among the largest of ol'Earth African forest antelope species. Bongos are characterised by a striking reddish-brown coat, black and white markings, white-yellow stripes and long slightly spiralled horns. Indeed, bongos are the only tragelaphid in which both sexes have horns. They have a complex social interaction and were found in African dense forest mosaics.</description>
@@ -356,9 +356,9 @@
 	    <tradeTags>
 	      <li>StandardAnimal</li>
 	    </tradeTags>
-	</ThingDef> -->
+	</ThingDef>
 
-	<!-- <PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="AnimalKindBase">
 	    <defName>CK_Bongo</defName>
 	    <label>bongo</label>
 	    <race>CK_Bongo</race>
@@ -432,6 +432,6 @@
 	        </dropBodyPart>
 	      </li>
 	    </lifeStages>
-	</PawnKindDef> -->
+	</PawnKindDef>
 <!-- ============================================================ -->  
 </Defs>
