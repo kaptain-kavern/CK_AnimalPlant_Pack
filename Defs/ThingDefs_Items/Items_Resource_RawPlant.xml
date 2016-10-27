@@ -103,6 +103,9 @@
       <MarketValue>4.5</MarketValue>
     </statBases>
     <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <ingestCommandString>Take {0}</ingestCommandString>
+      <ingestReportString>Taking {0}.</ingestReportString>
       <nurseable>true</nurseable>
       <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
       <baseIngestTicks>120</baseIngestTicks>
@@ -209,7 +212,7 @@
      <ingestible>
      <drugCategory>Social</drugCategory>
      <ingestCommandString>Take {0}</ingestCommandString>
-      <ingestReportString>Taking {0}.</ingestReportString>
+     <ingestReportString>Taking {0}.</ingestReportString>
      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
      <baseIngestTicks>120</baseIngestTicks>
      <joyKind>Chemical</joyKind>
