@@ -34,13 +34,9 @@
     </products>
     <skillRequirements>
       <li>
-        <skill>Cooking</skill>
-        <minLevel>3</minLevel>
-      </li>
-      <li>
-        <skill>Medicine</skill>
+        <skill>Crafting</skill>
         <minLevel>6</minLevel>
-      </li>
+      </li>      
     </skillRequirements>
     <workSpeedStat>DrugProductionSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>

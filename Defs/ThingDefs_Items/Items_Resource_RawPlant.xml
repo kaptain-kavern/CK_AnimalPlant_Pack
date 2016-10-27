@@ -105,8 +105,8 @@
 	    <socialPropernessMatters>true</socialPropernessMatters>
 	    <ingestible>
 	      <drugCategory>Medical</drugCategory>
-	      <ingestCommandString>Take {0}</ingestCommandString>
-	      <ingestReportString>Taking {0}.</ingestReportString>
+	      <ingestCommandString>Ingest {0}</ingestCommandString>
+	      <ingestReportString>Ingesting {0}.</ingestReportString>
 	      <nurseable>true</nurseable>
 	      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
 	      <baseIngestTicks>120</baseIngestTicks>
@@ -173,7 +173,7 @@
 	    <stages>
 	      <li>
 	        <label>speed from coffee</label>
-	        <description>Those coffee beans man... They're taste like $#*¤t but it's strong stuff.</description>
+	        <description>Those coffee beans... tastes like s%$#, but man are they strong.</description>
 	        <baseMoodEffect>2</baseMoodEffect>
 	      </li>
 	    </stages>
@@ -302,8 +302,8 @@
     </comps>    
      <ingestible>
      <drugCategory>Social</drugCategory>
-     <ingestCommandString>Take {0}</ingestCommandString>
-     <ingestReportString>Taking {0}.</ingestReportString>
+     <ingestCommandString>Ingest {0}</ingestCommandString>
+     <ingestReportString>Ingesting {0}.</ingestReportString>
      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
      <baseIngestTicks>120</baseIngestTicks>
      <joyKind>Chemical</joyKind>
