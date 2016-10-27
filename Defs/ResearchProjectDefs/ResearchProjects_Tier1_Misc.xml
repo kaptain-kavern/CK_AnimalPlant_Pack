@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- <ResearchProjectDef>
+    <defName></defName>
+    <label></label>
+    <description></description>
+    <baseCost></baseCost>
+    <techLevel></techLevel>
+  </ResearchProjectDef> -->
+
+  <!--=============================== Tier 1: pre-electricity ===================================-->
+
+  <ResearchProjectDef>
+    <defName>CK_TropicalWoodGrowing</defName>
+    <label>tropical wood growing</label>
+    <description>Allows colonists to plant all rainforest trees.</description>
+    <baseCost>100</baseCost>
+    <techLevel>Neolithic</techLevel>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CK_Beekeeping</defName>
+    <label>beekeeping</label>
+    <description>Allows colonists to use apiaries in growing zone</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+  </ResearchProjectDef>
+
+</Defs>

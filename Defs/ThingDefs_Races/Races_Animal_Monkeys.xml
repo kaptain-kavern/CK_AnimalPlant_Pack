@@ -175,8 +175,8 @@
   </PawnKindDef>
 
   <!-- ============== Squirrel Monkey ======================= -->
-  <ThingDef ParentName="SmallMonkeyThingBase">
-    <defName>SquirrelMonkey</defName>
+<!--   <ThingDef ParentName="SmallMonkeyThingBase">
+    <defName>CK_SquirrelMonkey</defName>
     <label>squirrel monkey</label>
     <description>The common squirrel monkey prefers to live in the middle canopy, but occasionally comes to the ground or goes up into the high canopy. They like vegetation which provides good cover from birds of prey in the rainforest, savannah, mangroves, or marshlands.</description>
     <race>
@@ -188,15 +188,14 @@
   </ThingDef>
 
   <PawnKindDef ParentName="SmallMonkeyKindBase">
-    <defName>SquirrelMonkey</defName>
+    <defName>CK_SquirrelMonkey</defName>
     <label>squirrel monkey</label>
-    <race>SquirrelMonkey</race>    
+    <race>CK_SquirrelMonkey</race>    
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>0.5</drawSize>
-          <!-- <color>(161,95,38)</color> -->
+          <drawSize>0.5</drawSize>          
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -206,8 +205,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>0.8</drawSize>
-          <!-- <color>(161,95,38)</color> -->
+          <drawSize>0.8</drawSize>          
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -217,8 +215,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>1.2</drawSize>
-          <!-- <color>(161,95,38)</color> -->
+          <drawSize>1.2</drawSize>          
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -226,19 +223,19 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-  </PawnKindDef>  
+  </PawnKindDef>   -->
 
   <!-- ================= Gorilla ========================== -->
-  <ThingDef ParentName="ApeMonkeyThingBase">
-    <defName>Gorilla</defName>
+<!--   <ThingDef ParentName="ApeMonkeyThingBase">
+    <defName>CK_Gorilla</defName>
     <label>gorilla</label>
     <description>Gorillas are ground-dwelling, predominantly herbivorous apes that inhabit forests. They are the largest living primates. Gorillas' natural habitats cover tropical or subtropical forests. </description>
   </ThingDef>
 
   <PawnKindDef ParentName="ApeMonkeyKindBase">
-    <defName>Gorilla</defName>
+    <defName>CK_Gorilla</defName>
     <label>gorilla</label>
-    <race>Gorilla</race>
+    <race>CK_Gorilla</race>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -283,11 +280,11 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-</PawnKindDef>
+  </PawnKindDef> -->
 
 <!-- =============== Spider Monkey ======================= -->
- <ThingDef ParentName="SmallMonkeyThingBase">
-    <defName>SpiderMonkey</defName>
+<!--  <ThingDef ParentName="SmallMonkeyThingBase">
+    <defName>CK_SpiderMonkey</defName>
     <label>spider monkey</label>
     <description>Disproportionately long limbs and long prehensile tails make them one of the largest (Ol' Earth) New World monkeys and give rise to their common name. Spider monkeys live in the upper layers of the rainforest, and forage in the high canopy, from 25 to 30 m (82 to 98 ft).They primarily eat fruits, but will also occasionally consume leaves, flowers, and insects. Due to their large size, spider monkeys require large tracts of moist evergreen forests, and prefer undisturbed primary rainforest. They are social animals and live in bands of up to 35 individuals but will split up to forage during the day.</description>
     <race>
@@ -299,14 +296,10 @@
   </ThingDef>
 
   <PawnKindDef ParentName="SmallMonkeyKindBase">
-    <defName>SpiderMonkey</defName>
+    <defName>CK_SpiderMonkey</defName>
     <label>spider monkey</label>
-    <race>SpiderMonkey</race>
+    <race>CK_SpiderMonkey</race>
     <combatPower>45</combatPower>
-<!--     <wildSpawn_GroupSizeRange>
-      <min>10</min>
-      <max>20</max>
-    </wildSpawn_GroupSizeRange>   -->
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -339,11 +332,11 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-  </PawnKindDef>
+  </PawnKindDef> -->
 
   <!-- ============== Capuchin Monkey ======================= -->
-  <ThingDef ParentName="SmallMonkeyThingBase">
-    <defName>CapuchinMonkey</defName>
+<!--   <ThingDef ParentName="SmallMonkeyThingBase">
+    <defName>CK_CapuchinMonkey</defName>
     <label>capuchin monkey</label>
     <description>Capuchins are diurnal and arboreal. With the exception of a midday nap, they spend their entire day searching for food. At night, they sleep in the trees, wedged between branches. They are undemanding regarding their habitat and can thus be found in many differing areas. They are omnivores, and consume a variety of plant parts such as leaves, flower and fruit, seeds, pith, woody tissue, sugarcane, bulb, and exudates, as well as arthropods, molluscs, a variety of vertebrates, and even primates. They are characterized as innovative and extreme foragers because of their ability to acquire sustenance from a wide collection of unlikely food, which may assure them survival in habitats with extreme food limitation. Capuchin monkeys often live in large groups of 10 to 35 individuals within the forest, although they can easily adapt to places colonized by humans. Usually, a single male will dominate the group.</description>
     <race>
@@ -355,13 +348,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="SmallMonkeyKindBase">
-    <defName>CapuchinMonkey</defName>
+    <defName>CK_CapuchinMonkey</defName>
     <label>capuchin monkey</label>
-    <race>CapuchinMonkey</race>
-<!--     <wildSpawn_GroupSizeRange>
-      <min>10</min>
-      <max>20</max>
-    </wildSpawn_GroupSizeRange>   -->
+    <race>CK_CapuchinMonkey</race>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -397,6 +386,6 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-  </PawnKindDef>  
+  </PawnKindDef>  --> 
 
 </Defs>

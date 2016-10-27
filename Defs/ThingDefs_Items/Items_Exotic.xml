@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+  
+  <!--=============== Bongo horn ====================-->
+  
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>CK_BongoHorn</defName>
+    <label>bongo horn</label>
+    <description>A bongo's horn. It's valuable in most markets. This is a trophy.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/BongoHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+      <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2</MeleeWeapon_Cooldown>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+      </li>
+    </verbs>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!--=============== Rhino horn ====================-->
+  
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>CK_RhinocerosHorn</defName>
+    <label>rhinoceros horn</label>
+    <description>A rhinoceros' horn. Very durable and valuable. Somewhat unwieldy as a weapon.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/RhinoHorn</texPath>      
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>450</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+      <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.4</MeleeWeapon_Cooldown>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+      </li>
+    </verbs>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!--============== Gazelle horn ===================-->
+
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>CK_GazelleHorn</defName>
+    <label>gazelle horn</label>
+    <description>A gazelle's horn. It's valuable in most markets. This is a trophy.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/GazelleHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>90</equippedAngleOffset>
+    <statBases>
+      <MarketValue>200</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Stab</meleeDamageDef>
+      </li>
+    </verbs>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!--================ Ibex horn ====================-->
+
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>CK_IbexHorn</defName>
+    <label>ibex horn</label>
+    <description>An ibex's horn. It's valuable in most markets. This is a trophy.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/IbexHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>90</equippedAngleOffset>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+      <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.2</MeleeWeapon_Cooldown>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+      </li>
+    </verbs>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>    
+
+  <!--=============== Deer Antler ===================-->
+
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>CK_DeerAntler</defName>
+    <label>deer antler</label>
+    <description>A deer's antler. It's valuable in most markets. This is a trophy.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/DeerAntler</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>90</equippedAngleOffset>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2</MeleeWeapon_Cooldown>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+      </li>
+    </verbs>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!--=============== Elk Antler ====================-->
+
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>CK_ElkAntler</defName>
+    <label>elk antler</label>
+    <description>An elk's antler. It's valuable in most markets. This is a trophy.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/ElkAntler</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>90</equippedAngleOffset>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+      <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.2</MeleeWeapon_Cooldown>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+      </li>
+    </verbs>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!--============= Caribou Antler ==================-->
+
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>CK_CaribouAntler</defName>
+    <label>caribou antler</label>
+    <description>A caribou's antler. It's valuable in most markets. This is a trophy.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/CaribouAntler</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>90</equippedAngleOffset>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+      <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.4</MeleeWeapon_Cooldown>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+      </li>
+    </verbs>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+
+</GameData>

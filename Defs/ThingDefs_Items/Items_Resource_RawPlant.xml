@@ -1,50 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Abstract="True" Name="OrganicProductBase" ParentName="ResourceBase">
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <socialPropernessMatters>true</socialPropernessMatters>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>10</DeteriorationRate>
-    </statBases>
-    <tickerType>Rare</tickerType>
-  </ThingDef>
-
-  <ThingDef Abstract="True" Name="PlantFoodRawBase" ParentName="OrganicProductBase">
-    <ingestible>
-      <preferability>RawBad</preferability>
-      <tastesRaw>true</tastesRaw>
-      <nutrition>0.05</nutrition>
-      <ingestEffect>EatVegetarian</ingestEffect>
-      <ingestSound>RawVegetable_Eat</ingestSound>
-    </ingestible>
-    <thingCategories>
-      <li>PlantFoodRaw</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_FoodPoisoningChance" />
-    </comps>
-  </ThingDef>
-
-    <!-- Plant matter (inedible by people) -->
-
-  <ThingDef ParentName="OrganicProductBase" Name="RoughPlantBase" Abstract="True">
-    <ingestible>
-      <foodType>Plant</foodType>
-      <preferability>RawBad</preferability>
-      <nutrition>0.05</nutrition>
-    </ingestible>
-  </ThingDef>
-
-
-
-
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>TaroRoot</defName>
+    <defName>CK_TaroRoot</defName>
     <label>taro roots</label>
     <description>Taro roots.</description>
     <graphicData>
@@ -64,7 +22,7 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>RawBanana</defName>
+    <defName>CK_RawBanana</defName>
     <label>bananas</label>
     <description>Bananas. Nice to eat, even when raw.</description>
     <graphicData>
@@ -81,12 +39,14 @@
     <ingestible>
       <preferability>RawTasty</preferability>
       <tastesRaw>false</tastesRaw>
+      <joy>0.01</joy>
+      <joyKind>Gluttonous</joyKind>
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>RawLemongrass</defName>
+    <defName>CK_RawLemongrass</defName>
     <label>lemongrass</label>
     <description></description>
     <graphicData>
@@ -101,13 +61,13 @@
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
-    <ingestible>
+    <ingestible>      
       <foodType>VegetableOrFruit</foodType>
-    </ingestible>
+    </ingestible>    
   </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>Coconuts</defName>
+    <defName>CK_Coconuts</defName>
     <label>coconuts</label>
     <description>Coconuts. Nice to eat, even when raw.</description>
     <graphicData>
@@ -124,32 +84,245 @@
     <ingestible>
       <preferability>RawTasty</preferability>
       <tastesRaw>false</tastesRaw>
+      <joy>0.01</joy>
+      <joyKind>Gluttonous</joyKind>      
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
   </ThingDef>
 
-  <ThingDef ParentName="PlantFoodRawBase">
-    <defName>RawCoffee</defName>
-    <label>coffee beans</label>
-    <description>coffee beans.</description>
-    <soundInteract>Grain_Drop</soundInteract>
-    <soundDrop>Grain_Drop</soundDrop>
-    <graphicData>
-      <texPath>Things/Item/Resource/PlantFoodRaw/CoffeeBeans</texPath>
-    </graphicData>
-    <statBases>
-      <MarketValue>2.5</MarketValue>
-    </statBases>
-    <ingestible>
-      <foodType>Seeds</foodType>
-    </ingestible>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>60</daysToRotStart>
+	<ThingDef ParentName="PlantFoodRawBase">
+	    <defName>CK_RawCoffee</defName>
+	    <label>coffee beans</label>
+	    <description>Can be cooked or can give a little boost to movement speed and "Rest need" if eaten raw, but taste bad. (You may want to check if you want this to be used in cooking or not)</description>
+	    <soundInteract>Grain_Drop</soundInteract>
+	    <soundDrop>Grain_Drop</soundDrop>
+	    <graphicData>
+	      <texPath>Things/Item/Resource/PlantFoodRaw/CoffeeBeans</texPath>
+	    </graphicData>
+	    <statBases>
+	      <MarketValue>4.5</MarketValue>
+	    </statBases>
+	    <socialPropernessMatters>true</socialPropernessMatters>
+	    <ingestible>
+	      <drugCategory>Medical</drugCategory>
+	      <ingestCommandString>Take {0}</ingestCommandString>
+	      <ingestReportString>Taking {0}.</ingestReportString>
+	      <nurseable>true</nurseable>
+	      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+	      <baseIngestTicks>120</baseIngestTicks>
+	      <joyKind>Chemical</joyKind>
+	      <joy>0.01</joy>
+	      <foodType>Seeds</foodType>
+	      <nutrition>0.01</nutrition>
+	      <outcomeDoers>        
+	        <li Class="IngestionOutcomeDoer_OffsetNeed">
+	          <need>Rest</need>
+	          <offset>0.1</offset>
+	        </li>
+	        <li Class="IngestionOutcomeDoer_GiveHediff">
+	          <hediffDef>CK_AteRawCoffee</hediffDef>   
+	          <severity>0.3</severity>
+	          <toleranceChemical>Cafeine</toleranceChemical>
+	        </li>
+	        <li Class="IngestionOutcomeDoer_GiveHediff">
+	        	<hediffDef>CK_CafeineTolerance</hediffDef>
+	        	<severity>0.02</severity>
+	        </li>
+	    </outcomeDoers>
+	</ingestible>
+	<comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Cafeine</chemical>
+        <addictiveness>0.008</addictiveness>
+        <minToleranceToAddict>0.3</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.03</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>20</listOrder>
       </li>
     </comps>
+</ThingDef>
+<HediffDef>
+	    <defName>CK_AteRawCoffee</defName>
+	    <label>Cafeine rush</label>
+	    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+	    <maxSeverity>1.0</maxSeverity>
+	    <hediffClass>HediffWithComps</hediffClass>
+	    <comps>
+	      <li>
+	        <compClass>HediffComp_SeverityPerDay</compClass>
+	        <severityPerDay>-1.0</severityPerDay>
+	      </li>
+	    </comps>
+	    <stages>
+	        <li>
+	        <label>speed from coffee</label>
+	        <hungerRateFactor>1.1</hungerRateFactor>
+	        <capMods>
+	              <li>
+	                <capacity>Moving</capacity>
+	                <offset>0.05</offset>
+	              </li>
+	            </capMods>
+	        </li>
+	      </stages>
+</HediffDef>
+<ThoughtDef>
+	    <defName>CK_AteRawCoffee</defName>
+	    <workerClass>ThoughtWorker_Hediff</workerClass>
+	    <hediff>CK_AteRawCoffee</hediff>
+	    <stages>
+	      <li>
+	        <label>speed from coffee</label>
+	        <description>Those coffee beans man... They're taste like $#*¤t but it's strong stuff.</description>
+	        <baseMoodEffect>2</baseMoodEffect>
+	      </li>
+	    </stages>
+</ThoughtDef>
+<!-- Cafeine addiction -->
+  <ChemicalDef>
+    <defName>Cafeine</defName>
+    <label>Cafeine</label>
+    <addictionHediff>CK_CafeineAddiction</addictionHediff>
+    <toleranceHediff>CK_CafeineTolerance</toleranceHediff>
+  </ChemicalDef>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>CK_Chemical_Cafeine</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Cafeine</label>
+    <description>Because of a developed Cafeine dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>25</listPriority>
+  </NeedDef>  
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>CK_CafeineTolerance</defName>
+    <label>Cafeine tolerance</label>
+    <comps>
+      <li>
+        <compClass>HediffComp_SeverityPerDay</compClass>
+        <severityPerDay>-0.015</severityPerDay>
+      </li>
+      <li>
+        <compClass>HediffComp_DrugEffectFactor</compClass>
+        <chemical>Cafeine</chemical>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="AddictionBase">
+    <defName>CK_CafeineAddiction</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>Cafeine dependence</label>
+    <causesNeed>CK_Chemical_Cafeine</causesNeed>
+    <comps>
+      <li>
+        <compClass>HediffComp_SeverityPerDay</compClass>
+        <severityPerDay>-0.05</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>CK_CafeineWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>CK_CafeineAddiction</hediff>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Cafeine withdrawal</label>
+        <description>I really need coffee... Even those disgusting raw beans</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>CK_Honeycomb</defName>
+    <label>honeycomb</label>
+    <description>Honey stored and used as food by bees. It is smooth, rich, and brings joy to those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Honeycomb</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <preferability>MealFine</preferability>
+      <nutrition>0.05</nutrition>
+      <joy>0.05</joy>
+      <joyKind>Gluttonous</joyKind>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
   </ThingDef>
 
-
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>CK_DreamVineRoot</defName>
+    <label>dream vine root</label>
+    <description>Can be cooked or eaten raw (You may want to check if you want this to be used in cooking or not). Dream Vine Roots are traditionally used to induce vivid lucid dreams during the initiation process of shamans to help them remember their dreams. </description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/DreamVineRoot</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2</MarketValue>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Drug">
+        <chemical>Alcohol</chemical>
+        <addictiveness>0.003</addictiveness>
+        <minToleranceToAddict>0.5</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.10</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>10</listOrder>
+      </li>
+    </comps>    
+     <ingestible>
+     <drugCategory>Social</drugCategory>
+     <ingestCommandString>Take {0}</ingestCommandString>
+     <ingestReportString>Taking {0}.</ingestReportString>
+     <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+     <baseIngestTicks>120</baseIngestTicks>
+     <joyKind>Chemical</joyKind>
+     <joy>0.1</joy>
+     <nurseable>true</nurseable>
+     <foodType>VegetableOrFruit</foodType>
+     <nutrition>0.01</nutrition>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholHigh</hediffDef>
+          <severity>0.1</severity>
+          <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AlcoholTolerance</hediffDef>
+          <severity>0.015</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
   
 </Defs>

@@ -61,6 +61,7 @@
 		    <leatherLabel>birdskin</leatherLabel>
 		    <useMeatFrom>Cassowary</useMeatFrom>
 		    <wildness>30</wildness>
+		    <trainableIntelligence>None</trainableIntelligence>
 		    <lifeExpectancy>10</lifeExpectancy>
 		    <lifeStageAges>
 		    	<li>
@@ -97,7 +98,7 @@
 
 <!--===============================================-->
 	<ThingDef ParentName="SmallBirdThingBase">
-		<defName>Toucan</defName>
+		<defName>CK_Toucan</defName>
 		<label>toucan</label>
 		<description></description>
 		<statBases>
@@ -105,7 +106,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>EggToucanFertilized</eggFertilizedDef>
+				<eggFertilizedDef>CK_EggToucanFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>11</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -118,9 +119,9 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="SmallBirdKindBase">
-		<defName>Toucan</defName>
+		<defName>CK_Toucan</defName>
 		<label>toucan</label>
-		<race>Toucan</race>
+		<race>CK_Toucan</race>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -165,7 +166,7 @@
 
 <!--===============================================-->
 	<ThingDef ParentName="SmallBirdThingBase">
-		<defName>Peafowl</defName>
+		<defName>CK_Peafowl</defName>
 	    <label>peafowl</label>
 	    <description></description>
 	    <statBases>
@@ -185,10 +186,10 @@
 	    </race>
 	    <comps>
 	      <li Class="CompProperties_EggLayer">
-	        <eggFertilizedDef>EggPeafowlFertilized</eggFertilizedDef>
+	      	<eggUnfertilizedDef>CK_EggPeafowlUnfertilized</eggUnfertilizedDef>
+	        <eggFertilizedDef>CK_EggPeafowlFertilized</eggFertilizedDef>
 	        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-	        <eggLayIntervalDays>11</eggLayIntervalDays>
-	        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+	        <eggLayIntervalDays>8</eggLayIntervalDays>	        
 	        <eggCountRange>
 	          <min>1</min>
 	          <max>3</max>
@@ -222,17 +223,18 @@
 	  </ThingDef>
 
   	<PawnKindDef ParentName="SmallBirdKindBase">
-  		<defName>Peafowl</defName>
+  		<defName>CK_Peafowl</defName>
   		<label>peafowl</label>
-  		<race>Peafowl</race>
+  		<race>CK_Peafowl</race>
   		<labelMale>peacock</labelMale>
   		<labelFemale>peahen</labelFemale>
   		<lifeStages>
   			<li>
   				<label>peachick</label>
   				<bodyGraphicData>
-  					<texPath>Things/Pawn/Animal/Peafowl</texPath>
-  					<drawSize>1.2</drawSize>
+  					<texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>
+  					<color>(150,135,55)</color>
+  					<drawSize>0.5</drawSize>  					
   				</bodyGraphicData>
   				<dessicatedBodyGraphicData>
   					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -281,7 +283,7 @@
 
 <!--===============================================-->
   	<ThingDef ParentName="SmallBirdThingBase">
-  		<defName>Junglefowl</defName>
+  		<defName>CK_Junglefowl</defName>
   		<label>junglefowl</label>
     	<description>The junglefowl is a tropical member of the family Phasianidae (Same as pheasants, chickens and peafowl). It is thought to be ancestral to the domestic chicken. The red junglefowl was first domesticated at least from 5,400 BC in ol'Earth Asia</description>
     	<statBases>
@@ -294,18 +296,17 @@
 		    <baseBodySize>0.4</baseBodySize>
 		    <baseHungerRate>0.3</baseHungerRate>
 		    <baseHealthScale>0.5</baseHealthScale>
-		    <foodType>VegetarianRoughAnimal</foodType>
-		    <trainableIntelligence>None</trainableIntelligence>
-		    <wildness>0.45</wildness>
+		    <foodType>VegetarianRoughAnimal</foodType>		    
+		    <wildness>0.4</wildness>
 		    <lifeExpectancy>9</lifeExpectancy>
 		    <leatherColor>(80,80,80)</leatherColor>
 		</race>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>EggJunglefowlFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>CK_EggJunglefowlUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>CK_EggJunglefowlFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>11</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggLayIntervalDays>7</eggLayIntervalDays>
 				<eggCountRange>
 					<min>1</min>
 					<max>3</max>
@@ -339,17 +340,17 @@
     </ThingDef>
 
   <PawnKindDef ParentName="SmallBirdKindBase">
-    <defName>Junglefowl</defName>
+    <defName>CK_Junglefowl</defName>
     <label>junglefowl</label>
-    <race>Junglefowl</race>
-    <labelMale>jungle peacock</labelMale>
-  	<labelFemale>jungle peahen</labelFemale>    
+    <race>CK_Junglefowl</race>
+    <!-- <labelMale>jungle peacock</labelMale> -->
+  	<labelFemale>jungle hen</labelFemale>    
     <lifeStages>
       <li>
-      	<label>jungle peachick</label>
+      	<label>jungle chick</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Junglefowl</texPath>
-          <drawSize>0.5</drawSize>
+          <texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>				<color>(150,135,55)</color>
+          <drawSize>0.45</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>

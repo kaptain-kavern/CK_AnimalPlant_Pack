@@ -10,12 +10,12 @@
     <minRefireDays>8</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
     <pawnKinds>      
-      <li>Jaguar</li>
+      <li>CK_Jaguar</li>
       <li>Panther</li>
-      <li>Tiger</li>      
-      <!-- <li>Gorilla</li> -->
-      <!-- <li>Komodo Dragon</li> -->      
-      <!-- <li>Python</li> -->
+      <li>CK_Tiger</li>      
+      <!-- <li>CK_Gorilla</li> -->
+      <!-- <li>CK_KomodoDragon</li> -->      
+      <!-- <li>CK_Python</li> -->
     </pawnKinds>
     <allowedBiomes>
       <li>TropicalRainforest</li>

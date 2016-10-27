@@ -17,6 +17,8 @@
       </li>
     </verbs>
     <race>
+      <useMeatFrom>Hare</useMeatFrom>
+      <useLeatherFrom>Hare</useLeatherFrom>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <baseBodySize>0.2</baseBodySize>
       <baseHungerRate>0.23</baseHungerRate>
@@ -70,23 +72,22 @@
 
 <!--============== ArcticHare ====================== -->
   <ThingDef ParentName="BaseHare">
-    <defName>ArcticHare</defName>
+    <defName>CK_ArcticHare</defName>
     <label>artic hare</label>
     <description></description>
     <statBases>
       <ComfyTemperatureMin>-70</ComfyTemperatureMin>
     </statBases>
-    <race>
-      <useMeatFrom>Hare</useMeatFrom>
+    <race>      
       <leatherColor>(250,250,250)</leatherColor>
       <leatherInsulation>1.2</leatherInsulation>
     </race>
   </ThingDef>
 
   <PawnKindDef ParentName="HareBase">
-    <defName>ArcticHare</defName>
+    <defName>CK_ArcticHare</defName>
     <label>artic hare</label>
-    <race>ArcticHare</race>
+    <race>CK_ArcticHare</race>
     <lifeStages>
       <li>
         <bodyGraphicData>

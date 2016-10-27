@@ -104,7 +104,7 @@
 
   <!--=================== Tiger ===================-->
   <ThingDef ParentName="BigCatThingBase">
-      <defName>Tiger</defName>
+      <defName>CK_Tiger</defName>
       <label>tiger</label>
       <description>The tiger (Panthera tigris) is the largest cat species, most recognisable for their pattern of dark vertical stripes on reddish-orange fur with a lighter underside. Tigers are apex predators, primarily preying on ungulates such as deer and bovids. They are territorial and generally solitary but social animals, often requiring large contiguous areas of habitat that support their prey requirements.</description>
       <race>
@@ -114,9 +114,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="BigCatKindBase">
-    <defName>Tiger</defName>
+    <defName>CK_Tiger</defName>
     <label>tiger</label>
-      <race>Tiger</race>
+      <race>CK_Tiger</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
@@ -161,19 +161,22 @@
 
   <!--=============== White Tiger =================-->
   <ThingDef ParentName="BigCatThingBase">
-    <defName>WhiteTiger</defName>
+    <defName>CK_WhiteTiger</defName>
       <label>white tiger</label>
       <description> When compared to Bengal tigers, the white Bengal tigers tend to grow faster and heavier than the orange Bengal tiger. They also tend to be somewhat bigger at birth, and as fully grown adults. White Bengal tigers are fully grown when they are 2–3 years of age. White male tigers reach weights of 200 to 230 kilograms and can grow up to 3 meters in length. As with all tigers, the white Bengal tiger’s stripes are like fingerprints, with no two tigers having the same pattern. The stripes of the tiger are a pigmentation of the skin; if an individual were to be shaved, its distinctive coat pattern would still be visible. For a white Bengal tiger to be born, both parents must carry the unusual gene for white colouring, which only happens naturally about once in 10,000 births.</description>
       <race>
         <leatherLabel>white tiger skin</leatherLabel>
         <leatherColor>(250,250,240)</leatherColor>
       </race>
+      <tradeTags>
+        <li>CK_RareAnimal</li>
+      </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="BigCatKindBase">
-    <defName>WhiteTiger</defName>
+    <defName>CK_WhiteTiger</defName>
       <label>white tiger</label>
-      <race>WhiteTiger</race>
+      <race>CK_WhiteTiger</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
@@ -218,19 +221,22 @@
 
   <!--============== Snow Leopard =================-->
   <ThingDef ParentName="BigCatThingBase">
-      <defName>SnowLeopard</defName>
+      <defName>CK_SnowLeopard</defName>
       <label>snow leopard</label>
       <description></description>
       <race>
         <leatherLabel>snow leopard skin</leatherLabel>
         <leatherColor>(250,250,240)</leatherColor>
       </race>
+      <tradeTags>
+        <li>CK_RareAnimal</li>
+      </tradeTags>      
   </ThingDef>
 
   <PawnKindDef ParentName="BigCatKindBase">
-    <defName>SnowLeopard</defName>
+    <defName>CK_SnowLeopard</defName>
     <label>snow leopard</label>
-      <race>SnowLeopard</race>
+      <race>CK_SnowLeopard</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
@@ -275,7 +281,7 @@
 
   <!--================= Jaguar ====================-->
   <ThingDef ParentName="BigCatThingBase">
-      <defName>Jaguar</defName>
+      <defName>CK_Jaguar</defName>
       <label>jaguar</label>
       <description></description>
       <race>
@@ -285,9 +291,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="BigCatKindBase">
-    <defName>Jaguar</defName>
+    <defName>CK_Jaguar</defName>
     <label>jaguar</label>
-      <race>Jaguar</race>
+      <race>CK_Jaguar</race>
       <lifeStages>
         <li>
           <bodyGraphicData>
