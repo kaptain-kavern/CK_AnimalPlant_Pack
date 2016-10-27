@@ -5,8 +5,7 @@
     <defName>CK_MakeNeutroamine</defName>
     <label>make neutroamine</label>
     <description>Make neutroamine from dream vine roots.</description>
-    <jobString>Making neutroamine.</jobString>
-    <workSpeedStat>CookSpeed</workSpeedStat>
+    <jobString>Making neutroamine.</jobString>    
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_CookMeal</soundWorking>
     <allowMixingIngredients>true</allowMixingIngredients>
@@ -36,10 +35,15 @@
     <skillRequirements>
       <li>
         <skill>Cooking</skill>
-        <minLevel>10</minLevel>
+        <minLevel>3</minLevel>
+      </li>
+      <li>
+        <skill>Medicine</skill>
+        <minLevel>6</minLevel>
       </li>
     </skillRequirements>
-    <workSkill>Cooking</workSkill>
+    <workSpeedStat>DrugProductionSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
   </RecipeDef>
 
 </Defs>
