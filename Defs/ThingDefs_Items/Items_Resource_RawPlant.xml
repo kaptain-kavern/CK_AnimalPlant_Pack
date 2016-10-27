@@ -90,76 +90,166 @@
     </ingestible>
   </ThingDef>
 
-  <ThingDef ParentName="PlantFoodRawBase">
-    <defName>CK_RawCoffee</defName>
-    <label>coffee beans</label>
-    <description>Can be cooked or can give a little boost to movement speed and "Rest need" if eaten raw, but taste bad. (You may want to check if you want this to be used in cooking or not)</description>
-    <soundInteract>Grain_Drop</soundInteract>
-    <soundDrop>Grain_Drop</soundDrop>
-    <graphicData>
-      <texPath>Things/Item/Resource/PlantFoodRaw/CoffeeBeans</texPath>
-    </graphicData>
-    <statBases>
-      <MarketValue>4.5</MarketValue>
-    </statBases>
-    <ingestible>
-      <drugCategory>Medical</drugCategory>
-      <ingestCommandString>Take {0}</ingestCommandString>
-      <ingestReportString>Taking {0}.</ingestReportString>
-      <nurseable>true</nurseable>
-      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
-      <baseIngestTicks>120</baseIngestTicks>
-      <joyKind>Chemical</joyKind>
-      <joy>0.01</joy>
-      <foodType>Seeds</foodType>
-      <nutrition>0.01</nutrition>
-      <outcomeDoers>        
-        <li Class="IngestionOutcomeDoer_OffsetNeed">
-          <need>Rest</need>
-          <offset>0.1</offset>
-        </li>
-        <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>CK_AteRawCoffee</hediffDef>          
-        </li>
-      </outcomeDoers>
-    </ingestible>    
-  </ThingDef>
-  <HediffDef>
-    <defName>CK_AteRawCoffee</defName>
+	<ThingDef ParentName="PlantFoodRawBase">
+	    <defName>CK_RawCoffee</defName>
+	    <label>coffee beans</label>
+	    <description>Can be cooked or can give a little boost to movement speed and "Rest need" if eaten raw, but taste bad. (You may want to check if you want this to be used in cooking or not)</description>
+	    <soundInteract>Grain_Drop</soundInteract>
+	    <soundDrop>Grain_Drop</soundDrop>
+	    <graphicData>
+	      <texPath>Things/Item/Resource/PlantFoodRaw/CoffeeBeans</texPath>
+	    </graphicData>
+	    <statBases>
+	      <MarketValue>4.5</MarketValue>
+	    </statBases>
+	    <socialPropernessMatters>true</socialPropernessMatters>
+	    <ingestible>
+	      <drugCategory>Medical</drugCategory>
+	      <ingestCommandString>Take {0}</ingestCommandString>
+	      <ingestReportString>Taking {0}.</ingestReportString>
+	      <nurseable>true</nurseable>
+	      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+	      <baseIngestTicks>120</baseIngestTicks>
+	      <joyKind>Chemical</joyKind>
+	      <joy>0.01</joy>
+	      <foodType>Seeds</foodType>
+	      <nutrition>0.01</nutrition>
+	      <outcomeDoers>        
+	        <li Class="IngestionOutcomeDoer_OffsetNeed">
+	          <need>Rest</need>
+	          <offset>0.1</offset>
+	        </li>
+	        <li Class="IngestionOutcomeDoer_GiveHediff">
+	          <hediffDef>CK_AteRawCoffee</hediffDef>   
+	          <severity>0.3</severity>
+	          <toleranceChemical>Cafeine</toleranceChemical>
+	        </li>
+	        <li Class="IngestionOutcomeDoer_GiveHediff">
+	        	<hediffDef>CK_CafeineTolerance</hediffDef>
+	        	<severity>0.02</severity>
+	        </li>
+	    </outcomeDoers>
+	</ingestible>
+	<comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Cafeine</chemical>
+        <addictiveness>0.008</addictiveness>
+        <minToleranceToAddict>0.3</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.03</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>20</listOrder>
+      </li>
+    </comps>
+</ThingDef>
+<HediffDef>
+	    <defName>CK_AteRawCoffee</defName>
+	    <label>Cafeine rush</label>
+	    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+	    <maxSeverity>1.0</maxSeverity>
+	    <hediffClass>HediffWithComps</hediffClass>
+	    <comps>
+	      <li>
+	        <compClass>HediffComp_SeverityPerDay</compClass>
+	        <severityPerDay>-1.0</severityPerDay>
+	      </li>
+	    </comps>
+	    <stages>
+	        <li>
+	        <label>speed from coffee</label>
+	        <hungerRateFactor>1.1</hungerRateFactor>
+	        <capMods>
+	              <li>
+	                <capacity>Moving</capacity>
+	                <offset>0.05</offset>
+	              </li>
+	            </capMods>
+	        </li>
+	      </stages>
+</HediffDef>
+<ThoughtDef>
+	    <defName>CK_AteRawCoffee</defName>
+	    <workerClass>ThoughtWorker_Hediff</workerClass>
+	    <hediff>CK_AteRawCoffee</hediff>
+	    <stages>
+	      <li>
+	        <label>speed from coffee</label>
+	        <description>Those coffee beans man... They're taste like $#*¤t but it's strong stuff.</description>
+	        <baseMoodEffect>2</baseMoodEffect>
+	      </li>
+	    </stages>
+</ThoughtDef>
+<!-- Cafeine addiction -->
+  <ChemicalDef>
+    <defName>Cafeine</defName>
     <label>Cafeine</label>
-    <initialSeverity>1</initialSeverity>
-    <hediffClass>HediffWithComps</hediffClass>
+    <addictionHediff>CK_CafeineAddiction</addictionHediff>
+    <toleranceHediff>CK_CafeineTolerance</toleranceHediff>
+  </ChemicalDef>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>CK_Chemical_Cafeine</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Cafeine</label>
+    <description>Because of a developed Cafeine dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>25</listPriority>
+  </NeedDef>  
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>CK_CafeineTolerance</defName>
+    <label>Cafeine tolerance</label>
     <comps>
       <li>
-        <compClass>HediffComp_Immunizable</compClass>
-        <severityPerDayNotImmune>-12</severityPerDayNotImmune>
+        <compClass>HediffComp_SeverityPerDay</compClass>
+        <severityPerDay>-0.015</severityPerDay>
+      </li>
+      <li>
+        <compClass>HediffComp_DrugEffectFactor</compClass>
+        <chemical>Cafeine</chemical>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="AddictionBase">
+    <defName>CK_CafeineAddiction</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>Cafeine dependence</label>
+    <causesNeed>CK_Chemical_Cafeine</causesNeed>
+    <comps>
+      <li>
+        <compClass>HediffComp_SeverityPerDay</compClass>
+        <severityPerDay>-0.05</severityPerDay>
       </li>
     </comps>
     <stages>
-        <li>
-          <minSeverity>0</minSeverity>
-          <label>speed from coffee</label>          
-            <capMods>
-              <li>
-                <capacity>Moving</capacity>
-                <offset>0.05</offset>
-              </li>
-            </capMods>
-        </li>
-      </stages>
-  </HediffDef>
-  <ThoughtDef>
-    <defName>CK_AteRawCoffee</defName>
-    <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>CK_AteRawCoffee</hediff>
-    <stages>
       <li>
-        <label>speed from coffee</label>
-        <description>Those coffee beans man... They're taste like $}{|£ but it's strong stuff.</description>
-        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
       </li>
     </stages>
-  </ThoughtDef>  
+  </HediffDef>
+  <ThoughtDef>
+    <defName>CK_CafeineWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>CK_CafeineAddiction</hediff>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Cafeine withdrawal</label>
+        <description>I really need coffee... Even those disgusting raw beans</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 
   <ThingDef ParentName="OrganicProductBase">
     <defName>CK_Honeycomb</defName>
@@ -195,6 +285,7 @@
     <statBases>
       <MarketValue>2</MarketValue>
     </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>30</daysToRotStart>
