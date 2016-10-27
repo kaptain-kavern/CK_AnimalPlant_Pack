@@ -103,6 +103,7 @@
       <MarketValue>4.5</MarketValue>
     </statBases>
     <ingestible>
+      <nurseable>true</nurseable>
       <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
       <baseIngestTicks>120</baseIngestTicks>
       <joyKind>Chemical</joyKind>
@@ -120,7 +121,6 @@
       </outcomeDoers>
     </ingestible>    
   </ThingDef>
-
   <HediffDef>
     <defName>CK_AteRawCoffee</defName>
     <label>Cafeine</label>
@@ -145,6 +145,18 @@
         </li>
       </stages>
   </HediffDef>
+  <ThoughtDef>
+    <defName>CK_AteRawCoffee</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>CK_AteRawCoffee</hediff>
+    <stages>
+      <li>
+        <label>speed from coffee</label>
+        <description>Those coffee beans man... They're taste like $}{|£ but it's strong stuff.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>  
 
   <ThingDef ParentName="OrganicProductBase">
     <defName>CK_Honeycomb</defName>
@@ -196,10 +208,13 @@
     </comps>    
      <ingestible>
      <drugCategory>Social</drugCategory>
+     <ingestCommandString>Take {0}</ingestCommandString>
+      <ingestReportString>Taking {0}.</ingestReportString>
      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
      <baseIngestTicks>120</baseIngestTicks>
      <joyKind>Chemical</joyKind>
      <joy>0.1</joy>
+     <nurseable>true</nurseable>
      <foodType>VegetableOrFruit</foodType>
      <nutrition>0.01</nutrition>
       <outcomeDoers>
