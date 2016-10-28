@@ -298,18 +298,18 @@
         <needLevelOffset>1</needLevelOffset>
         <listOrder>10</listOrder>
       </li>
-    </comps>    
-     <ingestible>
-     <drugCategory>Social</drugCategory>
-     <ingestCommandString>Ingest {0}</ingestCommandString>
-     <ingestReportString>Ingesting {0}.</ingestReportString>
-     <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
-     <baseIngestTicks>120</baseIngestTicks>
-     <joyKind>Chemical</joyKind>
-     <joy>0.1</joy>
-     <nurseable>true</nurseable>
-     <foodType>VegetableOrFruit</foodType>
-     <nutrition>0.01</nutrition>
+    </comps>
+    <ingestible>
+      <drugCategory>Social</drugCategory>
+      <ingestCommandString>Ingest {0}</ingestCommandString>
+      <ingestReportString>Ingesting {0}.</ingestReportString>
+      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <baseIngestTicks>120</baseIngestTicks>
+      <joyKind>Chemical</joyKind>
+      <joy>0.1</joy>
+      <nurseable>true</nurseable>
+      <foodType>VegetableOrFruit</foodType>
+      <nutrition>0.01</nutrition>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AlcoholHigh</hediffDef>
@@ -323,5 +323,39 @@
       </outcomeDoers>
     </ingestible>
   </ThingDef>
+  <ThoughtDef>
+    <defName>Inebriated</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>AlcoholHigh</hediff>
+    <stages>
+      <li>
+        <label>buzzed-hidden</label>
+        <description>Should not appear.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Inebriated (warm)</label>
+        <description>I just feel a bit more relaxed. That's good.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+      <li>
+        <label>Inebriated (tipsy)</label>
+        <description>I'm a bit wobbly! And this is quite enjoyable.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>     
+      <li>
+        <label>Inebriated (drunk)</label>
+        <description>I feel so uninhibited and unafraid! This is a great time!</description>
+        <baseMoodEffect>18</baseMoodEffect>
+      </li>
+      <li>
+        <label>Inebriated (hammered)</label>
+        <description>Wooo! What is going on?</description>
+        <baseMoodEffect>24</baseMoodEffect>
+      </li>   
+    </stages>
+  </ThoughtDef>  
+
   
 </Defs>
