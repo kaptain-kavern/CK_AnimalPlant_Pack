@@ -195,11 +195,11 @@
       <harvestFailable>true</harvestFailable>
       <harvestTag>Standard</harvestTag>
       <fertilityMin>0.1</fertilityMin>
-      <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>      
+      <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>     
       <shootsSeeds>false</shootsSeeds>
       <visualSizeRange>
-        <min>2.2</min>
-        <max>2.2</max>
+        <min>1.5</min>
+        <max>1.5</max>
       </visualSizeRange>
       <sowResearchPrerequisites>
         <li>CK_Beekeeping</li>
