@@ -136,7 +136,7 @@
 <!--========================== Drug crops =============================-->
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantBushDreamVine</defName>
-    <label>dream vines</label>
+    <label>dream vine</label>
     <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; side effects include hallucinations, nausea, and vomiting</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
