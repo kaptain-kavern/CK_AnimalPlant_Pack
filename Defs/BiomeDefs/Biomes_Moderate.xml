@@ -114,7 +114,7 @@
         <CK_PlantTreeBanana>0.25</CK_PlantTreeBanana>        
         <CK_PlantWildLemongrass>0.2</CK_PlantWildLemongrass>
         <CK_PlantTreeCoconutPalm>0.25</CK_PlantTreeCoconutPalm>
-        <CK_PlantWildBushDreamVine>0.2</CK_PlantWildBushDreamVine>
+        <CK_PlantWildBushDreamVine>0.02</CK_PlantWildBushDreamVine>
         <CK_PlantHeliconia>0.15</CK_PlantHeliconia>
       <!-- Very Rare -->
         <!-- <CK_WildPlantBushChiliPeperGreen>0.01</CK_WildPlantBushChiliPeperGreen> -->
@@ -141,7 +141,7 @@
          <!-- <CK_Bongo>1.2</CK_Bongo> -->
          <CK_Tapir>1.5</CK_Tapir>
          <CK_Okapi>1.5</CK_Okapi>
-         <CK_Junglefowl>1.5</CK_Junglefowl>
+         <CK_Junglefowl>1.2</CK_Junglefowl>
          <!-- <CK_Anteater>1.8</CK_Anteater> -->
          <!-- <CK_Sloth>0.8</CK_Sloth> -->
          <!-- <CK_CapuchinMonkey>1.6</CK_CapuchinMonkey> -->
@@ -150,17 +150,17 @@
       <!-- Uncommon -->
          <Elephant>0.6</Elephant>
          <CK_Panda>0.3</CK_Panda>
-         <CK_Tiger>0.2</CK_Tiger>
-         <CK_Jaguar>0.2</CK_Jaguar>      
+         <CK_Tiger>0.4</CK_Tiger>
+         <CK_Jaguar>0.4</CK_Jaguar>      
          <!-- <CK_Python>0.16</CK_Python> -->
          <!-- <CK_Toucan>0.2</CK_Toucan> -->
-         <CK_Peafowl>0.6</CK_Peafowl>
+         <CK_Peafowl>0.02</CK_Peafowl>
          <!-- <CK_Gorilla>0.2</CK_Gorilla> -->
          <!-- <CK_Orangutan>0.2</CK_Orangutan> -->
          <!-- <CK_Macaw>0.2</CK_Macaw> -->
          <!-- <CK_Parrot>0.2</CK_Parrot> -->
       <!-- Rare -->
-         <Panther>0.12</Panther>
+         <Panther>0.2</Panther>
          <Cobra>0.1</Cobra>
          <Iguana>0.6</Iguana>
          <!-- <CK_KomodoDragon>0.12</CK_KomodoDragon> -->
