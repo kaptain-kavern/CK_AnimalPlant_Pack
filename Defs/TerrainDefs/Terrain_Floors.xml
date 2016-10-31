@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TerrainDefs>
+
+
+  <TerrainDef Name="FloorBase" Abstract="True">
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+      <li>SmoothHard</li>
+    </affordances>
+    <statBases>
+      <WorkToMake>135</WorkToMake>
+    </statBases>
+    <designationCategory>Floors</designationCategory>
+    <Fertility>0</Fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+    <AcceptTerrainSourceFilth>True</AcceptTerrainSourceFilth>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+  </TerrainDef>
+
+  
+
+  <!-- ================= Misc ================= -->
+
+  <TerrainDef ParentName="FloorBase">
+    <DefName>CK_TrampledEarthWithLine</DefName>
+    <label>trampled vegetation track</label>
+    <RenderPrecedence>233</RenderPrecedence>
+    <Description>Cutted plants trampled and stomped in order to keep vegetation regrowing - Can only be designate over fertile soil (needs plants)</Description>
+    <texturePath>Terrain/Surfaces/TrampledEarthLineFloor</texturePath>
+    <EdgeType>FadeRough</EdgeType>
+    <PathCost>1</PathCost>    
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-0.5</Cleanliness>
+      <WorkToMake>800</WorkToMake>      
+    </statBases>
+    <Fertility>0</Fertility>
+    <terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+  </TerrainDef>
+
+</TerrainDefs>
