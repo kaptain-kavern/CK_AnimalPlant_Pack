@@ -43,26 +43,6 @@
     </comps>
   </ThingDef>
 
-  <!-- Toucan -->
-
-  <ThingDef ParentName="EggFertBase">
-    <defName>CK_EggToucanFertilized</defName>
-    <label>toucan egg (fert.)</label>
-    <description>Fertilized toucan egg. If all goes well, it should hatch into a baby toucan. It can be eaten raw, but it's much better cooked.</description>
-    <graphicData>      
-      <color>(200,200,200)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>60.0</MarketValue>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>8</hatcherDaysToHatch>
-        <hatcherPawn>CK_Toucan</hatcherPawn>
-      </li>
-    </comps>
-  </ThingDef>
-
   <!-- Peafowl -->
 
   <ThingDef ParentName="EggUnfertBase">

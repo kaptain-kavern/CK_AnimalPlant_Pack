@@ -95,75 +95,7 @@
 		<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
 		<wildSpawn_EcoSystemWeight>0.30</wildSpawn_EcoSystemWeight>
 	</PawnKindDef>
-
-<!--===============================================-->
-	<ThingDef ParentName="SmallBirdThingBase">
-		<defName>CK_Toucan</defName>
-		<label>toucan</label>
-		<description></description>
-		<statBases>
-			<MarketValue>250</MarketValue>
-		</statBases>
-		<comps>
-			<li Class="CompProperties_EggLayer">
-				<eggFertilizedDef>CK_EggToucanFertilized</eggFertilizedDef>
-				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>11</eggLayIntervalDays>
-				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>
-					<min>1</min>
-					<max>3</max>
-				</eggCountRange>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<PawnKindDef ParentName="SmallBirdKindBase">
-		<defName>CK_Toucan</defName>
-		<label>toucan</label>
-		<race>CK_Toucan</race>
-		<lifeStages>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ToucanPH</texPath>
-					<drawSize>0.7</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>0.7</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ToucanPH</texPath>
-					<drawSize>1</drawSize>
-					<shadowData>
-						<volume>(0.3, 0.3, 0.3)</volume>
-						<offset>(0,0,-0.3)</offset>
-					</shadowData>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>1</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ToucanPH</texPath>
-					<drawSize>1.1</drawSize>
-					<shadowData>
-						<volume>(0.4, 0.4, 0.4)</volume>
-						<offset>(0,0,-0.2)</offset>
-					</shadowData>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-					<drawSize>1.1</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-		</lifeStages>
-	</PawnKindDef>
-
+	
 <!--===============================================-->
 	<ThingDef ParentName="SmallBirdThingBase">
 		<defName>CK_Peafowl</defName>
