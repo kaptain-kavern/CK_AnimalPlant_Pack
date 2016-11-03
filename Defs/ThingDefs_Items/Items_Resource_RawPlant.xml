@@ -90,10 +90,10 @@
     </ingestible>
   </ThingDef>
 
-	<ThingDef ParentName="PlantFoodRawBase">
+	<ThingDef ParentName="RoughPlantBase">
 	    <defName>CK_RawCoffee</defName>
 	    <label>coffee beans</label>
-	    <description>Can be cooked or can give a little boost to movement speed and "Rest need" if eaten raw, but taste bad. (You may want to check if you want this to be used in cooking or not)</description>
+	    <description>Give a little boost to movement speed and "Rest need" if eaten raw, but taste bad.</description>
 	    <soundInteract>Grain_Drop</soundInteract>
 	    <soundDrop>Grain_Drop</soundDrop>
 	    <graphicData>
@@ -111,8 +111,7 @@
 	      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
 	      <baseIngestTicks>120</baseIngestTicks>
 	      <joyKind>Chemical</joyKind>
-	      <joy>0.01</joy>
-	      <foodType>Seeds</foodType>
+	      <joy>0.01</joy>	      
 	      <nutrition>0.01</nutrition>
 	      <outcomeDoers>
           <li Class="IngestionOutcomeDoer_OffsetNeed">
@@ -274,10 +273,10 @@
     </thingCategories>
   </ThingDef>
 
-  <ThingDef ParentName="PlantFoodRawBase">
+  <ThingDef ParentName="RoughPlantBase">
     <defName>CK_DreamVineRoot</defName>
     <label>dream root</label>
-    <description>Can be cooked or eaten raw (You may want to check if you want this to be used in cooking or not). Dream Vine Roots are traditionally used to induce vivid lucid dreams during the initiation process of shamans to help them remember their dreams. </description>
+    <description>Dream Vine Roots are traditionally used to induce vivid lucid dreams during the initiation process of shamans to help them remember their dreams. </description>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/DreamVineRoot</texPath>
     </graphicData>
@@ -307,8 +306,7 @@
       <baseIngestTicks>120</baseIngestTicks>
       <joyKind>Chemical</joyKind>
       <joy>0.1</joy>
-      <nurseable>true</nurseable>
-      <foodType>VegetableOrFruit</foodType>
+      <nurseable>true</nurseable>      
       <nutrition>0.01</nutrition>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
