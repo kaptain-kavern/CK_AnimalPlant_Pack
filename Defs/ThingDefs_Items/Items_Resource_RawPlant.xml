@@ -103,6 +103,9 @@
 	      <MarketValue>2</MarketValue>
 	    </statBases>
 	    <socialPropernessMatters>true</socialPropernessMatters>
+	    <thingCategories>
+	      <li>PlantMatter</li>
+	    </thingCategories>
 	    <ingestible>
         <drugCategory>Medical</drugCategory>
 	      <ingestCommandString>Ingest {0}</ingestCommandString>
@@ -284,6 +287,9 @@
       <MarketValue>2</MarketValue>
     </statBases>
     <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>30</daysToRotStart>
