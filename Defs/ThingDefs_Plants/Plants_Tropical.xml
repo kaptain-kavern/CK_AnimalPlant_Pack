@@ -460,7 +460,7 @@
   </ThingDef>
 
   <ThingDef ParentName="TreeBase">
-  	<defName>CK_PlantTreeCoconutPalm</defName>
+  	<defName>CK_PlantTreeWildCoconutPalm</defName>
     <label>coconut palm tree</label>
     <description></description>
     <graphicData>
@@ -482,21 +482,13 @@
   		<harvestFailable>false</harvestFailable>
   		<wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction>
   		<blockAdjacentSow>true</blockAdjacentSow>
-  		<sowTags>
-  			<li>Ground</li>
-  		</sowTags>
+  		<sowTags></sowTags>
   		<visualSizeRange>
   			<min>2</min>
   			<max>3</max>
   		</visualSizeRange>
-  		<fertilityMin>0.2</fertilityMin>
-  		<topWindExposure>0.25</topWindExposure>
-  		<fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
-  		<wildClusterSizeRange>
-  			<min>8</min>
-  			<max>20</max>
-  		</wildClusterSizeRange>
-  		<wildClusterRadius>8</wildClusterRadius>
+  		<fertilityMin>0.2</fertilityMin>  		
+  		<fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>  		
       </plant>
   </ThingDef>
 
@@ -519,6 +511,7 @@
         <min>3</min>
         <max>5</max>
       </visualSizeRange>
+      <blockAdjacentSow>true</blockAdjacentSow>
       <sowResearchPrerequisites>
         <li>CK_TropicalWoodGrowing</li>
       </sowResearchPrerequisites>
@@ -574,7 +567,7 @@
   </ThingDef>  
 
   <ThingDef ParentName="PlantBase">
-    	<defName>CK_PlantTreeBanana</defName>
+    	<defName>CK_PlantTreeWildBanana</defName>
     	<label>banana</label>
     	<description></description>
     	<altitudeLayer>Building</altitudeLayer>
@@ -609,9 +602,7 @@
   			<harvestFailable>false</harvestFailable>
   			<wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction>
   			<blockAdjacentSow>true</blockAdjacentSow>
-  			<sowTags>
-  				<li>Ground</li>
-  			</sowTags>
+  			<sowTags></sowTags>
   			<visualSizeRange>
   				<min>2</min>
   				<max>3</max>

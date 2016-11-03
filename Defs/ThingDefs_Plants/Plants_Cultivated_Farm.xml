@@ -7,7 +7,7 @@
     <label>taro</label>
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
     <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
+      <MaxHitPoints>85</MaxHitPoints>
       <Beauty>1</Beauty>
     </statBases>
     <graphicData>
@@ -30,8 +30,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>CK_TaroRoot</harvestedThingDef>
-      <harvestWork>250</harvestWork>
-      <fertilityMin>0.2</fertilityMin>      
+      <harvestWork>250</harvestWork>      
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
@@ -40,9 +39,9 @@
         <min>1</min>
         <max>1.4</max>
       </visualSizeRange>
-      <growDays>4</growDays>
+      <growDays>3.5</growDays>
       <topWindExposure>0.3</topWindExposure>      
-      <fertilityFactorGrowthRate>0.3</fertilityFactorGrowthRate>      
+      <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>      
     </plant>
   </ThingDef>
 
@@ -51,7 +50,7 @@
     <label>coffea bush</label>
     <description>A bushy plant which yields coffee beans.</description>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>120</MaxHitPoints>
       <Beauty>1</Beauty>
     </statBases>
     <graphicData>
@@ -63,20 +62,19 @@
     </graphicData>
     <selectable>true</selectable>
     <fillPercent>0.25</fillPercent>
-    <pathCost>20</pathCost>
+    <pathCost>30</pathCost>
     <ingestible>
       <nutrition>0.2</nutrition>
     </ingestible>
     <plant>
-      <sowMinSkill>5</sowMinSkill>
-      <harvestYield>30</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <harvestYield>10</harvestYield>
       <harvestWork>400</harvestWork>
       <dieIfLeafless>true</dieIfLeafless>
       <shootsSeeds>false</shootsSeeds>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
-      <harvestedThingDef>CK_RawCoffee</harvestedThingDef>
-      <fertilityMin>0.4</fertilityMin>
+      <harvestedThingDef>CK_RawCoffee</harvestedThingDef>      
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
@@ -85,9 +83,9 @@
         <min>1.2</min>
         <max>1.8</max>
       </visualSizeRange>
-      <growDays>5.5</growDays>
+      <growDays>5</growDays>
       <topWindExposure>0.3</topWindExposure>
-      <fertilityFactorGrowthRate>0.6</fertilityFactorGrowthRate>
+      <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
     </plant>
   </ThingDef>
 
@@ -97,10 +95,10 @@
     <selectable>True</selectable>
     <description>Lemongrass.</description>
     <statBases>
-      <MaxHitPoints>90</MaxHitPoints>
+      <MaxHitPoints>85</MaxHitPoints>
       <Beauty>1</Beauty>
     </statBases>
-    <pathCost>10</pathCost>
+    <pathCost>18</pathCost>
     <graphicData>
       <texPath>Things/Plant/Lemongrass</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -112,12 +110,11 @@
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
       <shootsSeeds>false</shootsSeeds>
-      <harvestYield>10</harvestYield>
+      <harvestYield>7</harvestYield>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>CK_RawLemongrass</harvestedThingDef>      
-      <harvestWork>250</harvestWork>
-      <fertilityMin>0.05</fertilityMin>
+      <harvestWork>250</harvestWork>      
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
@@ -126,11 +123,95 @@
         <min>1</min>
         <max>1.60</max>
       </visualSizeRange>
-      <growDays>3</growDays>
-      <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
+      <growDays>2.5</growDays>
+      <fertilityFactorGrowthRate>0.8</fertilityFactorGrowthRate>
       <topWindExposure>0.4</topWindExposure>
     </plant>
   </ThingDef>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>CK_PlantTreeCoconutPalm</defName>
+    <label>coconut palm tree</label>
+    <description></description>
+    <graphicData>
+      <texPath>Things/Plant/TreeCoconutPalm</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+    </statBases>
+    <plant>
+      <shootsSeeds>false</shootsSeeds>
+      <growDays>18</growDays>      
+      <harvestWork>1500</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestDestroys>false</harvestDestroys>
+      <harvestedThingDef>CK_Coconuts</harvestedThingDef>
+      <harvestYield>45</harvestYield>
+      <harvestMinGrowth>0.80</harvestMinGrowth>      
+      <visualSizeRange>
+        <min>2</min>
+        <max>3</max>
+      </visualSizeRange>
+      <sowResearchPrerequisites>
+        <li>CK_TropicalWoodGrowing</li>
+      </sowResearchPrerequisites>
+      <sowMinSkill>5</sowMinSkill>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+      <defName>CK_PlantTreeBanana</defName>
+      <label>banana</label>
+      <description></description>
+      <altitudeLayer>Building</altitudeLayer>
+      <statBases>
+        <MaxHitPoints>120</MaxHitPoints>
+      </statBases>
+      <graphicData>
+        <texPath>Things/Plant/TreeBanana</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.3, 0.3, 0.3)</volume>
+        </shadowData>
+      </graphicData>
+      <passability>PassThroughOnly</passability>
+      <blockWind>true</blockWind>
+      <selectable>true</selectable>
+      <fillPercent>0.35</fillPercent>
+      <pathCost>80</pathCost>
+      <ingestible>        
+          <preferability>RawBad</preferability>
+          <nutrition>1.50</nutrition>
+        </ingestible>
+      <plant>
+        <shootsSeeds>false</shootsSeeds>
+        <growDays>17</growDays>
+        <sowWork>1500</sowWork>
+        <harvestWork>800</harvestWork>
+        <harvestTag>Standard</harvestTag>
+        <harvestDestroys>false</harvestDestroys>
+        <harvestedThingDef>CK_RawBanana</harvestedThingDef>
+        <harvestYield>50</harvestYield>
+        <harvestMinGrowth>0.80</harvestMinGrowth>
+        <harvestFailable>false</harvestFailable>        
+        <blockAdjacentSow>true</blockAdjacentSow>
+        <sowTags>
+          <li>Ground</li>
+        </sowTags>
+        <visualSizeRange>
+          <min>2</min>
+          <max>3</max>
+        </visualSizeRange>
+        <fertilityMin>0.7</fertilityMin>
+        <topWindExposure>0.25</topWindExposure>
+        <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
+        <sowMinSkill>5</sowMinSkill>
+        <sowResearchPrerequisites>
+          <li>CK_TropicalWoodGrowing</li>
+        </sowResearchPrerequisites>         
+      </plant>
+  </ThingDef>  
   
 <!--====================== Production crops ===========================-->
 <!--========================== Drug crops =============================-->
@@ -147,7 +228,7 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <selectable>true</selectable>
-    <pathCost>10</pathCost>
+    <pathCost>30</pathCost>
     <ingestible>
       <nutrition>0.2</nutrition>
     </ingestible>
@@ -157,8 +238,8 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
       <harvestDestroys>true</harvestDestroys>
-      <harvestYield>6</harvestYield>
-      <sowMinSkill>8</sowMinSkill>
+      <harvestYield>10</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
@@ -183,13 +264,15 @@
     </graphicData>
     <pathCost>200</pathCost>
     <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
       <Beauty>0</Beauty>
     </statBases>    
     <plant>
+      <sowMinSkill>7</sowMinSkill>
       <growDays>25</growDays>
       <harvestWork>1000</harvestWork>
       <harvestedThingDef>CK_Honeycomb</harvestedThingDef>
-      <harvestYield>40</harvestYield>
+      <harvestYield>60</harvestYield>
       <harvestDestroys>false</harvestDestroys>
       <harvestMinGrowth>0.80</harvestMinGrowth>
       <harvestFailable>true</harvestFailable>

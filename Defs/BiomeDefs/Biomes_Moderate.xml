@@ -111,9 +111,9 @@
          <CK_PlantWildTaro>0.3</CK_PlantWildTaro>
       <!-- Rare -->
         <CK_PlantTreeTreeStump>0.2</CK_PlantTreeTreeStump>
-        <CK_PlantTreeBanana>0.25</CK_PlantTreeBanana>        
+        <CK_PlantTreeWildBanana>0.25</CK_PlantTreeWildBanana>        
         <CK_PlantWildLemongrass>0.2</CK_PlantWildLemongrass>
-        <CK_PlantTreeCoconutPalm>0.25</CK_PlantTreeCoconutPalm>
+        <CK_PlantTreeWildCoconutPalm>0.25</CK_PlantTreeWildCoconutPalm>
         <CK_PlantWildBushDreamVine>0.02</CK_PlantWildBushDreamVine>
         <CK_PlantHeliconia>0.15</CK_PlantHeliconia>
       <!-- Very Rare -->
