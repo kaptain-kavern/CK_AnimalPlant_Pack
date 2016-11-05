@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <!-- =================== Elephant ==========================-->
-  <ThingDef ParentName="AnimalThingBase">
-    <defName>Elephant</defName>
+  <ThingDef ParentName="AnimalThingBase"><defName>Elephant</defName>
     <label>elephant</label>
     <description>The largest unmodified land animal. It can use its tusks as tools for moving objects - or as deadly weapons.</description>
     <statBases>
@@ -62,8 +61,7 @@
       <li>StandardAnimal</li>
     </tradeTags>
   </ThingDef>
-  <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Elephant</defName>
+  <PawnKindDef Name="Elephant" ParentName="AnimalKindBase"><defName>Elephant</defName>
     <label>elephant</label>
     <race>Elephant</race>
     <combatPower>310</combatPower>
@@ -127,6 +125,60 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+  <PawnKindDef ParentName="Elephant"><defName>CK_PackElephant</defName>
+    <carrier>true</carrier>
+    <lifeStages>
+      <li>
+        <label>elephant calf</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Elephant/Elephant</texPath>
+          <color>(130,126,119)</color>
+          <drawSize>1.8</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>1.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/PackElephant</texPath>          
+          <drawSize>2.6</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>2.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/PackElephant</texPath>
+          <drawSize>3.8</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>3.8</drawSize>
+        </dessicatedBodyGraphicData>
+        <dropBodyPart>
+          <bodyPartGroup>TuskAttackTool</bodyPartGroup>
+          <thing>ElephantTusk</thing>
+          <allowFemale>false</allowFemale>
+        </dropBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>  
 <!-- ==================== Rhinoceros =======================-->  
   <ThingDef ParentName="AnimalThingBase">
     <defName>Rhinoceros</defName>
