@@ -130,7 +130,7 @@
         <CK_PlantWildCotton>0.02</CK_PlantWildCotton>
         <CK_PlantRafflesia>0.02</CK_PlantRafflesia>
         <CK_SpecialTreeHive>0.005</CK_SpecialTreeHive>
-</wildPlants>
+    </wildPlants>
     <wildAnimals>
       <!-- Common -->
          <Chinchilla>2</Chinchilla>
