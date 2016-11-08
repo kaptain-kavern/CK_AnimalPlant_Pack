@@ -298,6 +298,14 @@
             <offset>(0,0,-0.3)</offset>
           </shadowData>
         </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Junglehen</texPath>
+          <drawSize>0.7</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
           <drawSize>0.7</drawSize>
@@ -313,7 +321,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Junglefowl</texPath>
+          <texPath>Things/Pawn/Animal/Junglehen</texPath>
           <drawSize>0.9</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
