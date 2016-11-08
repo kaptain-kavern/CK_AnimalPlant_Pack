@@ -179,7 +179,7 @@
       </li>
     </lifeStages>
   </PawnKindDef>  
-<!-- ==================== Rhinoceros =======================-->  
+<!-- ==================== Rhinoceros =======================-->
   <ThingDef ParentName="AnimalThingBase">
     <defName>Rhinoceros</defName>
     <label>rhinoceros</label>
@@ -583,7 +583,7 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-<!-- ======================= Deer ==========================-->  
+<!-- ======================= Deer ==========================-->
   <ThingDef ParentName="AnimalThingBase">
     <defName>Deer</defName>
     <label>deer</label>
@@ -1265,5 +1265,137 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+<!-- ======================= Cobra =========================-->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Cobra</defName>
+    <label>cobra</label>
+    <description>A large snake. Cobras can be highly aggressive if provoked - it's better to stay away from these creatures.</description>
+    <statBases>
+      <MoveSpeed>4.84</MoveSpeed>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <MarketValue>400</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+        <meleeDamageDef>ToxicBite</meleeDamageDef>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>EggCobraFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>7.5</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>
+          <min>2</min>
+          <max>5</max>
+        </eggCountRange>
+      </li>
+    </comps>
+    <race>
+      <body>Snake</body>
+      <predator>true</predator>
+      <maxPreyBodySize>0.35</maxPreyBodySize>
+      <baseBodySize>0.25</baseBodySize>
+      <baseHungerRate>0.07</baseHungerRate>
+      <baseHealthScale>0.5</baseHealthScale>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherColor>(113,98,87)</leatherColor>
+      <leatherLabel>cobraskin</leatherLabel>
+      <leatherInsulation>0.5</leatherInsulation>
+      <meatLabel>cobraflesh</meatLabel>
+      <wildness>0.75</wildness>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <gestationPeriodDays>17.5</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(3, 1)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>20</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Cobra_Wounded</soundWounded>
+          <soundDeath>Pawn_Cobra_Death</soundDeath>
+          <soundCall>Pawn_Cobra_Call</soundCall>
+          <soundAngry>Pawn_Cobra_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>StandardAnimal</li>
+      <li>BadassAnimal</li>
+    </tradeTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Cobra</defName>
+    <label>cobra</label>
+    <race>Cobra</race>
+    <combatPower>65</combatPower>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.6</wildSpawn_EcoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra</texPath>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra</texPath>
+          <drawSize>1.25</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
+          <drawSize>1.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra</texPath>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>  
 
 </Defs>
