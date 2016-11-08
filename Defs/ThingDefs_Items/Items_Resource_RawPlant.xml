@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="PlantFoodRawBase">
+<ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_TaroRoot</defName>
     <label>taro roots</label>
     <description>Taro roots.</description>
@@ -19,9 +19,9 @@
         <daysToRotStart>30</daysToRotStart>
       </li>
     </comps>
-  </ThingDef>
+</ThingDef>
 
-  <ThingDef ParentName="PlantFoodRawBase">
+<ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawBanana</defName>
     <label>bananas</label>
     <description>Bananas. Nice to eat, even when raw.</description>
@@ -43,14 +43,15 @@
       <joyKind>Gluttonous</joyKind>
       <foodType>VegetableOrFruit</foodType>
     </ingestible>
-  </ThingDef>
+</ThingDef>
 
-  <ThingDef ParentName="PlantFoodRawBase">
+<ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawLemongrass</defName>
     <label>lemongrass</label>
     <description></description>
     <graphicData>
-      <texPath>Things/Item/Resource/PlantFoodRaw/Lemongrass</texPath>
+    	<texPath>Things/Item/Resource/PlantFoodRaw/Lemongrass</texPath>
+    	<graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>1.6</MarketValue>
@@ -64,7 +65,7 @@
     <ingestible>      
       <foodType>VegetableOrFruit</foodType>
     </ingestible>    
-  </ThingDef>
+</ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_Coconuts</defName>
