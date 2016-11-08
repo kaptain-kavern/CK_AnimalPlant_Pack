@@ -61,7 +61,7 @@
       <li>StandardAnimal</li>
     </tradeTags>
   </ThingDef>
-  <PawnKindDef Name="Elephant" ParentName="AnimalKindBase"><defName>Elephant</defName>
+  <PawnKindDef ParentName="AnimalKindBase"><defName>Elephant</defName>
     <label>elephant</label>
     <race>Elephant</race>
     <combatPower>310</combatPower>
@@ -125,7 +125,10 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-  <PawnKindDef ParentName="Elephant"><defName>CK_PackElephant</defName>
+  <PawnKindDef ParentName="AnimalKindBase"><defName>CK_PackElephant</defName>
+  	<label>pack elephant</label>
+    <race>Elephant</race>
+    <combatPower>300</combatPower>
     <carrier>true</carrier>
     <lifeStages>
       <li>
