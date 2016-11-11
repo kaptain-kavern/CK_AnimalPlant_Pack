@@ -46,9 +46,9 @@
   </ThingDef>
 
   <ThingDef ParentName="PlantBase">
-    <defName>CK_PlantCoffea</defName>
-    <label>coffea bush</label>
-    <description>A bushy plant which yields coffee beans.</description>
+    <defName>CK_PlantJitterWeed</defName>
+    <label>jitter weeds</label>
+    <description>A weedy plant which yields jitter berries.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <Beauty>1</Beauty>
@@ -74,7 +74,7 @@
       <shootsSeeds>false</shootsSeeds>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
-      <harvestedThingDef>CK_RawCoffee</harvestedThingDef>      
+      <harvestedThingDef>CK_RawJitterBerries</harvestedThingDef>    
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>

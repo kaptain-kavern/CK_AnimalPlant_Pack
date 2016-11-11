@@ -91,23 +91,21 @@
     </ingestible>
   </ThingDef>
 
-	<ThingDef ParentName="RoughPlantBase">
-	    <defName>CK_RawCoffee</defName>
-	    <label>coffee beans</label>
+	<ThingDef ParentName="PlantFoodRawBase">
+	    <defName>CK_RawJitterBerries</defName>
+	    <label>jitter berries</label>
 	    <description>Give a little boost to movement speed and "Rest need" if eaten raw, but taste bad.</description>
 	    <soundInteract>Grain_Drop</soundInteract>
 	    <soundDrop>Grain_Drop</soundDrop>
 	    <graphicData>
-	      <texPath>Things/Item/Resource/PlantFoodRaw/CoffeeBeans</texPath>
+	      <texPath>Things/Item/Resource/PlantFoodRaw/JitterBerries</texPath>
 	    </graphicData>
 	    <statBases>
 	      <MarketValue>2</MarketValue>
 	    </statBases>
-	    <socialPropernessMatters>true</socialPropernessMatters>
-	    <thingCategories>
-	      <li>PlantMatter</li>
-	    </thingCategories>
+	    <socialPropernessMatters>true</socialPropernessMatters>	    
 	    <ingestible>
+        <foodType>VegetableOrFruit</foodType>
         <drugCategory>Medical</drugCategory>
 	      <ingestCommandString>Ingest {0}</ingestCommandString>
 	      <ingestReportString>Ingesting {0}.</ingestReportString>
@@ -116,26 +114,26 @@
 	      <baseIngestTicks>120</baseIngestTicks>
 	      <joyKind>Chemical</joyKind>
 	      <joy>0.01</joy>	      
-	      <nutrition>0.01</nutrition>
+	      <nutrition>0.02</nutrition>
 	      <outcomeDoers>
           <li Class="IngestionOutcomeDoer_OffsetNeed">
             <need>Rest</need>
             <offset>0.1</offset>
           </li>
           <li Class="IngestionOutcomeDoer_GiveHediff">
-	          <hediffDef>CK_AteRawCoffee</hediffDef>   
+	          <hediffDef>CK_AteRawJitterBerries</hediffDef>   
 	          <severity>0.3</severity>
-	          <toleranceChemical>Cafeine</toleranceChemical>
+	          <toleranceChemical>Jitter</toleranceChemical>
 	        </li>
 	        <li Class="IngestionOutcomeDoer_GiveHediff">
-	        	<hediffDef>CK_CafeineTolerance</hediffDef>
+	        	<hediffDef>CK_JitterTolerance</hediffDef>
 	        	<severity>0.02</severity>
 	        </li>
         </outcomeDoers>
       </ingestible>
       <comps>
         <li Class="CompProperties_Drug">
-          <chemical>Cafeine</chemical>
+          <chemical>Jitter</chemical>
           <addictiveness>0.008</addictiveness>
           <minToleranceToAddict>0.3</minToleranceToAddict>
           <existingAddictionSeverityOffset>0.03</existingAddictionSeverityOffset>
@@ -145,8 +143,8 @@
       </comps>
     </ThingDef>
     <HediffDef>
-	    <defName>CK_AteRawCoffee</defName>
-	    <label>Cafeine rush</label>
+	    <defName>CK_AteRawJitterBerries</defName>
+	    <label>Jitter rush</label>
 	    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
 	    <maxSeverity>1.0</maxSeverity>
 	    <hediffClass>HediffWithComps</hediffClass>
@@ -158,7 +156,7 @@
 	    </comps>
       <stages>
         <li>
-          <label>speed from coffee</label>
+          <label>speed from jitter</label>
 	        <hungerRateFactor>1.1</hungerRateFactor>
 	        <capMods>
             <li>
@@ -170,34 +168,34 @@
       </stages>
     </HediffDef>
     <ThoughtDef>
-	    <defName>CK_AteRawCoffee</defName>
+	    <defName>CK_AteRawJitterBerries</defName>
 	    <workerClass>ThoughtWorker_Hediff</workerClass>
-	    <hediff>CK_AteRawCoffee</hediff>
+	    <hediff>CK_AteRawJitterBerries</hediff>
 	    <stages>
 	      <li>
-	        <label>speed from coffee</label>
-	        <description>Those coffee beans... tastes like s%$#, but man are they strong.</description>
+	        <label>speed from jitter</label>
+	        <description>Those jitter berries... tastes like s%$#, but man are they strong.</description>
 	        <baseMoodEffect>2</baseMoodEffect>
 	      </li>
       </stages>
     </ThoughtDef>
-<!-- Cafeine addiction -->
+<!-- Jitter addiction -->
     <ChemicalDef>
-      <defName>Cafeine</defName>
-      <label>Cafeine</label>
-      <addictionHediff>CK_CafeineAddiction</addictionHediff>
-      <toleranceHediff>CK_CafeineTolerance</toleranceHediff>
+      <defName>Jitter</defName>
+      <label>Jitter</label>
+      <addictionHediff>CK_JitterAddiction</addictionHediff>
+      <toleranceHediff>CK_JitterTolerance</toleranceHediff>
     </ChemicalDef>
     <NeedDef ParentName="DrugAddictionNeedBase">
-      <defName>CK_Chemical_Cafeine</defName>
+      <defName>CK_Chemical_Jitter</defName>
       <needClass>Need_Chemical</needClass>
-      <label>Cafeine</label>
-      <description>Because of a developed Cafeine dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+      <label>Jitter</label>
+      <description>Because of a developed Jitter dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
       <listPriority>25</listPriority>
     </NeedDef>
     <HediffDef ParentName="DrugToleranceBase">
-      <defName>CK_CafeineTolerance</defName>
-      <label>Cafeine tolerance</label>
+      <defName>CK_JitterTolerance</defName>
+      <label>Jitter tolerance</label>
       <comps>
         <li>
           <compClass>HediffComp_SeverityPerDay</compClass>
@@ -205,15 +203,15 @@
         </li>
         <li>
           <compClass>HediffComp_DrugEffectFactor</compClass>
-          <chemical>Cafeine</chemical>
+          <chemical>Jitter</chemical>
         </li>
       </comps>
     </HediffDef>
     <HediffDef ParentName="AddictionBase">
-      <defName>CK_CafeineAddiction</defName>
+      <defName>CK_JitterAddiction</defName>
       <hediffClass>Hediff_Addiction</hediffClass>
-      <label>Cafeine dependence</label>
-      <causesNeed>CK_Chemical_Cafeine</causesNeed>
+      <label>Jitter dependence</label>
+      <causesNeed>CK_Chemical_Jitter</causesNeed>
       <comps>
         <li>
           <compClass>HediffComp_SeverityPerDay</compClass>
@@ -238,16 +236,16 @@
       </stages>
   </HediffDef>
   <ThoughtDef>
-    <defName>CK_CafeineWithdrawal</defName>
+    <defName>CK_JitterWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>CK_CafeineAddiction</hediff>
+    <hediff>CK_JitterAddiction</hediff>
     <stages>
       <li>
         <visible>false</visible>
       </li>
       <li>
-        <label>Cafeine withdrawal</label>
-        <description>I really need coffee... Even those disgusting raw beans</description>
+        <label>Jitter withdrawal</label>
+        <description>I really need jitter... Even those disgusting raw berries</description>
         <baseMoodEffect>-5</baseMoodEffect>
       </li>
     </stages>

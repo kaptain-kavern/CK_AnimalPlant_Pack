@@ -147,9 +147,9 @@
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
-    <defName>CK_PlantWildCoffea</defName>
-    <label>coffea bush</label>
-    <description>A bushy plant which yields coffee beans.</description>
+    <defName>CK_PlantWildJitterWeed</defName>
+    <label>jitter weeds</label>
+    <description>A weedy plant which yields jitter berries.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <Beauty>1</Beauty>
@@ -172,7 +172,7 @@
       <harvestWork>600</harvestWork>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
-      <harvestedThingDef>CK_RawCoffee</harvestedThingDef>
+      <harvestedThingDef>CK_RawJitterBerries</harvestedThingDef>
       <fertilityMin>0.5</fertilityMin>      
       <wildClusterSizeRange>
         <min>2</min>
