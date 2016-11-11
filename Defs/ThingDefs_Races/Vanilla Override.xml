@@ -1400,5 +1400,126 @@
       </li>
     </lifeStages>
   </PawnKindDef>  
+<!-- ======================= Monjey ========================-->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Monkey</defName>
+    <label>monkey</label>
+    <description>This monkey can use its curly tail to grab on to branches, leaving its hands free to do other things.</description>
+    <statBases>
+      <MoveSpeed>4.84</MoveSpeed>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <MarketValue>300</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>80</defaultCooldownTicks>
+        <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>80</defaultCooldownTicks>
+        <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <body>Monkey</body>
+      <herdAnimal>true</herdAnimal>
+      <petness>0.25</petness>
+      <baseBodySize>0.35</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>0.45</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <leatherLabel>monkeyhide</leatherLabel>
+      <leatherColor>(124,53,29)</leatherColor>
+      <leatherInsulation>0.75</leatherInsulation>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <wildness>0.60</wildness>
+      <nuzzleMtbHours>72</nuzzleMtbHours>
+      <gestationPeriodDays>16</gestationPeriodDays>
+      <lifeExpectancy>30</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.9</minAge>
+          <soundWounded>Pawn_Monkey_Wounded</soundWounded>
+          <soundDeath>Pawn_Monkey_Death</soundDeath>
+          <soundCall>Pawn_Monkey_Call</soundCall>
+          <soundAngry>Pawn_Monkey_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>StandardAnimal</li>
+      <li>BadassAnimal</li>
+    </tradeTags>
+  </ThingDef>
 
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Monkey</defName>
+    <label>monkey</label>
+    <race>Monkey</race>
+    <combatPower>35</combatPower>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.9</wildSpawn_EcoSystemWeight>
+    <wildSpawn_GroupSizeRange>
+      <min>3</min>
+      <max>7</max>
+    </wildSpawn_GroupSizeRange>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey</texPath>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey</texPath>
+          <drawSize>1.25</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.2, 0.2)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Monkey</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
 </Defs>
