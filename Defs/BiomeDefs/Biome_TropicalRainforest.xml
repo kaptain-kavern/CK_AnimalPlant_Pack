@@ -149,8 +149,7 @@
          <!-- <CK_SpiderMonkey>1.6</CK_SpiderMonkey> -->         
          <!-- <CK_SquirrelMonkey>1.6</CK_SquirrelMonkey> --> 
       <!-- Uncommon -->
-         <Elephant>0.6</Elephant>
-         <CK_Panda>0.3</CK_Panda>
+         <Elephant>0.6</Elephant>         
          <CK_Tiger>0.4</CK_Tiger>
          <CK_Jaguar>0.4</CK_Jaguar>      
          <!-- <CK_Python>0.16</CK_Python> -->
@@ -168,6 +167,7 @@
          <!-- <CK_Ocelot>0.12</CK_Ocelot> -->
       <!-- Very Rare -->
          <Cassowary>0.15</Cassowary>
+         <CK_Panda>0.06</CK_Panda>
          <CK_WhiteTiger>0.008</CK_WhiteTiger>
     </wildAnimals>
     <allowedPackAnimals>      
