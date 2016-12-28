@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
+<!-- No apparent changes in A16 - Tam -->
+
 <!--
 	Each coverage value is relative to its parent.
 	Remaining body part coverage (100% minus coverage of all child nodes) is a chance to hit exactly this part.
