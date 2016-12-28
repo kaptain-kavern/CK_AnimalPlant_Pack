@@ -38,7 +38,8 @@
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-      <tastesRaw>false</tastesRaw>
+	  <tasteThought></tasteThought> <!-- RawBerries apparently do this in A16 to clear the tastes raw thought -->
+      <!-- <tastesRaw>false</tastesRaw> -->
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
       <foodType>VegetableOrFruit</foodType>
@@ -84,7 +85,8 @@
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-      <tastesRaw>false</tastesRaw>
+	  <tasteThought></tasteThought> <!-- RawBerries apparently do this in A16 to clear the tastes raw thought -->
+      <!-- <tastesRaw>false</tastesRaw> -->
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>      
       <foodType>VegetableOrFruit</foodType>
