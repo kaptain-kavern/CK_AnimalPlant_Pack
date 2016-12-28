@@ -11,14 +11,16 @@
   	<verbs>
   		<li>
   			<verbClass>Verb_MeleeAttack</verbClass>
-	  		<defaultCooldownTicks>80</defaultCooldownTicks>
+			<defaultCooldownTime>1.35</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>80</defaultCooldownTicks> -->
 	  		<meleeDamageBaseAmount>4</meleeDamageBaseAmount>
 	  		<meleeDamageDef>Blunt</meleeDamageDef>
 	  		<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 	  	</li>
 	  	<li>
 	  		<verbClass>Verb_MeleeAttack</verbClass>
-	  		<defaultCooldownTicks>80</defaultCooldownTicks>
+			<defaultCooldownTime>1.35</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>80</defaultCooldownTicks> -->
 	  		<meleeDamageBaseAmount>4</meleeDamageBaseAmount>
 	  		<meleeDamageDef>Blunt</meleeDamageDef>
 	  		<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
@@ -89,7 +91,8 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>110</defaultCooldownTicks>
+		        <defaultCooldownTime>1.85</defaultCooldownTime> <!-- A16 -->
+            <!-- <defaultCooldownTicks>110</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>13</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
@@ -104,7 +107,8 @@
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>110</defaultCooldownTicks>
+		        <defaultCooldownTime>1.85</defaultCooldownTime> <!-- A16 -->
+            <!-- <defaultCooldownTicks>110</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>13</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>

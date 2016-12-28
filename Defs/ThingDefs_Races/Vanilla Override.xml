@@ -12,7 +12,8 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>145</defaultCooldownTicks>
+		<defaultCooldownTime>2.4</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>145</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>23</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
@@ -195,14 +196,16 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
@@ -329,14 +332,16 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
@@ -458,14 +463,16 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
@@ -606,14 +613,16 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
@@ -757,14 +766,16 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>110</defaultCooldownTicks>
+		        <defaultCooldownTime>1.85</defaultCooldownTime> <!-- A16 -->
+            <!-- <defaultCooldownTicks>110</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>110</defaultCooldownTicks>
+		        <defaultCooldownTime>1.85</defaultCooldownTime> <!-- A16 -->
+            <!-- <defaultCooldownTicks>110</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
@@ -904,14 +915,16 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>110</defaultCooldownTicks>
+		        <defaultCooldownTime>1.85</defaultCooldownTime> <!-- A16 -->
+            <!-- <defaultCooldownTicks>110</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>110</defaultCooldownTicks>
+		        <defaultCooldownTime>1.85</defaultCooldownTime> <!-- A16 -->
+            <!-- <defaultCooldownTicks>110</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
@@ -1027,14 +1040,16 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
@@ -1155,21 +1170,24 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
@@ -1281,7 +1299,8 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>ToxicBite</meleeDamageDef>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
@@ -1413,14 +1432,16 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>80</defaultCooldownTicks>
+			<defaultCooldownTime>1.35</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>80</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>80</defaultCooldownTicks>
+			<defaultCooldownTime>1.35</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>80</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
