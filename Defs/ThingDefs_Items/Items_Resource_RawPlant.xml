@@ -209,10 +209,13 @@
       <li Class="HediffCompProperties_SeverityPerDay"> <!-- A16's new name -->
         <severityPerDay>-0.015</severityPerDay>
       </li>
-        <li>
+	   <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>Jitter</chemical>
+      </li>
+       <!-- <li>
           <compClass>HediffComp_DrugEffectFactor</compClass>
           <chemical>Jitter</chemical>
-        </li>
+        </li> -->
       </comps>
     </HediffDef>
     <HediffDef ParentName="AddictionBase">
