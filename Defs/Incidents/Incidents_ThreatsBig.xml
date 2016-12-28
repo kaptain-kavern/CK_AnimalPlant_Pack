@@ -4,6 +4,7 @@
   <IncidentDef>
     <defName>CK_Tropical_ManhunterPack</defName>
     <label>rainforest animals attack</label>
+	<targetType>BaseMap</targetType> <!-- Added in A16 - I think it means this disaster hits a colony, not a caravan - Tam -->
     <workerClass>IncidentWorker_ManhunterPack</workerClass>
     <baseChance>2.0</baseChance>
     <category>ThreatBig</category>
