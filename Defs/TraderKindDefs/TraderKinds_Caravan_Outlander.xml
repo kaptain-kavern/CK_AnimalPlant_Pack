@@ -41,6 +41,13 @@
           <max>100</max>
         </countRange>
       </li>
+	   <li Class="StockGenerator_SingleDef"> <!-- New in A16 -->
+        <thingDef>Chemfuel</thingDef>
+        <countRange>
+          <min>50</min>
+          <max>250</max>
+        </countRange>
+      </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>GlitterworldMedicine</thingDef>
         <countRange>
