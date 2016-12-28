@@ -173,6 +173,7 @@
 	    <defName>CK_AteRawJitterBerries</defName>
 	    <workerClass>ThoughtWorker_Hediff</workerClass>
 	    <hediff>CK_AteRawJitterBerries</hediff>
+		<validWhileDespawned>true</validWhileDespawned> <!-- New in A16, other drug-thoughts use it -->
 	    <stages>
 	      <li>
 	        <label>speed from jitter</label>
@@ -241,6 +242,7 @@
     <defName>CK_JitterWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>CK_JitterAddiction</hediff>
+	    <validWhileDespawned>true</validWhileDespawned> <!-- New in A16 -->
     <stages>
       <li>
         <visible>false</visible>
