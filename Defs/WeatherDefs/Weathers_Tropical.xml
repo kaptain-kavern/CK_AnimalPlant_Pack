@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <WeatherDefs>
 
+<!-- A16: no apparent changes -Tam -->
+
   <!-- CopyPasted from vanilla in order to been able to change temperature -->
   
   <WeatherDef>
