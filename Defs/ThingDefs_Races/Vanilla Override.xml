@@ -126,7 +126,10 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-  <PawnKindDef ParentName="AnimalKindBase"><defName>CK_PackElephant</defName>
+
+<!-- The <carrier> tag went away in A16, probably due to caravan shenanigans. I don't know how to fix this. -->  
+  
+<!--  <PawnKindDef ParentName="AnimalKindBase"><defName>CK_PackElephant</defName>
   	<label>pack elephant</label>
     <race>Elephant</race>
     <combatPower>300</combatPower>
@@ -182,7 +185,8 @@
         </dropBodyPart>
       </li>
     </lifeStages>
-  </PawnKindDef>  
+  </PawnKindDef>   -->
+  
 <!-- ==================== Rhinoceros =======================-->
   <ThingDef ParentName="AnimalThingBase">
     <defName>Rhinoceros</defName>

@@ -150,12 +150,18 @@
 	    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
 	    <maxSeverity>1.0</maxSeverity>
 	    <hediffClass>HediffWithComps</hediffClass>
-	    <comps>
+		  <comps> <!-- Apparently the new name -->
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.0</severityPerDay>
+			</li>
+		</comps>
+	    <!-- Errored
+		<comps>
 	      <li>
 	        <compClass>HediffComp_SeverityPerDay</compClass>
 	        <severityPerDay>-1.0</severityPerDay>
 	      </li>
-	    </comps>
+	    </comps> -->
       <stages>
         <li>
           <label>speed from jitter</label>
@@ -200,10 +206,9 @@
       <defName>CK_JitterTolerance</defName>
       <label>Jitter tolerance</label>
       <comps>
-        <li>
-          <compClass>HediffComp_SeverityPerDay</compClass>
-          <severityPerDay>-0.015</severityPerDay>
-        </li>
+      <li Class="HediffCompProperties_SeverityPerDay"> <!-- A16's new name -->
+        <severityPerDay>-0.015</severityPerDay>
+      </li>
         <li>
           <compClass>HediffComp_DrugEffectFactor</compClass>
           <chemical>Jitter</chemical>
@@ -215,12 +220,11 @@
       <hediffClass>Hediff_Addiction</hediffClass>
       <label>Jitter dependence</label>
       <causesNeed>CK_Chemical_Jitter</causesNeed>
-      <comps>
-        <li>
-          <compClass>HediffComp_SeverityPerDay</compClass>
-          <severityPerDay>-0.05</severityPerDay>
-        </li>
-      </comps>
+	<comps> <!-- A16 -->
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.5</severityPerDay>
+      </li>
+    </comps>
       <stages>
         <li></li>
         <li>
