@@ -22,6 +22,7 @@
     <race>
       <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
       <herdAnimal>true</herdAnimal>
+	  <packAnimal>true</packAnimal> <!-- The new way to make a pack animal - requires a texture for the pack version, named namePack_front etc. -->
       <body>QuadrupedAnimalWithHoovesTusksAndTrunk</body>
       <baseHungerRate>2.0</baseHungerRate>
       <baseBodySize>4.0</baseBodySize>
@@ -127,7 +128,7 @@
     </lifeStages>
   </PawnKindDef>
 
-<!-- The <carrier> tag went away in A16, probably due to caravan shenanigans. I don't know how to fix this. -->  
+<!-- The <carrier> tag went away in A16, probably due to caravan shenanigans. "Pack elephant" below is obsolete. -->  
   
 <!--  <PawnKindDef ParentName="AnimalKindBase"><defName>CK_PackElephant</defName>
   	<label>pack elephant</label>
