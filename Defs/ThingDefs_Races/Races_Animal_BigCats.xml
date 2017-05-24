@@ -11,7 +11,8 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>90</defaultCooldownTicks>
+		<defaultCooldownTime>1.5</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>90</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>30</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -26,7 +27,8 @@
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>90</defaultCooldownTicks>
+		<defaultCooldownTime>1.5</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>90</defaultCooldownTicks> -->
         <meleeDamageBaseAmount>30</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -41,7 +43,8 @@
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-            <defaultCooldownTicks>110</defaultCooldownTicks>
+		        <defaultCooldownTime>1.85</defaultCooldownTime> <!-- A16 -->
+            <!-- <defaultCooldownTicks>110</defaultCooldownTicks> -->
             <meleeDamageBaseAmount>30</meleeDamageBaseAmount>
             <meleeDamageDef>Bite</meleeDamageDef>
             <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>

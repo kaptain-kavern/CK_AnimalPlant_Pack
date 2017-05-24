@@ -26,7 +26,8 @@
     <plant>      
       <harvestYield>10</harvestYield>      
       <dieIfLeafless>true</dieIfLeafless>
-      <shootsSeeds>false</shootsSeeds>
+	  <reproduces>false</reproduces> <!-- A16 -->
+      <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>CK_TaroRoot</harvestedThingDef>
@@ -40,8 +41,9 @@
         <max>1.4</max>
       </visualSizeRange>
       <growDays>3.5</growDays>
-      <topWindExposure>0.3</topWindExposure>      
-      <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>      
+      <topWindExposure>0.3</topWindExposure>
+		<fertilitySensitivity>0.2</fertilitySensitivity>  <!-- A16 -->    
+		<!-- <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate> -->
     </plant>
   </ThingDef>
 
@@ -71,7 +73,8 @@
       <harvestYield>10</harvestYield>
       <harvestWork>400</harvestWork>
       <dieIfLeafless>true</dieIfLeafless>
-      <shootsSeeds>false</shootsSeeds>
+	  <reproduces>false</reproduces> <!-- A16 -->
+      <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>false</harvestDestroys>
       <harvestedThingDef>CK_RawJitterBerries</harvestedThingDef>    
@@ -85,7 +88,8 @@
       </visualSizeRange>
       <growDays>5</growDays>
       <topWindExposure>0.3</topWindExposure>
-      <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate>
+	  	<fertilitySensitivity>1</fertilitySensitivity>  <!-- A16 -->    
+      <!-- <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate> -->
     </plant>
   </ThingDef>
 
@@ -109,7 +113,8 @@
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
-      <shootsSeeds>false</shootsSeeds>
+	  <reproduces>false</reproduces> <!-- A16 -->
+      <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestYield>7</harvestYield>
       <harvestTag>Standard</harvestTag>
       <harvestDestroys>true</harvestDestroys>
@@ -124,7 +129,8 @@
         <max>1.60</max>
       </visualSizeRange>
       <growDays>2.5</growDays>
-      <fertilityFactorGrowthRate>0.8</fertilityFactorGrowthRate>
+	  		<fertilitySensitivity>0.8</fertilitySensitivity>  <!-- A16 -->    
+      <!-- <fertilityFactorGrowthRate>0.8</fertilityFactorGrowthRate> -->
       <topWindExposure>0.4</topWindExposure>
     </plant>
   </ThingDef>
@@ -141,7 +147,8 @@
       <Beauty>1</Beauty>
     </statBases>
     <plant>
-      <shootsSeeds>false</shootsSeeds>
+	  <reproduces>false</reproduces> <!-- A16 -->
+      <!-- <shootsSeeds>false</shootsSeeds> -->
       <growDays>18</growDays>      
       <harvestWork>1500</harvestWork>
       <harvestTag>Standard</harvestTag>
@@ -185,7 +192,8 @@
           <nutrition>1.50</nutrition>
         </ingestible>
       <plant>
-        <shootsSeeds>false</shootsSeeds>
+	  <reproduces>false</reproduces> <!-- A16 -->
+      <!-- <shootsSeeds>false</shootsSeeds> -->
         <growDays>17</growDays>
         <sowWork>1500</sowWork>
         <harvestWork>800</harvestWork>
@@ -205,7 +213,8 @@
         </visualSizeRange>
         <fertilityMin>0.7</fertilityMin>
         <topWindExposure>0.25</topWindExposure>
-        <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate>
+		<fertilitySensitivity>0.5</fertilitySensitivity>  <!-- A16 -->    
+        <!-- <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate> -->
         <sowMinSkill>5</sowMinSkill>
         <sowResearchPrerequisites>
           <li>CK_TropicalWoodGrowing</li>
@@ -234,7 +243,8 @@
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
-      <shootsSeeds>false</shootsSeeds>
+	  <reproduces>false</reproduces> <!-- A16 -->
+      <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
       <harvestDestroys>true</harvestDestroys>
@@ -246,7 +256,8 @@
       </sowTags>      
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>
-      <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
+	  	<fertilitySensitivity>1.0</fertilitySensitivity>  <!-- A16 -->    
+      <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
       <visualSizeRange>
         <min>1.6</min>
         <max>2</max>
@@ -278,8 +289,10 @@
       <harvestFailable>true</harvestFailable>
       <harvestTag>Standard</harvestTag>
       <fertilityMin>0.1</fertilityMin>
-      <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>     
-      <shootsSeeds>false</shootsSeeds>
+	  	<fertilitySensitivity>0.2</fertilitySensitivity>  <!-- A16 -->    
+      <!-- <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>  -->
+	  <reproduces>false</reproduces> <!-- A16 -->
+      <!-- <shootsSeeds>false</shootsSeeds> -->
       <visualSizeRange>
         <min>1.5</min>
         <max>1.5</max>

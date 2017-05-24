@@ -38,7 +38,8 @@
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-      <tastesRaw>false</tastesRaw>
+	  <tasteThought></tasteThought> <!-- RawBerries apparently do this in A16 to clear the tastes raw thought -->
+      <!-- <tastesRaw>false</tastesRaw> -->
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
       <foodType>VegetableOrFruit</foodType>
@@ -84,7 +85,8 @@
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-      <tastesRaw>false</tastesRaw>
+	  <tasteThought></tasteThought> <!-- RawBerries apparently do this in A16 to clear the tastes raw thought -->
+      <!-- <tastesRaw>false</tastesRaw> -->
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>      
       <foodType>VegetableOrFruit</foodType>
@@ -148,12 +150,18 @@
 	    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
 	    <maxSeverity>1.0</maxSeverity>
 	    <hediffClass>HediffWithComps</hediffClass>
-	    <comps>
+		  <comps> <!-- Apparently the new name -->
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.0</severityPerDay>
+			</li>
+		</comps>
+	    <!-- Errored
+		<comps>
 	      <li>
 	        <compClass>HediffComp_SeverityPerDay</compClass>
 	        <severityPerDay>-1.0</severityPerDay>
 	      </li>
-	    </comps>
+	    </comps> -->
       <stages>
         <li>
           <label>speed from jitter</label>
@@ -171,6 +179,7 @@
 	    <defName>CK_AteRawJitterBerries</defName>
 	    <workerClass>ThoughtWorker_Hediff</workerClass>
 	    <hediff>CK_AteRawJitterBerries</hediff>
+		<validWhileDespawned>true</validWhileDespawned> <!-- New in A16, other drug-thoughts use it -->
 	    <stages>
 	      <li>
 	        <label>speed from jitter</label>
@@ -197,14 +206,16 @@
       <defName>CK_JitterTolerance</defName>
       <label>Jitter tolerance</label>
       <comps>
-        <li>
-          <compClass>HediffComp_SeverityPerDay</compClass>
-          <severityPerDay>-0.015</severityPerDay>
-        </li>
-        <li>
+      <li Class="HediffCompProperties_SeverityPerDay"> <!-- A16's new name -->
+        <severityPerDay>-0.015</severityPerDay>
+      </li>
+	   <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>Jitter</chemical>
+      </li>
+       <!-- <li>
           <compClass>HediffComp_DrugEffectFactor</compClass>
           <chemical>Jitter</chemical>
-        </li>
+        </li> -->
       </comps>
     </HediffDef>
     <HediffDef ParentName="AddictionBase">
@@ -212,12 +223,11 @@
       <hediffClass>Hediff_Addiction</hediffClass>
       <label>Jitter dependence</label>
       <causesNeed>CK_Chemical_Jitter</causesNeed>
-      <comps>
-        <li>
-          <compClass>HediffComp_SeverityPerDay</compClass>
-          <severityPerDay>-0.05</severityPerDay>
-        </li>
-      </comps>
+	<comps> <!-- A16 -->
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.5</severityPerDay>
+      </li>
+    </comps>
       <stages>
         <li></li>
         <li>
@@ -239,6 +249,7 @@
     <defName>CK_JitterWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>CK_JitterAddiction</hediff>
+	    <validWhileDespawned>true</validWhileDespawned> <!-- New in A16 -->
     <stages>
       <li>
         <visible>false</visible>

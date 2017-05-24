@@ -1,14 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-    <name>CK - Animal and Plant Pack</name>
+    <name>CK - Animal and Plant Pack - A16 fork</name>
 
     <author>Coercion (Textures) | KapTaiN_KaVerN (Code)</author>
 
     <url>https://ludeon.com/forums/index.php?topic=25187</url>
 
-    <targetVersion>0.15.1284</targetVersion>
+    <targetVersion>0.16.1394</targetVersion>
 
-<description>The purpose of this mod is to add a significant amount of new animals and plants to the game and increase fauna and flora biome diversity.</description>
+<description>The purpose of this mod is to add a significant amount of new animals and plants to the game and increase fauna and flora biome diversity.
+
+12/28/16 A16 update note: Tammabanana updated from the current state of the authors' GitHub, which included a few changes Kaptain made since their last official release:
+
+* New textures for dreamvine, lemongrass, coffee, cobra, junglehen;
+* Monkeys are now herd animals, and also got a texture change;
+* Coffee was replaced with jitter weed/berries;
+* Pandas spawn less frequently.
+* but NOT this: Elephants were intended to be a pack animal, but A16 ditched the "carrier" tag and this broke, so I've commented it out for now. 
+
+Tammabanana will fix obvious bugs, particularly ones that are her own dang fault from the A16 update, but will NOT be adding new content or making content changes.</description>
 
 </ModMetaData>

@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
+
+<!-- A16 adds mass to everything. I'm not really sure how heavy various animal horns are in comparison with each other; for now, I gave them all the Elephant Tusk's mass. -Tam -->
   
   <!--=============== Bongo horn ====================-->
   
@@ -15,6 +17,7 @@
     <statBases>
       <MarketValue>250</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
+	  <Mass>1.8</Mass> <!-- How big is a bongo? Using the ElephantTusk mass. -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
@@ -51,6 +54,7 @@
     <statBases>
       <MarketValue>450</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
+	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
@@ -87,6 +91,7 @@
     <statBases>
       <MarketValue>200</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
+	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
@@ -123,6 +128,7 @@
     <statBases>
       <MarketValue>100</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
+	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
@@ -159,6 +165,7 @@
     <statBases>
       <MarketValue>100</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
+	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
@@ -195,6 +202,7 @@
     <statBases>
       <MarketValue>150</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
+	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
@@ -231,6 +239,7 @@
     <statBases>
       <MarketValue>250</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
+	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>

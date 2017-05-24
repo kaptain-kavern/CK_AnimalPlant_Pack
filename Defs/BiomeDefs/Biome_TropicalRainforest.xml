@@ -10,11 +10,21 @@
     <animalDensity>6.0</animalDensity>
     <!-- Plant Density increased from 1.0 to 4.0 -->
     <plantDensity>4.0</plantDensity>
-    <baseColor>(0, 0.372, 0.035)</baseColor>
+    <!-- <baseColor>(0, 0.372, 0.035)</baseColor> baseColor removed in A16 - Tam -->
     <soundsAmbient>
       <li>AmbientNightInsects_Jungle</li>
       <li>AmbientDayInsects_Jungle</li>
     </soundsAmbient>
+	
+<!-- Added in A16: stuff about caravan travel. Copied straight from vanilla. -->	
+    <pathCost>
+      <points>
+        <li>(0, 10000)</li>
+      </points>
+    </pathCost>
+    <texture>World/Biomes/TropicalRainforest</texture>	
+<!-- End caravan stuff -->	
+	
     <diseaseMtbDays>30</diseaseMtbDays>
     <diseases>
       <li>
