@@ -25,7 +25,6 @@
       <maxMeshCount>4</maxMeshCount>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>RawRice</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>6</harvestYield>      
       <wildClusterSizeRange>
         <min>2</min>
@@ -66,7 +65,6 @@
       <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>Cloth</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>5</harvestYield>      
       <wildClusterSizeRange>
         <min>1</min>
@@ -107,7 +105,6 @@
       <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>HerbalMedicine</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>1</harvestYield>
       <sowMinSkill>8</sowMinSkill>
       <wildClusterSizeRange>
@@ -149,7 +146,6 @@
       <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>PsychoidLeaves</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>10</harvestYield>
       <wildClusterSizeRange>
         <min>1</min>
@@ -190,7 +186,6 @@
       <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>SmokeleafLeaves</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>11</harvestYield>
       <sowMinSkill>4</sowMinSkill>
       <wildClusterSizeRange>

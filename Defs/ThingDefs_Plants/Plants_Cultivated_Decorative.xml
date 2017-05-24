@@ -23,7 +23,6 @@
 	  <reproduces>false</reproduces> <!-- A16 -->
       <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestTag>Standard</harvestTag>
-      <harvestDestroys>True</harvestDestroys>
       <sowWork>400</sowWork>
       <sowTags>        
         <li>Decorative</li>
@@ -63,7 +62,6 @@
 	  <reproduces>false</reproduces> <!-- A16 -->
       <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestTag>Standard</harvestTag>
-      <harvestDestroys>True</harvestDestroys>
       <sowWork>400</sowWork>
       <sowTags>        
         <li>Decorative</li>
@@ -103,7 +101,6 @@
 	  <reproduces>false</reproduces> <!-- A16 -->
       <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestTag>Standard</harvestTag>
-      <harvestDestroys>true</harvestDestroys>
       <sowWork>400</sowWork>
       <sowTags>        
         <li>Decorative</li>

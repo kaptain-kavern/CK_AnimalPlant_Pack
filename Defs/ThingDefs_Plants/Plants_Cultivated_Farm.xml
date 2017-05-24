@@ -29,7 +29,6 @@
 	  <reproduces>false</reproduces> <!-- A16 -->
       <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestTag>Standard</harvestTag>
-      <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>CK_TaroRoot</harvestedThingDef>
       <harvestWork>250</harvestWork>      
       <sowTags>
@@ -117,7 +116,6 @@
       <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestYield>7</harvestYield>
       <harvestTag>Standard</harvestTag>
-      <harvestDestroys>true</harvestDestroys>
       <harvestedThingDef>CK_RawLemongrass</harvestedThingDef>      
       <harvestWork>250</harvestWork>      
       <sowTags>
@@ -247,7 +245,6 @@
       <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>10</harvestYield>
       <sowMinSkill>6</sowMinSkill>
       <sowTags>

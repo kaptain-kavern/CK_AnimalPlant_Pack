@@ -20,7 +20,6 @@
       </li>
     </verbs>
     <race>
-      <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
       <herdAnimal>true</herdAnimal>
 	  <packAnimal>true</packAnimal> <!-- The new way to make a pack animal - requires a texture for the pack version, named namePack_front etc. -->
       <body>QuadrupedAnimalWithHoovesTusksAndTrunk</body>
@@ -119,11 +118,11 @@
           <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
           <drawSize>3.8</drawSize>
         </dessicatedBodyGraphicData>
-        <dropBodyPart>
+        <butcherBodyPart>
           <bodyPartGroup>TuskAttackTool</bodyPartGroup>
           <thing>ElephantTusk</thing>
           <allowFemale>false</allowFemale>
-        </dropBodyPart>
+        </butcherBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -179,11 +178,11 @@
           <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
           <drawSize>3.8</drawSize>
         </dessicatedBodyGraphicData>
-        <dropBodyPart>
+        <butcherBodyPart>
           <bodyPartGroup>TuskAttackTool</bodyPartGroup>
           <thing>ElephantTusk</thing>
           <allowFemale>false</allowFemale>
-        </dropBodyPart>
+        </butcherBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>   -->
@@ -217,7 +216,6 @@
       </li>
     </verbs>
     <race>
-      <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
       <baseHungerRate>1.5</baseHungerRate>
       <baseBodySize>3.0</baseBodySize>
@@ -316,11 +314,11 @@
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
           <drawSize>3</drawSize>
         </dessicatedBodyGraphicData>
-        <dropBodyPart>
+        <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
           <thing>CK_RhinocerosHorn</thing>
           <allowFemale>true</allowFemale>
-        </dropBodyPart>
+        </butcherBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -352,8 +350,7 @@
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
     </verbs>
-    <race>
-      <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>      
+    <race>  
       <body>CK_QuadrupedAnimalWithHoovesAndHorns</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.7</baseBodySize>
@@ -440,11 +437,11 @@
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
           <drawSize>1.65</drawSize>
         </dessicatedBodyGraphicData>
-        <dropBodyPart>
+        <butcherBodyPart>
             <bodyPartGroup>HornAttackTool</bodyPartGroup>
             <thing>CK_GazelleHorn</thing>
             <allowFemale>true</allowFemale>
-          </dropBodyPart>
+          </butcherBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -484,7 +481,6 @@
       </li>
     </verbs>
     <race>
-      <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
       <body>CK_QuadrupedAnimalWithHoovesAndHorns</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.85</baseBodySize>
@@ -590,11 +586,11 @@
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
           <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
-        <dropBodyPart>
+        <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
           <thing>CK_IbexHorn</thing>
           <allowFemale>false</allowFemale>
-        </dropBodyPart>        
+        </butcherBodyPart>        
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -634,7 +630,6 @@
       </li>
     </verbs>
     <race>
-      <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
       <body>CK_QuadrupedAnimalWithHoovesAndAntlers</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.9</baseBodySize>
@@ -743,11 +738,11 @@
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
           <drawSize>1.35</drawSize>
         </dessicatedBodyGraphicData>
-        <dropBodyPart>
+        <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
           <thing>CK_DeerAntler</thing>
           <allowFemale>false</allowFemale>
-        </dropBodyPart>
+        </butcherBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -787,7 +782,6 @@
       </li>
     </verbs>
     <race>
-      <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
       <body>CK_QuadrupedAnimalWithHoovesAndAntlers</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>1.9</baseBodySize>
@@ -892,11 +886,11 @@
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
-        <dropBodyPart>
+        <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
           <thing>CK_ElkAntler</thing>
           <allowFemale>false</allowFemale>
-        </dropBodyPart>
+        </butcherBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -936,7 +930,6 @@
       </li>
     </verbs>
     <race>
-      <deathActionWorkerClass>DeathActionWorker_DropBodyParts</deathActionWorkerClass>
       <body>CK_QuadrupedAnimalWithHoovesAndAntlers</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>1.9</baseBodySize>
@@ -1024,11 +1017,11 @@
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
-        <dropBodyPart>
+        <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>
           <thing>CK_CaribouAntler</thing>
           <allowFemale>true</allowFemale>
-        </dropBodyPart>
+        </butcherBodyPart>
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -1062,7 +1055,7 @@
     </verbs>
     <comps>
       <li Class="CompProperties_Shearable">
-        <woolDef>AlpacaWool</woolDef>
+        <woolDef>WoolAlpaca</woolDef>
         <shearIntervalDays>15</shearIntervalDays>
         <woolAmount>120</woolAmount>
       </li>
