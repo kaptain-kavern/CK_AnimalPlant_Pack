@@ -75,7 +75,7 @@
 	  <reproduces>false</reproduces> <!-- A16 -->
       <!-- <shootsSeeds>false</shootsSeeds> -->
       <harvestTag>Standard</harvestTag>
-      <harvestDestroys>false</harvestDestroys>
+      <!-- <harvestDestroys>false</harvestDestroys> -->
       <harvestedThingDef>CK_RawJitterBerries</harvestedThingDef>    
       <sowTags>
         <li>Ground</li>
@@ -150,7 +150,7 @@
       <growDays>18</growDays>      
       <harvestWork>1500</harvestWork>
       <harvestTag>Standard</harvestTag>
-      <harvestDestroys>false</harvestDestroys>
+      <!-- <harvestDestroys>false</harvestDestroys> -->
       <harvestedThingDef>CK_Coconuts</harvestedThingDef>
       <harvestYield>45</harvestYield>
       <harvestMinGrowth>0.80</harvestMinGrowth>      
@@ -196,7 +196,7 @@
         <sowWork>1500</sowWork>
         <harvestWork>800</harvestWork>
         <harvestTag>Standard</harvestTag>
-        <harvestDestroys>false</harvestDestroys>
+        <!-- <harvestDestroys>false</harvestDestroys> -->
         <harvestedThingDef>CK_RawBanana</harvestedThingDef>
         <harvestYield>50</harvestYield>
         <harvestMinGrowth>0.80</harvestMinGrowth>
@@ -281,7 +281,7 @@
       <harvestWork>1000</harvestWork>
       <harvestedThingDef>CK_Honeycomb</harvestedThingDef>
       <harvestYield>60</harvestYield>
-      <harvestDestroys>false</harvestDestroys>
+      <!-- <harvestDestroys>false</harvestDestroys> -->
       <harvestMinGrowth>0.80</harvestMinGrowth>
       <harvestFailable>true</harvestFailable>
       <harvestTag>Standard</harvestTag>

@@ -33,7 +33,7 @@
       <harvestWork>1200</harvestWork>
       <harvestedThingDef>CK_Honeycomb</harvestedThingDef>
       <harvestYield>60</harvestYield>
-      <harvestDestroys>false</harvestDestroys>
+      <!-- <harvestDestroys>false</harvestDestroys> -->
       <harvestMinGrowth>0.80</harvestMinGrowth>
       <harvestFailable>true</harvestFailable>
       <harvestTag>Standard</harvestTag>
@@ -177,7 +177,7 @@
       <harvestYield>30</harvestYield>
       <harvestWork>600</harvestWork>
       <harvestTag>Standard</harvestTag>
-      <harvestDestroys>false</harvestDestroys>
+      <!-- <harvestDestroys>false</harvestDestroys> -->
       <harvestedThingDef>CK_RawJitterBerries</harvestedThingDef>
       <fertilityMin>0.5</fertilityMin>      
       <wildClusterSizeRange>
@@ -490,7 +490,7 @@
     	<sowWork>1500</sowWork>
 	    <harvestWork>1500</harvestWork>
   		<harvestTag>Standard</harvestTag>
-  		<harvestDestroys>false</harvestDestroys>
+  		<!-- <harvestDestroys>false</harvestDestroys> -->
   		<harvestedThingDef>CK_Coconuts</harvestedThingDef>
   		<harvestYield>10</harvestYield>
   		<harvestMinGrowth>0.70</harvestMinGrowth>
@@ -611,7 +611,7 @@
 	    	<sowWork>1500</sowWork>
 	    	<harvestWork>800</harvestWork>
   			<harvestTag>Standard</harvestTag>
-  			<harvestDestroys>false</harvestDestroys>
+  			<!-- <harvestDestroys>false</harvestDestroys> -->
   			<harvestedThingDef>CK_RawBanana</harvestedThingDef>
   			<harvestYield>12</harvestYield>
   			<harvestMinGrowth>0.40</harvestMinGrowth>
