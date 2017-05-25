@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-<!-- Biomedef -->
-
-	<Operation Class="PatchOperationReplace">
+	
+	<Operation Class="PatchOperationReplace"> <!-- Start of Biome modification -->
 		<xpath>//BiomeDef[defName = "TropicalRainforest"]/animalDensity</xpath>
 		<value>
 			<animalDensity>6.0</animalDensity>
@@ -67,7 +65,7 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace"> <!-- End of Biome modification -->
 		<xpath>//BiomeDef[defName = "TropicalRainforest"]/wildAnimals</xpath>
 		<value>
 		    <wildAnimals>
@@ -96,7 +94,7 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd"> <!-- "Elephant PackAnimal" -->
 		<xpath>//BiomeDef[defName = "TropicalRainforest"]/allowedPackAnimals</xpath>
 		<value>
 			<li>Elephant</li>
@@ -107,6 +105,27 @@
 		<xpath>//ThingDef[defName = "Elephant"]/race</xpath>
 		<value>
 			<packAnimal>true</packAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>//FactionDef[defName = "Outlander"]/pawnGroupMakers/li[2]/carriers</xpath>
+		<value>
+			<Elephant>1</Elephant>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- End Of "Elephant PackAnimal" -->
+		<xpath>//FactionDef[defName = "Tribe"]/pawnGroupMakers/li[2]/carriers</xpath>
+		<value>
+			<Elephant>1</Elephant>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace"> <!-- "Elephant eat trees" -->
+		<xpath>//ThingDef[defName = "Elephant"]/race/foodType</xpath>
+		<value>
+			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 		</value>
 	</Operation>
 
