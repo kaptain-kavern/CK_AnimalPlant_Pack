@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>//BiomeDef[defName = "TropicalRainforest"]/animalDensity</xpath>
+		<value>
+			<animalDensity>6.0</animalDensity>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>//BiomeDef[defName = "TropicalRainforest"]/plantDensity</xpath>
+		<value>
+			<plantDensity>3.0</plantDensity>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>//BiomeDef[defName = "TropicalRainforest"]/baseWeatherCommonalities</xpath>
+		<value>
+		    <baseWeatherCommonalities>
+		      <Clear>2</Clear>
+		      <Fog>3</Fog>
+		      <Rain>15</Rain>
+		      <DryThunderstorm>0.1</DryThunderstorm>
+		      <RainyThunderstorm>10</RainyThunderstorm>
+		      <FoggyRain>8</FoggyRain>
+		      <SnowGentle>1</SnowGentle>
+		    </baseWeatherCommonalities>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>//BiomeDef[defName = "TropicalRainforest"]/wildPlants</xpath>
+		<value>
+		    <wildPlants>
+		        <CK_PlantFern>5</CK_PlantFern>
+		        <PlantTallGrass>3.0</PlantTallGrass>
+		        <CK_PlantTreePalm>1.8</CK_PlantTreePalm>
+		        <CK_PlantBushPalm>1</CK_PlantBushPalm>
+		        <PlantDandelion>0.8</PlantDandelion>
+		        <CK_PlantTreeMahogany>0.6</CK_PlantTreeMahogany>
+		        <CK_PlantTreeStranglerFig>0.3</CK_PlantTreeStranglerFig>
+		        <CK_PlantBromeliad>0.3</CK_PlantBromeliad>
+		        <CK_PlantWildRice>0.3</CK_PlantWildRice>
+		        <PlantTreeCecropia>0.6</PlantTreeCecropia>
+		        <CK_PlantTreeBamboo>0.5</CK_PlantTreeBamboo>
+		        <CK_PlantWildTaro>0.3</CK_PlantWildTaro>
+		        <PlantTreeTeak>0.3</PlantTreeTeak>
+		        <PlantBush>0.2</PlantBush>
+		        <CK_PlantTreeTreeStump>0.2</CK_PlantTreeTreeStump>
+		        <CK_PlantTreeWildBanana>0.25</CK_PlantTreeWildBanana>        
+		        <CK_PlantWildLemongrass>0.2</CK_PlantWildLemongrass>
+		        <CK_PlantTreeWildCoconutPalm>0.25</CK_PlantTreeWildCoconutPalm>
+		        <CK_PlantWildBushDreamVine>0.02</CK_PlantWildBushDreamVine>
+		        <CK_PlantHeliconia>0.15</CK_PlantHeliconia>
+		        <PlantRaspberry>0.1</PlantRaspberry>
+		        <CK_PlantWildJitterWeed>0.05</CK_PlantWildJitterWeed>
+		        <CK_PlantWildSmokeleaf>0.03</CK_PlantWildSmokeleaf>
+		        <CK_PlantWildPsychoid>0.03</CK_PlantWildPsychoid>
+		        <CK_PlantWildHealroot>0.02</CK_PlantWildHealroot>
+		        <CK_PlantWildCotton>0.02</CK_PlantWildCotton>
+		        <CK_PlantRafflesia>0.02</CK_PlantRafflesia>
+		        <CK_SpecialTreeHive>0.005</CK_SpecialTreeHive>
+		    </wildPlants>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>//BiomeDef[defName = "TropicalRainforest"]/wildAnimals</xpath>
+		<value>
+		    <wildAnimals>
+		         <Chinchilla>2</Chinchilla>
+		         <Capybara>2.2</Capybara>
+		         <Rat>1.5</Rat>
+		         <WildBoar>1.5</WildBoar>
+		         <Tortoise>1.2</Tortoise>
+		         <Monkey>1.8</Monkey>
+		         <CK_Tapir>1.5</CK_Tapir>
+		         <CK_Okapi>1.5</CK_Okapi>
+		         <CK_Junglefowl>1.2</CK_Junglefowl>
+		         <Elephant>0.6</Elephant>         
+		         <CK_Tiger>0.4</CK_Tiger>
+		         <CK_Jaguar>0.4</CK_Jaguar>      
+		         <CK_Peafowl>0.02</CK_Peafowl>
+		         <Panther>0.2</Panther>
+		         <Cobra>0.1</Cobra>
+		         <Iguana>0.6</Iguana>
+		         <Alpaca>0.25</Alpaca>
+		         <Cassowary>0.15</Cassowary>
+		         <CK_Panda>0.06</CK_Panda>
+		         <CK_WhiteTiger>0.008</CK_WhiteTiger>
+		         <Boomalope>0.0035</Boomalope>
+		    </wildAnimals>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>//BiomeDef[defName = "TropicalRainforest"]/allowedPackAnimals</xpath>
+		<value>
+			<li>Elephant</li>
+		</value>
+	</Operation>		
+	
+</Patch>
