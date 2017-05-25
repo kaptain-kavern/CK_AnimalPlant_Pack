@@ -81,7 +81,6 @@
 		<nutrition>0.17</nutrition>
 	</ingestible>
     <plant>
-      <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
       <harvestYield>6</harvestYield>
       <harvestWork>800</harvestWork>
       <harvestTag>Wood</harvestTag>      
@@ -128,7 +127,6 @@
       <nutrition>0.2</nutrition>
     </ingestible>
     <plant>
-      <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath> -->
       <harvestYield>10</harvestYield>      
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_TaroRoot</harvestedThingDef>

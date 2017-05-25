@@ -17,7 +17,7 @@
     <statBases>
       <MarketValue>250</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
-	  <Mass>1.8</Mass> <!-- How big is a bongo? Using the ElephantTusk mass. -->
+	  <Mass>1.2</Mass> <!-- ElephantTusk's mass = 1.8 -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
@@ -54,7 +54,7 @@
     <statBases>
       <MarketValue>450</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
+	  <Mass>1.8</Mass> <!-- ElephantTusk's mass = 1.8 -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
@@ -91,7 +91,7 @@
     <statBases>
       <MarketValue>200</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
-	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
+	  <Mass>0.8</Mass> <!-- ElephantTusk's mass = 1.8 -->
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
@@ -128,7 +128,7 @@
     <statBases>
       <MarketValue>100</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
-	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
+	  <Mass>1.2</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
@@ -165,7 +165,7 @@
     <statBases>
       <MarketValue>100</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
+	  <Mass>0.8</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
@@ -202,7 +202,7 @@
     <statBases>
       <MarketValue>150</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
+	  <Mass>0.8</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
@@ -239,7 +239,7 @@
     <statBases>
       <MarketValue>250</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-	  <Mass>1.8</Mass> <!-- Again, using ElephantTusk's mass -->
+	  <Mass>1.2</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
       <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>

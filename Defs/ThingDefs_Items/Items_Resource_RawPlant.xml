@@ -17,6 +17,7 @@
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
       </li>
     </comps>
 </ThingDef>
@@ -34,15 +35,15 @@
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>14</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
       </li>
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-	  <tasteThought></tasteThought> <!-- RawBerries apparently do this in A16 to clear the tastes raw thought -->
-      <!-- <tastesRaw>false</tastesRaw> -->
+      <tasteThought></tasteThought>
+      <foodType>VegetableOrFruit</foodType>
       <joy>0.01</joy>
       <joyKind>Gluttonous</joyKind>
-      <foodType>VegetableOrFruit</foodType>
     </ingestible>
 </ThingDef>
 
@@ -81,15 +82,15 @@
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
       </li>
     </comps>
     <ingestible>
       <preferability>RawTasty</preferability>
-	  <tasteThought></tasteThought> <!-- RawBerries apparently do this in A16 to clear the tastes raw thought -->
-      <!-- <tastesRaw>false</tastesRaw> -->
-      <joy>0.01</joy>
-      <joyKind>Gluttonous</joyKind>      
+      <tasteThought></tasteThought>
       <foodType>VegetableOrFruit</foodType>
+      <joy>0.01</joy>
+      <joyKind>Gluttonous</joyKind>
     </ingestible>
   </ThingDef>
 
@@ -134,6 +135,10 @@
         </outcomeDoers>
       </ingestible>
       <comps>
+        <li Class="CompProperties_Rottable">
+          <daysToRotStart>14</daysToRotStart>
+          <rotDestroys>true</rotDestroys>
+        </li>
         <li Class="CompProperties_Drug">
           <chemical>Jitter</chemical>
           <addictiveness>0.008</addictiveness>
@@ -155,13 +160,6 @@
 				<severityPerDay>-1.0</severityPerDay>
 			</li>
 		</comps>
-	    <!-- Errored
-		<comps>
-	      <li>
-	        <compClass>HediffComp_SeverityPerDay</compClass>
-	        <severityPerDay>-1.0</severityPerDay>
-	      </li>
-	    </comps> -->
       <stages>
         <li>
           <label>speed from jitter</label>
@@ -179,7 +177,7 @@
 	    <defName>CK_AteRawJitterBerries</defName>
 	    <workerClass>ThoughtWorker_Hediff</workerClass>
 	    <hediff>CK_AteRawJitterBerries</hediff>
-		<validWhileDespawned>true</validWhileDespawned> <!-- New in A16, other drug-thoughts use it -->
+		<validWhileDespawned>true</validWhileDespawned>
 	    <stages>
 	      <li>
 	        <label>speed from jitter</label>
@@ -206,16 +204,12 @@
       <defName>CK_JitterTolerance</defName>
       <label>Jitter tolerance</label>
       <comps>
-      <li Class="HediffCompProperties_SeverityPerDay"> <!-- A16's new name -->
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.015</severityPerDay>
       </li>
 	   <li Class="HediffCompProperties_DrugEffectFactor">
         <chemical>Jitter</chemical>
       </li>
-       <!-- <li>
-          <compClass>HediffComp_DrugEffectFactor</compClass>
-          <chemical>Jitter</chemical>
-        </li> -->
       </comps>
     </HediffDef>
     <HediffDef ParentName="AddictionBase">
@@ -223,7 +217,7 @@
       <hediffClass>Hediff_Addiction</hediffClass>
       <label>Jitter dependence</label>
       <causesNeed>CK_Chemical_Jitter</causesNeed>
-	<comps> <!-- A16 -->
+	<comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1.5</severityPerDay>
       </li>
@@ -249,7 +243,7 @@
     <defName>CK_JitterWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>CK_JitterAddiction</hediff>
-	    <validWhileDespawned>true</validWhileDespawned> <!-- New in A16 -->
+    <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <visible>false</visible>
@@ -269,8 +263,10 @@
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/Honeycomb</texPath>
     </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <MarketValue>5</MarketValue>
+      <Mass>0.025</Mass>
     </statBases>
     <ingestible>
       <foodType>AnimalProduct</foodType>
