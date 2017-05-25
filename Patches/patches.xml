@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+
+<!-- Biomedef -->
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>//BiomeDef[defName = "TropicalRainforest"]/animalDensity</xpath>
 		<value>
@@ -46,7 +49,6 @@
 		        <CK_PlantTreeBamboo>0.5</CK_PlantTreeBamboo>
 		        <CK_PlantWildTaro>0.3</CK_PlantWildTaro>
 		        <PlantTreeTeak>0.3</PlantTreeTeak>
-		        <PlantBush>0.2</PlantBush>
 		        <CK_PlantTreeTreeStump>0.2</CK_PlantTreeTreeStump>
 		        <CK_PlantTreeWildBanana>0.25</CK_PlantTreeWildBanana>        
 		        <CK_PlantWildLemongrass>0.2</CK_PlantWildLemongrass>
@@ -99,6 +101,24 @@
 		<value>
 			<li>Elephant</li>
 		</value>
-	</Operation>		
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>//ThingDef[defName = "Elephant"]/race</xpath>
+		<value>
+			<packAnimal>true</packAnimal>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>//PawnKindDef[defName = "Rhinoceros"]/lifeStages/li[3]</xpath>
+		<value>
+			<butcherBodyPart>
+				<bodyPartGroup>HornAttackTool</bodyPartGroup>
+				<thing>CK_RhinocerosHorn</thing>
+				<allowFemale>true</allowFemale>
+			</butcherBodyPart>
+		</value>
+	</Operation>	
 	
 </Patch>
