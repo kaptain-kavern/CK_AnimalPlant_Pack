@@ -2,21 +2,21 @@
 <Patch>
 	
 	<Operation Class="PatchOperationReplace"> <!-- Start of Biome modification -->
-		<xpath>//BiomeDef[defName = "TropicalRainforest"]/animalDensity</xpath>
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/animalDensity</xpath>
 		<value>
 			<animalDensity>6.0</animalDensity>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>//BiomeDef[defName = "TropicalRainforest"]/plantDensity</xpath>
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/plantDensity</xpath>
 		<value>
 			<plantDensity>3.0</plantDensity>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>//BiomeDef[defName = "TropicalRainforest"]/baseWeatherCommonalities</xpath>
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/baseWeatherCommonalities</xpath>
 		<value>
 		    <baseWeatherCommonalities>
 		      <Clear>2</Clear>
@@ -31,7 +31,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>//BiomeDef[defName = "TropicalRainforest"]/wildPlants</xpath>
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildPlants</xpath>
 		<value>
 		    <wildPlants>
 		        <CK_PlantFern>5</CK_PlantFern>
@@ -66,7 +66,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- End of Biome modification -->
-		<xpath>//BiomeDef[defName = "TropicalRainforest"]/wildAnimals</xpath>
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildAnimals</xpath>
 		<value>
 		    <wildAnimals>
 		         <Chinchilla>2</Chinchilla>
@@ -95,42 +95,42 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- "Elephant PackAnimal" -->
-		<xpath>//BiomeDef[defName = "TropicalRainforest"]/allowedPackAnimals</xpath>
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/allowedPackAnimals</xpath>
 		<value>
 			<li>Elephant</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>//ThingDef[defName = "Elephant"]/race</xpath>
+		<xpath>/Defs/ThingDef[defName = "Elephant"]/race</xpath>
 		<value>
 			<packAnimal>true</packAnimal>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>//FactionDef[defName = "Outlander"]/pawnGroupMakers/li[2]/carriers</xpath>
+		<xpath>/FactionDefs/FactionDef[defName = "Outlander"]/pawnGroupMakers/li[2]/carriers</xpath>
 		<value>
 			<Elephant>1</Elephant>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- End Of "Elephant PackAnimal" -->
-		<xpath>//FactionDef[defName = "Tribe"]/pawnGroupMakers/li[2]/carriers</xpath>
+		<xpath>/FactionDefs/FactionDef[defName = "Tribe"]/pawnGroupMakers/li[2]/carriers</xpath>
 		<value>
 			<Elephant>1</Elephant>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace"> <!-- "Elephant eat trees" -->
-		<xpath>//ThingDef[defName = "Elephant"]/race/foodType</xpath>
+		<xpath>/Defs/ThingDef[defName = "Elephant"]/race/foodType</xpath>
 		<value>
 			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>//PawnKindDef[defName = "Rhinoceros"]/lifeStages/li[3]</xpath>
+		<xpath>/Defs/PawnKindDef[defName = "Rhinoceros"]/lifeStages/li[3]</xpath>
 		<value>
 			<butcherBodyPart>
 				<bodyPartGroup>HornAttackTool</bodyPartGroup>
