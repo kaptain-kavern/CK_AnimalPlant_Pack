@@ -17,7 +17,9 @@
     <description>Allows colonists to plant all rainforest trees.</description>
     <baseCost>100</baseCost>
     <techLevel>Neolithic</techLevel>
-	<!-- A16 added a graphical research tree. Each new research now requires coordinates. If you give it the same coords as another mod, the game will shuffle them both sideways to make room, and that can end up looking terrible. Oh, well. -Tam -->
+    <tags>
+      <li>TribalStart</li>
+    </tags>
 		<researchViewX>0.5</researchViewX>
 		<researchViewY>2</researchViewY>	
   </ResearchProjectDef>
