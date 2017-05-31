@@ -281,4 +281,22 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationReplace"> <!-- "Set Thrumbo Horn like modded ones" -->
+		<xpath>/GameData/ThingDef[defName = "ThrumboHorn"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>CK_HornAntler</li>
+			</thingCategories>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace"> <!-- "Set ElephantTusk like modded ones" -->
+		<xpath>/GameData/ThingDef[defName = "ElephantTusk"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>CK_HornAntler</li>
+			</thingCategories>
+		</value>
+	</Operation>
+
 </Patch>

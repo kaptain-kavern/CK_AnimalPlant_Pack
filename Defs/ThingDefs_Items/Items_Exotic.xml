@@ -1,11 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
-
-<!-- A16 adds mass to everything. I'm not really sure how heavy various animal horns are in comparison with each other; for now, I gave them all the Elephant Tusk's mass. -Tam -->
   
+<ThingDef Name="CK_HornBase" ParentName="ResourceVerbBase" Abstract="True">
+  <thingCategories>
+      <li>CK_HornAntler</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+</ThingDef>
+
   <!--=============== Bongo horn ====================-->
   
-  <ThingDef ParentName="ResourceVerbBase">
+  <ThingDef ParentName="CK_HornBase">
     <defName>CK_BongoHorn</defName>
     <label>bongo horn</label>
     <description>A bongo's horn. It's valuable in most markets. This is a trophy.</description>
@@ -32,17 +39,11 @@
         <meleeDamageDef>Scratch</meleeDamageDef>
       </li>
     </verbs>
-    <thingCategories>
-      <li>Items</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
   </ThingDef>
 
   <!--=============== Rhino horn ====================-->
   
-  <ThingDef ParentName="ResourceVerbBase">
+  <ThingDef ParentName="CK_HornBase">
     <defName>CK_RhinocerosHorn</defName>
     <label>rhinoceros horn</label>
     <description>A rhinoceros' horn. Very durable and valuable. Somewhat unwieldy as a weapon.</description>
@@ -69,17 +70,11 @@
         <meleeDamageDef>Scratch</meleeDamageDef>
       </li>
     </verbs>
-    <thingCategories>
-      <li>Items</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
   </ThingDef>
 
   <!--============== Gazelle horn ===================-->
 
-  <ThingDef ParentName="ResourceVerbBase">
+  <ThingDef ParentName="CK_HornBase">
     <defName>CK_GazelleHorn</defName>
     <label>gazelle horn</label>
     <description>A gazelle's horn. It's valuable in most markets. This is a trophy.</description>
@@ -106,17 +101,11 @@
         <meleeDamageDef>Stab</meleeDamageDef>
       </li>
     </verbs>
-    <thingCategories>
-      <li>Items</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
   </ThingDef>
 
   <!--================ Ibex horn ====================-->
 
-  <ThingDef ParentName="ResourceVerbBase">
+  <ThingDef ParentName="CK_HornBase">
     <defName>CK_IbexHorn</defName>
     <label>ibex horn</label>
     <description>An ibex's horn. It's valuable in most markets. This is a trophy.</description>
@@ -143,17 +132,11 @@
         <meleeDamageDef>Blunt</meleeDamageDef>
       </li>
     </verbs>
-    <thingCategories>
-      <li>Items</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
   </ThingDef>    
 
   <!--=============== Deer Antler ===================-->
 
-  <ThingDef ParentName="ResourceVerbBase">
+  <ThingDef ParentName="CK_HornBase">
     <defName>CK_DeerAntler</defName>
     <label>deer antler</label>
     <description>A deer's antler. It's valuable in most markets. This is a trophy.</description>
@@ -180,17 +163,11 @@
         <meleeDamageDef>Scratch</meleeDamageDef>
       </li>
     </verbs>
-    <thingCategories>
-      <li>Items</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
   </ThingDef>
 
   <!--=============== Elk Antler ====================-->
 
-  <ThingDef ParentName="ResourceVerbBase">
+  <ThingDef ParentName="CK_HornBase">
     <defName>CK_ElkAntler</defName>
     <label>elk antler</label>
     <description>An elk's antler. It's valuable in most markets. This is a trophy.</description>
@@ -217,17 +194,11 @@
         <meleeDamageDef>Scratch</meleeDamageDef>
       </li>
     </verbs>
-    <thingCategories>
-      <li>Items</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
   </ThingDef>
 
   <!--============= Caribou Antler ==================-->
 
-  <ThingDef ParentName="ResourceVerbBase">
+  <ThingDef ParentName="CK_HornBase">
     <defName>CK_CaribouAntler</defName>
     <label>caribou antler</label>
     <description>A caribou's antler. It's valuable in most markets. This is a trophy.</description>
@@ -254,12 +225,6 @@
         <meleeDamageDef>Scratch</meleeDamageDef>
       </li>
     </verbs>
-    <thingCategories>
-      <li>Items</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
   </ThingDef>
 
 </GameData>
