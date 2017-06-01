@@ -4,45 +4,37 @@
 <!--========================== Food crops =============================-->
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantTaro</defName>
-    <label>taro</label>
-    <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
+    <label>taro plant</label>
+    <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears". Harvests quickly. A strong, versatile crop.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <Beauty>1</Beauty>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Taro</texPath>
       <graphicClass>Graphic_Random</graphicClass>
-      <shadowData>
-        <volume>(0.6, 0.2, 0.6)</volume>
-      </shadowData>
     </graphicData>
     <selectable>true</selectable>
-    <fillPercent>0.15</fillPercent>
-    <pathCost>20</pathCost>
     <ingestible>
-      <nutrition>0.2</nutrition>
+      <nutrition>0.20</nutrition>
     </ingestible>
-    <plant>      
-      <harvestYield>10</harvestYield>      
+    <plant>
+      <fertilitySensitivity>0.2</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
-	  <reproduces>false</reproduces> <!-- A16 -->
-      <!-- <shootsSeeds>false</shootsSeeds> -->
+      <reproduces>false</reproduces>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_TaroRoot</harvestedThingDef>
-      <harvestWork>250</harvestWork>      
+      <harvestYield>10</harvestYield>
+      <harvestWork>250</harvestWork>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
-      </sowTags>      
+      </sowTags>
+      <topWindExposure>0.3</topWindExposure>
+      <growDays>3.5</growDays>
       <visualSizeRange>
         <min>1</min>
         <max>1.4</max>
       </visualSizeRange>
-      <growDays>3.5</growDays>
-      <topWindExposure>0.3</topWindExposure>
-		<fertilitySensitivity>0.2</fertilitySensitivity>  <!-- A16 -->    
-		<!-- <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate> -->
     </plant>
   </ThingDef>
 
@@ -51,85 +43,74 @@
     <label>jitter weeds</label>
     <description>A weedy plant which yields jitter berries.</description>
     <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
-      <Beauty>1</Beauty>
+      <MaxHitPoints>85</MaxHitPoints>
     </statBases>
     <graphicData>
-      <texPath>Things/Plant/BushCoffeaCrop</texPath>
+      <texPath>Things/Plant/CoffeaCrop</texPath>
       <graphicClass>Graphic_Random</graphicClass>
-      <shadowData>
-        <volume>(0.6, 0.2, 0.6)</volume>
-      </shadowData>
     </graphicData>
     <selectable>true</selectable>
-    <fillPercent>0.25</fillPercent>
     <pathCost>30</pathCost>
     <ingestible>
-      <nutrition>0.2</nutrition>
+      <nutrition>0.18</nutrition>
     </ingestible>
     <plant>
       <sowMinSkill>4</sowMinSkill>
-      <harvestYield>10</harvestYield>
-      <harvestWork>400</harvestWork>
+      <fertilitySensitivity>1</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
-	  <reproduces>false</reproduces> <!-- A16 -->
-      <!-- <shootsSeeds>false</shootsSeeds> -->
+      <reproduces>false</reproduces>
+      <harvestWork>400</harvestWork>
+      <maxMeshCount>4</maxMeshCount>
       <harvestTag>Standard</harvestTag>
-      <!-- <harvestDestroys>false</harvestDestroys> -->
-      <harvestedThingDef>CK_RawJitterBerries</harvestedThingDef>    
+      <harvestedThingDef>CK_RawJitterBerries</harvestedThingDef>
+      <harvestYield>10</harvestYield>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
-      </sowTags>     
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>5</growDays>
       <visualSizeRange>
         <min>1.2</min>
         <max>1.8</max>
       </visualSizeRange>
-      <growDays>5</growDays>
-      <topWindExposure>0.3</topWindExposure>
-	  	<fertilitySensitivity>1</fertilitySensitivity>  <!-- A16 -->    
-      <!-- <fertilityFactorGrowthRate>1</fertilityFactorGrowthRate> -->
     </plant>
   </ThingDef>
 
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantLemongrass</defName>
     <label>lemongrass</label>
-    <selectable>True</selectable>
     <description>Lemongrass.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <Beauty>1</Beauty>
     </statBases>
-    <pathCost>18</pathCost>
     <graphicData>
       <texPath>Things/Plant/Lemongrass</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
-    <hideAtSnowDepth>0.5</hideAtSnowDepth>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
     <ingestible>
       <nutrition>0.18</nutrition>
     </ingestible>
     <plant>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
-	  <reproduces>false</reproduces> <!-- A16 -->
-      <!-- <shootsSeeds>false</shootsSeeds> -->
-      <harvestYield>7</harvestYield>
+      <reproduces>false</reproduces>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>CK_RawLemongrass</harvestedThingDef>      
-      <harvestWork>250</harvestWork>      
+      <harvestedThingDef>CK_RawLemongrass</harvestedThingDef>
+      <harvestYield>7</harvestYield>
+      <harvestWork>250</harvestWork>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
       </sowTags>
+      <topWindExposure>0.2</topWindExposure>
+      <growDays>2.5</growDays>
       <visualSizeRange>
         <min>1</min>
-        <max>1.60</max>
+        <max>1.6</max>
       </visualSizeRange>
-      <growDays>2.5</growDays>
-	  		<fertilitySensitivity>0.8</fertilitySensitivity>  <!-- A16 -->    
-      <!-- <fertilityFactorGrowthRate>0.8</fertilityFactorGrowthRate> -->
-      <topWindExposure>0.4</topWindExposure>
     </plant>
   </ThingDef>
 
@@ -227,38 +208,42 @@
     <label>dream vine</label>
     <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; side effects include hallucinations, nausea, and vomiting</description>
     <statBases>
-      <MaxHitPoints>85</MaxHitPoints>
-      <Beauty>1</Beauty>
+      <MaxHitPoints>120</MaxHitPoints>
     </statBases>
     <graphicData>
-      <texPath>Things/Plant/BushDreamVineCrop</texPath>
+      <texPath>Things/Plant/DreamVineCrop</texPath>
       <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.55, 0.2, 0.2)</volume>
+      </shadowData>
     </graphicData>
     <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
     <pathCost>30</pathCost>
     <ingestible>
-      <nutrition>0.2</nutrition>
+      <nutrition>0.35</nutrition>
     </ingestible>
     <plant>
-      <dieIfLeafless>true</dieIfLeafless>
-	  <reproduces>false</reproduces> <!-- A16 -->
-      <!-- <shootsSeeds>false</shootsSeeds> -->
-      <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
+      <reproduces>false</reproduces>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <growDays>6.84</growDays>
+      <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath>
+      <immatureGraphicPath>Things/Plant/RaspberryImmature</immatureGraphicPath> -->
       <harvestYield>10</harvestYield>
       <sowMinSkill>6</sowMinSkill>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
       </sowTags>      
-      <topWindExposure>0.1</topWindExposure>
-      <growDays>6.84</growDays>
-	  	<fertilitySensitivity>1.0</fertilitySensitivity>  <!-- A16 -->    
-      <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
+      <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
+      <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
       <visualSizeRange>
         <min>1.6</min>
         <max>2</max>
       </visualSizeRange>
+      <topWindExposure>0.2</topWindExposure>
     </plant>
   </ThingDef>
 <!--========================= Special - Apiary ========================-->
