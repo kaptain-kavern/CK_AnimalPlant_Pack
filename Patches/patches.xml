@@ -281,7 +281,7 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace"> <!-- "Set Thrumbo Horn like modded ones" -->
+	<Operation Class="PatchOperationReplace"> <!-- "Set Thrumbo Horn to the right category" -->
 		<xpath>/GameData/ThingDef[defName = "ThrumboHorn"]/thingCategories</xpath>
 		<value>
 			<thingCategories>
@@ -290,12 +290,32 @@
 		</value>
 	</Operation>
 	
-	<Operation Class="PatchOperationReplace"> <!-- "Set ElephantTusk like modded ones" -->
+	<Operation Class="PatchOperationReplace"> <!-- "Set ElephantTusk to the right category" -->
 		<xpath>/GameData/ThingDef[defName = "ElephantTusk"]/thingCategories</xpath>
 		<value>
 			<thingCategories>
 				<li>CK_HornAntler</li>
 			</thingCategories>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Insert Rare animals in traders stock  -->
+		<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Base_Neolithic_Standard" or "Base_Outlander_Standard" or "Caravan_Neolithic_WarMerchant" or "Caravan_Neolithic_Slaver" or "Caravan_Outlander_PirateMerchant" or "Caravan_Outlander_Exotic" or "Orbital_BulkGoods" or "Orbital_Exotic"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Animals">
+				<checkTemperature>true</checkTemperature>
+				<tradeTags>
+					<li>CK_RareAnimal</li>
+				</tradeTags>
+				<kindCountRange>
+					<min>1</min>
+					<max>3</max>
+				</kindCountRange>
+				<countRange>
+					<min>2</min>
+					<max>6</max>
+				</countRange>
+			</li>
 		</value>
 	</Operation>
 
