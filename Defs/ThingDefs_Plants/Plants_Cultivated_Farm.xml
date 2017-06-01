@@ -126,15 +126,14 @@
       <Beauty>1</Beauty>
     </statBases>
     <plant>
-	  <reproduces>false</reproduces> <!-- A16 -->
-      <!-- <shootsSeeds>false</shootsSeeds> -->
+	  <reproduces>false</reproduces>
       <growDays>18</growDays>      
       <harvestWork>1500</harvestWork>
       <harvestTag>Standard</harvestTag>
-      <!-- <harvestDestroys>false</harvestDestroys> -->
       <harvestedThingDef>CK_Coconuts</harvestedThingDef>
       <harvestYield>45</harvestYield>
-      <harvestMinGrowth>0.80</harvestMinGrowth>      
+      <harvestMinGrowth>0.80</harvestMinGrowth>
+      <harvestAfterGrowth>0.20</harvestAfterGrowth>      
       <visualSizeRange>
         <min>2</min>
         <max>3</max>
@@ -171,13 +170,11 @@
           <nutrition>1.50</nutrition>
         </ingestible>
       <plant>
-	  <reproduces>false</reproduces> <!-- A16 -->
-      <!-- <shootsSeeds>false</shootsSeeds> -->
+	  <reproduces>false</reproduces>
         <growDays>17</growDays>
         <sowWork>1500</sowWork>
         <harvestWork>800</harvestWork>
         <harvestTag>Standard</harvestTag>
-        <!-- <harvestDestroys>false</harvestDestroys> -->
         <harvestedThingDef>CK_RawBanana</harvestedThingDef>
         <harvestYield>50</harvestYield>
         <harvestMinGrowth>0.80</harvestMinGrowth>
@@ -192,8 +189,7 @@
         </visualSizeRange>
         <fertilityMin>0.7</fertilityMin>
         <topWindExposure>0.25</topWindExposure>
-		<fertilitySensitivity>0.5</fertilitySensitivity>  <!-- A16 -->    
-        <!-- <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate> -->
+		<fertilitySensitivity>0.5</fertilitySensitivity>
         <sowMinSkill>5</sowMinSkill>
         <sowResearchPrerequisites>
           <li>CK_TropicalWoodGrowing</li>
@@ -266,7 +262,7 @@
       <harvestWork>1000</harvestWork>
       <harvestedThingDef>CK_Honeycomb</harvestedThingDef>
       <harvestYield>60</harvestYield>
-      <!-- <harvestDestroys>false</harvestDestroys> -->
+      <harvestAfterGrowth>0.10</harvestAfterGrowth>
       <harvestMinGrowth>0.80</harvestMinGrowth>
       <harvestFailable>true</harvestFailable>
       <harvestTag>Standard</harvestTag>
