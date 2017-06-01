@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
+<!-- No apparent changes in A16 - Tam -->
+
 <!--
 	Each coverage value is relative to its parent.
 	Remaining body part coverage (100% minus coverage of all child nodes) is a chance to hit exactly this part.
@@ -77,7 +79,7 @@
             </li>
             <li>
               <def>Head</def>
-              <coverage>0.70</coverage>
+              <coverage>0.60</coverage>
               <groups>
                 <li>HeadAttackTool</li>
               </groups>
@@ -89,7 +91,7 @@
                   <parts>
                     <li>
                       <def>Brain</def>
-                      <coverage>1</coverage>
+                      <coverage>0.7</coverage>
                       <depth>Inside</depth>
                     </li>
                   </parts>
@@ -234,21 +236,21 @@
           <parts>
             <li>
               <def>CK_LeftAntler</def>
-              <coverage>0.25</coverage>
+              <coverage>0.18</coverage>
               <groups>
                 <li>HornAttackTool</li>
               </groups>
             </li>
             <li>
               <def>CK_RightAntler</def>
-              <coverage>0.25</coverage>
+              <coverage>0.18</coverage>
               <groups>
                 <li>HornAttackTool</li>
               </groups>
             </li>
             <li>
               <def>Head</def>
-              <coverage>0.50</coverage>
+              <coverage>0.55</coverage>
               <groups>
                 <li>HeadAttackTool</li>
               </groups>
@@ -260,7 +262,7 @@
                   <parts>
                     <li>
                       <def>Brain</def>
-                      <coverage>1</coverage>
+                      <coverage>0.7</coverage>
                       <depth>Inside</depth>
                     </li>
                   </parts>

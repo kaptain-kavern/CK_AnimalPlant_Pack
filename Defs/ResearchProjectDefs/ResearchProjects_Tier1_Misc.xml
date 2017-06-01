@@ -17,6 +17,11 @@
     <description>Allows colonists to plant all rainforest trees.</description>
     <baseCost>100</baseCost>
     <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
+		<researchViewX>0.5</researchViewX>
+		<researchViewY>2</researchViewY>	
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -25,6 +30,8 @@
     <description>Allows colonists to use apiaries in growing zone</description>
     <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
+		<researchViewX>0.5</researchViewX>
+		<researchViewY>2.5</researchViewY>
   </ResearchProjectDef>
 
 </Defs>

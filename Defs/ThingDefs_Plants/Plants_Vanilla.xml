@@ -20,11 +20,11 @@
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
-      <!-- <shootsSeeds>false</shootsSeeds> -->
+	  <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
+      <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
       <maxMeshCount>4</maxMeshCount>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>RawRice</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>6</harvestYield>      
       <wildClusterSizeRange>
         <min>2</min>
@@ -33,7 +33,8 @@
       <wildClusterRadius>4</wildClusterRadius>        
       <topWindExposure>0.1</topWindExposure>
       <growDays>2.445</growDays>
-      <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
+		<fertilitySensitivity>1.0</fertilitySensitivity> <!-- A16 -->
+      <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
       <visualSizeRange>
         <min>0.3</min>
         <max>0.8</max>
@@ -60,10 +61,10 @@
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
-      <!-- <shootsSeeds>false</shootsSeeds> -->
+  	  <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
+      <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>Cloth</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>5</harvestYield>      
       <wildClusterSizeRange>
         <min>1</min>
@@ -72,7 +73,8 @@
       <wildClusterRadius>5</wildClusterRadius>      
       <topWindExposure>0.1</topWindExposure>
       <growDays>2.705</growDays>
-      <fertilityFactorGrowthRate>0.4</fertilityFactorGrowthRate>
+	  	<fertilitySensitivity>0.4</fertilitySensitivity> <!-- A16 -->
+      <!-- <fertilityFactorGrowthRate>0.4</fertilityFactorGrowthRate> -->
       <visualSizeRange>
         <min>0.3</min>
         <max>1.05</max>
@@ -99,10 +101,10 @@
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
-      <!-- <shootsSeeds>false</shootsSeeds> -->
+	  <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
+      <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>HerbalMedicine</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>1</harvestYield>
       <sowMinSkill>8</sowMinSkill>
       <wildClusterSizeRange>
@@ -112,7 +114,8 @@
       <wildClusterRadius>5</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.5</growDays>
-      <fertilityFactorGrowthRate>0.4</fertilityFactorGrowthRate>
+	  	<fertilitySensitivity>0.4</fertilitySensitivity> <!-- A16 -->
+      <!-- <fertilityFactorGrowthRate>0.4</fertilityFactorGrowthRate> -->
       <visualSizeRange>
         <min>0.3</min>
         <max>1.0</max>
@@ -139,10 +142,10 @@
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
-      <!-- <shootsSeeds>false</shootsSeeds> -->
+	  <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
+      <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>PsychoidLeaves</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>10</harvestYield>
       <wildClusterSizeRange>
         <min>1</min>
@@ -151,7 +154,8 @@
       <wildClusterRadius>5</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>
-      <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
+		<fertilitySensitivity>1.0</fertilitySensitivity> <!-- A16 -->
+      <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
       <visualSizeRange>
         <min>0.3</min>
         <max>1.0</max>
@@ -178,10 +182,10 @@
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
-      <!-- <shootsSeeds>false</shootsSeeds> -->
+	  <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
+      <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>SmokeleafLeaves</harvestedThingDef>
-      <harvestDestroys>true</harvestDestroys>
       <harvestYield>11</harvestYield>
       <sowMinSkill>4</sowMinSkill>
       <wildClusterSizeRange>
@@ -191,7 +195,8 @@
       <wildClusterRadius>5</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>
-      <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
+		<fertilitySensitivity>1.0</fertilitySensitivity> <!-- A16 -->
+      <!-- <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate> -->
       <visualSizeRange>
         <min>0.3</min>
         <max>1.0</max>

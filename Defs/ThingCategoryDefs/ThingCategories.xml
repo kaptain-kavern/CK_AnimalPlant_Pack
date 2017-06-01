@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingCategoryDefs>
+  
+    <ThingCategoryDef>
+      <defName>CK_HornAntler</defName>
+      <label>Horns/Antlers</label>
+      <parent>Items</parent>
+    </ThingCategoryDef>
+
+</ThingCategoryDefs>

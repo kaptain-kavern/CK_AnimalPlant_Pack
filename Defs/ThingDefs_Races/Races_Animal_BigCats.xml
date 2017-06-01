@@ -4,91 +4,99 @@
   <!--================ Big Cat Base ===============-->
   <ThingDef ParentName="AnimalThingBase" Name="BigCatThingBase" Abstract="True">
     <statBases>
-      <MoveSpeed>9</MoveSpeed>
+      <MoveSpeed>6.5</MoveSpeed>
       <ComfyTemperatureMin>-8</ComfyTemperatureMin>
       <MarketValue>650</MarketValue>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>90</defaultCooldownTicks>
-        <meleeDamageBaseAmount>30</meleeDamageBaseAmount>
+        <defaultCooldownTime>1.5</defaultCooldownTime>
+        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>25</amount>
+              <amount>20</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>90</defaultCooldownTicks>
-        <meleeDamageBaseAmount>30</meleeDamageBaseAmount>
+        <defaultCooldownTime>1.5</defaultCooldownTime>
+        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>25</amount>
+              <amount>20</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-            <defaultCooldownTicks>110</defaultCooldownTicks>
-            <meleeDamageBaseAmount>30</meleeDamageBaseAmount>
-            <meleeDamageDef>Bite</meleeDamageDef>
-            <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-            <surpriseAttack>
-              <extraMeleeDamages>
-                <li>
-                  <def>Stun</def>
-                  <amount>25</amount>
-                </li>
-              </extraMeleeDamages>
-            </surpriseAttack>
-        </li>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
+        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
     </verbs>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
-        <herdAnimal>false</herdAnimal>
-        <predator>true</predator>
-        <baseBodySize>1.4</baseBodySize>
-        <baseHungerRate>0.3</baseHungerRate>
-        <baseHealthScale>1.8</baseHealthScale>
-        <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-        <leatherInsulation>0.9</leatherInsulation>
-        <wildness>0.80</wildness>
-        <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
-        <manhunterOnDamageChance>1</manhunterOnDamageChance>
-        <gestationPeriodDays>22.5</gestationPeriodDays>
-        <lifeExpectancy>13</lifeExpectancy>
-        <lifeStageAges>
-          <li>
-            <def>AnimalBaby</def>
-            <minAge>0</minAge>
-          </li>
-          <li>
-            <def>AnimalJuvenile</def>
-            <minAge>0.3</minAge>
-          </li>
-          <li>
-            <def>AnimalAdult</def>
-                <minAge>0.85</minAge>
-                <soundWounded>Pawn_Cougar_Injured</soundWounded>
-                <soundDeath>Pawn_Cougar_Death</soundDeath>
-                <soundAngry>Pawn_Cougar_Angry</soundAngry>
-              </li>
-          </lifeStageAges>
-          <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-          <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-          <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <herdAnimal>false</herdAnimal>
+      <predator>true</predator>
+      <baseBodySize>1.4</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>1.8</baseHealthScale>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherInsulation>0.9</leatherInsulation>
+      <wildness>0.80</wildness>
+      <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <gestationPeriodDays>22.5</gestationPeriodDays>
+      <lifeExpectancy>13</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>Pawn_Cougar_Injured</soundWounded>
+          <soundDeath>Pawn_Cougar_Death</soundDeath>
+          <soundAngry>Pawn_Cougar_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
       <li>StandardAnimal</li>

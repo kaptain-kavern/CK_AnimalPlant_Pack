@@ -4,37 +4,37 @@
 	<ThingDef ParentName="AnimalThingBase" Name="BigBirdThingBase" Abstract="True">
 		<race>
 			<body>Bird</body>
-			<useMeatFrom>Cassowary</useMeatFrom>
-			<leatherInsulation>0.5</leatherInsulation>      
-		    <gestationPeriodDays>20</gestationPeriodDays>
-		    <lifeStageAges>
-		    	<li>
-		          <def>AnimalBaby</def>
+      		<leatherInsulation>0.5</leatherInsulation>      
+      		<gestationPeriodDays>20</gestationPeriodDays>
+      		<useMeatFrom>Cassowary</useMeatFrom>
+     		<lifeStageAges>
+		        <li>
+		          <def>AnimalBabyTiny</def>
 		          <minAge>0</minAge>
 		        </li>
 		        <li>
 		          <def>AnimalJuvenile</def>
-		          <minAge>0.6</minAge>
+		          <minAge>0.22</minAge>
 		        </li>
 		        <li>
 		          <def>AnimalAdult</def>
-		          <minAge>2.0</minAge>
+		          <minAge>0.45</minAge>
 		        </li>
-		    </lifeStageAges>
-		    <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-		    <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-		    <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-		</race>
-		<tradeTags>
-			<li>StandardAnimal</li>
-		</tradeTags>
-	</ThingDef>
+      		</lifeStageAges>
+      		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    	</race>
+    	<tradeTags>
+      		<li>StandardAnimal</li>
+    	</tradeTags>
+  	</ThingDef>
 
-	<PawnKindDef ParentName="AnimalKindBase" Name="BigBirdKindBase" Abstract="True">
-		<combatPower>155</combatPower>
-		<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-		<wildSpawn_EcoSystemWeight>0.42</wildSpawn_EcoSystemWeight>
-	</PawnKindDef>
+  <PawnKindDef ParentName="AnimalKindBase" Name="BigBirdKindBase" Abstract="True">
+    <combatPower>155</combatPower>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.42</wildSpawn_EcoSystemWeight>
+  </PawnKindDef>
 
 <!--===============================================-->
 
@@ -46,7 +46,7 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
-		        <defaultCooldownTicks>100</defaultCooldownTicks>
+				<defaultCooldownTime>1.65</defaultCooldownTime>
 		        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
 		        <meleeDamageDef>Bite</meleeDamageDef>
 		        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
@@ -131,14 +131,16 @@
 	    <verbs>
 	      <li>
 	        <verbClass>Verb_MeleeAttack</verbClass>
-	        <defaultCooldownTicks>100</defaultCooldownTicks>
+			<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+	        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
 	        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
 	        <meleeDamageDef>Scratch</meleeDamageDef>
 	        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>	        
 	      </li>
 	      <li>
 	        <verbClass>Verb_MeleeAttack</verbClass>
-	        <defaultCooldownTicks>110</defaultCooldownTicks>
+		        <defaultCooldownTime>1.85</defaultCooldownTime> <!-- A16 -->
+            <!-- <defaultCooldownTicks>110</defaultCooldownTicks> -->
 	        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
 	        <meleeDamageDef>Bite</meleeDamageDef>
 	        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
@@ -248,14 +250,16 @@
 		<verbs>
 			<li>
         		<verbClass>Verb_MeleeAttack</verbClass>
-        		<defaultCooldownTicks>90</defaultCooldownTicks>
+		<defaultCooldownTime>1.5</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>90</defaultCooldownTicks> -->
         		<meleeDamageBaseAmount>3</meleeDamageBaseAmount>
 		        <meleeDamageDef>Scratch</meleeDamageDef>
         		<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
         	</li>
         	<li>
         		<verbClass>Verb_MeleeAttack</verbClass>
-        		<defaultCooldownTicks>100</defaultCooldownTicks>
+		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
+        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
         		<meleeDamageBaseAmount>5</meleeDamageBaseAmount>
         		<meleeDamageDef>Bite</meleeDamageDef>
         		<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>

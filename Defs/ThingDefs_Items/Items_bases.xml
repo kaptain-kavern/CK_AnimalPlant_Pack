@@ -5,13 +5,15 @@
   
   <ThingDef Name="ResourceBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
-    <label>unspecified resource</label>
     <category>Item</category>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <useHitPoints>true</useHitPoints>
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>75</stackLimit>
+    <statBases>
+      <Beauty>-4</Beauty>
+    </statBases>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
     </comps>
@@ -19,7 +21,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <rotatable>false</rotatable>
     <pathCost>15</pathCost>
-  </ThingDef>  
+  </ThingDef>
 
   <ThingDef Name="ResourceVerbBase" ParentName="ResourceBase" Abstract="True">
     <equipmentType>Primary</equipmentType>
@@ -35,37 +37,44 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>10</DeteriorationRate>
+      <Mass>0.03</Mass>
     </statBases>
     <tickerType>Rare</tickerType>
+    <ingestible>
+      <chairSearchRadius>40</chairSearchRadius>
+    </ingestible>
   </ThingDef>
 
   <ThingDef Abstract="True" Name="PlantFoodRawBase" ParentName="OrganicProductBase">
     <ingestible>
       <preferability>RawBad</preferability>
-      <tastesRaw>true</tastesRaw>
+      <tasteThought>AteRawFood</tasteThought>
       <nutrition>0.05</nutrition>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>RawVegetable_Eat</ingestSound>
     </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
     <thingCategories>
       <li>PlantFoodRaw</li>
     </thingCategories>
     <comps>
-      <li Class="CompProperties_FoodPoisoningChance" />
+      <li Class="CompProperties_FoodPoisoningChance">
+        <humanlikeOnly>true</humanlikeOnly>
+      </li>
     </comps>
   </ThingDef>
+
 
     <!-- Plant matter (inedible by people) -->
 
   <ThingDef ParentName="OrganicProductBase" Name="RoughPlantBase" Abstract="True">
     <ingestible>
       <foodType>Plant</foodType>
-      <preferability>RawBad</preferability>
+      <preferability>DesperateOnly</preferability>
       <nutrition>0.05</nutrition>
     </ingestible>
   </ThingDef>
@@ -82,8 +91,12 @@
       <nutrition>0.25</nutrition>
       <ingestEffect>EatMeat</ingestEffect>
       <ingestSound>RawMeat_Eat</ingestSound>
-      <tastesRaw>true</tastesRaw>
+      <tasteThought>AteRawFood</tasteThought>
     </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <Mass>0.15</Mass>
+    </statBases>
   </ThingDef>
 
   <ThingDef Abstract="True" Name="EggUnfertBase" ParentName="EggBase" >
@@ -96,8 +109,11 @@
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
       </li>
-      <li Class="CompProperties_FoodPoisoningChance" />
+      <li Class="CompProperties_FoodPoisoningChance">
+        <humanlikeOnly>true</humanlikeOnly>
+      </li>
     </comps>
   </ThingDef>
 
@@ -109,6 +125,16 @@
     <thingCategories>
       <li>EggsFertilized</li>
     </thingCategories>
-  </ThingDef>  
+    <comps>
+      <li Class="CompProperties_FoodPoisoningChance">
+        <humanlikeOnly>true</humanlikeOnly>
+      </li>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>0</minSafeTemperature>
+        <maxSafeTemperature>50</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+      </li>
+    </comps>
+  </ThingDef> 
 
 </Defs>
