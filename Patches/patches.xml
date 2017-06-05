@@ -35,7 +35,7 @@
 		<value>
 		    <wildPlants>
 		        <CK_PlantFern>5</CK_PlantFern>
-		        <PlantTallGrass>3.0</PlantTallGrass>
+		        <PlantTallGrass>2.0</PlantTallGrass>
 		        <CK_PlantTreePalm>1.8</CK_PlantTreePalm>
 		        <CK_PlantBushPalm>1</CK_PlantBushPalm>
 		        <PlantDandelion>0.8</PlantDandelion>
@@ -43,10 +43,10 @@
 		        <CK_PlantTreeStranglerFig>0.3</CK_PlantTreeStranglerFig>
 		        <CK_PlantBromeliad>0.3</CK_PlantBromeliad>
 		        <CK_PlantWildRice>0.3</CK_PlantWildRice>
-		        <PlantTreeCecropia>0.6</PlantTreeCecropia>
+		        <PlantTreeCecropia>0.3</PlantTreeCecropia>
 		        <CK_PlantTreeBamboo>0.5</CK_PlantTreeBamboo>
 		        <CK_PlantWildTaro>0.3</CK_PlantWildTaro>
-		        <PlantTreeTeak>0.3</PlantTreeTeak>
+		        <PlantTreeTeak>0.1</PlantTreeTeak>
 		        <CK_PlantTreeTreeStump>0.2</CK_PlantTreeTreeStump>
 		        <CK_PlantTreeWildBanana>0.25</CK_PlantTreeWildBanana>        
 		        <CK_PlantWildLemongrass>0.2</CK_PlantWildLemongrass>
@@ -57,7 +57,7 @@
 		        <CK_PlantWildJitterWeed>0.05</CK_PlantWildJitterWeed>
 		        <CK_PlantWildSmokeleaf>0.03</CK_PlantWildSmokeleaf>
 		        <CK_PlantWildPsychoid>0.03</CK_PlantWildPsychoid>
-		        <CK_PlantWildHealroot>0.02</CK_PlantWildHealroot>
+		        <PlantWildHealroot>0.02</PlantWildHealroot>
 		        <CK_PlantWildCotton>0.02</CK_PlantWildCotton>
 		        <CK_PlantRafflesia>0.02</CK_PlantRafflesia>
 		        <CK_SpecialTreeHive>0.005</CK_SpecialTreeHive>
