@@ -59,7 +59,6 @@
     </statBases>
     <equippedStatOffsets>
       <PlantWorkSpeed>0.15</PlantWorkSpeed>
-      <PlantHarvestYield>0.1</PlantHarvestYield>
     </equippedStatOffsets>
     <generateCommonality>0.8</generateCommonality>
     <apparel>
