@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TerrainDefs>
+
+
+  <TerrainDef Name="FloorBase" Abstract="True">
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Heavy</li>
+      <li>SmoothHard</li>
+    </affordances>
+    <statBases>
+      <WorkToBuild>135</WorkToBuild>
+    </statBases>
+    <designationCategory>Floors</designationCategory>
+    <Fertility>0</Fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+    <AcceptTerrainSourceFilth>True</AcceptTerrainSourceFilth>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+  </TerrainDef>
+
+<!-- ================= Misc ================= -->
+
+  <TerrainDef ParentName="FloorBase">
+    <DefName>CK_TrampledEarthWithLine</DefName>
+    <label>trampled vegetation track</label>
+    <RenderPrecedence>233</RenderPrecedence>
+    <Description>Cut plants trampled and stomped in order to keep vegetation from regrowing - Can only be designate over fertile soil (needs plants)</Description>
+    <texturePath>Terrain/Surfaces/TrampledEarthLineFloor</texturePath>
+    <EdgeType>FadeRough</EdgeType>
+    <PathCost>2</PathCost>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-1.5</Cleanliness>
+      <WorkToBuild>300</WorkToBuild>
+    </statBases>
+    <Fertility>0</Fertility>
+    <TerrainFilthDef>FilthDirt</TerrainFilthDef>
+    <terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+    <TakeFootprints>True</TakeFootprints>
+    <AcceptTerrainSourceFilth>False</AcceptTerrainSourceFilth>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FloorBase">
+    <defName>CK_PackedDirt</defName>
+    <label>packed dirt</label>
+    <texturePath>Terrain/Surfaces/PackedDirt</texturePath>
+    <EdgeType>FadeRough</EdgeType>
+    <RenderPrecedence>360</RenderPrecedence>
+    <Description>Roughly settled dirt track. They are good for roads and outdoor walkways - Can only be designate over diggable soil.</Description>
+    <PathCost>1</PathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+      <WorkToBuild>700</WorkToBuild>
+    </statBases>
+    <ScatterType>Rocky</ScatterType>
+    <TerrainFilthDef>FilthDirt</TerrainFilthDef>
+    <terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+    <Fertility>0.0</Fertility>
+    <TakeFootprints>True</TakeFootprints>
+    <AcceptTerrainSourceFilth>False</AcceptTerrainSourceFilth>
+  </TerrainDef>
+
+</TerrainDefs>
