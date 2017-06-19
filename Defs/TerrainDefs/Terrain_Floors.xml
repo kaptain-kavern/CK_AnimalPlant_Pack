@@ -34,6 +34,9 @@
       <Cleanliness>-1.5</Cleanliness>
       <WorkToBuild>300</WorkToBuild>
     </statBases>
+    <affordances>
+      <li>Diggable</li>
+    </affordances>
     <Fertility>0</Fertility>
     <TerrainFilthDef>FilthDirt</TerrainFilthDef>
     <terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
@@ -54,6 +57,9 @@
       <Cleanliness>-1</Cleanliness>
       <WorkToBuild>700</WorkToBuild>
     </statBases>
+    <affordances>
+      <li>Diggable</li>
+    </affordances>
     <ScatterType>Rocky</ScatterType>
     <TerrainFilthDef>FilthDirt</TerrainFilthDef>
     <terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
