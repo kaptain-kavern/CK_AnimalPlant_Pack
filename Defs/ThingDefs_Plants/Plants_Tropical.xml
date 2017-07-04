@@ -497,8 +497,8 @@
       <harvestWork>2400</harvestWork>
       <harvestYield>125</harvestYield>
       <visualSizeRange>
-        <min>3</min>
-        <max>5</max>
+        <min>2</min>
+        <max>4</max>
       </visualSizeRange>
       <blockAdjacentSow>true</blockAdjacentSow>
       <sowResearchPrerequisites>
@@ -523,7 +523,7 @@
       <harvestWork>2000</harvestWork>
       <harvestYield>75</harvestYield>
       <visualSizeRange>
-        <min>2.5</min>
+        <min>1.8</min>
         <max>3.4</max>
       </visualSizeRange>
       <sowResearchPrerequisites>
