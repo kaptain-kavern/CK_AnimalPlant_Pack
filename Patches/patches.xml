@@ -72,27 +72,30 @@
 		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildAnimals</xpath>
 		<value>
 			<wildAnimals>
-				<Chinchilla>2</Chinchilla>
-				<Capybara>2.2</Capybara>
+				<Monkey>1.8</Monkey>
+				<Capybara>1.5</Capybara>
 				<Rat>1.5</Rat>
 				<WildBoar>1.5</WildBoar>
+				<CK_Tapir>1.6</CK_Tapir>
+				<CK_Okapi>1.3</CK_Okapi>
 				<Tortoise>1.2</Tortoise>
-				<Monkey>1.8</Monkey>
-				<CK_Tapir>1.5</CK_Tapir>
-				<CK_Okapi>1.5</CK_Okapi>
 				<CK_Junglefowl>1.2</CK_Junglefowl>
-				<Elephant>0.6</Elephant>
-				<CK_Tiger>0.4</CK_Tiger>
-				<CK_Jaguar>0.4</CK_Jaguar>
-				<CK_Peafowl>0.02</CK_Peafowl>
-				<Panther>0.2</Panther>
-				<Cobra>0.1</Cobra>
+				<Chinchilla>1</Chinchilla>
+				<Elephant>0.7</Elephant>
 				<Iguana>0.6</Iguana>
-				<Alpaca>0.25</Alpaca>
-				<Cassowary>0.15</Cassowary>
+				<CK_Peafowl>0.5</CK_Peafowl>
+				<Cassowary>0.35</Cassowary>
+				<Turkey>0.2</Turkey>
+				<Alpaca>0.2</Alpaca>
+				<Emu>0.2</Emu>
+				<CK_Tiger>0.15</CK_Tiger>
+				<CK_Jaguar>0.15</CK_Jaguar>
+				<Panther>0.15</Panther>
+				<Cobra>0.1</Cobra>
 				<CK_Panda>0.06</CK_Panda>
+				<Ostrich>0.05</Ostrich>
 				<CK_WhiteTiger>0.008</CK_WhiteTiger>
-				<Boomalope>0.0035</Boomalope>
+				<Boomalope>0.01</Boomalope>
 			</wildAnimals>
 		</value>
 	</Operation>
