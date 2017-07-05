@@ -274,6 +274,7 @@
       <texPath>Things/Plant/Rafflesia</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
+    <selectable>true</selectable>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
       <nutrition>0.12</nutrition>
@@ -310,7 +311,6 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
-    <selectable>true</selectable>
     <ingestible>
       <nutrition>0.05</nutrition>
     </ingestible>
@@ -392,6 +392,7 @@
       <texPath>Things/Plant/Lemongrass</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
+    <selectable>true</selectable>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
     <ingestible>
       <nutrition>0.20</nutrition>
