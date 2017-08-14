@@ -1,41 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="AnimalThingBase" Name="BigBirdThingBase" Abstract="True">
-		<race>
-			<body>Bird</body>
-      		<leatherInsulation>0.5</leatherInsulation>      
-      		<gestationPeriodDays>20</gestationPeriodDays>
-      		<useMeatFrom>Cassowary</useMeatFrom>
-     		<lifeStageAges>
-		        <li>
-		          <def>AnimalBabyTiny</def>
-		          <minAge>0</minAge>
-		        </li>
-		        <li>
-		          <def>AnimalJuvenile</def>
-		          <minAge>0.22</minAge>
-		        </li>
-		        <li>
-		          <def>AnimalAdult</def>
-		          <minAge>0.45</minAge>
-		        </li>
-      		</lifeStageAges>
-      		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-      		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-      		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-    	</race>
-    	<tradeTags>
-      		<li>StandardAnimal</li>
-    	</tradeTags>
-  	</ThingDef>
-
-  <PawnKindDef ParentName="AnimalKindBase" Name="BigBirdKindBase" Abstract="True">
-    <combatPower>155</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.42</wildSpawn_EcoSystemWeight>
-  </PawnKindDef>
-
 <!--===============================================-->
 
 	<ThingDef ParentName="AnimalThingBase" Name="SmallBirdThingBase" Abstract="True">
