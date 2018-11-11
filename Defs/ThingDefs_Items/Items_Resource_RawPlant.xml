@@ -64,9 +64,9 @@
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
-    <ingestible>      
+    <ingestible>
       <foodType>VegetableOrFruit</foodType>
-    </ingestible>    
+    </ingestible>
 </ThingDef>
 
   <ThingDef ParentName="PlantFoodRawBase">
@@ -105,8 +105,9 @@
 	    </graphicData>
 	    <statBases>
 	      <MarketValue>2</MarketValue>
+        <nutrition>0.02</nutrition>
 	    </statBases>
-	    <socialPropernessMatters>true</socialPropernessMatters>	    
+	    <socialPropernessMatters>true</socialPropernessMatters>
 	    <ingestible>
         <foodType>VegetableOrFruit</foodType>
         <drugCategory>Medical</drugCategory>
@@ -116,15 +117,14 @@
 	      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
 	      <baseIngestTicks>120</baseIngestTicks>
 	      <joyKind>Chemical</joyKind>
-	      <joy>0.01</joy>	      
-	      <nutrition>0.02</nutrition>
-	      <outcomeDoers>
+	      <joy>0.01</joy>
+        <outcomeDoers>
           <li Class="IngestionOutcomeDoer_OffsetNeed">
             <need>Rest</need>
             <offset>0.1</offset>
           </li>
           <li Class="IngestionOutcomeDoer_GiveHediff">
-	          <hediffDef>CK_AteRawJitterBerries</hediffDef>   
+	          <hediffDef>CK_AteRawJitterBerries</hediffDef>
 	          <severity>0.3</severity>
 	          <toleranceChemical>Jitter</toleranceChemical>
 	        </li>
@@ -267,11 +267,11 @@
     <statBases>
       <MarketValue>5</MarketValue>
       <Mass>0.025</Mass>
+      <nutrition>0.05</nutrition>
     </statBases>
     <ingestible>
       <foodType>AnimalProduct</foodType>
       <preferability>MealFine</preferability>
-      <nutrition>0.05</nutrition>
       <joy>0.05</joy>
       <joyKind>Gluttonous</joyKind>
       <ingestEffect>EatVegetarian</ingestEffect>
@@ -291,6 +291,7 @@
     </graphicData>
     <statBases>
       <MarketValue>2</MarketValue>
+      <nutrition>0.01</nutrition>
     </statBases>
     <socialPropernessMatters>true</socialPropernessMatters>
     <thingCategories>
@@ -318,8 +319,7 @@
       <baseIngestTicks>120</baseIngestTicks>
       <joyKind>Chemical</joyKind>
       <joy>0.1</joy>
-      <nurseable>true</nurseable>      
-      <nutrition>0.01</nutrition>
+      <nurseable>true</nurseable>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AlcoholHigh</hediffDef>
@@ -353,7 +353,7 @@
         <label>Inebriated (tipsy)</label>
         <description>I'm a bit wobbly! And this is quite enjoyable.</description>
         <baseMoodEffect>12</baseMoodEffect>
-      </li>     
+      </li>
       <li>
         <label>Inebriated (drunk)</label>
         <description>I feel so uninhibited and unafraid! This is a great time!</description>
@@ -363,9 +363,9 @@
         <label>Inebriated (hammered)</label>
         <description>Wooo! What is going on?</description>
         <baseMoodEffect>24</baseMoodEffect>
-      </li>   
+      </li>
     </stages>
-  </ThoughtDef>  
+  </ThoughtDef>
 
-  
+
 </Defs>

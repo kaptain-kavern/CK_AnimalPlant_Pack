@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TerrainDefs>
+<Defs>
 
 
   <TerrainDef Name="FloorBase" Abstract="True">
@@ -13,22 +13,22 @@
       <WorkToBuild>135</WorkToBuild>
     </statBases>
     <designationCategory>Floors</designationCategory>
-    <Fertility>0</Fertility>
+    <fertility>0</fertility>
     <constructEffect>ConstructDirt</constructEffect>
-    <AcceptTerrainSourceFilth>True</AcceptTerrainSourceFilth>
+    <acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
   </TerrainDef>
 
 <!-- ================= Misc ================= -->
 
   <TerrainDef ParentName="FloorBase">
-    <DefName>CK_TrampledEarthWithLine</DefName>
+    <defName>CK_TrampledEarthWithLine</defName>
     <label>trampled vegetation track</label>
-    <RenderPrecedence>233</RenderPrecedence>
-    <Description>Cut plants trampled and stomped in order to keep vegetation from regrowing - Can only be designate over fertile soil (needs plants)</Description>
+    <renderPrecedence>233</renderPrecedence>
+    <description>Cut plants trampled and stomped in order to keep vegetation from regrowing - Can only be designate over fertile soil (needs plants)</description>
     <texturePath>Terrain/Surfaces/TrampledEarthLineFloor</texturePath>
-    <EdgeType>FadeRough</EdgeType>
-    <PathCost>2</PathCost>
+    <edgeType>FadeRough</edgeType>
+    <pathCost>2</pathCost>
     <statBases>
       <Beauty>-2</Beauty>
       <Cleanliness>-1.5</Cleanliness>
@@ -37,21 +37,21 @@
     <affordances>
       <li>Diggable</li>
     </affordances>
-    <Fertility>0</Fertility>
-    <TerrainFilthDef>FilthDirt</TerrainFilthDef>
+    <fertility>0</fertility>
+    <generatedFilth>FilthDirt</generatedFilth>
     <terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
-    <TakeFootprints>True</TakeFootprints>
-    <AcceptTerrainSourceFilth>False</AcceptTerrainSourceFilth>
+    <takeFootprints>True</takeFootprints>
+    <acceptTerrainSourceFilth>False</acceptTerrainSourceFilth>
   </TerrainDef>
 
   <TerrainDef ParentName="FloorBase">
     <defName>CK_PackedDirt</defName>
     <label>packed dirt</label>
     <texturePath>Terrain/Surfaces/PackedDirt</texturePath>
-    <EdgeType>FadeRough</EdgeType>
-    <RenderPrecedence>360</RenderPrecedence>
-    <Description>Roughly settled dirt track. They are good for roads and outdoor walkways - Can only be designate over diggable soil.</Description>
-    <PathCost>1</PathCost>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>360</renderPrecedence>
+    <description>Roughly settled dirt track. They are good for roads and outdoor walkways - Can only be designate over diggable soil.</description>
+    <pathCost>1</pathCost>
     <statBases>
       <Beauty>-1</Beauty>
       <Cleanliness>-1</Cleanliness>
@@ -60,12 +60,12 @@
     <affordances>
       <li>Diggable</li>
     </affordances>
-    <ScatterType>Rocky</ScatterType>
-    <TerrainFilthDef>FilthDirt</TerrainFilthDef>
+    <scatterType>Rocky</scatterType>
+    <generatedFilth>FilthDirt</generatedFilth>
     <terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
-    <Fertility>0.0</Fertility>
-    <TakeFootprints>True</TakeFootprints>
-    <AcceptTerrainSourceFilth>False</AcceptTerrainSourceFilth>
+    <fertility>0.0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <acceptTerrainSourceFilth>False</acceptTerrainSourceFilth>
   </TerrainDef>
 
-</TerrainDefs>
+</Defs>

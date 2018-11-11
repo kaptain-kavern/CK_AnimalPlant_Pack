@@ -8,6 +8,7 @@
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>1</Beauty>
+      <nutrition>0.18</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/RicePlant</texPath>
@@ -15,9 +16,6 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>10</pathCost>
-    <ingestible>
-      <nutrition>0.18</nutrition>
-    </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
 	  <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
@@ -25,12 +23,12 @@
       <maxMeshCount>4</maxMeshCount>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>RawRice</harvestedThingDef>
-      <harvestYield>6</harvestYield>      
+      <harvestYield>6</harvestYield>
       <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
       </wildClusterSizeRange>
-      <wildClusterRadius>4</wildClusterRadius>        
+      <wildClusterRadius>4</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>2.445</growDays>
 		<fertilitySensitivity>1.0</fertilitySensitivity> <!-- A16 -->
@@ -49,6 +47,7 @@
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>1</Beauty>
+      <nutrition>0.20</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CottonPlant</texPath>
@@ -56,21 +55,18 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>10</pathCost>
-    <ingestible>
-      <nutrition>0.20</nutrition>
-    </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
   	  <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
       <!-- <shootsSeeds>false</shootsSeeds> Removed in A16-->
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>Cloth</harvestedThingDef>
-      <harvestYield>5</harvestYield>      
+      <harvestYield>5</harvestYield>
       <wildClusterSizeRange>
         <min>1</min>
         <max>3</max>
       </wildClusterSizeRange>
-      <wildClusterRadius>5</wildClusterRadius>      
+      <wildClusterRadius>5</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>2.705</growDays>
 	  	<fertilitySensitivity>0.4</fertilitySensitivity> <!-- A16 -->
@@ -89,6 +85,7 @@
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>1</Beauty>
+      <nutrition>0.1</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/PsychoidPlant</texPath>
@@ -96,9 +93,6 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>10</pathCost>
-    <ingestible>
-      <nutrition>0.1</nutrition>
-    </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
 	  <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->
@@ -129,6 +123,7 @@
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>1</Beauty>
+      <nutrition>0.1</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/SmokeleafPlant</texPath>
@@ -136,9 +131,6 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>10</pathCost>
-    <ingestible>
-      <nutrition>0.1</nutrition>
-    </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
 	  <!-- <reproduces>false</reproduces> A16 version - I'm commenting it out because shootsSeeds was commented out -->

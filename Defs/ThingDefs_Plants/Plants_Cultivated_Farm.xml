@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-  <Plants>
+  <Defs>
 <!--========================== Food crops =============================-->
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantTaro</defName>
@@ -8,15 +8,13 @@
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears". Harvests quickly. A strong, versatile crop.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
+      <nutrition>0.20</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Taro</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <selectable>true</selectable>
-    <ingestible>
-      <nutrition>0.20</nutrition>
-    </ingestible>
     <plant>
       <fertilitySensitivity>0.2</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
@@ -44,6 +42,7 @@
     <description>A weedy plant which yields jitter berries.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
+      <nutrition>0.18</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CoffeaCrop</texPath>
@@ -51,9 +50,6 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>30</pathCost>
-    <ingestible>
-      <nutrition>0.18</nutrition>
-    </ingestible>
     <plant>
       <sowMinSkill>4</sowMinSkill>
       <fertilitySensitivity>1</fertilitySensitivity>
@@ -83,6 +79,7 @@
     <description>Lemongrass.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
+      <nutrition>0.18</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Lemongrass</texPath>
@@ -90,9 +87,6 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>10</pathCost>
-    <ingestible>
-      <nutrition>0.18</nutrition>
-    </ingestible>
     <plant>
       <fertilitySensitivity>1.0</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
@@ -127,13 +121,13 @@
     </statBases>
     <plant>
 	  <reproduces>false</reproduces>
-      <growDays>18</growDays>      
+      <growDays>18</growDays>
       <harvestWork>1500</harvestWork>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_Coconuts</harvestedThingDef>
       <harvestYield>45</harvestYield>
       <harvestMinGrowth>0.80</harvestMinGrowth>
-      <harvestAfterGrowth>0.20</harvestAfterGrowth>      
+      <harvestAfterGrowth>0.20</harvestAfterGrowth>
       <visualSizeRange>
         <min>2</min>
         <max>3</max>
@@ -152,6 +146,7 @@
       <altitudeLayer>Building</altitudeLayer>
       <statBases>
         <MaxHitPoints>120</MaxHitPoints>
+        <nutrition>1.50</nutrition>
       </statBases>
       <graphicData>
         <texPath>Things/Plant/TreeBanana</texPath>
@@ -165,9 +160,8 @@
       <selectable>true</selectable>
       <fillPercent>0.35</fillPercent>
       <pathCost>80</pathCost>
-      <ingestible>        
+      <ingestible>
           <preferability>RawBad</preferability>
-          <nutrition>1.50</nutrition>
         </ingestible>
       <plant>
 	  <reproduces>false</reproduces>
@@ -178,7 +172,7 @@
         <harvestedThingDef>CK_RawBanana</harvestedThingDef>
         <harvestYield>50</harvestYield>
         <harvestMinGrowth>0.80</harvestMinGrowth>
-        <harvestFailable>false</harvestFailable>        
+        <harvestFailable>false</harvestFailable>
         <blockAdjacentSow>true</blockAdjacentSow>
         <sowTags>
           <li>Ground</li>
@@ -193,10 +187,10 @@
         <sowMinSkill>5</sowMinSkill>
         <sowResearchPrerequisites>
           <li>CK_TropicalWoodGrowing</li>
-        </sowResearchPrerequisites>         
+        </sowResearchPrerequisites>
       </plant>
-  </ThingDef>  
-  
+  </ThingDef>
+
 <!--====================== Production crops ===========================-->
 <!--========================== Drug crops =============================-->
   <ThingDef ParentName="PlantBase">
@@ -205,6 +199,7 @@
     <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; side effects include hallucinations, nausea, and vomiting</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
+      <nutrition>0.35</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/DreamVineCrop</texPath>
@@ -216,9 +211,6 @@
     <selectable>true</selectable>
     <fillPercent>0.25</fillPercent>
     <pathCost>30</pathCost>
-    <ingestible>
-      <nutrition>0.35</nutrition>
-    </ingestible>
     <plant>
       <reproduces>false</reproduces>
       <fertilityMin>0.5</fertilityMin>
@@ -231,7 +223,7 @@
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
-      </sowTags>      
+      </sowTags>
       <harvestTag>Standard</harvestTag>
       <harvestAfterGrowth>0.30</harvestAfterGrowth>
       <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
@@ -255,7 +247,7 @@
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
       <Beauty>0</Beauty>
-    </statBases>    
+    </statBases>
     <plant>
       <sowMinSkill>7</sowMinSkill>
       <growDays>25</growDays>
@@ -267,7 +259,7 @@
       <harvestFailable>true</harvestFailable>
       <harvestTag>Standard</harvestTag>
       <fertilityMin>0.1</fertilityMin>
-	  	<fertilitySensitivity>0.2</fertilitySensitivity>  <!-- A16 -->    
+	  	<fertilitySensitivity>0.2</fertilitySensitivity>  <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>  -->
 	  <reproduces>false</reproduces> <!-- A16 -->
       <!-- <shootsSeeds>false</shootsSeeds> -->
@@ -279,5 +271,5 @@
         <li>CK_Beekeeping</li>
       </sowResearchPrerequisites>
     </plant>
-  </ThingDef>    
-  </Plants>
+  </ThingDef>
+</Defs>

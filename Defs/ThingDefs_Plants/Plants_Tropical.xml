@@ -11,21 +11,21 @@
     <graphicData>
         <shadowData>
           <volume>(0.3, 0.3, 0.3)</volume>
-        </shadowData>      
+        </shadowData>
       <texPath>Things/Plant/TreeHive/TreeHive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <passability>PassThroughOnly</passability>
-    <blockWind>true</blockWind>    
+    <blockWind>true</blockWind>
     <pathCost>200</pathCost>
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
       <Beauty>0</Beauty>
+      <nutrition>2</nutrition>
     </statBases>
     <ingestible>
       <foodType>Plant</foodType>
       <preferability>RawBad</preferability>
-      <nutrition>2</nutrition>
     </ingestible>
     <plant>
       <leaflessGraphicPath>Things/Plant/TreeHive/TreeHive_Leafless</leaflessGraphicPath>
@@ -40,7 +40,7 @@
       <fertilityMin>0.01</fertilityMin>
       <blockAdjacentSow>true</blockAdjacentSow>
       <topWindExposure>0.25</topWindExposure>
-	  <fertilitySensitivity>0</fertilitySensitivity>  <!-- A16 -->    
+	  <fertilitySensitivity>0</fertilitySensitivity>  <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>0</fertilityFactorGrowthRate> -->
       <wildClusterSizeRange>
         <min>1</min>
@@ -65,6 +65,7 @@
 	<description>A short palm.</description>
 	<statBases>
 		<MaxHitPoints>120</MaxHitPoints>
+    <nutrition>0.8</nutrition>
 	</statBases>
 	<graphicData>
 		<texPath>Things/Plant/Palm</texPath>
@@ -76,13 +77,10 @@
 	<selectable>true</selectable>
 	<fillPercent>0.25</fillPercent>
 	<pathCost>30</pathCost>
-	<ingestible>
-		<nutrition>0.8</nutrition>
-	</ingestible>
     <plant>
       <harvestYield>6</harvestYield>
       <harvestWork>600</harvestWork>
-      <harvestTag>Wood</harvestTag>      
+      <harvestTag>Wood</harvestTag>
       <harvestFailable>false</harvestFailable>
       <harvestedThingDef>WoodLog</harvestedThingDef>
       <fertilityMin>0.4</fertilityMin>
@@ -108,6 +106,7 @@
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
+      <nutrition>0.2</nutrition>
     </statBases>
     <graphicData>
     	<texPath>Things/Plant/Taro</texPath>
@@ -116,15 +115,12 @@
     <selectable>true</selectable>
     <fillPercent>0.15</fillPercent>
     <pathCost>20</pathCost>
-    <ingestible>
-      <nutrition>0.2</nutrition>
-    </ingestible>
     <plant>
-      <harvestYield>10</harvestYield>      
+      <harvestYield>10</harvestYield>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_TaroRoot</harvestedThingDef>
       <harvestWork>200</harvestWork>
-      <fertilityMin>0.2</fertilityMin>            
+      <fertilityMin>0.2</fertilityMin>
       <wildClusterSizeRange>
         <min>2</min>
         <max>4</max>
@@ -147,6 +143,7 @@
     <description>A weedy plant which yields jitter berries.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
+      <nutrition>0.20</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Coffea</texPath>
@@ -158,9 +155,6 @@
     <selectable>true</selectable>
     <fillPercent>0.25</fillPercent>
     <pathCost>30</pathCost>
-    <ingestible>
-      <nutrition>0.20</nutrition>
-    </ingestible>
     <plant>
       <fertilityMin>0.5</fertilityMin>
       <fertilitySensitivity>0.5</fertilitySensitivity>
@@ -193,6 +187,7 @@
     <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; side effects include hallucinations, nausea, and vomiting</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
+      <nutrition>0.20</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/DreamVine</texPath>
@@ -204,15 +199,12 @@
     <selectable>true</selectable>
     <fillPercent>0.25</fillPercent>
     <pathCost>30</pathCost>
-    <ingestible>
-      <nutrition>0.2</nutrition>
-    </ingestible>
-    <plant>      
+    <plant>
       <harvestYield>15</harvestYield>
       <harvestWork>800</harvestWork>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
-      <fertilityMin>0.5</fertilityMin>      
+      <fertilityMin>0.5</fertilityMin>
       <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
@@ -237,6 +229,7 @@
     <description>A green plant with long stems, wide, thin leaves, and no flowers. Significantly slows down anyone moving over it.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
+      <nutrition>0.20</nutrition>
     </statBases>
     <pathCost>30</pathCost>
     <graphicData>
@@ -244,9 +237,6 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
-    <ingestible>
-      <nutrition>0.20</nutrition>
-    </ingestible>
     <plant>
       <fertilityMin>0.25</fertilityMin>
       <fertilitySensitivity>0.2</fertilitySensitivity>
@@ -269,6 +259,7 @@
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>-20</Beauty>
+      <nutrition>0.12</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Rafflesia</texPath>
@@ -276,9 +267,6 @@
     </graphicData>
     <selectable>true</selectable>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
-    <ingestible>
-      <nutrition>0.12</nutrition>
-    </ingestible>
     <plant>
       <blockAdjacentSow>true</blockAdjacentSow>
       <fertilitySensitivity>1</fertilitySensitivity>
@@ -296,7 +284,7 @@
       </wildClusterSizeRange>
       <wildClusterRadius>8</wildClusterRadius>
     </plant>
-  </ThingDef>  
+  </ThingDef>
 
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantBromeliad</defName>
@@ -305,15 +293,13 @@
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>14</Beauty>
+      <nutrition>0.05</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Bromeliad</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
-    <ingestible>
-      <nutrition>0.05</nutrition>
-    </ingestible>
     <plant>
       <fertilityMin>0.2</fertilityMin>
       <maxMeshCount>9</maxMeshCount>
@@ -336,7 +322,7 @@
         <min>2</min>
         <max>6</max>
       </wildClusterSizeRange>
-      <wildClusterRadius>4</wildClusterRadius>      
+      <wildClusterRadius>4</wildClusterRadius>
     </plant>
   </ThingDef>
 
@@ -347,15 +333,13 @@
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>7</Beauty>
+      <nutrition>0.08</nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Heliconia</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
-    <ingestible>
-      <nutrition>0.08</nutrition>
-    </ingestible>
     <plant>
       <fertilityMin>0.05</fertilityMin>
       <fertilitySensitivity>0.3</fertilitySensitivity>
@@ -386,6 +370,7 @@
     <description>Wild lemongrass.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
+      <nutrition>0.20</nutrition>
     </statBases>
     <pathCost>18</pathCost>
     <graphicData>
@@ -394,18 +379,15 @@
     </graphicData>
     <selectable>true</selectable>
     <hideAtSnowDepth>0.5</hideAtSnowDepth>
-    <ingestible>
-      <nutrition>0.20</nutrition>
-    </ingestible>
     <plant>
-      <harvestYield>10</harvestYield>      
+      <harvestYield>10</harvestYield>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>CK_RawLemongrass</harvestedThingDef>      
+      <harvestedThingDef>CK_RawLemongrass</harvestedThingDef>
       <harvestWork>250</harvestWork>
       <fertilityMin>0.5</fertilityMin>
       <fertilitySensitivity>0.7</fertilitySensitivity>
       <growDays>3</growDays>
-      <reproduceMtbDays>3</reproduceMtbDays>      
+      <reproduceMtbDays>3</reproduceMtbDays>
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>
         <min>1.05</min>
@@ -434,7 +416,7 @@
     <statBases>
       <Beauty>1</Beauty>
     </statBases>
-    <plant>      
+    <plant>
       <growDays>18</growDays>
       <harvestWork>1500</harvestWork>
       <harvestYield>32</harvestYield>
@@ -476,8 +458,8 @@
   			<min>2</min>
   			<max>3</max>
   		</visualSizeRange>
-  		<fertilityMin>0.2</fertilityMin>  	
-		<fertilitySensitivity>0.5</fertilitySensitivity>  <!-- A16 -->    		
+  		<fertilityMin>0.2</fertilityMin>
+		<fertilitySensitivity>0.5</fertilitySensitivity>  <!-- A16 -->
   		<!-- <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate> -->
       </plant>
   </ThingDef>
@@ -493,7 +475,7 @@
     <statBases>
       <Beauty>2</Beauty>
     </statBases>
-    <plant>      
+    <plant>
       <growDays>34</growDays>
       <harvestWork>2400</harvestWork>
       <harvestYield>125</harvestYield>
@@ -519,7 +501,7 @@
     <statBases>
       <Beauty>2</Beauty>
     </statBases>
-    <plant>      
+    <plant>
       <growDays>20</growDays>
       <harvestWork>2000</harvestWork>
       <harvestYield>75</harvestYield>
@@ -554,7 +536,7 @@
         <max>3</max>
       </visualSizeRange>
     </plant>
-  </ThingDef>  
+  </ThingDef>
 
   <ThingDef ParentName="PlantBase">
     	<defName>CK_PlantTreeWildBanana</defName>
@@ -563,6 +545,7 @@
     	<altitudeLayer>Building</altitudeLayer>
     	<statBases>
     		<MaxHitPoints>120</MaxHitPoints>
+        <nutrition>1.50</nutrition>
     	</statBases>
     	<graphicData>
     		<texPath>Things/Plant/TreeBanana</texPath>
@@ -576,9 +559,8 @@
     	<selectable>true</selectable>
     	<fillPercent>0.35</fillPercent>
 	    <pathCost>80</pathCost>
-    	<ingestible>    		
+    	<ingestible>
       		<preferability>RawBad</preferability>
-      		<nutrition>1.50</nutrition>
       	</ingestible>
 	    <plant>
 	    	<growDays>17</growDays>
@@ -599,7 +581,7 @@
   			</visualSizeRange>
   			<fertilityMin>0.3</fertilityMin>
   			<topWindExposure>0.25</topWindExposure>
-			<fertilitySensitivity>0.5</fertilitySensitivity>  <!-- A16 -->    
+			<fertilitySensitivity>0.5</fertilitySensitivity>  <!-- A16 -->
   			<!-- <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate> -->
   			<wildClusterSizeRange>
   				<min>8</min>
@@ -622,11 +604,9 @@
     </graphicData>
     <statBases>
       <Beauty>3</Beauty>
-    </statBases>
-    <ingestible>
       <nutrition>1</nutrition>
-    </ingestible>
-    <plant>      
+    </statBases>
+    <plant>
       <growDays>10</growDays>
       <harvestWork>600</harvestWork>
       <harvestYield>15</harvestYield>
@@ -639,6 +619,6 @@
       </sowResearchPrerequisites>
     </plant>
 
-  </ThingDef>	
+  </ThingDef>
 
 </Defs>
