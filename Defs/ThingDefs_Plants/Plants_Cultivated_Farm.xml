@@ -15,10 +15,11 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
     <plant>
       <fertilitySensitivity>0.2</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
-      <reproduces>false</reproduces>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_TaroRoot</harvestedThingDef>
       <harvestYield>10</harvestYield>
@@ -33,6 +34,8 @@
         <min>1</min>
         <max>1.4</max>
       </visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
     </plant>
   </ThingDef>
 
@@ -49,12 +52,11 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <selectable>true</selectable>
-    <pathCost>30</pathCost>
+    <pathCost>15</pathCost>
     <plant>
       <sowMinSkill>4</sowMinSkill>
       <fertilitySensitivity>1</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
-      <reproduces>false</reproduces>
       <harvestWork>400</harvestWork>
       <maxMeshCount>4</maxMeshCount>
       <harvestTag>Standard</harvestTag>
@@ -65,11 +67,12 @@
         <li>Hydroponic</li>
       </sowTags>
       <topWindExposure>0.1</topWindExposure>
-      <growDays>5</growDays>
+      <growDays>8</growDays>
       <visualSizeRange>
         <min>1.2</min>
         <max>1.8</max>
       </visualSizeRange>
+      <wildOrder>2</wildOrder>
     </plant>
   </ThingDef>
 
@@ -87,10 +90,11 @@
     </graphicData>
     <selectable>true</selectable>
     <pathCost>10</pathCost>
+    <ingestible />
     <plant>
       <fertilitySensitivity>1.0</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
-      <reproduces>false</reproduces>
+      <maxMeshCount>4</maxMeshCount>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_RawLemongrass</harvestedThingDef>
       <harvestYield>7</harvestYield>
@@ -105,6 +109,8 @@
         <min>1</min>
         <max>1.6</max>
       </visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
     </plant>
   </ThingDef>
 
@@ -115,14 +121,18 @@
     <graphicData>
       <texPath>Things/Plant/TreeCoconutPalm</texPath>
       <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+				<volume>(0.18, 0.3, 0.15)</volume>
+        <offset>(0.03,0,-0.44)</offset>
+			</shadowData>
     </graphicData>
     <statBases>
       <Beauty>1</Beauty>
+      <Nutrition>1.2</Nutrition>
     </statBases>
     <plant>
-	  <reproduces>false</reproduces>
       <growDays>18</growDays>
-      <harvestWork>1500</harvestWork>
+      <harvestWork>1000</harvestWork>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_Coconuts</harvestedThingDef>
       <harvestYield>45</harvestYield>
@@ -136,6 +146,8 @@
         <li>CK_TropicalWoodGrowing</li>
       </sowResearchPrerequisites>
       <sowMinSkill>5</sowMinSkill>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
     </plant>
   </ThingDef>
 
@@ -161,10 +173,9 @@
       <fillPercent>0.35</fillPercent>
       <pathCost>80</pathCost>
       <ingestible>
-          <preferability>RawBad</preferability>
-        </ingestible>
+        <preferability>RawBad</preferability>
+      </ingestible>
       <plant>
-	  <reproduces>false</reproduces>
         <growDays>17</growDays>
         <sowWork>1500</sowWork>
         <harvestWork>800</harvestWork>
@@ -183,17 +194,21 @@
         </visualSizeRange>
         <fertilityMin>0.7</fertilityMin>
         <topWindExposure>0.25</topWindExposure>
-		<fertilitySensitivity>0.5</fertilitySensitivity>
+        <fertilitySensitivity>0.5</fertilitySensitivity>
         <sowMinSkill>5</sowMinSkill>
         <sowResearchPrerequisites>
           <li>CK_TropicalWoodGrowing</li>
         </sowResearchPrerequisites>
+        <wildClusterRadius>8</wildClusterRadius>
+        <wildClusterWeight>24</wildClusterWeight>
+        <wildOrder>3</wildOrder>
+        <interferesWithRoof>true</interferesWithRoof>
       </plant>
   </ThingDef>
 
 <!--====================== Production crops ===========================-->
 <!--========================== Drug crops =============================-->
-  <ThingDef ParentName="PlantBase">
+  <ThingDef ParentName="BushBase">
     <defName>CK_PlantBushDreamVine</defName>
     <label>dream vine</label>
     <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; side effects include hallucinations, nausea, and vomiting</description>
@@ -206,18 +221,16 @@
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.55, 0.2, 0.2)</volume>
+        <offset>(0,0,-0.2)</offset>
       </shadowData>
     </graphicData>
     <selectable>true</selectable>
     <fillPercent>0.25</fillPercent>
     <pathCost>30</pathCost>
     <plant>
-      <reproduces>false</reproduces>
       <fertilityMin>0.5</fertilityMin>
       <fertilitySensitivity>1</fertilitySensitivity>
       <growDays>6.84</growDays>
-      <!-- <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath>
-      <immatureGraphicPath>Things/Plant/RaspberryImmature</immatureGraphicPath> -->
       <harvestYield>10</harvestYield>
       <sowMinSkill>6</sowMinSkill>
       <sowTags>
@@ -231,6 +244,8 @@
         <min>1.6</min>
         <max>2</max>
       </visualSizeRange>
+      <wildClusterRadius>3</wildClusterRadius>
+			<wildClusterWeight>4</wildClusterWeight>
       <topWindExposure>0.2</topWindExposure>
     </plant>
   </ThingDef>
@@ -259,10 +274,7 @@
       <harvestFailable>true</harvestFailable>
       <harvestTag>Standard</harvestTag>
       <fertilityMin>0.1</fertilityMin>
-	  	<fertilitySensitivity>0.2</fertilitySensitivity>  <!-- A16 -->
-      <!-- <fertilityFactorGrowthRate>0.2</fertilityFactorGrowthRate>  -->
-	  <reproduces>false</reproduces> <!-- A16 -->
-      <!-- <shootsSeeds>false</shootsSeeds> -->
+	  	<fertilitySensitivity>0.2</fertilitySensitivity>
       <visualSizeRange>
         <min>1.5</min>
         <max>1.5</max>
