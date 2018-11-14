@@ -34,10 +34,10 @@
       <Neutroamine>1</Neutroamine>
     </products>
     <skillRequirements>
-      <Crafting>6</Crafting>    
+      <Crafting>6</Crafting>
     </skillRequirements>
-    <workSpeedStat>DrugProductionSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
   </RecipeDef>
 
 </Defs>

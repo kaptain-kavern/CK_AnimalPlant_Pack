@@ -16,6 +16,7 @@
       <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
       <Insulation_Heat>9</Insulation_Heat>
+      <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <PlantWorkSpeed>0.15</PlantWorkSpeed>
