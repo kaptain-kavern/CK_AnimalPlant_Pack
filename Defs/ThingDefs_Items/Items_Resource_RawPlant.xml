@@ -105,7 +105,7 @@
 	    </graphicData>
 	    <statBases>
 	      <MarketValue>2</MarketValue>
-        <nutrition>0.02</nutrition>
+        <Nutrition>0.02</Nutrition>
 	    </statBases>
 	    <socialPropernessMatters>true</socialPropernessMatters>
 	    <ingestible>
@@ -267,7 +267,7 @@
     <statBases>
       <MarketValue>5</MarketValue>
       <Mass>0.025</Mass>
-      <nutrition>0.05</nutrition>
+      <Nutrition>0.05</Nutrition>
     </statBases>
     <ingestible>
       <foodType>AnimalProduct</foodType>
@@ -291,7 +291,7 @@
     </graphicData>
     <statBases>
       <MarketValue>2</MarketValue>
-      <nutrition>0.01</nutrition>
+      <Nutrition>0.01</Nutrition>
     </statBases>
     <socialPropernessMatters>true</socialPropernessMatters>
     <thingCategories>

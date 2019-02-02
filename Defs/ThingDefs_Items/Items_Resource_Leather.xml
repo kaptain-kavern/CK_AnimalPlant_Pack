@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>CK_LeatherPanda</defName>
+    <label>pandaskin</label>
+    <description>The strong furry leather of a giant panda. Compared to most leather, it is quite a bit tougher and a bit better at all kinds of temperature regulation.</description>
+    <graphicData>
+      <color>(245,245,220)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.4</MarketValue>
+      <StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(245,245,220)</color>
+      <commonality>0.01</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>CK_LeatherTiger</defName>
+    <label>tiger skin</label>
+    <description>A soft furry pelt harvested from a tiger. It is difficult to pierce and insulates well against heat.</description>
+    <graphicData>
+      <color>(230,150,60)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <StuffPower_Armor_Sharp>0.93</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(230,150,60)</color>
+      <commonality>0.015</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>CK_LeatherWhiteTiger</defName>
+    <label>white tiger skin</label>
+    <description>A soft furry pelt harvested from a white tiger. It is difficult to pierce and insulates well against heat.</description>
+    <graphicData>
+      <color>(250,250,240)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <StuffPower_Armor_Sharp>0.93</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(250,250,240)</color>
+      <commonality>0.005</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>CK_LeatherSnowLeopard</defName>
+    <label>snow leopard skin</label>
+    <description>A soft furry pelt harvested from a snow leopard. It is difficult to pierce and insulates well against cold.</description>
+    <graphicData>
+      <color>(240,240,250)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <StuffPower_Armor_Sharp>0.93</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(240,240,250)</color>
+      <commonality>0.015</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>CK_LeatherJaguar</defName>
+    <label>jaguar skin</label>
+    <description>A soft furry pelt harvested from a jaguar. It is difficult to pierce and insulates well against heat.</description>
+    <graphicData>
+      <color>(230,150,60)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <StuffPower_Armor_Sharp>0.93</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(230,150,60)</color>
+      <commonality>0.015</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>CK_LeatherArcticHare</defName>
+    <label>arctic hare leather</label>
+    <description>Lightweight, thin leather from an arctic hare. Not as protective as thicker leathers, but insulates well against the cold.</description>
+    <graphicData>
+      <color>(250,250,250)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.14</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(250,250,250)</color>
+      <commonality>0.05</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>CK_LeatherKomodoDragon</defName>
+    <label>Komodo dragon skin</label>
+    <description>The tanned skin of a Komodo dragon. It is reasonably tough, but does not insulate well at all.</description>
+    <graphicData>
+      <color>(100,115,60)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.1</MarketValue>
+      <StuffPower_Armor_Sharp>0.81</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.27</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(100,115,60)</color>
+      <commonality>0.015</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>CK_LeatherMonkey</defName>
+    <label>monkey hide</label>
+    <description>Tanned, dried, scraped monkey hide. While a decent leather, it neither protects nor insulates particularly well.</description>
+    <graphicData>
+      <color>(124,53,29)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.1</MarketValue>
+      <StuffPower_Armor_Sharp>0.64</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(124,53,29)</color>
+      <commonality>0.05</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>CK_LeatherPython</defName>
+    <label>Python skin</label>
+    <description>The tanned skin of a python. It is reasonably tough, but does not insulate well at all.</description>
+    <graphicData>
+      <color>(51,102,0)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.1</MarketValue>
+      <StuffPower_Armor_Sharp>0.81</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.27</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(51,102,0)</color>
+      <commonality>0.015</commonality>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

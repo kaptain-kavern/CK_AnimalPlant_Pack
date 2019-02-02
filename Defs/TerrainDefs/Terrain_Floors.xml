@@ -1,30 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <TerrainDef Name="FloorBase" Abstract="True">
-    <layerable>true</layerable>
-    <affordances>
-      <li>Light</li>
-      <li>Heavy</li>
-      <li>SmoothHard</li>
-    </affordances>
-    <statBases>
-      <WorkToBuild>135</WorkToBuild>
-    </statBases>
-    <designationCategory>Floors</designationCategory>
-    <fertility>0</fertility>
-    <constructEffect>ConstructDirt</constructEffect>
-    <acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-  </TerrainDef>
-
 <!-- ================= Misc ================= -->
 
   <TerrainDef ParentName="FloorBase">
     <defName>CK_TrampledEarthWithLine</defName>
-    <label>trampled vegetation track</label>
+    <label>trampled vegetation</label>
     <renderPrecedence>233</renderPrecedence>
-    <description>Cut plants trampled and stomped in order to keep vegetation from regrowing - Can only be designate over fertile soil (needs plants)</description>
+    <description>Cut plants trampled and stomped in order to keep vegetation from regrowing - Can only be designated over fertile soil (needs plants).</description>
     <texturePath>Terrain/Surfaces/TrampledEarthLineFloor</texturePath>
     <edgeType>FadeRough</edgeType>
     <pathCost>2</pathCost>
@@ -37,7 +20,7 @@
       <li>Diggable</li>
     </affordances>
     <fertility>0</fertility>
-    <generatedFilth>FilthDirt</generatedFilth>
+    <generatedFilth>Filth_Dirt</generatedFilth>
     <terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
     <takeFootprints>True</takeFootprints>
     <acceptTerrainSourceFilth>False</acceptTerrainSourceFilth>
@@ -49,7 +32,7 @@
     <texturePath>Terrain/Surfaces/PackedDirt</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>360</renderPrecedence>
-    <description>Roughly settled dirt track. They are good for roads and outdoor walkways - Can only be designate over diggable soil.</description>
+    <description>Roughly packed dirt, good for roads and outdoor walkways. Can only be designated over diggable soil.</description>
     <pathCost>1</pathCost>
     <statBases>
       <Beauty>-1</Beauty>
@@ -60,7 +43,7 @@
       <li>Diggable</li>
     </affordances>
     <scatterType>Rocky</scatterType>
-    <generatedFilth>FilthDirt</generatedFilth>
+    <generatedFilth>Filth_Dirt</generatedFilth>
     <terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
     <fertility>0.0</fertility>
     <takeFootprints>True</takeFootprints>

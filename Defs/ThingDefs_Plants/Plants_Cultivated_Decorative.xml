@@ -3,12 +3,12 @@
 
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantPottedFern</defName>
-    <label>Fern</label>
-    <description>Ornemental fern</description>
+    <label>fern</label>
+    <description>Ornamental fern</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>7</Beauty>
-      <nutrition>0.1</nutrition>
+      <Nutrition>0.1</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Fern</texPath>
@@ -45,7 +45,7 @@
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>25</Beauty>
-      <nutrition>0.05</nutrition>
+      <Nutrition>0.05</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/PottedBromeliad</texPath>
@@ -81,7 +81,7 @@
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>15</Beauty>
-      <nutrition>0.05</nutrition>
+      <Nutrition>0.05</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/PottedHeliconia</texPath>

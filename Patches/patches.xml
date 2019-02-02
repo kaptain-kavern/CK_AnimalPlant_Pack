@@ -38,10 +38,10 @@
 		<value>
 		    <wildPlants>
 		        <CK_PlantFern>5</CK_PlantFern>
-		        <PlantTallGrass>2.0</PlantTallGrass>
+		        <Plant_TallGrass>2.0</Plant_TallGrass>
 		        <CK_PlantTreePalm>1.8</CK_PlantTreePalm>
 		        <CK_PlantBushPalm>1</CK_PlantBushPalm>
-		        <PlantDandelion>0.8</PlantDandelion>
+		        <Plant_Dandelion>0.8</Plant_Dandelion>
 		        <CK_PlantTreeBamboo>0.5</CK_PlantTreeBamboo>
 		        <CK_PlantBromeliad>0.4</CK_PlantBromeliad>
 		        <CK_PlantTreeWildCoconutPalm>0.35</CK_PlantTreeWildCoconutPalm>
@@ -50,17 +50,17 @@
 		        <CK_PlantWildRice>0.3</CK_PlantWildRice>
 		        <CK_PlantWildTaro>0.3</CK_PlantWildTaro>
 		        <CK_PlantTreeWildBanana>0.25</CK_PlantTreeWildBanana>
-		        <PlantTreeCecropia>0.2</PlantTreeCecropia>
+		        <Plant_TreeCecropia>0.2</Plant_TreeCecropia>
 		        <CK_PlantTreeTreeStump>0.2</CK_PlantTreeTreeStump>
 		        <CK_PlantWildLemongrass>0.2</CK_PlantWildLemongrass>
 		        <CK_PlantHeliconia>0.15</CK_PlantHeliconia>
-		        <PlantTreeTeak>0.1</PlantTreeTeak>
-		        <PlantRaspberry>0.1</PlantRaspberry>
+		        <Plant_TreeTeak>0.1</Plant_TreeTeak>
+		        <Plant_Berry>0.1</Plant_Berry>
 		        <CK_PlantWildJitterWeed>0.05</CK_PlantWildJitterWeed>
 		        <CK_PlantWildSmokeleaf>0.03</CK_PlantWildSmokeleaf>
 		        <CK_PlantWildPsychoid>0.03</CK_PlantWildPsychoid>
 		        <CK_PlantWildBushDreamVine>0.02</CK_PlantWildBushDreamVine>
-		        <PlantWildHealroot>0.02</PlantWildHealroot>
+		        <Plant_HealrootWild>0.02</Plant_HealrootWild>
 		        <CK_PlantWildCotton>0.02</CK_PlantWildCotton>
 		        <CK_PlantRafflesia>0.02</CK_PlantRafflesia>
 		        <CK_SpecialTreeHive>0.005</CK_SpecialTreeHive>
@@ -108,13 +108,16 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Insert Rare animals in traders stock  -->
-		<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Base_Neolithic_Standard"]/stockGenerators</xpath>
+		<xpath>/Defs/TraderKindDef[defName = "Base_Neolithic_Standard"]/stockGenerators</xpath>
 		<value>
 			<li Class="StockGenerator_Animals">
 				<checkTemperature>true</checkTemperature>
-				<tradeTags>
+				<tradeTagsBuy>
 					<li>CK_RareAnimal</li>
-				</tradeTags>
+				</tradeTagsBuy>
+				<tradeTagsSell>
+					<li>CK_RareAnimal</li>
+				</tradeTagsSell>
 				<kindCountRange>
 					<min>1</min>
 					<max>3</max>
@@ -128,13 +131,16 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Insert Rare animals in traders stock  -->
-		<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
+		<xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
 		<value>
 			<li Class="StockGenerator_Animals">
 				<checkTemperature>true</checkTemperature>
-				<tradeTags>
+				<tradeTagsBuy>
 					<li>CK_RareAnimal</li>
-				</tradeTags>
+				</tradeTagsBuy>
+				<tradeTagsSell>
+					<li>CK_RareAnimal</li>
+				</tradeTagsSell>
 				<kindCountRange>
 					<min>1</min>
 					<max>3</max>
@@ -148,13 +154,16 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Insert Rare animals in traders stock  -->
-		<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Caravan_Neolithic_WarMerchant"]/stockGenerators</xpath>
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_WarMerchant"]/stockGenerators</xpath>
 		<value>
 			<li Class="StockGenerator_Animals">
 				<checkTemperature>true</checkTemperature>
-				<tradeTags>
+				<tradeTagsBuy>
 					<li>CK_RareAnimal</li>
-				</tradeTags>
+				</tradeTagsBuy>
+				<tradeTagsSell>
+					<li>CK_RareAnimal</li>
+				</tradeTagsSell>
 				<kindCountRange>
 					<min>1</min>
 					<max>3</max>
@@ -168,13 +177,16 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Insert Rare animals in traders stock  -->
-		<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Caravan_Neolithic_Slaver"]/stockGenerators</xpath>
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_Slaver"]/stockGenerators</xpath>
 		<value>
 			<li Class="StockGenerator_Animals">
 				<checkTemperature>true</checkTemperature>
-				<tradeTags>
+				<tradeTagsBuy>
 					<li>CK_RareAnimal</li>
-				</tradeTags>
+				</tradeTagsBuy>
+				<tradeTagsSell>
+					<li>CK_RareAnimal</li>
+				</tradeTagsSell>
 				<kindCountRange>
 					<min>1</min>
 					<max>3</max>
@@ -188,13 +200,16 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Insert Rare animals in traders stock  -->
-		<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Caravan_Outlander_PirateMerchant"]/stockGenerators</xpath>
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_PirateMerchant"]/stockGenerators</xpath>
 		<value>
 			<li Class="StockGenerator_Animals">
 				<checkTemperature>true</checkTemperature>
-				<tradeTags>
+				<tradeTagsBuy>
 					<li>CK_RareAnimal</li>
-				</tradeTags>
+				</tradeTagsBuy>
+				<tradeTagsSell>
+					<li>CK_RareAnimal</li>
+				</tradeTagsSell>
 				<kindCountRange>
 					<min>1</min>
 					<max>3</max>
@@ -208,13 +223,16 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Insert Rare animals in traders stock  -->
-		<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_Exotic"]/stockGenerators</xpath>
 		<value>
 			<li Class="StockGenerator_Animals">
 				<checkTemperature>true</checkTemperature>
-				<tradeTags>
+				<tradeTagsBuy>
 					<li>CK_RareAnimal</li>
-				</tradeTags>
+				</tradeTagsBuy>
+				<tradeTagsSell>
+					<li>CK_RareAnimal</li>
+				</tradeTagsSell>
 				<kindCountRange>
 					<min>1</min>
 					<max>3</max>
@@ -228,13 +246,16 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Insert Rare animals in traders stock  -->
-		<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
 		<value>
 			<li Class="StockGenerator_Animals">
 				<checkTemperature>true</checkTemperature>
-				<tradeTags>
+				<tradeTagsBuy>
 					<li>CK_RareAnimal</li>
-				</tradeTags>
+				</tradeTagsBuy>
+				<tradeTagsSell>
+					<li>CK_RareAnimal</li>
+				</tradeTagsSell>
 				<kindCountRange>
 					<min>1</min>
 					<max>3</max>
@@ -248,13 +269,16 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- Insert Rare animals in traders stock  -->
-		<xpath>/DefPackage-TraderKindDef/TraderKindDef[defName = "Orbital_Exotic"]/stockGenerators</xpath>
+		<xpath>/Defs/TraderKindDef[defName = "Orbital_Exotic"]/stockGenerators</xpath>
 		<value>
 			<li Class="StockGenerator_Animals">
 				<checkTemperature>true</checkTemperature>
-				<tradeTags>
+				<tradeTagsBuy>
 					<li>CK_RareAnimal</li>
-				</tradeTags>
+				</tradeTagsBuy>
+				<tradeTagsSell>
+					<li>CK_RareAnimal</li>
+				</tradeTagsSell>
 				<kindCountRange>
 					<min>1</min>
 					<max>3</max>

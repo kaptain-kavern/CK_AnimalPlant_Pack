@@ -8,7 +8,7 @@
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears". Harvests quickly. A strong, versatile crop.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.20</nutrition>
+      <Nutrition>0.20</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Taro</texPath>
@@ -41,11 +41,11 @@
 
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantJitterWeed</defName>
-    <label>jitter weeds</label>
+    <label>jitter weed</label>
     <description>A weedy plant which yields jitter berries.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.18</nutrition>
+      <Nutrition>0.18</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CoffeaCrop</texPath>
@@ -82,7 +82,7 @@
     <description>Lemongrass.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.18</nutrition>
+      <Nutrition>0.18</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Lemongrass</texPath>
@@ -153,12 +153,12 @@
 
   <ThingDef ParentName="PlantBase">
       <defName>CK_PlantTreeBanana</defName>
-      <label>banana</label>
+      <label>banana tree</label>
       <description></description>
       <altitudeLayer>Building</altitudeLayer>
       <statBases>
         <MaxHitPoints>120</MaxHitPoints>
-        <nutrition>1.50</nutrition>
+        <Nutrition>1.50</Nutrition>
       </statBases>
       <graphicData>
         <texPath>Things/Plant/TreeBanana</texPath>
@@ -214,7 +214,7 @@
     <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; side effects include hallucinations, nausea, and vomiting</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
-      <nutrition>0.35</nutrition>
+      <Nutrition>0.35</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/DreamVineCrop</texPath>
@@ -253,7 +253,7 @@
   <ThingDef ParentName="TreeBase">
     <defName>CK_SpecialTreeApiary</defName>
     <label>apiary</label>
-    <description>Apiaries, will slowly fill with honey</description>
+    <description>A beekeeping structure that will slowly fill with honey.</description>
     <graphicData>
       <texPath>Things/Plant/Apiary/Apiary</texPath>
       <graphicClass>Graphic_Single</graphicClass>

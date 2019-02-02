@@ -4,7 +4,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>CK_SpecialTreeHive</defName>
     <label>bee hive</label>
-    <description>An old hollow tree, now colonised by bees</description>
+    <description>An old hollow tree, now colonised by bees.</description>
     <altitudeLayer>Building</altitudeLayer>
     <selectable>true</selectable>
     <fillPercent>0.65</fillPercent>
@@ -21,7 +21,7 @@
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
       <Beauty>0</Beauty>
-      <nutrition>2</nutrition>
+      <Nutrition>2</Nutrition>
     </statBases>
     <ingestible>
       <foodType>Plant</foodType>
@@ -42,14 +42,14 @@
       <topWindExposure>0.25</topWindExposure>
 	  <fertilitySensitivity>0</fertilitySensitivity>  <!-- A16 -->
       <!-- <fertilityFactorGrowthRate>0</fertilityFactorGrowthRate> -->
-      <wildClusterSizeRange>
+      <!-- <wildClusterSizeRange>
         <min>1</min>
         <max>1</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>100</wildClusterRadius>
-	  <reproduceMtbDays>32.5</reproduceMtbDays> <!-- A16 -->
-      <!-- <seedEmitMTBDays>32.5</seedEmitMTBDays> -->
-	  <reproduceRadius>100</reproduceRadius> <!-- A16 -->
+	  <!-- <reproduceMtbDays>32.5</reproduceMtbDays> --> <!-- A16 -->
+    <!-- <seedEmitMTBDays>32.5</seedEmitMTBDays> -->
+	  <!-- <reproduceRadius>100</reproduceRadius> --> <!-- A16 -->
       <!-- <seedShootRadius>100</seedShootRadius> -->
       <visualSizeRange>
         <min>1.9</min>
@@ -61,11 +61,11 @@
 
 <ThingDef ParentName="PlantBase">
 	<defName>CK_PlantBushPalm</defName>
-	<label>palm</label>
+	<label>bush palm</label>
 	<description>A short palm.</description>
 	<statBases>
 		<MaxHitPoints>120</MaxHitPoints>
-    <nutrition>0.8</nutrition>
+    <Nutrition>0.8</Nutrition>
 	</statBases>
 	<graphicData>
 		<texPath>Things/Plant/Palm</texPath>
@@ -84,17 +84,17 @@
       <harvestFailable>false</harvestFailable>
       <harvestedThingDef>WoodLog</harvestedThingDef>
       <fertilityMin>0.4</fertilityMin>
-      <wildClusterSizeRange>
+      <!-- <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>4</wildClusterRadius>
       <visualSizeRange>
         <min>1</min>
         <max>2</max>
       </visualSizeRange>
       <growDays>7</growDays>
-	    <reproduceMtbDays>2.5</reproduceMtbDays>
+	    <!-- <reproduceMtbDays>2.5</reproduceMtbDays> -->
       <topWindExposure>0.3</topWindExposure>
 	  	<fertilitySensitivity>0.5</fertilitySensitivity>
     </plant>
@@ -102,11 +102,11 @@
 
 <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildTaro</defName>
-    <label>taro</label>
+    <label>taro plant</label>
     <description>A tropical plant grown primarily for its edible corms, the root vegetables most commonly known as taro. Grows well even in somewhat poor soil. Harvests quickly. It is believed to be one of the earliest cultivated plants. It is known by many local names and often referred to as "elephant ears".</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.2</nutrition>
+      <Nutrition>0.2</Nutrition>
     </statBases>
     <graphicData>
     	<texPath>Things/Plant/Taro</texPath>
@@ -121,10 +121,10 @@
       <harvestedThingDef>CK_TaroRoot</harvestedThingDef>
       <harvestWork>200</harvestWork>
       <fertilityMin>0.2</fertilityMin>
-      <wildClusterSizeRange>
+      <!-- <wildClusterSizeRange>
         <min>2</min>
         <max>4</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>4</wildClusterRadius>
       <visualSizeRange>
         <min>1.8</min>
@@ -132,18 +132,18 @@
       </visualSizeRange>
       <growDays>4</growDays>
       <topWindExposure>0.3</topWindExposure>
-	    <reproduceMtbDays>3</reproduceMtbDays>
+	    <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
 	  	<fertilitySensitivity>0.3</fertilitySensitivity>
     </plant>
 </ThingDef>
 
 <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildJitterWeed</defName>
-    <label>jitter weeds</label>
+    <label>jitter weed</label>
     <description>A weedy plant which yields jitter berries.</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
-      <nutrition>0.20</nutrition>
+      <Nutrition>0.20</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Coffea</texPath>
@@ -166,28 +166,28 @@
       <harvestTag>Standard</harvestTag>
       <harvestAfterGrowth>0.20</harvestAfterGrowth>
       <harvestedThingDef>CK_RawJitterBerries</harvestedThingDef>
-      <wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction>
-      <wildClusterSizeRange>
+      <!-- <wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction> -->
+      <!-- <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>4</wildClusterRadius>
       <visualSizeRange>
         <min>1.2</min>
         <max>1.8</max>
       </visualSizeRange>
       <topWindExposure>0.3</topWindExposure>
-      <reproduceMtbDays>4</reproduceMtbDays>
+      <!-- <reproduceMtbDays>4</reproduceMtbDays> -->
     </plant>
   </ThingDef>
 
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildBushDreamVine</defName>
-    <label>dream vines</label>
+    <label>dream vine</label>
     <description>Its root is traditionally used to induce vivid lucid dreams during the initiation process of shamans. Users take the plant to help them remember their dreams; side effects include hallucinations, nausea, and vomiting</description>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
-      <nutrition>0.20</nutrition>
+      <Nutrition>0.20</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/DreamVine</texPath>
@@ -205,10 +205,10 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
       <fertilityMin>0.5</fertilityMin>
-      <wildClusterSizeRange>
+      <!-- <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>4</wildClusterRadius>
       <visualSizeRange>
         <min>1.6</min>
@@ -217,7 +217,7 @@
       <growDays>7</growDays>
       <topWindExposure>0.3</topWindExposure>
 	  	<fertilitySensitivity>0.5</fertilitySensitivity>
-      <reproduceMtbDays>4</reproduceMtbDays>
+      <!-- <reproduceMtbDays>4</reproduceMtbDays> -->
     </plant>
   </ThingDef>
 
@@ -225,11 +225,11 @@
 
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantFern</defName>
-    <label>Fern</label>
+    <label>fern</label>
     <description>A green plant with long stems, wide, thin leaves, and no flowers. Significantly slows down anyone moving over it.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
-      <nutrition>0.20</nutrition>
+      <Nutrition>0.20</Nutrition>
     </statBases>
     <pathCost>30</pathCost>
     <graphicData>
@@ -241,7 +241,7 @@
       <fertilityMin>0.25</fertilityMin>
       <fertilitySensitivity>0.2</fertilitySensitivity>
       <growDays>4</growDays>
-      <reproduceMtbDays>6</reproduceMtbDays>
+      <!-- <reproduceMtbDays>6</reproduceMtbDays> -->
       <harvestWork>250</harvestWork>
       <maxMeshCount>9</maxMeshCount>
       <visualSizeRange>
@@ -259,7 +259,7 @@
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>-20</Beauty>
-      <nutrition>0.12</nutrition>
+      <Nutrition>0.12</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Rafflesia</texPath>
@@ -277,23 +277,23 @@
         <max>1.3</max>
       </visualSizeRange>
       <topWindExposure>0.3</topWindExposure>
-      <reproduceMtbDays>3</reproduceMtbDays>
-      <wildClusterSizeRange>
+      <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
+      <!-- <wildClusterSizeRange>
         <min>1</min>
         <max>2</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>8</wildClusterRadius>
     </plant>
   </ThingDef>
 
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantBromeliad</defName>
-    <label>bromeliad (decorative)</label>
-    <description>Commonly known as the Flaming torch, is a species of bromeliad that is native to ol'Earth Brazil, Venezuela, French Guiana, Antilles and Cuba. They are adaptable, growing well as a terrestrial or epiphytic plant. When on the ground, they quickly create large clumps, and when planted at the base of a tree, they slowly will climb the trunk. The flowers on an individual plant last less than one month, but nearly all of the plants will come into bloom at the same time in the late summer.</description>
+    <label>bromeliad</label>
+    <description>Commonly known as the Flaming torch, it is a species of bromeliad that is native to old Earth Brazil, Venezuela, French Guiana, Antilles and Cuba. They are adaptable, growing well as a terrestrial or epiphytic plant. When on the ground, they quickly create large clumps, and when planted at the base of a tree, they slowly will climb the trunk. The flowers on an individual plant last less than one month, but nearly all of the plants will come into bloom at the same time in the late summer.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>14</Beauty>
-      <nutrition>0.05</nutrition>
+      <Nutrition>0.05</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Bromeliad</texPath>
@@ -305,7 +305,7 @@
       <maxMeshCount>9</maxMeshCount>
       <fertilitySensitivity>0.8</fertilitySensitivity>
       <dieIfLeafless>true</dieIfLeafless>
-      <reproduceMtbDays>3</reproduceMtbDays>
+      <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
       <harvestTag>Standard</harvestTag>
       <sowWork>400</sowWork>
       <sowTags>
@@ -318,22 +318,22 @@
         <min>0.6</min>
         <max>1.2</max>
       </visualSizeRange>
-      <wildClusterSizeRange>
+      <!-- <wildClusterSizeRange>
         <min>2</min>
         <max>6</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>4</wildClusterRadius>
     </plant>
   </ThingDef>
 
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantHeliconia</defName>
-    <label>heliconia (decorative)</label>
+    <label>heliconia</label>
     <description>Heliconias are sometimes called "lobster claws" or "parrot flowers" because of their beak-like "bracts".The leaves of this plant are paddle-shaped, and they are related to the banana family. The heliconia's flowers are tiny and found inside these bracts, which are so large and colorful that they almost hide the flowers altogether. Heliconias are found throughout the Neotropics and are actually quite common in the rainforest.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>7</Beauty>
-      <nutrition>0.08</nutrition>
+      <Nutrition>0.08</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Heliconia</texPath>
@@ -355,11 +355,11 @@
         <max>1</max>
       </visualSizeRange>
       <topWindExposure>0.3</topWindExposure>
-      <reproduceMtbDays>4</reproduceMtbDays>
-      <wildClusterSizeRange>
+      <!-- <reproduceMtbDays>4</reproduceMtbDays> -->
+      <!-- <wildClusterSizeRange>
         <min>2</min>
         <max>6</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>4</wildClusterRadius>
     </plant>
   </ThingDef>
@@ -370,7 +370,7 @@
     <description>Wild lemongrass.</description>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
-      <nutrition>0.20</nutrition>
+      <Nutrition>0.20</Nutrition>
     </statBases>
     <pathCost>18</pathCost>
     <graphicData>
@@ -387,17 +387,17 @@
       <fertilityMin>0.5</fertilityMin>
       <fertilitySensitivity>0.7</fertilitySensitivity>
       <growDays>3</growDays>
-      <reproduceMtbDays>3</reproduceMtbDays>
+      <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>
         <min>1.05</min>
         <max>1.55</max>
       </visualSizeRange>
       <topWindExposure>0.4</topWindExposure>
-      <wildClusterSizeRange>
+      <!-- <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
     </plant>
   </ThingDef>
 
@@ -451,7 +451,7 @@
   		<harvestYield>10</harvestYield>
   		<harvestMinGrowth>0.70</harvestMinGrowth>
   		<harvestFailable>false</harvestFailable>
-  		<wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction>
+  		<!-- <wildCommonalityMaxFraction>2.0</wildCommonalityMaxFraction> -->
   		<blockAdjacentSow>true</blockAdjacentSow>
   		<sowTags></sowTags>
   		<visualSizeRange>
@@ -467,7 +467,7 @@
   <ThingDef ParentName="TreeBase">
     <defName>CK_PlantTreeMahogany</defName>
     <label>mahogany tree</label>
-    <description>A strong hardwood tree. Slow-going, but its wood is very strong.</description>
+    <description>A strong hardwood tree. Slow-growing, but its wood is very strong.</description>
     <graphicData>
       <texPath>Things/Plant/TreeMahogany</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -545,7 +545,7 @@
     	<altitudeLayer>Building</altitudeLayer>
     	<statBases>
     		<MaxHitPoints>120</MaxHitPoints>
-        <nutrition>1.50</nutrition>
+        <Nutrition>1.50</Nutrition>
     	</statBases>
     	<graphicData>
     		<texPath>Things/Plant/TreeBanana</texPath>
@@ -572,7 +572,7 @@
   			<harvestYield>12</harvestYield>
   			<harvestMinGrowth>0.40</harvestMinGrowth>
   			<harvestFailable>false</harvestFailable>
-  			<wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction>
+  			<!-- <wildCommonalityMaxFraction>3.0</wildCommonalityMaxFraction> -->
   			<blockAdjacentSow>true</blockAdjacentSow>
   			<sowTags></sowTags>
   			<visualSizeRange>
@@ -583,10 +583,10 @@
   			<topWindExposure>0.25</topWindExposure>
 			<fertilitySensitivity>0.5</fertilitySensitivity>  <!-- A16 -->
   			<!-- <fertilityFactorGrowthRate>0.5</fertilityFactorGrowthRate> -->
-  			<wildClusterSizeRange>
+  			<!-- <wildClusterSizeRange>
   				<min>8</min>
   				<max>30</max>
-  			</wildClusterSizeRange>
+  			</wildClusterSizeRange> -->
   			<wildClusterRadius>8</wildClusterRadius>
       </plant>
 	</ThingDef>
@@ -604,7 +604,7 @@
     </graphicData>
     <statBases>
       <Beauty>3</Beauty>
-      <nutrition>1</nutrition>
+      <Nutrition>1</Nutrition>
     </statBases>
     <plant>
       <growDays>10</growDays>
