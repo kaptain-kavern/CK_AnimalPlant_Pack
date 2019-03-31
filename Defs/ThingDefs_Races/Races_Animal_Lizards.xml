@@ -6,7 +6,7 @@
 <ThingDef ParentName="AnimalThingBase">
     <defName>CK_KomodoDragon</defName>
     <label>Komodo Dragon</label>
-    <description>Also known as the Komodo monitor, this is a large species of lizard found in Indonesian islands on old Earth. Komodo dragon group behaviour in hunting is exceptional in the reptile world./nAs a result of their size, these lizards were dominate the ecosystems in which they were living. The diet of big Komodo dragons mainly consists of deer, though they also eat considerable amounts of carrion. Komodo dragons also occasionally attack humans.</description>
+    <description>Also known as the monitor lizard, this is a large species of lizard found in Indonesian islands on old Earth. Komodo dragon group behaviour in hunting is exceptional in the reptile world./nAs a result of their size, these lizards dominated the ecosystems in which they lived. The diet of the Komodo dragon mainly consists of deer, though they also eat considerable amounts of carrion. Komodo dragons also occasionally attack humans.</description>
     <statBases>
       <MoveSpeed>4.23</MoveSpeed>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -57,10 +57,11 @@
       <baseBodySize>2</baseBodySize>
       <baseHealthScale>1.8</baseHealthScale>
       <foodType>CarnivoreAnimalStrict</foodType>
-      <leatherColor>(100,115,60)</leatherColor>
+      <leatherDef>CK_LeatherKomodoDragon</leatherDef>
+      <!-- <leatherColor>(100,115,60)</leatherColor>
       <leatherLabel>Komodo dragon skin</leatherLabel>
-      <leatherInsulation>0.50</leatherInsulation>
-      <trainableIntelligence>Intermediate</trainableIntelligence>
+      <leatherInsulation>0.50</leatherInsulation> -->
+      <trainability>Intermediate</trainability>
       <wildness>0.8</wildness>
       <gestationPeriodDays>20</gestationPeriodDays>
       <litterSizeCurve>
@@ -105,12 +106,11 @@
     <label>Komodo dragon</label>
     <race>CK_KomodoDragon</race>
     <combatPower>75</combatPower>
-    <wildSpawn_EcoSystemWeight>0.73</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.73</ecoSystemWeight>
+    <wildGroupSize>
       <min>2</min>
       <max>5</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>

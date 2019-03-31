@@ -39,11 +39,12 @@
 	  	<baseHungerRate>0.25</baseHungerRate>
 	  	<baseHealthScale>0.45</baseHealthScale>
 	  	<foodType>OmnivoreRoughAnimal</foodType>
-	  	<leatherLabel>monkey hide</leatherLabel>
+      <leatherDef>CK_LeatherMonkey</leatherDef>
+	  	<!-- <leatherLabel>monkey hide</leatherLabel>
 	  	<leatherColor>(124,53,29)</leatherColor>
 	  	<leatherInsulation>0.75</leatherInsulation>
-	  	<meatLabel>monkey meat</meatLabel>
-	  	<trainableIntelligence>Advanced</trainableIntelligence>
+	  	<meatLabel>monkey meat</meatLabel> -->
+	  	<trainability>Advanced</trainability>
 	  	<wildness>0.60</wildness>
 	  	<herdAnimal>true</herdAnimal>
 	  	<nuzzleMtbHours>72</nuzzleMtbHours>
@@ -78,12 +79,11 @@
 
   <PawnKindDef Name="SmallMonkeyKindBase" ParentName="AnimalKindBase" Abstract="True">
     <combatPower>35</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.7</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.7</ecoSystemWeight>
+    <wildGroupSize>
       <min>3</min>
       <max>7</max>
-    </wildSpawn_GroupSizeRange>    
+    </wildGroupSize>    
   </PawnKindDef>
   <!-- ============== Base Definition ======================= -->
   <!-- ============== Ape Monkey Base ======================= -->
@@ -135,11 +135,12 @@
       <baseHungerRate>0.9</baseHungerRate>
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-      <leatherLabel>monkeyhide</leatherLabel>
+      <leatherDef>CK_LeatherMonkey</leatherDef>
+      <!-- <leatherLabel>monkeyhide</leatherLabel>
       <leatherColor>(124,53,29)</leatherColor>
       <leatherInsulation>0.75</leatherInsulation>
-      <trainableIntelligence>Advanced</trainableIntelligence>
-      <meatLabel>monkey meat</meatLabel>
+      <meatLabel>monkey meat</meatLabel> -->
+      <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
       <wildness>0.75</wildness>
@@ -176,12 +177,11 @@
 
   <PawnKindDef Name="ApeMonkeyKindBase" ParentName="AnimalKindBase" Abstract="True">    
     <combatPower>200</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.9</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.9</ecoSystemWeight>
+    <wildGroupSize>
       <min>2</min>
       <max>5</max>
-    </wildSpawn_GroupSizeRange>    
+    </wildGroupSize>    
   </PawnKindDef>
 
   <!-- ============== Squirrel Monkey ======================= -->

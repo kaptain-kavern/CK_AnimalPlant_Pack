@@ -3,11 +3,11 @@
 <!--=========================== Food crops ==============================-->
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildRice</defName>
-    <label>rice</label>
+    <label>wild rice plant</label>
     <description>A short, fast-growing crop that yields small edible grains. Its great nutritional ouput and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
-      <nutrition>0.18</nutrition>
+      <Nutrition>0.18</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/RicePlant</texPath>
@@ -22,10 +22,10 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>RawRice</harvestedThingDef>
       <harvestYield>6</harvestYield>
-      <wildClusterSizeRange>
+      <!-- <wildClusterSizeRange>
         <min>2</min>
         <max>5</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>4</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>3.5</growDays>
@@ -41,12 +41,12 @@
 <!--=========================== Production crops ==============================-->
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildCotton</defName>
-    <label>cotton</label>
+    <label>wild cotton plant</label>
     <description>Yields cotton, a fine plant fiber used to make cloth.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>1</Beauty>
-      <nutrition>0.20</nutrition>
+      <Nutrition>0.20</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/CottonPlant</texPath>
@@ -61,10 +61,10 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>Cloth</harvestedThingDef>
       <harvestYield>5</harvestYield>
-      <wildClusterSizeRange>
+      <!-- <wildClusterSizeRange>
         <min>1</min>
         <max>3</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>5</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>2.705</growDays>
@@ -79,12 +79,12 @@
 <!--=========================== Drug crops ==============================-->
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildPsychoid</defName>
-    <label>psychoid</label>
+    <label>wild psychoid plant</label>
     <description>A leafy plant. Its leaves can be refined into various forms of the psychoid drug.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>1</Beauty>
-      <nutrition>0.1</nutrition>
+      <Nutrition>0.1</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/PsychoidPlant</texPath>
@@ -99,10 +99,10 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>PsychoidLeaves</harvestedThingDef>
       <harvestYield>10</harvestYield>
-      <wildClusterSizeRange>
+      <!-- <wildClusterSizeRange>
         <min>1</min>
         <max>3</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>5</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>
@@ -117,12 +117,12 @@
 
   <ThingDef ParentName="PlantBase">
     <defName>CK_PlantWildSmokeleaf</defName>
-    <label>smokeleaf</label>
+    <label>wild smokeleaf plant</label>
     <description>A leafy plant cultivated for its psychological effects. Smokeleaf leaves can be prepared into joints at the crafting spot.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>1</Beauty>
-      <nutrition>0.1</nutrition>
+      <Nutrition>0.1</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/SmokeleafPlant</texPath>
@@ -138,10 +138,10 @@
       <harvestedThingDef>SmokeleafLeaves</harvestedThingDef>
       <harvestYield>11</harvestYield>
       <sowMinSkill>4</sowMinSkill>
-      <wildClusterSizeRange>
+      <!-- <wildClusterSizeRange>
         <min>1</min>
         <max>3</max>
-      </wildClusterSizeRange>
+      </wildClusterSizeRange> -->
       <wildClusterRadius>5</wildClusterRadius>
       <topWindExposure>0.1</topWindExposure>
       <growDays>6.84</growDays>

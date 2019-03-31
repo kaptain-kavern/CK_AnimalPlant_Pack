@@ -23,10 +23,10 @@
 		    <baseBodySize>0.5</baseBodySize>
 		    <baseHealthScale>0.7</baseHealthScale>
 		    <foodType>VegetarianRoughAnimal</foodType>
-		    <leatherLabel>birdskin</leatherLabel>
+		    <leatherDef>Leather_Bird</leatherDef>
 		    <useMeatFrom>Cassowary</useMeatFrom>
 		    <wildness>30</wildness>
-		    <trainableIntelligence>None</trainableIntelligence>
+		    <trainability>None</trainability>
 		    <lifeExpectancy>10</lifeExpectancy>
 		    <lifeStageAges>
 		    	<li>
@@ -57,8 +57,7 @@
 
 	<PawnKindDef ParentName="AnimalKindBase" Name="SmallBirdKindBase" Abstract="True">
 		<combatPower>35</combatPower>
-		<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-		<wildSpawn_EcoSystemWeight>0.30</wildSpawn_EcoSystemWeight>
+		<ecoSystemWeight>0.30</ecoSystemWeight>
 	</PawnKindDef>
 	
 <!--===============================================-->
@@ -79,7 +78,7 @@
 	      <foodType>VegetarianRoughAnimal</foodType>
 	      <wildness>0.45</wildness>
 	      <lifeExpectancy>9</lifeExpectancy>
-	      <leatherColor>(80,80,80)</leatherColor>
+	      <!-- <leatherColor>(80,80,80)</leatherColor> -->
 	    </race>
 	    <comps>
 	      <li Class="CompProperties_EggLayer">
@@ -198,7 +197,7 @@
 		    <foodType>VegetarianRoughAnimal</foodType>		    
 		    <wildness>0.4</wildness>
 		    <lifeExpectancy>9</lifeExpectancy>
-		    <leatherColor>(80,80,80)</leatherColor>
+        <!-- <leatherColor>(80,80,80)</leatherColor> -->
 		</race>
 		<comps>
 			<li Class="CompProperties_EggLayer">

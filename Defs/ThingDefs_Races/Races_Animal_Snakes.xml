@@ -48,10 +48,11 @@
       <baseHungerRate>0.17</baseHungerRate>
       <baseHealthScale>1</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherColor>(51,102,0)</leatherColor>
+      <leatherDef>CK_LeatherPython</leatherDef>
+      <!-- <leatherColor>(51,102,0)</leatherColor>
       <leatherLabel>python skin</leatherLabel>
       <leatherInsulation>0.5</leatherInsulation>
-      <meatLabel>python flesh</meatLabel>
+      <meatLabel>python flesh</meatLabel> -->
       <wildness>0.75</wildness>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -99,8 +100,7 @@
     <label>python</label>
     <race>CK_Python</race>
     <combatPower>75</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.8</wildSpawn_EcoSystemWeight>
+    <ecoSystemWeight>0.8</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>

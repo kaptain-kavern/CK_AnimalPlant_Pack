@@ -51,11 +51,12 @@
 	      <baseHungerRate>0.35</baseHungerRate>
 	      <baseHealthScale>0.7</baseHealthScale>
 	      <foodType>VegetarianRoughAnimal</foodType>
-	      <leatherColor>(120,100,70)</leatherColor>
+	      <leatherDef>Leather_Pig</leatherDef>
+	      <!-- <leatherColor>(120,100,70)</leatherColor>
 	      <leatherLabel>tapir skin</leatherLabel>
-	      <leatherInsulation>0.75</leatherInsulation>
+	      <leatherInsulation>0.75</leatherInsulation> -->
 	      <wildness>0.75</wildness>
-	      <trainableIntelligence>Intermediate</trainableIntelligence>
+	      <trainability>Intermediate</trainability>
 	      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
 	      <nuzzleMtbHours>240</nuzzleMtbHours>
 	      <gestationPeriodDays>14</gestationPeriodDays>
@@ -100,12 +101,11 @@
 	    <label>tapir</label>
 	    <race>CK_Tapir</race>
 	    <combatPower>55</combatPower>
-	    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-	    <wildSpawn_EcoSystemWeight>0.8</wildSpawn_EcoSystemWeight>
-	    <wildSpawn_GroupSizeRange>
+	    <ecoSystemWeight>0.8</ecoSystemWeight>
+	    <wildGroupSize>
 	      <min>3</min>
 	      <max>9</max>
-	    </wildSpawn_GroupSizeRange>
+	    </wildGroupSize>
 	    <lifeStages>
 	      <li>
 	        <bodyGraphicData>
@@ -153,7 +153,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 	    <defName>CK_Okapi</defName>
 	    <label>okapi</label>
-	    <description>A giraffid artiodactyl mammal native from ol'Earth Central Africa. Okapis are primarily diurnal but may be active for a few hours in darkness. They are essentially solitary, coming together only to breed. Okapis are herbivores, feeding on tree leaves and buds, grasses, ferns, fruits, and fungi. Okapis inhabit canopy forests at altitudes of 500–1,500 m (1,600–4,900 ft). </description>
+	    <description>A giraffid artiodactyl mammal native to old Earth Central Africa. Okapis are primarily diurnal but may be active for a few hours in darkness. They are essentially solitary, coming together only to breed. Okapis are herbivores, feeding on tree leaves and buds, grasses, ferns, fruits, and fungi. Okapis inhabit canopy forests at altitudes of 500–1,500 m (1,600–4,900 ft). </description>
 	    <statBases>
 	      <MoveSpeed>3.2</MoveSpeed>
 	      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -198,10 +198,11 @@
 	      <baseHungerRate>0.8</baseHungerRate>
 	      <baseHealthScale>1.2</baseHealthScale>
 	      <foodType>VegetarianRoughAnimal</foodType>
-	      <leatherColor>(40,20,10)</leatherColor>
-	      <leatherInsulation>0.75</leatherInsulation>
+	      <leatherDef>Leather_Plain</leatherDef>
+	      <!-- <leatherColor>(40,20,10)</leatherColor>
+	      <leatherInsulation>0.75</leatherInsulation> -->
 	      <wildness>0.75</wildness>
-	      <trainableIntelligence>Intermediate</trainableIntelligence>
+	      <trainability>Intermediate</trainability>
 	      <gestationPeriodDays>30</gestationPeriodDays>
 	      <litterSizeCurve>
 	        <points>
@@ -244,12 +245,11 @@
 	    <label>okapi</label>
 	    <race>CK_Okapi</race>
 	    <combatPower>60</combatPower>
-	    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-	    <wildSpawn_EcoSystemWeight>0.50</wildSpawn_EcoSystemWeight>
-	    <wildSpawn_GroupSizeRange>
+	    <ecoSystemWeight>0.50</ecoSystemWeight>
+	    <wildGroupSize>
 	      <min>2</min>
 	      <max>6</max>
-	    </wildSpawn_GroupSizeRange>
+	    </wildGroupSize>
 	    <lifeStages>
 	      <li>
 	        <bodyGraphicData>
