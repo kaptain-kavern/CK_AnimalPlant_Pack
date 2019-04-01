@@ -66,7 +66,7 @@
       <growDays>1.5</growDays>
       <lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
       <visualSizeRange>
-        <min>1.2</min>
+        <min>0.6</min>
         <max>1.5</max>
       </visualSizeRange>
       <wildOrder>1</wildOrder>
@@ -102,7 +102,7 @@
       <growDays>1.5</growDays>
       <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
       <visualSizeRange>
-        <min>1.2</min>
+        <min>0.8</min>
         <max>1.5</max>
       </visualSizeRange>
       <wildOrder>1</wildOrder>

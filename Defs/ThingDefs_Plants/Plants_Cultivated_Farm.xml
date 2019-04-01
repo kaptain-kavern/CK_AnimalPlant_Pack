@@ -31,8 +31,8 @@
       <topWindExposure>0.3</topWindExposure>
       <growDays>3.5</growDays>
       <visualSizeRange>
-        <min>1</min>
-        <max>1.4</max>
+        <min>0.5</min>
+        <max>1.5</max>
       </visualSizeRange>
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
@@ -69,7 +69,7 @@
       <topWindExposure>0.1</topWindExposure>
       <growDays>8</growDays>
       <visualSizeRange>
-        <min>1.2</min>
+        <min>0.8</min>
         <max>1.8</max>
       </visualSizeRange>
       <wildOrder>2</wildOrder>
@@ -106,7 +106,7 @@
       <topWindExposure>0.2</topWindExposure>
       <growDays>2.5</growDays>
       <visualSizeRange>
-        <min>1</min>
+        <min>0.6</min>
         <max>1.6</max>
       </visualSizeRange>
       <wildOrder>2</wildOrder>
@@ -143,8 +143,8 @@
       <harvestMinGrowth>0.80</harvestMinGrowth>
       <harvestAfterGrowth>0.20</harvestAfterGrowth>
       <visualSizeRange>
-        <min>2</min>
-        <max>3</max>
+        <min>0.8</min>
+        <max>2.8</max>
       </visualSizeRange>
       <sowResearchPrerequisites>
         <li>CK_TropicalWoodGrowing</li>
@@ -197,8 +197,8 @@
           <li>Ground</li>
         </sowTags>
         <visualSizeRange>
-          <min>2</min>
-          <max>3</max>
+          <min>0.8</min>
+          <max>2.6</max>
         </visualSizeRange>
         <fertilityMin>0.7</fertilityMin>
         <topWindExposure>0.25</topWindExposure>
@@ -249,7 +249,7 @@
       <harvestAfterGrowth>0.30</harvestAfterGrowth>
       <harvestedThingDef>CK_DreamVineRoot</harvestedThingDef>
       <visualSizeRange>
-        <min>1.6</min>
+        <min>0.9</min>
         <max>2</max>
       </visualSizeRange>
       <wildClusterRadius>3</wildClusterRadius>

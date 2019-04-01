@@ -127,8 +127,8 @@
       </wildClusterSizeRange> -->
       <wildClusterRadius>4</wildClusterRadius>
       <visualSizeRange>
-        <min>1.8</min>
-        <max>2.2</max>
+        <min>0.8</min>
+        <max>1.8</max>
       </visualSizeRange>
       <growDays>4</growDays>
       <topWindExposure>0.3</topWindExposure>
@@ -173,8 +173,8 @@
       </wildClusterSizeRange> -->
       <wildClusterRadius>4</wildClusterRadius>
       <visualSizeRange>
-        <min>1.2</min>
-        <max>1.8</max>
+        <min>1</min>
+        <max>2</max>
       </visualSizeRange>
       <topWindExposure>0.3</topWindExposure>
       <!-- <reproduceMtbDays>4</reproduceMtbDays> -->
@@ -211,7 +211,7 @@
       </wildClusterSizeRange> -->
       <wildClusterRadius>4</wildClusterRadius>
       <visualSizeRange>
-        <min>1.6</min>
+        <min>1</min>
         <max>2.4</max>
       </visualSizeRange>
       <growDays>7</growDays>
@@ -246,7 +246,7 @@
       <maxMeshCount>9</maxMeshCount>
       <visualSizeRange>
         <min>0.7</min>
-        <max>1.5</max>
+        <max>1.6</max>
       </visualSizeRange>
       <topWindExposure>0.4</topWindExposure>
     </plant>
@@ -274,7 +274,7 @@
       <fertilityMin>0.4</fertilityMin>
       <visualSizeRange>
         <min>0.7</min>
-        <max>1.3</max>
+        <max>1.5</max>
       </visualSizeRange>
       <topWindExposure>0.3</topWindExposure>
       <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
@@ -352,7 +352,7 @@
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>
         <min>0.6</min>
-        <max>1</max>
+        <max>1.2</max>
       </visualSizeRange>
       <topWindExposure>0.3</topWindExposure>
       <!-- <reproduceMtbDays>4</reproduceMtbDays> -->
@@ -390,8 +390,8 @@
       <!-- <reproduceMtbDays>3</reproduceMtbDays> -->
       <maxMeshCount>4</maxMeshCount>
       <visualSizeRange>
-        <min>1.05</min>
-        <max>1.55</max>
+        <min>1</min>
+        <max>1.8</max>
       </visualSizeRange>
       <topWindExposure>0.4</topWindExposure>
       <!-- <wildClusterSizeRange>
@@ -459,7 +459,7 @@
   		<blockAdjacentSow>true</blockAdjacentSow>
   		<sowTags></sowTags>
   		<visualSizeRange>
-  			<min>2</min>
+  			<min>1.5</min>
   			<max>3</max>
   		</visualSizeRange>
   		<fertilityMin>0.2</fertilityMin>
@@ -510,7 +510,7 @@
       <harvestWork>2000</harvestWork>
       <harvestYield>75</harvestYield>
       <visualSizeRange>
-        <min>1.8</min>
+        <min>1.2</min>
         <max>3.4</max>
       </visualSizeRange>
       <sowResearchPrerequisites>
@@ -537,7 +537,7 @@
       <harvestYield>20</harvestYield>
       <visualSizeRange>
         <min>2</min>
-        <max>3</max>
+        <max>2.5</max>
       </visualSizeRange>
     </plant>
   </ThingDef>
@@ -584,7 +584,7 @@
   			<blockAdjacentSow>true</blockAdjacentSow>
   			<sowTags></sowTags>
   			<visualSizeRange>
-  				<min>2</min>
+  				<min>1</min>
   				<max>3</max>
   			</visualSizeRange>
   			<fertilityMin>0.3</fertilityMin>
@@ -619,7 +619,7 @@
       <harvestWork>600</harvestWork>
       <harvestYield>15</harvestYield>
       <visualSizeRange>
-      	<min>2</min>
+      	<min>0.8</min>
       	<max>3</max>
       </visualSizeRange>
       <sowResearchPrerequisites>
