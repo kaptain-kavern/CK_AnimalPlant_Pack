@@ -50,7 +50,7 @@
 <ThingDef ParentName="PlantFoodRawBase">
     <defName>CK_RawLemongrass</defName>
     <label>lemongrass</label>
-    <description></description>
+    <description>Cymbopogon, better known as lemongrass, is a genus of Asian, African, Australian, and tropical island plants in the grass family.Some species (particularly Cymbopogon citratus) are commonly cultivated as culinary and medicinal herbs because of their scent, resembling that of lemons. Lemongrass is widely used as a culinary herb in Asian cuisines and also as a medicinal herb in India. It has a subtle citrus flavor and can be dried and powdered, or used fresh. It is commonly used in teas, soups, and curries. It is also suitable for use with poultry, fish, beef, and seafood. It is often used as a tea in African countries such as Togo, south eastern Ghana Volta Region and the Democratic Republic of the Congo and Latin American countries such as Mexico.</description>
     <graphicData>
     	<texPath>Things/Item/Resource/PlantFoodRaw/Lemongrass</texPath>
     	<graphicClass>Graphic_StackCount</graphicClass>
@@ -285,7 +285,7 @@
   <ThingDef ParentName="RoughPlantBase">
     <defName>CK_DreamVineRoot</defName>
     <label>dream root</label>
-    <description>Dream Vine Roots are traditionally used to induce vivid lucid dreams during the initiation process of shamans to help them remember their dreams. </description>
+    <description>Dream Vine Roots are traditionally used to induce vivid lucid dreams during the initiation process of shamans to help them remember their dreams.</description>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/DreamVineRoot</texPath>
     </graphicData>

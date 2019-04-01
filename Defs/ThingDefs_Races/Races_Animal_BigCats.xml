@@ -21,7 +21,7 @@
         <li>
           <bodyGraphicData>
             <texPath>Things/Pawn/Animal/Tiger</texPath>
-            <drawSize>1.1</drawSize>            
+            <drawSize>1.1</drawSize>
           </bodyGraphicData>
           <dessicatedBodyGraphicData>
             <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -31,7 +31,7 @@
         <li>
           <bodyGraphicData>
             <texPath>Things/Pawn/Animal/Tiger</texPath>
-            <drawSize>1.4</drawSize>            
+            <drawSize>1.4</drawSize>
             <shadowData>
               <volume>(0.3, 0.3, 0.3)</volume>
               <offset>(0,0,-0.3)</offset>
@@ -45,7 +45,7 @@
         <li>
           <bodyGraphicData>
             <texPath>Things/Pawn/Animal/Tiger</texPath>
-            <drawSize>2.18</drawSize>           
+            <drawSize>2.18</drawSize>
             <shadowData>
               <volume>(0.4, 0.4, 0.4)</volume>
               <offset>(0,0,-0.1)</offset>
@@ -63,7 +63,7 @@
   <ThingDef ParentName="BigCatThingBase">
     <defName>CK_WhiteTiger</defName>
       <label>white tiger</label>
-      <description> When compared to Bengal tigers, the white Bengal tigers tend to grow faster and heavier than the orange Bengal tiger. They also tend to be somewhat bigger at birth, and as fully grown adults. White Bengal tigers are fully grown when they are 2–3 years of age. White male tigers reach weights of 200 to 230 kilograms and can grow up to 3 meters in length. As with all tigers, the white Bengal tiger’s stripes are like fingerprints, with no two tigers having the same pattern. The stripes of the tiger are a pigmentation of the skin; if an individual were to be shaved, its distinctive coat pattern would still be visible. For a white Bengal tiger to be born, both parents must carry the unusual gene for white colouring, which only happens naturally about once in 10,000 births.</description>
+      <description>When compared to Bengal tigers, the white Bengal tigers tend to grow faster and heavier than the orange Bengal tiger. They also tend to be somewhat bigger at birth, and as fully grown adults. White Bengal tigers are fully grown when they are 2–3 years of age. White male tigers reach weights of 200 to 230 kilograms and can grow up to 3 meters in length. As with all tigers, the white Bengal tiger’s stripes are like fingerprints, with no two tigers having the same pattern. The stripes of the tiger are a pigmentation of the skin; if an individual were to be shaved, its distinctive coat pattern would still be visible. For a white Bengal tiger to be born, both parents must carry the unusual gene for white colouring, which only happens naturally about once in 10,000 births.</description>
       <race>
         <leatherDef>CK_LeatherWhiteTiger</leatherDef>
         <!-- <leatherLabel>white tiger skin</leatherLabel>
@@ -106,7 +106,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/WhiteTiger</texPath>
-          <drawSize>2.12</drawSize>          
+          <drawSize>2.12</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -124,7 +124,7 @@
   <ThingDef ParentName="BigCatThingBase">
       <defName>CK_SnowLeopard</defName>
       <label>snow leopard</label>
-      <description></description>
+      <description>A snow leopard</description>
       <race>
         <leatherDef>CK_LeatherSnowLeopard</leatherDef>
         <!-- <leatherLabel>snow leopard skin</leatherLabel>
@@ -132,7 +132,7 @@
       </race>
       <tradeTags>
         <li>CK_RareAnimal</li>
-      </tradeTags>      
+      </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="BigCatKindBase">
@@ -143,7 +143,7 @@
         <li>
           <bodyGraphicData>
             <texPath>Things/Pawn/Animal/SnowLeopard</texPath>
-            <drawSize>1.1</drawSize>            
+            <drawSize>1.1</drawSize>
           </bodyGraphicData>
           <dessicatedBodyGraphicData>
             <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -153,7 +153,7 @@
         <li>
           <bodyGraphicData>
             <texPath>Things/Pawn/Animal/SnowLeopard</texPath>
-            <drawSize>1.4</drawSize>            
+            <drawSize>1.4</drawSize>
             <shadowData>
               <volume>(0.3, 0.3, 0.3)</volume>
               <offset>(0,0,-0.3)</offset>
@@ -167,7 +167,7 @@
         <li>
           <bodyGraphicData>
             <texPath>Things/Pawn/Animal/SnowLeopard</texPath>
-            <drawSize>2.18</drawSize>           
+            <drawSize>2.18</drawSize>
             <shadowData>
               <volume>(0.4, 0.4, 0.4)</volume>
               <offset>(0,0,-0.1)</offset>
@@ -185,7 +185,7 @@
   <ThingDef ParentName="BigCatThingBase">
       <defName>CK_Jaguar</defName>
       <label>jaguar</label>
-      <description></description>
+      <description>A jaguar</description>
       <race>
         <leatherDef>CK_LeatherJaguar</leatherDef>
         <!-- <leatherLabel>jaguar skin</leatherLabel>
@@ -200,8 +200,8 @@
       <lifeStages>
         <li>
           <bodyGraphicData>
-            <texPath>Things/Pawn/Animal/Jaguar</texPath>            
-            <drawSize>1.1</drawSize>            
+            <texPath>Things/Pawn/Animal/Jaguar</texPath>
+            <drawSize>1.1</drawSize>
           </bodyGraphicData>
           <dessicatedBodyGraphicData>
             <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -210,8 +210,8 @@
         </li>
         <li>
           <bodyGraphicData>
-            <texPath>Things/Pawn/Animal/Jaguar</texPath>            
-            <drawSize>1.4</drawSize>            
+            <texPath>Things/Pawn/Animal/Jaguar</texPath>
+            <drawSize>1.4</drawSize>
             <shadowData>
               <volume>(0.3, 0.3, 0.3)</volume>
               <offset>(0,0,-0.3)</offset>
@@ -224,8 +224,8 @@
         </li>
         <li>
           <bodyGraphicData>
-            <texPath>Things/Pawn/Animal/Jaguar</texPath>            
-            <drawSize>2.18</drawSize>           
+            <texPath>Things/Pawn/Animal/Jaguar</texPath>
+            <drawSize>2.18</drawSize>
             <shadowData>
               <volume>(0.4, 0.4, 0.4)</volume>
               <offset>(0,0,-0.1)</offset>

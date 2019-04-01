@@ -5,11 +5,11 @@
   <ThingDef ParentName="BaseHare">
     <defName>CK_ArcticHare</defName>
     <label>artic hare</label>
-    <description></description>
+    <description>An artic hare</description>
     <statBases>
       <ComfyTemperatureMin>-70</ComfyTemperatureMin>
     </statBases>
-    <race>      
+    <race>
       <leatherDef>CK_LeatherArcticHare</leatherDef>
       <!-- <leatherColor>(250,250,250)</leatherColor>
       <leatherInsulation>1.2</leatherInsulation> -->
@@ -60,6 +60,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-  
-<!--================================================ -->  
+
+<!--================================================ -->
 </Defs>

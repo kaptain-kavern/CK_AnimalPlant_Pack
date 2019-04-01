@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase" Name="SmallBirdThingBase" Abstract="True">
 		<statBases>
 			<MoveSpeed>3.5</MoveSpeed>
-			<ComfyTemperatureMin>-10</ComfyTemperatureMin>			
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 		</statBases>
 		<verbs>
 			<li>
@@ -59,12 +59,12 @@
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.30</ecoSystemWeight>
 	</PawnKindDef>
-	
+
 <!--===============================================-->
 	<ThingDef ParentName="SmallBirdThingBase">
 		<defName>CK_Peafowl</defName>
 	    <label>peafowl</label>
-	    <description></description>
+	    <description>A peafowl</description>
 	    <statBases>
 	      <MoveSpeed>3.5</MoveSpeed>
 	      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
@@ -85,7 +85,7 @@
 	      	<eggUnfertilizedDef>CK_EggPeafowlUnfertilized</eggUnfertilizedDef>
 	        <eggFertilizedDef>CK_EggPeafowlFertilized</eggFertilizedDef>
 	        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-	        <eggLayIntervalDays>8</eggLayIntervalDays>	        
+	        <eggLayIntervalDays>8</eggLayIntervalDays>
 	        <eggCountRange>
 	          <min>1</min>
 	          <max>3</max>
@@ -99,7 +99,7 @@
 	        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
 	        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
 	        <meleeDamageDef>Scratch</meleeDamageDef>
-	        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>	        
+	        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
 	      </li>
 	      <li>
 	        <verbClass>Verb_MeleeAttack</verbClass>
@@ -132,7 +132,7 @@
   				<bodyGraphicData>
   					<texPath>Things/Pawn/Animal/Chicken/Chicken</texPath>
   					<color>(150,135,55)</color>
-  					<drawSize>0.5</drawSize>  					
+  					<drawSize>0.5</drawSize>
   				</bodyGraphicData>
   				<dessicatedBodyGraphicData>
   					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -194,7 +194,7 @@
 		    <baseBodySize>0.4</baseBodySize>
 		    <baseHungerRate>0.3</baseHungerRate>
 		    <baseHealthScale>0.5</baseHealthScale>
-		    <foodType>VegetarianRoughAnimal</foodType>		    
+		    <foodType>VegetarianRoughAnimal</foodType>
 		    <wildness>0.4</wildness>
 		    <lifeExpectancy>9</lifeExpectancy>
         <!-- <leatherColor>(80,80,80)</leatherColor> -->
@@ -244,7 +244,7 @@
     <label>junglefowl</label>
     <race>CK_Junglefowl</race>
     <!-- <labelMale>jungle peacock</labelMale> -->
-  	<labelFemale>jungle hen</labelFemale>    
+  	<labelFemale>jungle hen</labelFemale>
     <lifeStages>
       <li>
       	<label>jungle chick</label>
