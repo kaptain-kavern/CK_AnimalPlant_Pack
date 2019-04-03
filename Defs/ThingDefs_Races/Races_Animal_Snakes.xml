@@ -89,7 +89,7 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
-    <tradeTags>      
+    <tradeTags>
       <li>BadassAnimal</li>
       <li>CK_RareAnimal</li>
     </tradeTags>
@@ -109,7 +109,7 @@
           <color>(0,255,0)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
           <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -120,7 +120,7 @@
           <color>(0,196,0)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
           <drawSize>1.75</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -131,11 +131,11 @@
           <color>(0,155,0)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSnake</texPath>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
           <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-  </PawnKindDef>  
-  <!-- ====================================================== -->  
+  </PawnKindDef>
+  <!-- ====================================================== -->
 </Defs>

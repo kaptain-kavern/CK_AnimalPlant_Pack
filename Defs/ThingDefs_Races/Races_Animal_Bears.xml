@@ -23,51 +23,51 @@
   <PawnKindDef ParentName="BearBase">
     <defName>CK_Panda</defName>
     <label>panda</label>
-    <race>CK_Panda</race>    
+    <race>CK_Panda</race>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Panda</texPath>
-          <drawSize>1.4</drawSize>          
+          <drawSize>1.4</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Panda</texPath>
-          <drawSize>2</drawSize>          
+          <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
             <offset>(0,0,-0.25)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
           <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Panda</texPath>
-          <drawSize>2.7</drawSize>          
+          <drawSize>2.7</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
           <drawSize>2.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
-  
+
 </Defs>

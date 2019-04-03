@@ -83,7 +83,7 @@
     <wildGroupSize>
       <min>3</min>
       <max>7</max>
-    </wildGroupSize>    
+    </wildGroupSize>
   </PawnKindDef>
   <!-- ============== Base Definition ======================= -->
   <!-- ============== Ape Monkey Base ======================= -->
@@ -175,13 +175,13 @@
     </tradeTags>
   </ThingDef>
 
-  <PawnKindDef Name="ApeMonkeyKindBase" ParentName="AnimalKindBase" Abstract="True">    
+  <PawnKindDef Name="ApeMonkeyKindBase" ParentName="AnimalKindBase" Abstract="True">
     <combatPower>200</combatPower>
     <ecoSystemWeight>0.9</ecoSystemWeight>
     <wildGroupSize>
       <min>2</min>
       <max>5</max>
-    </wildGroupSize>    
+    </wildGroupSize>
   </PawnKindDef>
 
   <!-- ============== Squirrel Monkey ======================= -->
@@ -200,35 +200,35 @@
   <PawnKindDef ParentName="SmallMonkeyKindBase">
     <defName>CK_SquirrelMonkey</defName>
     <label>squirrel monkey</label>
-    <race>CK_SquirrelMonkey</race>    
+    <race>CK_SquirrelMonkey</race>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>0.5</drawSize>          
+          <drawSize>0.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>0.8</drawSize>          
+          <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySquirrel</texPath>
-          <drawSize>1.2</drawSize>          
+          <drawSize>1.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -254,10 +254,10 @@
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
-          </shadowData>        
+          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -271,7 +271,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -285,7 +285,7 @@
             </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -317,7 +317,7 @@
           <drawSize>0.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -327,17 +327,17 @@
           <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MonkeySpider</texPath>
-          <drawSize>1</drawSize>          
+          <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -369,7 +369,7 @@
           <color>(161,95,38)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>0.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -380,7 +380,7 @@
           <color>(161,95,38)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>0.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -391,11 +391,11 @@
           <color>(161,95,38)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Monkey/Dessicated_Monkey</texPath>
           <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-  </PawnKindDef>  --> 
+  </PawnKindDef>  -->
 
 </Defs>

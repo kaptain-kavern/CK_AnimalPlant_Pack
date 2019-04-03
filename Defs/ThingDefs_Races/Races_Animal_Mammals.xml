@@ -116,7 +116,7 @@
 	          </shadowData>
 	        </bodyGraphicData>
 	        <dessicatedBodyGraphicData>
-	          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+	          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
 	          <drawSize>0.7</drawSize>
 	        </dessicatedBodyGraphicData>
 	      </li>
@@ -129,7 +129,7 @@
 	          </shadowData>
 	        </bodyGraphicData>
 	        <dessicatedBodyGraphicData>
-	          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+	          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
 	          <drawSize>1.25</drawSize>
 	        </dessicatedBodyGraphicData>
 	      </li>
@@ -143,7 +143,7 @@
 	          </shadowData>
 	        </bodyGraphicData>
 	        <dessicatedBodyGraphicData>
-	          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+	          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
 	          <drawSize>1.5</drawSize>
 	        </dessicatedBodyGraphicData>
 	      </li>
@@ -261,8 +261,8 @@
 	          </shadowData>
 	        </bodyGraphicData>
 	        <dessicatedBodyGraphicData>
-	          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-	          <drawSize>1.2</drawSize>
+	          <texPath>Things/Pawn/Animal/Elk/Dessicated_ElkFemale</texPath>
+	          <drawSize>1.6</drawSize>
 	        </dessicatedBodyGraphicData>
 	      </li>
 	      <li>
@@ -275,8 +275,8 @@
 	          </shadowData>
 	        </bodyGraphicData>
 	        <dessicatedBodyGraphicData>
-	          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-	          <drawSize>2</drawSize>
+	          <texPath>Things/Pawn/Animal/Elk/Dessicated_ElkFemale</texPath>
+	          <drawSize>2.6</drawSize>
 	        </dessicatedBodyGraphicData>
 	      </li>
 	      <li>
@@ -289,8 +289,8 @@
 	          </shadowData>
 	        </bodyGraphicData>
 	        <dessicatedBodyGraphicData>
-	          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-	          <drawSize>2.5</drawSize>
+	          <texPath>Things/Pawn/Animal/Elk/Dessicated_ElkFemale</texPath>
+	          <drawSize>2.9</drawSize>
 	        </dessicatedBodyGraphicData>
 	      </li>
 	    </lifeStages>
