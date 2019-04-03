@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>A Dog Said... Animal Prosthetics</modName>
+				<yourMod>Tropi[CKAPP] Rainforest Mod</yourMod>
+				<customMessageSuccess>-=|Tropi[CKAPP] Rainforest Mod|=- : [A Dog Said...] has been detected, compatibility patch has been applied</customMessageSuccess>
+			</li>
+					<!-- "Inserting animal defNames into surgery recipes == Organs + heal + all animal parts" == should be all animals-->
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/RecipeDef[defName = "InstallPowerClawAnimal" or "InstallBionicAnimalStomach" or "InstallNoseAnimalSimple" or "InstallBionicAnimalKidney" or "InstallBionicAnimalLiver" or "InstallBionicAnimalLung" or "InstallBionicAnimalHeart" or "InstallAnimalBrainStimulator" or "InstallSpineAnimalBionic" or "InstallSpineAnimalSimple" or "InstallJawAnimalSimple" or "InstallJawAnimalBionic" or "InstallBionicEyeAnimal" or "InstallEarAnimalSimple" or "InstallEarAnimalBionic" or "InstallPegLegAnimal" or "InstallSimpleProstheticLegAnimal" or "InstallBionicLegAnimal" or "CureInjuryBurnAnimal" or "CureInjuryCrushAnimal" or "CureInjuryCrackAnimal" or "CureInjuryCutAnimal" or "CureInjurySurgicalCutAnimal" or "CureInjuryScratchAnimal" or "CureInjuryBiteAnimal" or "CureInjuryStabAnimal" or "CureInjuryGunshotAnimal" or "CureInjuryShreddedAnimal" or "CureInjuryBruiseAnimal"]/recipeUsers</xpath>
+						<value>
+						<li>CK_Panda</li>
+						<li>CK_Tiger</li>
+						<li>CK_WhiteTiger</li>
+						<li>CK_SnowLeopard</li>
+						<li>CK_Jaguar</li>
+						<li>CK_Peafowl</li>
+						<li>CK_Junglefowl</li>
+						<li>CK_ArcticHare</li>
+						<li>CK_KomodoDragon</li>
+						<li>CK_Tapir</li>
+						<li>CK_Okapi</li>
+						<li>CK_Python</li>
+						</value>
+					</li>
+					<!-- "Inserting animal defNames into surgery recipes == Tails" -->
+		    	<li Class="PatchOperationAdd">
+				  <xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers</xpath>
+				  <value>
+						<li>CK_Tiger</li>
+						<li>CK_WhiteTiger</li>
+						<li>CK_SnowLeopard</li>
+						<li>CK_Jaguar</li>
+						<li>CK_Peafowl</li>
+						<li>CK_Junglefowl</li>
+						<li>CK_ArcticHare</li>
+						<li>CK_KomodoDragon</li>
+						<li>CK_Tapir</li>
+						<li>CK_Okapi</li>
+				  </value>
+				</li>
+		</operations>
+	</Operation>
+</Patch>
