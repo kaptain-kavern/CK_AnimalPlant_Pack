@@ -3,20 +3,43 @@
 
 <!--===============================================-->
 
-	<ThingDef ParentName="AnimalThingBase" Name="SmallBirdThingBase" Abstract="True">
+	<ThingDef ParentName="BigBirdThingBase" Name="SmallBirdThingBase" Abstract="True">
 		<statBases>
 			<MoveSpeed>3.5</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
 		</statBases>
-		<verbs>
+		<tools>
 			<li>
-				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTime>1.65</defaultCooldownTime>
-		        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
-		        <meleeDamageDef>Bite</meleeDamageDef>
-		        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
-		    </li>
-		</verbs>
+				<label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>beak</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
 		<race>
 			<body>Bird</body>
 		    <baseHungerRate>0.5</baseHungerRate>
@@ -28,34 +51,13 @@
 		    <wildness>30</wildness>
 		    <trainability>None</trainability>
 		    <lifeExpectancy>10</lifeExpectancy>
-		    <lifeStageAges>
-		    	<li>
-		    		<def>AnimalBaby</def>
-		    		<minAge>0</minAge>
-		    	</li>
-		    	<li>
-		    		<def>AnimalJuvenile</def>
-		    		<minAge>0.3</minAge>
-		    	</li>
-		        <li>
-		          <def>AnimalAdult</def>
-		          <minAge>0.8</minAge>
-		          <soundWounded>Pawn_Chicken_Wounded</soundWounded>
-		          <soundDeath>Pawn_Chicken_Death</soundDeath>
-		          <soundCall>Pawn_Chicken_Call</soundCall>
-		          <soundAngry>Pawn_Chicken_Angry</soundAngry>
-		        </li>
-		    </lifeStageAges>
-		    <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-		    <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-		    <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
 			<li>StandardAnimal</li>
 		</tradeTags>
 	</ThingDef>
 
-	<PawnKindDef ParentName="AnimalKindBase" Name="SmallBirdKindBase" Abstract="True">
+	<PawnKindDef ParentName="BigBirdKindBase" Name="SmallBirdKindBase" Abstract="True">
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.30</ecoSystemWeight>
 	</PawnKindDef>
@@ -92,33 +94,54 @@
 	        </eggCountRange>
 	      </li>
 	    </comps>
-	    <verbs>
+			<tools>
 	      <li>
-	        <verbClass>Verb_MeleeAttack</verbClass>
-			<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
-	        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
-	        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
-	        <meleeDamageDef>Scratch</meleeDamageDef>
+	        <label>claws</label>
+	        <capacities>
+	          <li>Scratch</li>
+	        </capacities>
+	        <power>5</power>
+	        <cooldownTime>1.5</cooldownTime>
 	        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+	        <surpriseAttack>
+	          <extraMeleeDamages>
+	            <li>
+	              <def>Stun</def>
+	              <amount>14</amount>
+	            </li>
+	          </extraMeleeDamages>
+	        </surpriseAttack>
 	      </li>
 	      <li>
-	        <verbClass>Verb_MeleeAttack</verbClass>
-		        <defaultCooldownTime>1.85</defaultCooldownTime> <!-- A16 -->
-            <!-- <defaultCooldownTicks>110</defaultCooldownTicks> -->
-	        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
-	        <meleeDamageDef>Bite</meleeDamageDef>
+	        <label>beak</label>
+	        <capacities>
+	          <li>Bite</li>
+	        </capacities>
+	        <power>6</power>
+	        <cooldownTime>2</cooldownTime>
 	        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
 	        <surpriseAttack>
 	          <extraMeleeDamages>
 	            <li>
 	              <def>Stun</def>
-	              <amount>10</amount>
+	              <amount>14</amount>
 	            </li>
 	          </extraMeleeDamages>
 	        </surpriseAttack>
 	      </li>
-	    </verbs>
-	  </ThingDef>
+	      <li>
+	        <label>head</label>
+	        <capacities>
+	          <li>Blunt</li>
+	        </capacities>
+	        <power>4</power>
+	        <cooldownTime>2</cooldownTime>
+	        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+	        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+	        <chanceFactor>0.2</chanceFactor>
+	      </li>
+	    </tools>
+		</ThingDef>
 
   	<PawnKindDef ParentName="SmallBirdKindBase">
   		<defName>CK_Peafowl</defName>
@@ -211,32 +234,53 @@
 				</eggCountRange>
 			</li>
 		</comps>
-		<verbs>
-			<li>
-        		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.5</defaultCooldownTime> <!-- A16 -->
-        <!-- <defaultCooldownTicks>90</defaultCooldownTicks> -->
-        		<meleeDamageBaseAmount>3</meleeDamageBaseAmount>
-		        <meleeDamageDef>Scratch</meleeDamageDef>
-        		<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
-        	</li>
-        	<li>
-        		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime> <!-- A16 -->
-        <!-- <defaultCooldownTicks>100</defaultCooldownTicks> -->
-        		<meleeDamageBaseAmount>5</meleeDamageBaseAmount>
-        		<meleeDamageDef>Bite</meleeDamageDef>
-        		<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
-        		<surpriseAttack>
-        			<extraMeleeDamages>
-        				<li>
-        					<def>Stun</def>
-        					<amount>6</amount>
-        				</li>
-        			</extraMeleeDamages>
-        		</surpriseAttack>
-        	</li>
-        </verbs>
+		<tools>
+      <li>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>beak</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
     </ThingDef>
 
   <PawnKindDef ParentName="SmallBirdKindBase">
