@@ -15,7 +15,7 @@
       <leatherInsulation>1.2</leatherInsulation> -->
     </race>
     <tradeTags>
-      <li>AnimalUncommon</li>
+      <li>AnimalCommon</li>
     </tradeTags>
   </ThingDef>
 

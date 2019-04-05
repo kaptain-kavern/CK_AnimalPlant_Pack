@@ -223,7 +223,7 @@
         <!-- <leatherColor>(80,80,80)</leatherColor> -->
 		</race>
 		<tradeTags>
-			<li>AnimalExotic</li>
+			<li>AnimalUncommon</li>
 		</tradeTags>
 		<comps>
 			<li Class="CompProperties_EggLayer">

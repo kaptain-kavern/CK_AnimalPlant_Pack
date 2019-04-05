@@ -193,6 +193,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
+      <li>AnimalUncommon</li>
       <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
