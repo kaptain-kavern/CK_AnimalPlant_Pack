@@ -51,10 +51,7 @@
 		    <wildness>30</wildness>
 		    <trainability>None</trainability>
 		    <lifeExpectancy>10</lifeExpectancy>
-		</race>
-		<tradeTags>
-			<li>StandardAnimal</li>
-		</tradeTags>
+			</race>
 	</ThingDef>
 
 	<PawnKindDef ParentName="BigBirdKindBase" Name="SmallBirdKindBase" Abstract="True">
@@ -82,6 +79,9 @@
 	      <lifeExpectancy>9</lifeExpectancy>
 	      <!-- <leatherColor>(80,80,80)</leatherColor> -->
 	    </race>
+			<tradeTags>
+        <li>AnimalUncommon</li>
+      </tradeTags>
 	    <comps>
 	      <li Class="CompProperties_EggLayer">
 	      	<eggUnfertilizedDef>CK_EggPeafowlUnfertilized</eggUnfertilizedDef>
@@ -222,6 +222,9 @@
 		    <lifeExpectancy>9</lifeExpectancy>
         <!-- <leatherColor>(80,80,80)</leatherColor> -->
 		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>CK_EggJunglefowlUnfertilized</eggUnfertilizedDef>

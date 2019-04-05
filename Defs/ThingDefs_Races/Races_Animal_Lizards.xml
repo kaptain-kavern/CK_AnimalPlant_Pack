@@ -119,8 +119,8 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>BadassAnimal</li>
-      <li>CK_RareAnimal</li>
+      <li>AnimalFighter</li>
+      <li>AnimalExotic</li>
     </tradeTags>
   </ThingDef>
 

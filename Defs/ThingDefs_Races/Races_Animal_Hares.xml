@@ -14,6 +14,9 @@
       <!-- <leatherColor>(250,250,250)</leatherColor>
       <leatherInsulation>1.2</leatherInsulation> -->
     </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="HareBase">

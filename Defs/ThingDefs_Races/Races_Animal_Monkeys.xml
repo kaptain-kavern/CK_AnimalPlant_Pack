@@ -89,7 +89,7 @@
 	  	<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 	  </race>
 	  <tradeTags>
-	  	<li>StandardAnimal</li>
+	  	<li>AnimalUncommon</li>
 	  </tradeTags>
 	</ThingDef>
 
@@ -193,7 +193,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>BadassAnimal</li>
+      <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
 

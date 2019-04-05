@@ -16,7 +16,7 @@
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
     </race>
     <tradeTags>
-      <li>CK_RareAnimal</li>
+      <li>AnimalExotic</li>
     </tradeTags>
   </ThingDef>
 

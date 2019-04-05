@@ -70,7 +70,8 @@
         <leatherColor>(250,250,240)</leatherColor> -->
       </race>
       <tradeTags>
-        <li>CK_RareAnimal</li>
+        <li>AnimalExotic</li>
+        <li>AnimalFighter</li>
       </tradeTags>
   </ThingDef>
 
@@ -131,7 +132,8 @@
         <leatherColor>(250,250,240)</leatherColor> -->
       </race>
       <tradeTags>
-        <li>CK_RareAnimal</li>
+        <li>AnimalExotic</li>
+        <li>AnimalFighter</li>
       </tradeTags>
   </ThingDef>
 
@@ -191,6 +193,10 @@
         <!-- <leatherLabel>jaguar skin</leatherLabel>
         <leatherColor>(230,150,60)</leatherColor> -->
       </race>
+      <tradeTags>
+        <li>AnimalUncommon</li>
+        <li>AnimalFighter</li>
+      </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="BigCatKindBase">
