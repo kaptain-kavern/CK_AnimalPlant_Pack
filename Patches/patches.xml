@@ -79,8 +79,8 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationAdd"> <!-- Adding new Animals to Biome -->
-		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildAnimals</xpath>
+	<Operation Class="PatchOperationAdd"> <!-- Adding new Animals to both Biomes -->
+		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest" or "TropicalSwamp"]/wildAnimals</xpath>
 		<value>
 				<CK_Tapir>1.6</CK_Tapir>
 				<CK_Okapi>1.3</CK_Okapi>
@@ -97,6 +97,14 @@
 		<xpath>/Defs/PawnKindDef[defName = "Monkey"]/lifeStages/li[position() &lt;= 3]/bodyGraphicData/texPath</xpath>
 		<value>
 			<texPath>Things/Pawn/Animal/Monkey</texPath>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd"> <!-- Adding surprise Animals to Cold Biomes -->
+		<xpath>/Defs/BiomeDef[defName = "BorealForest" or "Tundra" or "ColdBog"]/wildAnimals</xpath>
+		<value>
+			<CK_ArcticHare>0.8</CK_ArcticHare>
+			<CK_SnowLeopard>0.06</CK_SnowLeopard>
 		</value>
 	</Operation>
 
