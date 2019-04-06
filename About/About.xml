@@ -7,8 +7,10 @@
 
     <url>https://ludeon.com/forums/index.php?topic=25187</url>
 
-    <supportedVersions><li>1.0</li></supportedVersions>
+    <supportedVersions>
+      <li>1.0</li>
+    </supportedVersions>
 
-<description>The purpose of this mod is to add a significant amount of new animals and plants to the Tropical Rainforest Biome and increase it's fauna and flora diversity.</description>
+<description>The purpose of this mod is to add a significant amount of new animals and plants to Tropical Biomes and increase it's fauna and flora diversity.</description>
 
 </ModMetaData>

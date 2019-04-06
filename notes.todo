@@ -1,21 +1,23 @@
-Animals :
-  ☐ Make a stand alone release with animals only @low
-  ✔ Reduce "big cats" occurrences @critical @done (17-07-04 06:26)
-Plants :
-  ✔ Rafflesias and wild Lemongrass should be selectable @low @done (17-07-05 15:43)
-  ✔ Look at reducing the **minimum** size of the biggest trees @high @done (17-07-05 15:37)
-Terrain/floors :
-  ✔ Can't lay path track on stomped vegetation floor @high @done (17-06-19 15:58)
+/!\ Animals :
+  [!] Make a stand alone release with animals only
 
-Mod compatibility :
+/!\ Plants :
+  [ ] Look at JitterWeed/DreamVines recipes and how to make more potent drugs with them
 
-  Veg Garden :
+/!\ Terrain/floors :
 
-    Plants :
+/!\ Mod compatibility :
+  [ ] Veg Garden :
+    [ ] Plants :
+    [ ] Recipes :
 
-    Recipes :
-
-Things to remove because included in KK_AO:
-  ✔ "Elephants can eat trees and can be used as a pack Animal" @done (17-08-14 02:59)
-  ✔ "Some animals are now dropping their horns, antlers or tusks when butchered (Rhino, Gazelle, Ibex, Deer, Elk and Caribou)" (Fais gaffe a la catégorie "Horns/Antlers" - Tu peux surement virer un ou les deux modded bodies : il ne reste que le Bongo) @done (17-08-14 02:59)
-  ✔ "Alpaca, Deer and Ibex are now milkable" @done (17-08-14 02:59)
+/!\ Ideas of things to add :
+  [?] Ajouter [Camphre](https://fr.wikipedia.org/wiki/Camphre) ?
+  [?] Ajouter [Avocat](https://fr.wikipedia.org/wiki/Avocatier) ?
+  [?] Ajouter Hevea / Latex / Caoutchouc (chercher utilisation 1ere / ancestrale)
+  [?] Regarder du coté de la [Mandragore](https://fr.wikipedia.org/wiki/Mandragore) - Could be linked to already existing DreamVine
+  [?] [Cannelle](https://fr.wikipedia.org/wiki/Cannelle_(%C3%A9corce))
+  [?] Maté(https://fr.wikipedia.org/wiki/Ilex_paraguariensis)
+  [?] [Guarana](https://fr.wikipedia.org/wiki/Guarana) for inspiration
+    /!\ Ideas but non Tropic related
+  [?] Adding Pavot(https://fr.wikipedia.org/wiki/Pavot_somnifère)
