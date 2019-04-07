@@ -2,7 +2,7 @@
 <Manifest>
   <version>1.0</version>
   <manifestUri>https://cdn.jsdelivr.net/gh/kaptain-kavern/CK_AnimalPlant_Pack/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/kaptain-kavern/CK_AnimalPlant_Pack/releases/tag/1.0</downloadUri>
+  <downloadUri>https://github.com/kaptain-kavern/CK_AnimalPlant_Pack/releases/latest</downloadUri>
   <dependencies>
     <li>ADogSaid...AnimalProsthetics</li>
   </dependencies>
