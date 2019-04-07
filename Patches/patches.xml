@@ -1,111 +1,191 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <Patch>
 
-	<Operation Class="PatchOperationReplace"> <!-- Changes to Animal Density for Tropical Rainforest -->
-		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/animalDensity</xpath>
-		<value>
-			<animalDensity>6.0</animalDensity>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Changes to Plant Density for both Biomes -->
-		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest" or "TropicalSwamp"]/plantDensity</xpath>
-		<value>
-			<plantDensity>3.0</plantDensity>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Changes to weather for both Biomes -->
-		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest" or "TropicalSwamp"]/baseWeatherCommonalities</xpath>
-		<value>
-		    <baseWeatherCommonalities>
-		      <Clear>2</Clear>
-		      <Fog>5</Fog>
-		      <Rain>10</Rain>
-		      <DryThunderstorm>1.5</DryThunderstorm>
-		      <RainyThunderstorm>5.5</RainyThunderstorm>
-		      <FoggyRain>7</FoggyRain>
-		      <SnowGentle>1</SnowGentle>
-		    </baseWeatherCommonalities>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd"> <!-- Adding new plants to Biomes  -->
-		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest" or "TropicalSwamp"]/wildPlants</xpath>
-		<value>
-			<CK_PlantFern>5</CK_PlantFern>
-			<CK_PlantTreePalm>1.8</CK_PlantTreePalm>
-		  <CK_PlantBushPalm>1</CK_PlantBushPalm>
-		  <CK_PlantTreeBamboo>0.5</CK_PlantTreeBamboo>
-		  <CK_PlantBromeliad>0.4</CK_PlantBromeliad>
-		  <CK_PlantTreeWildCoconutPalm>0.35</CK_PlantTreeWildCoconutPalm>
-		  <CK_PlantTreeMahogany>0.3</CK_PlantTreeMahogany>
-		  <CK_PlantTreeStranglerFig>0.3</CK_PlantTreeStranglerFig>
-		  <CK_PlantWildRice>0.3</CK_PlantWildRice>
-		  <CK_PlantWildTaro>0.3</CK_PlantWildTaro>
-		  <CK_PlantTreeWildBanana>0.25</CK_PlantTreeWildBanana>
-		  <CK_PlantTreeTreeStump>0.2</CK_PlantTreeTreeStump>
-		  <CK_PlantWildLemongrass>0.2</CK_PlantWildLemongrass>
-		  <CK_PlantHeliconia>0.15</CK_PlantHeliconia>
-		  <CK_PlantWildJitterWeed>0.05</CK_PlantWildJitterWeed>
-		  <CK_PlantWildSmokeleaf>0.03</CK_PlantWildSmokeleaf>
-		  <CK_PlantWildPsychoid>0.03</CK_PlantWildPsychoid>
-		  <CK_PlantWildBushDreamVine>0.02</CK_PlantWildBushDreamVine>
-		  <CK_PlantWildCotton>0.02</CK_PlantWildCotton>
-		  <CK_PlantRafflesia>0.02</CK_PlantRafflesia>
-		  <CK_SpecialTreeHive>0.005</CK_SpecialTreeHive>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Adjusting proportion for Tall Grass in both Biomes -->
-		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest" or "TropicalSwamp"]/wildPlants/Plant_TallGrass</xpath>
-		<value>
-			<Plant_TallGrass>1</Plant_TallGrass>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Adjusting proportion for Tall Grass in Tropical rainforest -->
-		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildPlants/Plant_Grass</xpath>
-		<value>
-			<Plant_Grass>0.5</Plant_Grass>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Adjusting proportion for Plant_ShrubLow in both Biomes -->
-		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest" or "TropicalSwamp"]/wildPlants/Plant_ShrubLow</xpath>
-		<value>
-			<Plant_ShrubLow>1</Plant_ShrubLow>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd"> <!-- Adding new Animals to both Biomes -->
-		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest" or "TropicalSwamp"]/wildAnimals</xpath>
-		<value>
-				<CK_Tapir>1.6</CK_Tapir>
-				<CK_Okapi>1.3</CK_Okapi>
-				<CK_Junglefowl>1.2</CK_Junglefowl>
-				<CK_Peafowl>0.5</CK_Peafowl>
-				<CK_Tiger>0.15</CK_Tiger>
-				<CK_Jaguar>0.15</CK_Jaguar>
-				<CK_Panda>0.06</CK_Panda>
-				<CK_WhiteTiger>0.008</CK_WhiteTiger>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace"> <!-- Vanilla Monkey use modded graphics -->
-		<xpath>/Defs/PawnKindDef[defName = "Monkey"]/lifeStages/li[position() &lt;= 3]/bodyGraphicData/texPath</xpath>
-		<value>
-			<texPath>Things/Pawn/Animal/Monkey</texPath>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd"> <!-- Adding surprise Animals to Cold Biomes -->
-		<xpath>/Defs/BiomeDef[defName = "BorealForest" or "Tundra" or "ColdBog"]/wildAnimals</xpath>
-		<value>
-			<CK_ArcticHare>0.8</CK_ArcticHare>
-			<CK_SnowLeopard>0.06</CK_SnowLeopard>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace"> <!-- Changes to Animal Density for Tropical Rainforest -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/animalDensity</xpath>
+				<value>
+					<animalDensity>6.0</animalDensity>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Changes to Plant Density for TropicalRainforest Biome -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/plantDensity</xpath>
+				<value>
+					<plantDensity>3.0</plantDensity>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Changes to Plant Density for TropicalSwamp -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/plantDensity</xpath>
+				<value>
+					<plantDensity>3.0</plantDensity>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Changes to weather for TropicalRainforest Biome -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/baseWeatherCommonalities</xpath>
+				<value>
+					<baseWeatherCommonalities>
+						<Clear>2</Clear>
+						<Fog>5</Fog>
+						<Rain>10</Rain>
+						<DryThunderstorm>1.5</DryThunderstorm>
+						<RainyThunderstorm>5.5</RainyThunderstorm>
+						<FoggyRain>7</FoggyRain>
+						<SnowGentle>1</SnowGentle>
+					</baseWeatherCommonalities>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Changes to weather for TropicalSwamp Biome -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/baseWeatherCommonalities</xpath>
+				<value>
+					<baseWeatherCommonalities>
+						<Clear>2</Clear>
+						<Fog>5</Fog>
+						<Rain>10</Rain>
+						<DryThunderstorm>1.5</DryThunderstorm>
+						<RainyThunderstorm>5.5</RainyThunderstorm>
+						<FoggyRain>7</FoggyRain>
+						<SnowGentle>1</SnowGentle>
+					</baseWeatherCommonalities>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> <!-- Adding new plants to TropicalRainforest Biome  -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildPlants</xpath>
+				<value>
+					<CK_PlantFern>5</CK_PlantFern>
+					<CK_PlantTreePalm>1.8</CK_PlantTreePalm>
+					<CK_PlantBushPalm>1</CK_PlantBushPalm>
+					<CK_PlantTreeBamboo>0.5</CK_PlantTreeBamboo>
+					<CK_PlantBromeliad>0.4</CK_PlantBromeliad>
+					<CK_PlantTreeWildCoconutPalm>0.35</CK_PlantTreeWildCoconutPalm>
+					<CK_PlantTreeMahogany>0.3</CK_PlantTreeMahogany>
+					<CK_PlantTreeStranglerFig>0.3</CK_PlantTreeStranglerFig>
+					<CK_PlantWildRice>0.3</CK_PlantWildRice>
+					<CK_PlantWildTaro>0.3</CK_PlantWildTaro>
+					<CK_PlantTreeWildBanana>0.25</CK_PlantTreeWildBanana>
+					<CK_PlantTreeTreeStump>0.2</CK_PlantTreeTreeStump>
+					<CK_PlantWildLemongrass>0.2</CK_PlantWildLemongrass>
+					<CK_PlantHeliconia>0.15</CK_PlantHeliconia>
+					<CK_PlantWildJitterWeed>0.05</CK_PlantWildJitterWeed>
+					<CK_PlantWildSmokeleaf>0.03</CK_PlantWildSmokeleaf>
+					<CK_PlantWildPsychoid>0.03</CK_PlantWildPsychoid>
+					<CK_PlantWildBushDreamVine>0.02</CK_PlantWildBushDreamVine>
+					<CK_PlantWildCotton>0.02</CK_PlantWildCotton>
+					<CK_PlantRafflesia>0.02</CK_PlantRafflesia>
+					<CK_SpecialTreeHive>0.005</CK_SpecialTreeHive>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> <!-- Adding new plants to TropicalSwamp Biome  -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/wildPlants</xpath>
+				<value>
+					<CK_PlantFern>5</CK_PlantFern>
+					<CK_PlantTreePalm>1.8</CK_PlantTreePalm>
+					<CK_PlantBushPalm>1</CK_PlantBushPalm>
+					<CK_PlantTreeBamboo>0.5</CK_PlantTreeBamboo>
+					<CK_PlantBromeliad>0.4</CK_PlantBromeliad>
+					<CK_PlantTreeWildCoconutPalm>0.35</CK_PlantTreeWildCoconutPalm>
+					<CK_PlantTreeMahogany>0.3</CK_PlantTreeMahogany>
+					<CK_PlantTreeStranglerFig>0.3</CK_PlantTreeStranglerFig>
+					<CK_PlantWildRice>0.3</CK_PlantWildRice>
+					<CK_PlantWildTaro>0.3</CK_PlantWildTaro>
+					<CK_PlantTreeWildBanana>0.25</CK_PlantTreeWildBanana>
+					<CK_PlantTreeTreeStump>0.2</CK_PlantTreeTreeStump>
+					<CK_PlantWildLemongrass>0.2</CK_PlantWildLemongrass>
+					<CK_PlantHeliconia>0.15</CK_PlantHeliconia>
+					<CK_PlantWildJitterWeed>0.05</CK_PlantWildJitterWeed>
+					<CK_PlantWildSmokeleaf>0.03</CK_PlantWildSmokeleaf>
+					<CK_PlantWildPsychoid>0.03</CK_PlantWildPsychoid>
+					<CK_PlantWildBushDreamVine>0.02</CK_PlantWildBushDreamVine>
+					<CK_PlantWildCotton>0.02</CK_PlantWildCotton>
+					<CK_PlantRafflesia>0.02</CK_PlantRafflesia>
+					<CK_SpecialTreeHive>0.005</CK_SpecialTreeHive>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Adjusting proportion for Tall Grass in TropicalRainforest Biome -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildPlants/Plant_TallGrass</xpath>
+				<value>
+					<Plant_TallGrass>1</Plant_TallGrass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Adjusting proportion for Tall Grass in TropicalSwamp Biome -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/wildPlants/Plant_TallGrass</xpath>
+				<value>
+					<Plant_TallGrass>1</Plant_TallGrass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Adjusting proportion for Tall Grass in Tropical rainforest -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildPlants/Plant_Grass</xpath>
+				<value>
+					<Plant_Grass>0.5</Plant_Grass>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Adjusting proportion for Plant_ShrubLow in TropicalRainforest Biome -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildPlants/Plant_ShrubLow</xpath>
+				<value>
+					<Plant_ShrubLow>1</Plant_ShrubLow>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Adjusting proportion for Plant_ShrubLow in TropicalSwamp Biome -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/wildPlants/Plant_ShrubLow</xpath>
+				<value>
+					<Plant_ShrubLow>1</Plant_ShrubLow>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> <!-- Adding new Animals to TropicalRainforest Biome -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/wildAnimals</xpath>
+				<value>
+					<CK_Tapir>1.6</CK_Tapir>
+					<CK_Okapi>1.3</CK_Okapi>
+					<CK_Junglefowl>1.2</CK_Junglefowl>
+					<CK_Peafowl>0.5</CK_Peafowl>
+					<CK_Tiger>0.15</CK_Tiger>
+					<CK_Jaguar>0.15</CK_Jaguar>
+					<CK_Panda>0.06</CK_Panda>
+					<CK_WhiteTiger>0.008</CK_WhiteTiger>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> <!-- Adding new Animals to TropicalSwamp Biome -->
+				<xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/wildAnimals</xpath>
+				<value>
+					<CK_Tapir>1.6</CK_Tapir>
+					<CK_Okapi>1.3</CK_Okapi>
+					<CK_Junglefowl>1.2</CK_Junglefowl>
+					<CK_Peafowl>0.5</CK_Peafowl>
+					<CK_Tiger>0.15</CK_Tiger>
+					<CK_Jaguar>0.15</CK_Jaguar>
+					<CK_Panda>0.06</CK_Panda>
+					<CK_WhiteTiger>0.008</CK_WhiteTiger>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> <!-- Vanilla Monkey use modded graphics -->
+				<xpath>/Defs/PawnKindDef[defName = "Monkey"]/lifeStages/li[position() &lt;= 3]/bodyGraphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Pawn/Animal/Monkey</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> <!-- Adding surprise Animals to BorealForest Biome -->
+				<xpath>/Defs/BiomeDef[defName = "BorealForest"]/wildAnimals</xpath>
+				<value>
+					<CK_ArcticHare>0.8</CK_ArcticHare>
+					<CK_SnowLeopard>0.06</CK_SnowLeopard>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> <!-- Adding surprise Animals to Tundra Biome -->
+				<xpath>/Defs/BiomeDef[defName = "Tundra"]/wildAnimals</xpath>
+				<value>
+					<CK_ArcticHare>0.8</CK_ArcticHare>
+					<CK_SnowLeopard>0.06</CK_SnowLeopard>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd"> <!-- Adding surprise Animals to ColdBog Biome -->
+				<xpath>/Defs/BiomeDef[defName = "ColdBog"]/wildAnimals</xpath>
+				<value>
+					<CK_ArcticHare>0.8</CK_ArcticHare>
+					<CK_SnowLeopard>0.06</CK_SnowLeopard>
+				</value>
+			</li>
+		</operations>
 	</Operation>
 
 </Patch>

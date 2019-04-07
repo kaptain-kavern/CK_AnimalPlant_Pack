@@ -8,40 +8,522 @@
 				<yourMod>Tropi[CKAPP] Rainforest Mod</yourMod>
 				<customMessageSuccess>-=|Tropi[CKAPP] Rainforest Mod|=- : [A Dog Said...] has been detected, compatibility patch has been applied</customMessageSuccess>
 			</li>
-					<!-- "Inserting animal defNames into surgery recipes == Organs + heal + all animal parts" == should be all animals-->
-					<li Class="PatchOperationAdd">
-						<xpath>/Defs/RecipeDef[defName = "InstallPowerClawAnimal" or "InstallBionicAnimalStomach" or "InstallNoseAnimalSimple" or "InstallBionicAnimalKidney" or "InstallBionicAnimalLiver" or "InstallBionicAnimalLung" or "InstallBionicAnimalHeart" or "InstallAnimalBrainStimulator" or "InstallSpineAnimalBionic" or "InstallSpineAnimalSimple" or "InstallJawAnimalSimple" or "InstallJawAnimalBionic" or "InstallBionicEyeAnimal" or "InstallEarAnimalSimple" or "InstallEarAnimalBionic" or "InstallPegLegAnimal" or "InstallSimpleProstheticLegAnimal" or "InstallBionicLegAnimal" or "CureInjuryBurnAnimal" or "CureInjuryCrushAnimal" or "CureInjuryCrackAnimal" or "CureInjuryCutAnimal" or "CureInjurySurgicalCutAnimal" or "CureInjuryScratchAnimal" or "CureInjuryBiteAnimal" or "CureInjuryStabAnimal" or "CureInjuryGunshotAnimal" or "CureInjuryShreddedAnimal" or "CureInjuryBruiseAnimal"]/recipeUsers</xpath>
-						<value>
-						<li>CK_Panda</li>
-						<li>CK_Tiger</li>
-						<li>CK_WhiteTiger</li>
-						<li>CK_SnowLeopard</li>
-						<li>CK_Jaguar</li>
-						<li>CK_Peafowl</li>
-						<li>CK_Junglefowl</li>
-						<li>CK_ArcticHare</li>
-						<li>CK_KomodoDragon</li>
-						<li>CK_Tapir</li>
-						<li>CK_Okapi</li>
-						<li>CK_Python</li>
-						</value>
-					</li>
-					<!-- "Inserting animal defNames into surgery recipes == Tails" -->
-		    	<li Class="PatchOperationAdd">
-				  <xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers</xpath>
-				  <value>
-						<li>CK_Tiger</li>
-						<li>CK_WhiteTiger</li>
-						<li>CK_SnowLeopard</li>
-						<li>CK_Jaguar</li>
-						<li>CK_Peafowl</li>
-						<li>CK_Junglefowl</li>
-						<li>CK_ArcticHare</li>
-						<li>CK_KomodoDragon</li>
-						<li>CK_Tapir</li>
-						<li>CK_Okapi</li>
-				  </value>
-				</li>
+			<li Class="ModCheck.loadOrder">
+				<modName>A Dog Said... Animal Prosthetics</modName>
+				<yourMod>Tropi[CKAPP] Rainforest Mod</yourMod>
+				<errorOnFail>true</errorOnFail>
+				<customMessageFail>Please load -=|Tropi[CKAPP] Rainforest Mod|=- after [A Dog Said...] mod</customMessageFail>
+			</li>
+			<!-- "Inserting animal defNames into surgery recipes == Organs + heal + all animal parts" == should be all animals-->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallPowerClawAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalStomach"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallNoseAnimalSimple"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalKidney"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLiver"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLung"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalHeart"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallAnimalBrainStimulator"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallSpineAnimalBionic"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallSpineAnimalSimple"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalSimple"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallBionicEyeAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalSimple"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalBionic"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallPegLegAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticLegAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallBionicLegAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjuryBurnAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjuryCrushAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjuryCrackAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjuryCutAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjurySurgicalCutAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjuryScratchAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjuryBiteAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjuryStabAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjuryGunshotAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjuryShreddedAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "CureInjuryBruiseAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Panda</li>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+					<li>CK_Python</li>
+				</value>
+			</li>
+			<!-- "Inserting animal defNames into surgery recipes == Tails" -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers</xpath>
+				<value>
+					<li>CK_Tiger</li>
+					<li>CK_WhiteTiger</li>
+					<li>CK_SnowLeopard</li>
+					<li>CK_Jaguar</li>
+					<li>CK_Peafowl</li>
+					<li>CK_Junglefowl</li>
+					<li>CK_ArcticHare</li>
+					<li>CK_KomodoDragon</li>
+					<li>CK_Tapir</li>
+					<li>CK_Okapi</li>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
